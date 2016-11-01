@@ -2,18 +2,19 @@ library(fastcluster)  # overwrites the hclust function and makes it faster
 library(dynamicTreeCut)
 library(amap)
 
-setwd("~/Documents/GSP1/E_MAP_data/June2016_analysis/clustered_correlations")
+setwd("~/Documents/GSP1/E_MAP_data/emap_analysis/clustered_correlations")
 
 options(stringsAsFactors = FALSE)
 
 #### load an orf to gene name index
-orf_gene_name_index <- read.delim("orf_gene_GO_sgd_annotation.txt", head = F)
+orf_gene_name_index <- read.delim("../orf_gene_GO_sgd_annotation.txt", head = F)
 orf_index <- unique(data.frame("orf" = orf_gene_name_index$V1, "gene_name" = orf_gene_name_index$V2))
 rm(orf_gene_name_index)
 
 ###### inputting data
-ubermap <- read.delim("preprocessed_ubermap_ubergenes_only.txt", head = T)  # preprocessed file made by preprocess_ubermap_merged_data.R
-#ubermap <- read.delim(opt$ubermap, head = T)
+#ubermap <- read.delim("preprocessed_ubermap_ubergenes_only.txt", head = T)  # preprocessed file made by preprocess_ubermap_merged_data.R
+ubermap <- read.delim("../preprocessed_ubermap_ubergenes_only_significant.txt", head = T)
+
 #head(ubermap)
 #  library.ORF Gene.ORF     score Gene_uniq Gene.gene_name library.gene_name
 ### this is the test code to check that everything is nr
@@ -23,9 +24,10 @@ ubermap <- read.delim("preprocessed_ubermap_ubergenes_only.txt", head = T)  # pr
 # count.control.library <- count.control.library[order(count.control.library$x, decreasing = T),]
 # unique(count.control.library$Gene_uniq[count.control.library$x > 1354])
 # temp.ubermap <- subset(ubermap, Gene_uniq == "YDR113C")
-# range(count.control.library$x)         
-mut.emap <- read.delim("preproceessed_ubermap_mut_only.txt", head = T)
-#mut.emap <- read.delim(opt$emap, head = T)
+# range(count.control.library$x)    
+
+mut.emap <- read.delim("../preprocessed_ubermap_mut_only_significant.txt", head = T)
+
 ### the ubermap is ordered first by Gene_uniq and then by library.ORF
 
 
@@ -42,10 +44,6 @@ rownames(lib.ubermap.matrix[["library"]]) <- library.ORF
 colnames(lib.ubermap.matrix[["library"]]) <- Gene_uniq
 #head(lib.ubermap.matrix[["library"]])[,1:20]  ### rows are library gene ORFs and columns are unique Gene identifiers (check preprocess_ubermap_merged_data.R for why uniq)
 
-# library genes, pearson correlations matrix
-# lib.ubermap.matrix[["library_pearson"]] <- cor(t(lib.ubermap.matrix[["library_e-map"]]), method = "pearson", use="pairwise.complete.obs")
-# rownames(lib.ubermap.matrix[["library_pearson"]]) <- library.ORF
-# colnames(lib.ubermap.matrix[["library_pearson"]]) <- library.ORF
 
 #### Also do the clustering by Genes (this could be used to filter the library clustering further,
 ### so only consider clustering those query genes that also exist as library genes)
@@ -62,11 +60,6 @@ lib.ubermap.matrix[["gene"]] <- matrix(GeneORF_subset_ubermap$score, byrow = F, 
 rownames(lib.ubermap.matrix[["gene"]]) <- library.ORF
 colnames(lib.ubermap.matrix[["gene"]]) <- GeneORF_Gene_uniq
 lib.ubermap.matrix[["gene"]] <- t(lib.ubermap.matrix[["gene"]])
-
-# query genes, pearson correlations
-# lib.ubermap.matrix[["gene_pearson"]] <- cor(t(lib.ubermap.matrix[["gene"]]), method = "pearson", use = "pairwise.complete.obs")
-# rownames(lib.ubermap.matrix[["gene_pearson"]]) <- GeneORF_Gene_uniq
-# colnames(lib.ubermap.matrix[["gene_pearson"]]) <- GeneORF_Gene_uniq
 
 
 distance_methods <- c("pearson", "correlation", "euclidean")
@@ -107,44 +100,3 @@ for (mat in names(lib.ubermap.matrix)) {
 }
 dev.off()
 
-
-# ##### cluster the Gene_uniq (and process it afterwards to get ORFs for merging with library.clusters)
-# Gene_dissim <- dist(GeneORF.ubermap.matrix, method = "euclidean")
-# Gene_dendro <- hclust(Gene_dissim, method = "complete")
-# plot(Gene_dendro, cex = 0.2)
-# Gene_cut_hybrid <- cutreeDynamic(dendro = Gene_dendro, cutHeight = NULL, minClusterSize = 30, method = "hybrid", deepSplit = 4, pamStage = T, distM = as.matrix(Gene_dissim), maxPamDist = 0, verbose = 0)
-# Gene.clusters <- data.frame(Gene_cut_hybrid, rownames(GeneORF.ubermap.matrix))
-# Gene.clusters <- Gene.clusters[order(Gene.clusters$Gene_cut_hybrid, decreasing = T),]
-# head(Gene.clusters)  ## 19 clusters
-# length(Gene.clusters$Gene_cut_hybrid[Gene.clusters$Gene_cut_hybrid == 0]) ### 222 genes not in any cluster
-# names(Gene.clusters) <- c('cluster', 'Gene_uniq')
-# Gene_uniq_Gene_ORF_pairs <- data.frame("Gene.ORF" = GeneORF_subset_ubermap$Gene.ORF, "Gene_uniq" = GeneORF_subset_ubermap$Gene_uniq)
-# Gene_uniq_Gene_ORF_pairs <- Gene_uniq_Gene_ORF_pairs[! duplicated(Gene_uniq_Gene_ORF_pairs),]
-# Gene.clusters <- merge(Gene.clusters, Gene_uniq_Gene_ORF_pairs, by = "Gene_uniq")
-# Gene.clusters <- merge(Gene.clusters, orf_index, by.x = "Gene.ORF", by.y = "orf")
-# Gene.clusters <- Gene.clusters[order(Gene.clusters$cluster, decreasing = T),]
-# 
-# ### clusters are named as numbers - get overlaps between library and Gene clusters to get matching cluster names (numbers)
-# cluster.overlaps <- data.frame()
-# for (gc in 1:max(Gene.clusters$cluster)) {
-#   for (lc in 1:max(library.clusters$cluster)) {
-#     temp.gene.cluster <- Gene.clusters$Gene.ORF[Gene.clusters$cluster == gc]
-#     temp.library.cluster <- library.clusters$library_gene_ORF[library.clusters$cluster == lc]
-#     overlap <- get_overlap(temp.gene.cluster, temp.library.cluster)
-#     cluster.overlaps <- rbind(cluster.overlaps, 
-#         data.frame("gene_cluster" = gc, "gene_cluster_size" = length(temp.gene.cluster),
-#                    "library_cluster" = lc, "library_cluster_size" = length(temp.library.cluster),
-#                    "overlap" = overlap
-#                   ))
-#   }
-# }
-# cluster.overlaps <- cluster.overlaps[order(cluster.overlaps$gene_cluster, cluster.overlaps$overlap, decreasing = T),]
-# 
-# 
-# ### for each pair of genes in the same cluster in Gene.clusters check if they are also in the same cluster in library.clusters
-# ### if yes, keep that pair in that cluster
-# 
-# 
-# write.table(library.clusters, file = "library_genes_hclusted.txt", quote = F, sep = "\t", row.names = F)
-# 
-# 

@@ -2,7 +2,9 @@ library(reshape2)
 
 options(stringsAsFactors = F)
 
-setwd("~/Documents/GSP1/E_MAP_data/June2016_analysis/")
+s.lim.point<-c(-3, 2)
+
+setwd("~/Documents/GSP1/E_MAP_data/emap_analysis/")
 
 ### merged and averaged E-MAP data for Gsp1 mutants
 e.map<-read.delim("avg_merged_June2016_screen_for_Gia.txt", head=T)   ## use export for Gia because it has ORF names for library
@@ -73,6 +75,19 @@ rm(temp.ubermap.mutants.only)
 mut.ubermap <- cbind(mut.ubermap, "ORF" = "YLR293C")
 write.table(mut.ubermap, file = "preproceessed_ubermap_mut_only.txt", sep = "\t", quote = F, row.names = F)
 
+#### make a subset of ubergenes.ubermap.gene_names_both that only has library genes that have scores outside the s.lim.point with at least one of the mutants
+mut_ubermap_significant_scores <- mut.ubermap[ findInterval( mut.ubermap$score, s.lim.point ) != 1, ]
+mut_significant_library_genes <- as.character(unique(mut_ubermap_significant_scores$library.ORF))  ## 1046 genes
+all_library_genes <- as.character(unique(mut.ubermap$library.ORF)) #### 1356 genes
+
+write.table(mut_ubermap_significant_scores, file = "preprocessed_ubermap_mut_only_significant.txt", sep = "\t", quote = F, row.names = F)
+
+ubergenes_ubermap_significant_scores <- ubergenes.ubermap.gene_names_both[ ubergenes.ubermap.gene_names_both$library.ORF %in% mut_significant_library_genes, ]
+write.table(ubergenes_ubermap_significant_scores, file = "preprocessed_ubermap_ubergenes_only_significant.txt", sep = "\t", quote = F, row.names = F)
+
+
+discarded <- ubergenes.ubermap.gene_names_both[ ! ubergenes.ubermap.gene_names_both$library.ORF %in% mut_significant_library_genes, ]
+discarded.library.genes <- as.character(unique(discarded$library.gene_name))
 
 #### combine ubergenes and mutants only ubermap into all.ubermap before exporting
 temp.mut.ubermap <- mut.ubermap
