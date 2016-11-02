@@ -98,3 +98,6 @@ all.ubermap <- rbind(temp.mut.ubermap, temp.ubergenes.ubermap)
 ##########################################################
 write.table(all.ubermap, file = "preprocessed_ubermap_all.txt", sep = "\t", quote = F, row.names = F)
 
+
+all_ubermap_significant_scores <- all.ubermap[ all.ubermap$library %in% mut_significant_library_genes, ]
+write.table(all_ubermap_significant_scores, file = "preprocessed_ubermap_all_significant.txt", sep = "\t", quote = F, row.names = F)

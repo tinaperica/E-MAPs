@@ -25,7 +25,7 @@ GO_slim_terms_to_remove <- as.character(expression(
 ))
 GO_slims <- GO_slims[ ! GO_slims$GO_Slim_term %in% GO_slim_terms_to_remove, ]
 
-
+#########################
 files_list <- list.files("clusters")
 clusters_and_GO <- data.frame()
 for ( f in seq_along(files_list) ) {
@@ -56,8 +56,7 @@ for ( f in seq_along(files_list) ) {
                     ))
     by_cluster_GO_term_count <- by_cluster_GO_term_count[ order( by_cluster_GO_term_count$cluster, 
                                       by_cluster_GO_term_count$normalized, decreasing = T ), ]
-    #by_cluster_GO_term_count <- by_cluster_GO_term_count[ by_cluster_GO_term_count$percent_cluster > 0.05, ]
-    
+
     filename = paste0(Sys.Date(), "_", file_path_sans_ext(file), "_", "_cluster_GO_terms.txt")
     write.table(by_cluster_GO_term_count, file = filename, quote = F, row.names = F, sep = "\t")
     
@@ -70,9 +69,11 @@ for ( f in seq_along(files_list) ) {
 clusters_and_GO <- cbind( clusters_and_GO, "scaled_normalized" = scale (clusters_and_GO$normalized) )
 clusters_and_GO <- clusters_and_GO[ order( clusters_and_GO$clustering_method, clusters_and_GO$cluster, decreasing = T), ]
 plot(density(clusters_and_GO$scaled_normalized))
-
 clusters_and_GO_filtered <- clusters_and_GO[ clusters_and_GO$Slim_term_counts_per_cluster > 2, ]
 clusters_and_GO_filtered <- clusters_and_GO_filtered[ order( clusters_and_GO_filtered$clustering_method, clusters_and_GO_filtered$cluster), ]
 
-temp <- clusters_and_GO_filtered[clusters_and_GO_filtered$clustering_method == "library_pearson_complete",]
-write.table(temp, file = paste(Sys.Date(), "_gene_correlation_complete_cluster_GO_descriptions.txt"), quote = F, sep = "\t", row.names = F)
+# temp <- clusters_and_GO_filtered[clusters_and_GO_filtered$clustering_method == "library_pearson_complete",]
+# write.table(temp, file = paste(Sys.Date(), "_gene_correlation_complete_cluster_GO_descriptions.txt"), quote = F, sep = "\t", row.names = F)
+
+
+

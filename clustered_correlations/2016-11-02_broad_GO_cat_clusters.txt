@@ -1,0 +1,2282 @@
+ORF	cluster	gene_name
+YAL020C	ribosome	ATS1
+YAL026C	ribosome	DRS2
+YBL024W	ribosome	NCL1
+YBL027W	ribosome	RPL19B
+YBL072C	ribosome	RPS8A
+YBL087C	ribosome	RPL23A
+YBR022W	ribosome	POA1
+YBR031W	ribosome	RPL4A
+YBR181C	ribosome	RPS6B
+YCL037C	ribosome	SRO9
+YCR031C	ribosome	RPS14A
+YDL006W	ribosome	PTC1
+YDL033C	ribosome	SLM3
+YDL061C	ribosome	RPS29B
+YDL082W	ribosome	RPL13A
+YDL083C	ribosome	RPS16B
+YDL130W	ribosome	RPP1B
+YDL134C	ribosome	PPH21
+YDL136W	ribosome	RPL35B
+YDL175C	ribosome	AIR2
+YDL191W	ribosome	RPL35A
+YDL213C	ribosome	NOP6
+YDL224C	ribosome	WHI4
+YDR025W	ribosome	RPS11A
+YDR083W	ribosome	RRP8
+YDR101C	ribosome	ARX1
+YDR159W	ribosome	SAC3
+YDR293C	ribosome	SSD1
+YDR378C	ribosome	LSM6
+YDR477W	ribosome	SNF1
+YDR496C	ribosome	PUF6
+YEL043W	ribosome	YEL043W
+YEL047C	ribosome	FRD1
+YER002W	ribosome	NOP16
+YFL001W	ribosome	DEG1
+YFL023W	ribosome	BUD27
+YFR009W	ribosome	GCN20
+YFR031C-A	ribosome	RPL2A
+YGL014W	ribosome	PUF4
+YGL029W	ribosome	CGR1
+YGL031C	ribosome	RPL24A
+YGL049C	ribosome	TIF4632
+YGL078C	ribosome	DBP3
+YGL105W	ribosome	ARC1
+YGL147C	ribosome	RPL9A
+YGL173C	ribosome	XRN1
+YGL195W	ribosome	GCN1
+YGL211W	ribosome	NCS6
+YGL244W	ribosome	RTF1
+YGR054W	ribosome	YGR054W
+YGR081C	ribosome	SLX9
+YGR085C	ribosome	RPL11B
+YGR178C	ribosome	PBP1
+YGR200C	ribosome	ELP2
+YGR214W	ribosome	RPS0A
+YHL025W	ribosome	SNF6
+YHL033C	ribosome	RPL8A
+YHR021C	ribosome	RPS27B
+YHR034C	ribosome	PIH1
+YHR066W	ribosome	SSF1
+YHR081W	ribosome	LRP1
+YHR111W	ribosome	UBA4
+YHR187W	ribosome	IKI1
+YHR189W	ribosome	PTH1
+YHR203C	ribosome	RPS4B
+YIL008W	ribosome	URM1
+YIL052C	ribosome	RPL34B
+YIL133C	ribosome	RPL16A
+YIR003W	ribosome	AIM21
+YJL098W	ribosome	SAP185
+YJL136C	ribosome	RPS21B
+YJL138C	ribosome	TIF2
+YJL140W	ribosome	RPB4
+YJL177W	ribosome	RPL17B
+YJR066W	ribosome	TOR1
+YJR145C	ribosome	RPS4A
+YKL009W	ribosome	MRT4
+YKL081W	ribosome	TEF4
+YKL110C	ribosome	KTI12
+YKL139W	ribosome	CTK1
+YKL204W	ribosome	EAP1
+YKR024C	ribosome	DBP7
+YKR028W	ribosome	SAP190
+YKR059W	ribosome	TIF1
+YLL045C	ribosome	RPL8B
+YLR150W	ribosome	STM1
+YLR401C	ribosome	DUS3
+YLR435W	ribosome	TSR2
+YML063W	ribosome	RPS1B
+YML107C	ribosome	PML39
+YML112W	ribosome	CTK3
+YMR080C	ribosome	NAM7
+YMR116C	ribosome	ASC1
+YMR230W	ribosome	RPS10B
+YMR247C	ribosome	RKR1
+YMR269W	ribosome	TMA23
+YMR282C	ribosome	AEP2
+YMR283C	ribosome	RIT1
+YMR285C	ribosome	NGL2
+YMR312W	ribosome	ELP6
+YNL001W	ribosome	DOM34
+YNL119W	ribosome	NCS2
+YNL147W	ribosome	LSM7
+YNL224C	ribosome	SQS1
+YNL227C	ribosome	JJJ1
+YNL255C	ribosome	GIS2
+YNL292W	ribosome	PUS4
+YNL299W	ribosome	TRF5
+YNR004W	ribosome	SWM2
+YOL027C	ribosome	MDM38
+YOL041C	ribosome	NOP12
+YOL045W	ribosome	PSK2
+YOL080C	ribosome	REX4
+YOL093W	ribosome	TRM10
+YOL111C	ribosome	MDY2
+YOL115W	ribosome	PAP2
+YOR006C	ribosome	TSR3
+YOR078W	ribosome	BUD21
+YOR308C	ribosome	SNU66
+YPL079W	ribosome	RPL21B
+YPL086C	ribosome	ELP3
+YPL090C	ribosome	RPS6A
+YPL101W	ribosome	ELP4
+YPL157W	ribosome	TGS1
+YPL212C	ribosome	PUS1
+YPL226W	ribosome	NEW1
+YPL239W	ribosome	YAR1
+YPR043W	ribosome	RPL43A
+YPR129W	ribosome	SCD6
+YAL013W	transcription and mRNA processing	DEP1
+YAL019W	transcription and mRNA processing	FUN30
+YAL020C	transcription and mRNA processing	ATS1
+YAL021C	transcription and mRNA processing	CCR4
+YAL051W	transcription and mRNA processing	OAF1
+YBL008W	transcription and mRNA processing	HIR1
+YBL021C	transcription and mRNA processing	HAP3
+YBL024W	transcription and mRNA processing	NCL1
+YBL051C	transcription and mRNA processing	PIN4
+YBL103C	transcription and mRNA processing	RTG3
+YBR009C	transcription and mRNA processing	HHF1
+YBR022W	transcription and mRNA processing	POA1
+YBR034C	transcription and mRNA processing	HMT1
+YBR057C	transcription and mRNA processing	MUM2
+YBR095C	transcription and mRNA processing	RXT2
+YBR119W	transcription and mRNA processing	MUD1
+YBR215W	transcription and mRNA processing	HPC2
+YBR238C	transcription and mRNA processing	YBR238C
+YBR245C	transcription and mRNA processing	ISW1
+YBR289W	transcription and mRNA processing	SNF5
+YCL010C	transcription and mRNA processing	SGF29
+YCL011C	transcription and mRNA processing	GBP2
+YCL037C	transcription and mRNA processing	SRO9
+YCR031C	transcription and mRNA processing	RPS14A
+YCR063W	transcription and mRNA processing	BUD31
+YCR065W	transcription and mRNA processing	HCM1
+YDL006W	transcription and mRNA processing	PTC1
+YDL020C	transcription and mRNA processing	RPN4
+YDL033C	transcription and mRNA processing	SLM3
+YDL056W	transcription and mRNA processing	MBP1
+YDL070W	transcription and mRNA processing	BDF2
+YDL074C	transcription and mRNA processing	BRE1
+YDL076C	transcription and mRNA processing	RXT3
+YDL080C	transcription and mRNA processing	THI3
+YDL170W	transcription and mRNA processing	UGA3
+YDL175C	transcription and mRNA processing	AIR2
+YDL185W	transcription and mRNA processing	VMA1
+YDR005C	transcription and mRNA processing	MAF1
+YDR009W	transcription and mRNA processing	GAL3
+YDR073W	transcription and mRNA processing	SNF11
+YDR083W	transcription and mRNA processing	RRP8
+YDR146C	transcription and mRNA processing	SWI5
+YDR155C	transcription and mRNA processing	CPR1
+YDR156W	transcription and mRNA processing	RPA14
+YDR159W	transcription and mRNA processing	SAC3
+YDR173C	transcription and mRNA processing	ARG82
+YDR174W	transcription and mRNA processing	HMO1
+YDR183W	transcription and mRNA processing	PLP1
+YDR207C	transcription and mRNA processing	UME6
+YDR217C	transcription and mRNA processing	RAD9
+YDR225W	transcription and mRNA processing	HTA1
+YDR289C	transcription and mRNA processing	RTT103
+YDR293C	transcription and mRNA processing	SSD1
+YDR310C	transcription and mRNA processing	SUM1
+YDR378C	transcription and mRNA processing	LSM6
+YDR392W	transcription and mRNA processing	SPT3
+YDR443C	transcription and mRNA processing	SSN2
+YDR448W	transcription and mRNA processing	ADA2
+YDR463W	transcription and mRNA processing	STP1
+YDR482C	transcription and mRNA processing	CWC21
+YDR496C	transcription and mRNA processing	PUF6
+YDR505C	transcription and mRNA processing	PSP1
+YDR512C	transcription and mRNA processing	EMI1
+YEL015W	transcription and mRNA processing	EDC3
+YEL037C	transcription and mRNA processing	RAD23
+YER068W	transcription and mRNA processing	MOT2
+YER111C	transcription and mRNA processing	SWI4
+YER139C	transcription and mRNA processing	RTR1
+YER151C	transcription and mRNA processing	UBP3
+YER155C	transcription and mRNA processing	BEM2
+YER161C	transcription and mRNA processing	SPT2
+YER162C	transcription and mRNA processing	RAD4
+YER164W	transcription and mRNA processing	CHD1
+YER174C	transcription and mRNA processing	GRX4
+YER177W	transcription and mRNA processing	BMH1
+YFL001W	transcription and mRNA processing	DEG1
+YFL031W	transcription and mRNA processing	HAC1
+YFL049W	transcription and mRNA processing	SWP82
+YGL014W	transcription and mRNA processing	PUF4
+YGL019W	transcription and mRNA processing	CKB1
+YGL035C	transcription and mRNA processing	MIG1
+YGL043W	transcription and mRNA processing	DST1
+YGL049C	transcription and mRNA processing	TIF4632
+YGL058W	transcription and mRNA processing	RAD6
+YGL066W	transcription and mRNA processing	SGF73
+YGL115W	transcription and mRNA processing	SNF4
+YGL127C	transcription and mRNA processing	SOH1
+YGL131C	transcription and mRNA processing	SNT2
+YGL133W	transcription and mRNA processing	ITC1
+YGL151W	transcription and mRNA processing	NUT1
+YGL173C	transcription and mRNA processing	XRN1
+YGL174W	transcription and mRNA processing	BUD13
+YGL211W	transcription and mRNA processing	NCS6
+YGL244W	transcription and mRNA processing	RTF1
+YGR054W	transcription and mRNA processing	YGR054W
+YGR056W	transcription and mRNA processing	RSC1
+YGR072W	transcription and mRNA processing	UPF3
+YGR122W	transcription and mRNA processing	YGR122W
+YGR134W	transcription and mRNA processing	CAF130
+YGR178C	transcription and mRNA processing	PBP1
+YGR200C	transcription and mRNA processing	ELP2
+YGR252W	transcription and mRNA processing	GCN5
+YGR270W	transcription and mRNA processing	YTA7
+YHL020C	transcription and mRNA processing	OPI1
+YHL025W	transcription and mRNA processing	SNF6
+YHL027W	transcription and mRNA processing	RIM101
+YHR006W	transcription and mRNA processing	STP2
+YHR041C	transcription and mRNA processing	SRB2
+YHR082C	transcription and mRNA processing	KSP1
+YHR111W	transcription and mRNA processing	UBA4
+YHR167W	transcription and mRNA processing	THP2
+YHR178W	transcription and mRNA processing	STB5
+YHR187W	transcription and mRNA processing	IKI1
+YIL008W	transcription and mRNA processing	URM1
+YIL035C	transcription and mRNA processing	CKA1
+YIL036W	transcription and mRNA processing	CST6
+YIL038C	transcription and mRNA processing	NOT3
+YIL084C	transcription and mRNA processing	SDS3
+YIL131C	transcription and mRNA processing	FKH1
+YIL153W	transcription and mRNA processing	RRD1
+YIR005W	transcription and mRNA processing	IST3
+YIR023W	transcription and mRNA processing	DAL81
+YIR033W	transcription and mRNA processing	MGA2
+YJL098W	transcription and mRNA processing	SAP185
+YJL103C	transcription and mRNA processing	GSM1
+YJL115W	transcription and mRNA processing	ASF1
+YJL124C	transcription and mRNA processing	LSM1
+YJL140W	transcription and mRNA processing	RPB4
+YJL148W	transcription and mRNA processing	RPA34
+YJL168C	transcription and mRNA processing	SET2
+YJL176C	transcription and mRNA processing	SWI3
+YJR060W	transcription and mRNA processing	CBF1
+YJR066W	transcription and mRNA processing	TOR1
+YJR084W	transcription and mRNA processing	YJR084W
+YJR094C	transcription and mRNA processing	IME1
+YJR140C	transcription and mRNA processing	HIR3
+YKL020C	transcription and mRNA processing	SPT23
+YKL032C	transcription and mRNA processing	IXR1
+YKL074C	transcription and mRNA processing	MUD2
+YKL109W	transcription and mRNA processing	HAP4
+YKL110C	transcription and mRNA processing	KTI12
+YKL139W	transcription and mRNA processing	CTK1
+YKL149C	transcription and mRNA processing	DBR1
+YKL160W	transcription and mRNA processing	ELF1
+YKL185W	transcription and mRNA processing	ASH1
+YKL204W	transcription and mRNA processing	EAP1
+YKL208W	transcription and mRNA processing	CBT1
+YKR028W	transcription and mRNA processing	SAP190
+YKR048C	transcription and mRNA processing	NAP1
+YKR082W	transcription and mRNA processing	NUP133
+YKR095W	transcription and mRNA processing	MLP1
+YKR099W	transcription and mRNA processing	BAS1
+YLL002W	transcription and mRNA processing	RTT109
+YLL019C	transcription and mRNA processing	KNS1
+YLR055C	transcription and mRNA processing	SPT8
+YLR113W	transcription and mRNA processing	HOG1
+YLR131C	transcription and mRNA processing	ACE2
+YLR182W	transcription and mRNA processing	SWI6
+YLR401C	transcription and mRNA processing	DUS3
+YLR418C	transcription and mRNA processing	CDC73
+YML007W	transcription and mRNA processing	YAP1
+YML017W	transcription and mRNA processing	PSP2
+YML051W	transcription and mRNA processing	GAL80
+YML062C	transcription and mRNA processing	MFT1
+YML094W	transcription and mRNA processing	GIM5
+YML112W	transcription and mRNA processing	CTK3
+YML117W	transcription and mRNA processing	NAB6
+YML121W	transcription and mRNA processing	GTR1
+YMR016C	transcription and mRNA processing	SOK2
+YMR039C	transcription and mRNA processing	SUB1
+YMR042W	transcription and mRNA processing	ARG80
+YMR070W	transcription and mRNA processing	MOT3
+YMR075W	transcription and mRNA processing	RCO1
+YMR080C	transcription and mRNA processing	NAM7
+YMR179W	transcription and mRNA processing	SPT21
+YMR205C	transcription and mRNA processing	PFK2
+YMR216C	transcription and mRNA processing	SKY1
+YMR223W	transcription and mRNA processing	UBP8
+YMR263W	transcription and mRNA processing	SAP30
+YMR280C	transcription and mRNA processing	CAT8
+YMR283C	transcription and mRNA processing	RIT1
+YMR312W	transcription and mRNA processing	ELP6
+YNL016W	transcription and mRNA processing	PUB1
+YNL021W	transcription and mRNA processing	HDA1
+YNL025C	transcription and mRNA processing	SSN8
+YNL027W	transcription and mRNA processing	CRZ1
+YNL068C	transcription and mRNA processing	FKH2
+YNL076W	transcription and mRNA processing	MKS1
+YNL097C	transcription and mRNA processing	PHO23
+YNL119W	transcription and mRNA processing	NCS2
+YNL136W	transcription and mRNA processing	EAF7
+YNL147W	transcription and mRNA processing	LSM7
+YNL153C	transcription and mRNA processing	GIM3
+YNL167C	transcription and mRNA processing	SKO1
+YNL199C	transcription and mRNA processing	GCR2
+YNL224C	transcription and mRNA processing	SQS1
+YNL229C	transcription and mRNA processing	URE2
+YNL236W	transcription and mRNA processing	SIN4
+YNL255C	transcription and mRNA processing	GIS2
+YNL278W	transcription and mRNA processing	CAF120
+YNL288W	transcription and mRNA processing	CAF40
+YNL292W	transcription and mRNA processing	PUS4
+YNL298W	transcription and mRNA processing	CLA4
+YNR004W	transcription and mRNA processing	SWM2
+YNR010W	transcription and mRNA processing	CSE2
+YNR051C	transcription and mRNA processing	BRE5
+YOL001W	transcription and mRNA processing	PHO80
+YOL004W	transcription and mRNA processing	SIN3
+YOL006C	transcription and mRNA processing	TOP1
+YOL012C	transcription and mRNA processing	HTZ1
+YOL093W	transcription and mRNA processing	TRM10
+YOL108C	transcription and mRNA processing	INO4
+YOL115W	transcription and mRNA processing	PAP2
+YOL116W	transcription and mRNA processing	MSN1
+YOR027W	transcription and mRNA processing	STI1
+YOR039W	transcription and mRNA processing	CKB2
+YOR061W	transcription and mRNA processing	CKA2
+YOR064C	transcription and mRNA processing	YNG1
+YOR083W	transcription and mRNA processing	WHI5
+YOR113W	transcription and mRNA processing	AZF1
+YOR140W	transcription and mRNA processing	SFL1
+YOR179C	transcription and mRNA processing	SYC1
+YOR298C-A	transcription and mRNA processing	MBF1
+YOR304W	transcription and mRNA processing	ISW2
+YOR308C	transcription and mRNA processing	SNU66
+YOR344C	transcription and mRNA processing	TYE7
+YOR358W	transcription and mRNA processing	HAP5
+YPL047W	transcription and mRNA processing	SGF11
+YPL086C	transcription and mRNA processing	ELP3
+YPL089C	transcription and mRNA processing	RLM1
+YPL101W	transcription and mRNA processing	ELP4
+YPL116W	transcription and mRNA processing	HOS3
+YPL139C	transcription and mRNA processing	UME1
+YPL157W	transcription and mRNA processing	TGS1
+YPL181W	transcription and mRNA processing	CTI6
+YPL184C	transcription and mRNA processing	MRN1
+YPL212C	transcription and mRNA processing	PUS1
+YPL213W	transcription and mRNA processing	LEA1
+YPL226W	transcription and mRNA processing	NEW1
+YPL254W	transcription and mRNA processing	HFI1
+YPR009W	transcription and mRNA processing	SUT2
+YPR023C	transcription and mRNA processing	EAF3
+YPR045C	transcription and mRNA processing	THP3
+YPR052C	transcription and mRNA processing	NHP6A
+YPR057W	transcription and mRNA processing	BRR1
+YPR065W	transcription and mRNA processing	ROX1
+YPR070W	transcription and mRNA processing	MED1
+YPR129W	transcription and mRNA processing	SCD6
+YPR134W	transcription and mRNA processing	MSS18
+YAL002W	Golgi and ER	VPS8
+YAL007C	Golgi and ER	ERP2
+YAL023C	Golgi and ER	PMT2
+YAL026C	Golgi and ER	DRS2
+YAL042W	Golgi and ER	ERV46
+YAR014C	Golgi and ER	BUD14
+YBL007C	Golgi and ER	SLA1
+YBL017C	Golgi and ER	PEP1
+YBL047C	Golgi and ER	EDE1
+YBL078C	Golgi and ER	ATG8
+YBL082C	Golgi and ER	ALG3
+YBL101C	Golgi and ER	ECM21
+YBR015C	Golgi and ER	MNN2
+YBR132C	Golgi and ER	AGP2
+YBR164C	Golgi and ER	ARL1
+YBR229C	Golgi and ER	ROT2
+YBR288C	Golgi and ER	APM3
+YCL001W	Golgi and ER	RER1
+YCL008C	Golgi and ER	STP22
+YCR009C	Golgi and ER	RVS161
+YCR017C	Golgi and ER	CWH43
+YCR027C	Golgi and ER	RHB1
+YCR034W	Golgi and ER	ELO2
+YCR044C	Golgi and ER	PER1
+YDL077C	Golgi and ER	VAM6
+YDL091C	Golgi and ER	UBX3
+YDL093W	Golgi and ER	PMT5
+YDL095W	Golgi and ER	PMT1
+YDL099W	Golgi and ER	BUG1
+YDL100C	Golgi and ER	GET3
+YDL226C	Golgi and ER	GCS1
+YDL232W	Golgi and ER	OST4
+YDR069C	Golgi and ER	DOA4
+YDR080W	Golgi and ER	VPS41
+YDR108W	Golgi and ER	TRS85
+YDR126W	Golgi and ER	SWF1
+YDR153C	Golgi and ER	ENT5
+YDR221W	Golgi and ER	GTB1
+YDR233C	Golgi and ER	RTN1
+YDR245W	Golgi and ER	MNN10
+YDR372C	Golgi and ER	VPS74
+YDR388W	Golgi and ER	RVS167
+YDR414C	Golgi and ER	ERD1
+YDR490C	Golgi and ER	PKH1
+YEL013W	Golgi and ER	VAC8
+YER031C	Golgi and ER	YPT31
+YER083C	Golgi and ER	GET2
+YER151C	Golgi and ER	UBP3
+YER166W	Golgi and ER	DNF1
+YFL025C	Golgi and ER	BST1
+YGL005C	Golgi and ER	COG7
+YGL020C	Golgi and ER	GET1
+YGL027C	Golgi and ER	CWH41
+YGL054C	Golgi and ER	ERV14
+YGL058W	Golgi and ER	RAD6
+YGL084C	Golgi and ER	GUP1
+YGL167C	Golgi and ER	PMR1
+YGL203C	Golgi and ER	KEX1
+YGL212W	Golgi and ER	VAM7
+YGL226C-A	Golgi and ER	OST5
+YGR058W	Golgi and ER	PEF1
+YGR086C	Golgi and ER	PIL1
+YGR097W	Golgi and ER	ASK10
+YGR101W	Golgi and ER	PCP1
+YGR184C	Golgi and ER	UBR1
+YGR197C	Golgi and ER	SNG1
+YGR202C	Golgi and ER	PCT1
+YGR227W	Golgi and ER	DIE2
+YHL002W	Golgi and ER	HSE1
+YHL031C	Golgi and ER	GOS1
+YHR012W	Golgi and ER	VPS29
+YHR079C	Golgi and ER	IRE1
+YHR114W	Golgi and ER	BZZ1
+YHR142W	Golgi and ER	CHS7
+YHR158C	Golgi and ER	KEL1
+YHR181W	Golgi and ER	SVP26
+YIL044C	Golgi and ER	AGE2
+YIL076W	Golgi and ER	SEC28
+YIL128W	Golgi and ER	MET18
+YJL004C	Golgi and ER	SYS1
+YJL024C	Golgi and ER	APS3
+YJL029C	Golgi and ER	VPS53
+YJL053W	Golgi and ER	PEP8
+YJL062W	Golgi and ER	LAS21
+YJL117W	Golgi and ER	PHO86
+YJL139C	Golgi and ER	YUR1
+YJL154C	Golgi and ER	VPS35
+YJL183W	Golgi and ER	MNN11
+YJR010C-A	Golgi and ER	SPC1
+YJR066W	Golgi and ER	TOR1
+YJR075W	Golgi and ER	HOC1
+YJR117W	Golgi and ER	STE24
+YJR125C	Golgi and ER	ENT3
+YKL179C	Golgi and ER	COY1
+YKL201C	Golgi and ER	MNN4
+YKL212W	Golgi and ER	SAC1
+YKR001C	Golgi and ER	VPS1
+YKR020W	Golgi and ER	VPS51
+YKR030W	Golgi and ER	GMH1
+YLL038C	Golgi and ER	ENT4
+YLL040C	Golgi and ER	VPS13
+YLR039C	Golgi and ER	RIC1
+YLR083C	Golgi and ER	EMP70
+YLR087C	Golgi and ER	CSF1
+YLR114C	Golgi and ER	AVL9
+YLR181C	Golgi and ER	VTA1
+YML012W	Golgi and ER	ERV25
+YML067C	Golgi and ER	ERV41
+YML071C	Golgi and ER	COG8
+YML097C	Golgi and ER	VPS9
+YMR004W	Golgi and ER	MVP1
+YMR035W	Golgi and ER	IMP2
+YMR052W	Golgi and ER	FAR3
+YMR054W	Golgi and ER	STV1
+YMR109W	Golgi and ER	MYO5
+YMR216C	Golgi and ER	SKY1
+YMR266W	Golgi and ER	RSN1
+YMR274C	Golgi and ER	RCE1
+YMR292W	Golgi and ER	GOT1
+YNL027W	Golgi and ER	CRZ1
+YNL032W	Golgi and ER	SIW14
+YNL041C	Golgi and ER	COG6
+YNL044W	Golgi and ER	YIP3
+YNL049C	Golgi and ER	SFB2
+YNL051W	Golgi and ER	COG5
+YNL053W	Golgi and ER	MSG5
+YNL154C	Golgi and ER	YCK2
+YNL183C	Golgi and ER	NPR1
+YNL227C	Golgi and ER	JJJ1
+YNL229C	Golgi and ER	URE2
+YNL238W	Golgi and ER	KEX2
+YNL297C	Golgi and ER	MON2
+YNL298W	Golgi and ER	CLA4
+YNR006W	Golgi and ER	VPS27
+YNR020C	Golgi and ER	ATP23
+YNR030W	Golgi and ER	ALG12
+YNR051C	Golgi and ER	BRE5
+YOL018C	Golgi and ER	TLG2
+YOR002W	Golgi and ER	ALG6
+YOR008C	Golgi and ER	SLG1
+YOR016C	Golgi and ER	ERP4
+YOR030W	Golgi and ER	DFG16
+YOR034C	Golgi and ER	AKR2
+YOR043W	Golgi and ER	WHI2
+YOR067C	Golgi and ER	ALG8
+YOR069W	Golgi and ER	VPS5
+YOR070C	Golgi and ER	GYP1
+YOR085W	Golgi and ER	OST3
+YOR089C	Golgi and ER	VPS21
+YOR106W	Golgi and ER	VAM3
+YOR132W	Golgi and ER	VPS17
+YOR171C	Golgi and ER	LCB4
+YOR216C	Golgi and ER	RUD3
+YOR275C	Golgi and ER	RIM20
+YOR322C	Golgi and ER	LDB19
+YOR327C	Golgi and ER	SNC2
+YPL051W	Golgi and ER	ARL3
+YPL100W	Golgi and ER	ATG21
+YPL120W	Golgi and ER	VPS30
+YPL183C	Golgi and ER	RTT10
+YPL195W	Golgi and ER	APL5
+YPL227C	Golgi and ER	ALG5
+YPR009W	Golgi and ER	SUT2
+YPR024W	Golgi and ER	YME1
+YPR032W	Golgi and ER	SRO7
+YAL055W	peroxisome	PEX22
+YBR168W	peroxisome	PEX32
+YDL065C	peroxisome	PEX19
+YDR233C	peroxisome	RTN1
+YDR265W	peroxisome	PEX10
+YDR329C	peroxisome	PEX3
+YDR424C	peroxisome	DYN2
+YDR479C	peroxisome	PEX29
+YGL115W	peroxisome	SNF4
+YGL153W	peroxisome	PEX14
+YGR077C	peroxisome	PEX8
+YGR133W	peroxisome	PEX4
+YJL210W	peroxisome	PEX2
+YKL197C	peroxisome	PEX1
+YKR001C	peroxisome	VPS1
+YLL001W	peroxisome	DNM1
+YMR026C	peroxisome	PEX12
+YMR304W	peroxisome	UBP15
+YNL329C	peroxisome	PEX6
+YOL044W	peroxisome	PEX15
+YBL017C	vacuole	PEP1
+YBL058W	vacuole	SHP1
+YBL078C	vacuole	ATG8
+YBR036C	vacuole	CSG2
+YBR131W	vacuole	CCZ1
+YBR132C	vacuole	AGP2
+YBR162C	vacuole	TOS1
+YBR290W	vacuole	BSD2
+YCL001W	vacuole	RER1
+YCR044C	vacuole	PER1
+YDL077C	vacuole	VAM6
+YDL130W	vacuole	RPP1B
+YDL135C	vacuole	RDI1
+YDL185W	vacuole	VMA1
+YDR080W	vacuole	VPS41
+YDR108W	vacuole	TRS85
+YDR126W	vacuole	SWF1
+YDR128W	vacuole	MTC5
+YDR313C	vacuole	PIB1
+YDR422C	vacuole	SIP1
+YDR477W	vacuole	SNF1
+YDR497C	vacuole	ITR1
+YEL013W	vacuole	VAC8
+YEL060C	vacuole	PRB1
+YEL062W	vacuole	NPR2
+YER123W	vacuole	YCK3
+YFR019W	vacuole	FAB1
+YGL027C	vacuole	CWH41
+YGL124C	vacuole	MON1
+YGL203C	vacuole	KEX1
+YGL212W	vacuole	VAM7
+YGR197C	vacuole	SNG1
+YIL047C	vacuole	SYG1
+YJL053W	vacuole	PEP8
+YJL154C	vacuole	VPS35
+YJR066W	vacuole	TOR1
+YKL176C	vacuole	LST4
+YKR001C	vacuole	VPS1
+YKR007W	vacuole	MEH1
+YKR103W	vacuole	NFT1
+YLL024C	vacuole	SSA2
+YLL043W	vacuole	FPS1
+YLR083C	vacuole	EMP70
+YLR110C	vacuole	CCW12
+YML012W	vacuole	ERV25
+YML047C	vacuole	PRM6
+YML066C	vacuole	SMA2
+YML097C	vacuole	VPS9
+YML121W	vacuole	GTR1
+YML123C	vacuole	PHO84
+YMR054W	vacuole	STV1
+YMR266W	vacuole	RSN1
+YNL054W	vacuole	VAC7
+YNL079C	vacuole	TPM1
+YNL238W	vacuole	KEX2
+YNL294C	vacuole	RIM21
+YNL298W	vacuole	CLA4
+YNL322C	vacuole	KRE1
+YNL323W	vacuole	LEM3
+YNL325C	vacuole	FIG4
+YOL011W	vacuole	PLB3
+YOL065C	vacuole	INP54
+YOR008C	vacuole	SLG1
+YOR034C	vacuole	AKR2
+YOR068C	vacuole	VAM10
+YOR089C	vacuole	VPS21
+YOR106W	vacuole	VAM3
+YPL057C	vacuole	SUR1
+YPL100W	vacuole	ATG21
+YPL120W	vacuole	VPS30
+YPR075C	vacuole	OPY2
+YAL010C	mitochondrion	MDM10
+YAL011W	mitochondrion	SWC3
+YAL019W	mitochondrion	FUN30
+YAL048C	mitochondrion	GEM1
+YBL021C	mitochondrion	HAP3
+YBL078C	mitochondrion	ATG8
+YBL103C	mitochondrion	RTG3
+YBR078W	mitochondrion	ECM33
+YBR150C	mitochondrion	TBS1
+YBR200W	mitochondrion	BEM1
+YBR221C	mitochondrion	PDB1
+YBR229C	mitochondrion	ROT2
+YBR238C	mitochondrion	YBR238C
+YBR291C	mitochondrion	CTP1
+YCL033C	mitochondrion	MXR2
+YCR008W	mitochondrion	SAT4
+YCR028C-A	mitochondrion	RIM1
+YCR065W	mitochondrion	HCM1
+YDL006W	mitochondrion	PTC1
+YDL033C	mitochondrion	SLM3
+YDL048C	mitochondrion	STP4
+YDL142C	mitochondrion	CRD1
+YDL203C	mitochondrion	ACK1
+YDL230W	mitochondrion	PTP1
+YDL232W	mitochondrion	OST4
+YDR049W	mitochondrion	VMS1
+YDR069C	mitochondrion	DOA4
+YDR074W	mitochondrion	TPS2
+YDR125C	mitochondrion	ECM18
+YDR150W	mitochondrion	NUM1
+YDR155C	mitochondrion	CPR1
+YDR191W	mitochondrion	HST4
+YDR219C	mitochondrion	MFB1
+YDR233C	mitochondrion	RTN1
+YDR332W	mitochondrion	IRC3
+YDR393W	mitochondrion	SHE9
+YDR477W	mitochondrion	SNF1
+YDR505C	mitochondrion	PSP1
+YDR512C	mitochondrion	EMI1
+YEL031W	mitochondrion	SPF1
+YEL037C	mitochondrion	RAD23
+YEL047C	mitochondrion	FRD1
+YEL061C	mitochondrion	CIN8
+YER019W	mitochondrion	ISC1
+YER020W	mitochondrion	GPA2
+YER031C	mitochondrion	YPT31
+YER061C	mitochondrion	CEM1
+YER155C	mitochondrion	BEM2
+YER164W	mitochondrion	CHD1
+YER166W	mitochondrion	DNF1
+YER178W	mitochondrion	PDA1
+YFL018C	mitochondrion	LPD1
+YFL036W	mitochondrion	RPO41
+YFR019W	mitochondrion	FAB1
+YGL005C	mitochondrion	COG7
+YGL020C	mitochondrion	GET1
+YGL151W	mitochondrion	NUT1
+YGL195W	mitochondrion	GCN1
+YGL211W	mitochondrion	NCS6
+YGL219C	mitochondrion	MDM34
+YGL253W	mitochondrion	HXK2
+YGR086C	mitochondrion	PIL1
+YGR101W	mitochondrion	PCP1
+YGR174C	mitochondrion	CBP4
+YGR178C	mitochondrion	PBP1
+YGR231C	mitochondrion	PHB2
+YHR001W-A	mitochondrion	QCR10
+YHR004C	mitochondrion	NEM1
+YHR067W	mitochondrion	HTD2
+YHR189W	mitochondrion	PTH1
+YHR194W	mitochondrion	MDM31
+YIL047C	mitochondrion	SYG1
+YIL134W	mitochondrion	FLX1
+YJL023C	mitochondrion	PET130
+YJL046W	mitochondrion	AIM22
+YJL082W	mitochondrion	IML2
+YJL098W	mitochondrion	SAP185
+YJR060W	mitochondrion	CBF1
+YJR117W	mitochondrion	STE24
+YJR118C	mitochondrion	ILM1
+YKL053C-A	mitochondrion	MDM35
+YKL081W	mitochondrion	TEF4
+YKL109W	mitochondrion	HAP4
+YKL113C	mitochondrion	RAD27
+YKL120W	mitochondrion	OAC1
+YKL166C	mitochondrion	TPK3
+YKL205W	mitochondrion	LOS1
+YKL208W	mitochondrion	CBT1
+YKL212W	mitochondrion	SAC1
+YKR001C	mitochondrion	VPS1
+YKR010C	mitochondrion	TOF2
+YKR019C	mitochondrion	IRS4
+YKR042W	mitochondrion	UTH1
+YKR065C	mitochondrion	PAM17
+YLL001W	mitochondrion	DNM1
+YLL024C	mitochondrion	SSA2
+YLL040C	mitochondrion	VPS13
+YLR087C	mitochondrion	CSF1
+YLR089C	mitochondrion	ALT1
+YLR091W	mitochondrion	GEP5
+YLR426W	mitochondrion	TDA5
+YML008C	mitochondrion	ERG6
+YML013W	mitochondrion	UBX2
+YML048W	mitochondrion	GSF2
+YML072C	mitochondrion	TCB3
+YML128C	mitochondrion	MSC1
+YMR035W	mitochondrion	IMP2
+YMR038C	mitochondrion	CCS1
+YMR060C	mitochondrion	SAM37
+YMR129W	mitochondrion	POM152
+YMR186W	mitochondrion	HSC82
+YMR205C	mitochondrion	PFK2
+YMR224C	mitochondrion	MRE11
+YMR264W	mitochondrion	CUE1
+YMR275C	mitochondrion	BUL1
+YMR282C	mitochondrion	AEP2
+YMR307W	mitochondrion	GAS1
+YNL037C	mitochondrion	IDH1
+YNL064C	mitochondrion	YDJ1
+YNL070W	mitochondrion	TOM7
+YNL071W	mitochondrion	LAT1
+YNL079C	mitochondrion	TPM1
+YNL135C	mitochondrion	FPR1
+YNL227C	mitochondrion	JJJ1
+YNL292W	mitochondrion	PUS4
+YNL315C	mitochondrion	ATP11
+YNR020C	mitochondrion	ATP23
+YNR041C	mitochondrion	COQ2
+YOL009C	mitochondrion	MDM12
+YOL027C	mitochondrion	MDM38
+YOL045W	mitochondrion	PSK2
+YOL081W	mitochondrion	IRA2
+YOR002W	mitochondrion	ALG6
+YOR027W	mitochondrion	STI1
+YOR043W	mitochondrion	WHI2
+YOR065W	mitochondrion	CYT1
+YOR070C	mitochondrion	GYP1
+YOR089C	mitochondrion	VPS21
+YOR191W	mitochondrion	ULS1
+YOR266W	mitochondrion	PNT1
+YOR297C	mitochondrion	TIM18
+YOR298C-A	mitochondrion	MBF1
+YOR330C	mitochondrion	MIP1
+YOR346W	mitochondrion	REV1
+YOR355W	mitochondrion	GDS1
+YOR358W	mitochondrion	HAP5
+YPL069C	mitochondrion	BTS1
+YPL072W	mitochondrion	UBP16
+YPL100W	mitochondrion	ATG21
+YPL155C	mitochondrion	KIP2
+YPL172C	mitochondrion	COX10
+YPL226W	mitochondrion	NEW1
+YPR024W	mitochondrion	YME1
+YPR054W	mitochondrion	SMK1
+YPR134W	mitochondrion	MSS18
+YAL011W	chromatin	SWC3
+YAL013W	chromatin	DEP1
+YAL019W	chromatin	FUN30
+YAL024C	chromatin	LTE1
+YAL051W	chromatin	OAF1
+YAR002W	chromatin	NUP60
+YAR003W	chromatin	SWD1
+YAR018C	chromatin	KIN3
+YBL008W	chromatin	HIR1
+YBL058W	chromatin	SHP1
+YBL079W	chromatin	NUP170
+YBR009C	chromatin	HHF1
+YBR073W	chromatin	RDH54
+YBR095C	chromatin	RXT2
+YBR098W	chromatin	MMS4
+YBR103W	chromatin	SIF2
+YBR107C	chromatin	IML3
+YBR156C	chromatin	SLI15
+YBR175W	chromatin	SWD3
+YBR195C	chromatin	MSI1
+YBR215W	chromatin	HPC2
+YBR231C	chromatin	SWC5
+YBR245C	chromatin	ISW1
+YBR278W	chromatin	DPB3
+YBR289W	chromatin	SNF5
+YCL010C	chromatin	SGF29
+YCL011C	chromatin	GBP2
+YCL016C	chromatin	DCC1
+YCL029C	chromatin	BIK1
+YCL061C	chromatin	MRC1
+YCR033W	chromatin	SNT1
+YCR082W	chromatin	AHC2
+YCR086W	chromatin	CSM1
+YDL002C	chromatin	NHP10
+YDL013W	chromatin	SLX5
+YDL059C	chromatin	RAD59
+YDL070W	chromatin	BDF2
+YDL074C	chromatin	BRE1
+YDL091C	chromatin	UBX3
+YDL134C	chromatin	PPH21
+YDR005C	chromatin	MAF1
+YDR014W	chromatin	RAD61
+YDR121W	chromatin	DPB4
+YDR155C	chromatin	CPR1
+YDR176W	chromatin	NGG1
+YDR181C	chromatin	SAS4
+YDR191W	chromatin	HST4
+YDR207C	chromatin	UME6
+YDR217C	chromatin	RAD9
+YDR225W	chromatin	HTA1
+YDR254W	chromatin	CHL4
+YDR260C	chromatin	SWM1
+YDR310C	chromatin	SUM1
+YDR318W	chromatin	MCM21
+YDR334W	chromatin	SWR1
+YDR359C	chromatin	EAF1
+YDR363W	chromatin	ESC2
+YDR363W-A	chromatin	SEM1
+YDR369C	chromatin	XRS2
+YDR386W	chromatin	MUS81
+YDR392W	chromatin	SPT3
+YDR409W	chromatin	SIZ1
+YDR440W	chromatin	DOT1
+YDR448W	chromatin	ADA2
+YDR469W	chromatin	SDC1
+YDR485C	chromatin	VPS72
+YEL056W	chromatin	HAT2
+YEL061C	chromatin	CIN8
+YER016W	chromatin	BIM1
+YER030W	chromatin	CHZ1
+YER092W	chromatin	IES5
+YER116C	chromatin	SLX8
+YER161C	chromatin	SPT2
+YER164W	chromatin	CHD1
+YER174C	chromatin	GRX4
+YER177W	chromatin	BMH1
+YFL013C	chromatin	IES1
+YFR013W	chromatin	IOC3
+YFR036W	chromatin	CDC26
+YGL003C	chromatin	CDH1
+YGL014W	chromatin	PUF4
+YGL058W	chromatin	RAD6
+YGL066W	chromatin	SGF73
+YGL086W	chromatin	MAD1
+YGL127C	chromatin	SOH1
+YGL131C	chromatin	SNT2
+YGL133W	chromatin	ITC1
+YGL163C	chromatin	RAD54
+YGL173C	chromatin	XRN1
+YGL175C	chromatin	SAE2
+YGL194C	chromatin	HOS2
+YGL216W	chromatin	KIP3
+YGL244W	chromatin	RTF1
+YGR056W	chromatin	RSC1
+YGR188C	chromatin	BUB1
+YGR252W	chromatin	GCN5
+YGR270W	chromatin	YTA7
+YHL025W	chromatin	SNF6
+YHR115C	chromatin	DMA1
+YHR129C	chromatin	ARP1
+YHR167W	chromatin	THP2
+YHR207C	chromatin	SET5
+YIL076W	chromatin	SEC28
+YIL084C	chromatin	SDS3
+YIL112W	chromatin	HOS4
+YIL131C	chromatin	FKH1
+YIR033W	chromatin	MGA2
+YJL013C	chromatin	MAD3
+YJL030W	chromatin	MAD2
+YJL115W	chromatin	ASF1
+YJL124C	chromatin	LSM1
+YJL168C	chromatin	SET2
+YJL176C	chromatin	SWI3
+YJR053W	chromatin	BFA1
+YJR060W	chromatin	CBF1
+YJR082C	chromatin	EAF6
+YJR135C	chromatin	MCM22
+YJR140C	chromatin	HIR3
+YKL020C	chromatin	SPT23
+YKL092C	chromatin	BUD2
+YKL110C	chromatin	KTI12
+YKL160W	chromatin	ELF1
+YKR010C	chromatin	TOF2
+YKR019C	chromatin	IRS4
+YKR029C	chromatin	SET3
+YKR042W	chromatin	UTH1
+YKR048C	chromatin	NAP1
+YKR054C	chromatin	DYN1
+YKR082W	chromatin	NUP133
+YKR095W	chromatin	MLP1
+YKR101W	chromatin	SIR1
+YLL002W	chromatin	RTT109
+YLR015W	chromatin	BRE2
+YLR055C	chromatin	SPT8
+YLR085C	chromatin	ARP6
+YLR095C	chromatin	IOC2
+YLR102C	chromatin	APC9
+YLR113W	chromatin	HOG1
+YLR150W	chromatin	STM1
+YLR418C	chromatin	CDC73
+YML034W	chromatin	SRC1
+YML041C	chromatin	VPS71
+YML121W	chromatin	GTR1
+YML124C	chromatin	TUB3
+YMR039C	chromatin	SUB1
+YMR048W	chromatin	CSM3
+YMR055C	chromatin	BUB2
+YMR075W	chromatin	RCO1
+YMR080C	chromatin	NAM7
+YMR127C	chromatin	SAS2
+YMR179W	chromatin	SPT21
+YMR186W	chromatin	HSC82
+YMR190C	chromatin	SGS1
+YMR198W	chromatin	CIK1
+YMR219W	chromatin	ESC1
+YMR223W	chromatin	UBP8
+YMR247C	chromatin	RKR1
+YMR263W	chromatin	SAP30
+YMR273C	chromatin	ZDS1
+YMR307W	chromatin	GAS1
+YNL021W	chromatin	HDA1
+YNL031C	chromatin	HHT2
+YNL068C	chromatin	FKH2
+YNL097C	chromatin	PHO23
+YNL116W	chromatin	DMA2
+YNL135C	chromatin	FPR1
+YNL136W	chromatin	EAF7
+YNL246W	chromatin	VPS75
+YNL307C	chromatin	MCK1
+YOL004W	chromatin	SIN3
+YOL006C	chromatin	TOP1
+YOL012C	chromatin	HTZ1
+YOL017W	chromatin	ESC8
+YOL068C	chromatin	HST1
+YOR014W	chromatin	RTS1
+YOR025W	chromatin	HST3
+YOR026W	chromatin	BUB3
+YOR058C	chromatin	ASE1
+YOR064C	chromatin	YNG1
+YOR080W	chromatin	DIA2
+YOR156C	chromatin	NFI1
+YOR191W	chromatin	ULS1
+YOR195W	chromatin	SLK19
+YOR213C	chromatin	SAS5
+YOR233W	chromatin	KIN4
+YOR304W	chromatin	ISW2
+YPL001W	chromatin	HAT1
+YPL008W	chromatin	CHL1
+YPL017C	chromatin	IRC15
+YPL018W	chromatin	CTF19
+YPL024W	chromatin	RMI1
+YPL047W	chromatin	SGF11
+YPL055C	chromatin	LGE1
+YPL116W	chromatin	HOS3
+YPL138C	chromatin	SPP1
+YPL139C	chromatin	UME1
+YPL157W	chromatin	TGS1
+YPL181W	chromatin	CTI6
+YPL184C	chromatin	MRN1
+YPL253C	chromatin	VIK1
+YPL254W	chromatin	HFI1
+YPL269W	chromatin	KAR9
+YPR018W	chromatin	RLF2
+YPR023C	chromatin	EAF3
+YPR031W	chromatin	NTO1
+YPR046W	chromatin	MCM16
+YPR052C	chromatin	NHP6A
+YPR119W	chromatin	CLB2
+YPR135W	chromatin	CTF4
+YAL020C	cytoskeleton	ATS1
+YAL024C	cytoskeleton	LTE1
+YAR014C	cytoskeleton	BUD14
+YAR018C	cytoskeleton	KIN3
+YBL007C	cytoskeleton	SLA1
+YBL047C	cytoskeleton	EDE1
+YBL058W	cytoskeleton	SHP1
+YBL061C	cytoskeleton	SKT5
+YBL079W	cytoskeleton	NUP170
+YBR073W	cytoskeleton	RDH54
+YBR098W	cytoskeleton	MMS4
+YBR107C	cytoskeleton	IML3
+YBR108W	cytoskeleton	AIM3
+YBR156C	cytoskeleton	SLI15
+YCL014W	cytoskeleton	BUD3
+YCL016C	cytoskeleton	DCC1
+YCL029C	cytoskeleton	BIK1
+YCL061C	cytoskeleton	MRC1
+YCR009C	cytoskeleton	RVS161
+YCR063W	cytoskeleton	BUD31
+YCR065W	cytoskeleton	HCM1
+YCR086W	cytoskeleton	CSM1
+YCR088W	cytoskeleton	ABP1
+YDL117W	cytoskeleton	CYK3
+YDL134C	cytoskeleton	PPH21
+YDL135C	cytoskeleton	RDI1
+YDL226C	cytoskeleton	GCS1
+YDR014W	cytoskeleton	RAD61
+YDR126W	cytoskeleton	SWF1
+YDR150W	cytoskeleton	NUM1
+YDR245W	cytoskeleton	MNN10
+YDR254W	cytoskeleton	CHL4
+YDR260C	cytoskeleton	SWM1
+YDR318W	cytoskeleton	MCM21
+YDR363W	cytoskeleton	ESC2
+YDR386W	cytoskeleton	MUS81
+YDR388W	cytoskeleton	RVS167
+YDR389W	cytoskeleton	SAC7
+YDR409W	cytoskeleton	SIZ1
+YDR424C	cytoskeleton	DYN2
+YDR488C	cytoskeleton	PAC11
+YDR532C	cytoskeleton	KRE28
+YEL003W	cytoskeleton	GIM4
+YEL061C	cytoskeleton	CIN8
+YER016W	cytoskeleton	BIM1
+YER149C	cytoskeleton	PEA2
+YER155C	cytoskeleton	BEM2
+YER174C	cytoskeleton	GRX4
+YER177W	cytoskeleton	BMH1
+YGL003C	cytoskeleton	CDH1
+YGL054C	cytoskeleton	ERV14
+YGL086W	cytoskeleton	MAD1
+YGL127C	cytoskeleton	SOH1
+YGL174W	cytoskeleton	BUD13
+YGL216W	cytoskeleton	KIP3
+YGR058W	cytoskeleton	PEF1
+YGR078C	cytoskeleton	PAC10
+YGR092W	cytoskeleton	DBF2
+YGR188C	cytoskeleton	BUB1
+YGR200C	cytoskeleton	ELP2
+YHL027W	cytoskeleton	RIM101
+YHR114W	cytoskeleton	BZZ1
+YHR115C	cytoskeleton	DMA1
+YHR129C	cytoskeleton	ARP1
+YHR158C	cytoskeleton	KEL1
+YIL090W	cytoskeleton	ICE2
+YIR003W	cytoskeleton	AIM21
+YJL013C	cytoskeleton	MAD3
+YJL020C	cytoskeleton	BBC1
+YJL030W	cytoskeleton	MAD2
+YJL128C	cytoskeleton	PBS2
+YJL187C	cytoskeleton	SWE1
+YJR053W	cytoskeleton	BFA1
+YJR060W	cytoskeleton	CBF1
+YJR070C	cytoskeleton	LIA1
+YJR090C	cytoskeleton	GRR1
+YJR125C	cytoskeleton	ENT3
+YJR135C	cytoskeleton	MCM22
+YKL007W	cytoskeleton	CAP1
+YKL092C	cytoskeleton	BUD2
+YKL101W	cytoskeleton	HSL1
+YKR001C	cytoskeleton	VPS1
+YKR048C	cytoskeleton	NAP1
+YKR054C	cytoskeleton	DYN1
+YKR095W	cytoskeleton	MLP1
+YLL021W	cytoskeleton	SPA2
+YLL038C	cytoskeleton	ENT4
+YLL049W	cytoskeleton	LDB18
+YLR006C	cytoskeleton	SSK1
+YLR018C	cytoskeleton	POM34
+YLR429W	cytoskeleton	CRN1
+YML034W	cytoskeleton	SRC1
+YML094W	cytoskeleton	GIM5
+YML124C	cytoskeleton	TUB3
+YMR048W	cytoskeleton	CSM3
+YMR055C	cytoskeleton	BUB2
+YMR068W	cytoskeleton	AVO2
+YMR092C	cytoskeleton	AIP1
+YMR109W	cytoskeleton	MYO5
+YMR129W	cytoskeleton	POM152
+YMR190C	cytoskeleton	SGS1
+YMR198W	cytoskeleton	CIK1
+YMR294W	cytoskeleton	JNM1
+YMR299C	cytoskeleton	DYN3
+YNL031C	cytoskeleton	HHT2
+YNL032W	cytoskeleton	SIW14
+YNL079C	cytoskeleton	TPM1
+YNL106C	cytoskeleton	INP52
+YNL116W	cytoskeleton	DMA2
+YNL153C	cytoskeleton	GIM3
+YNL233W	cytoskeleton	BNI4
+YNL271C	cytoskeleton	BNI1
+YNL298W	cytoskeleton	CLA4
+YNL307C	cytoskeleton	MCK1
+YNR031C	cytoskeleton	SSK2
+YOL006C	cytoskeleton	TOP1
+YOR008C	cytoskeleton	SLG1
+YOR014W	cytoskeleton	RTS1
+YOR026W	cytoskeleton	BUB3
+YOR035C	cytoskeleton	SHE4
+YOR043W	cytoskeleton	WHI2
+YOR058C	cytoskeleton	ASE1
+YOR109W	cytoskeleton	INP53
+YOR127W	cytoskeleton	RGA1
+YOR156C	cytoskeleton	NFI1
+YOR195W	cytoskeleton	SLK19
+YOR233W	cytoskeleton	KIN4
+YOR265W	cytoskeleton	RBL2
+YOR269W	cytoskeleton	PAC1
+YPL008W	cytoskeleton	CHL1
+YPL017C	cytoskeleton	IRC15
+YPL018W	cytoskeleton	CTF19
+YPL024W	cytoskeleton	RMI1
+YPL115C	cytoskeleton	BEM3
+YPL155C	cytoskeleton	KIP2
+YPL158C	cytoskeleton	AIM44
+YPL161C	cytoskeleton	BEM4
+YPL174C	cytoskeleton	NIP100
+YPL253C	cytoskeleton	VIK1
+YPL269W	cytoskeleton	KAR9
+YPR046W	cytoskeleton	MCM16
+YPR119W	cytoskeleton	CLB2
+YPR120C	cytoskeleton	CLB5
+YPR135W	cytoskeleton	CTF4
+YAL021C	cell cycle	CCR4
+YAL024C	cell cycle	LTE1
+YAR014C	cell cycle	BUD14
+YAR018C	cell cycle	KIN3
+YBL046W	cell cycle	PSY4
+YBL047C	cell cycle	EDE1
+YBL051C	cell cycle	PIN4
+YBL058W	cell cycle	SHP1
+YBL079W	cell cycle	NUP170
+YBR009C	cell cycle	HHF1
+YBR023C	cell cycle	CHS3
+YBR057C	cell cycle	MUM2
+YBR073W	cell cycle	RDH54
+YBR098W	cell cycle	MMS4
+YBR103W	cell cycle	SIF2
+YBR107C	cell cycle	IML3
+YBR156C	cell cycle	SLI15
+YBR175W	cell cycle	SWD3
+YBR215W	cell cycle	HPC2
+YBR289W	cell cycle	SNF5
+YCL014W	cell cycle	BUD3
+YCL016C	cell cycle	DCC1
+YCL029C	cell cycle	BIK1
+YCL061C	cell cycle	MRC1
+YCR008W	cell cycle	SAT4
+YCR063W	cell cycle	BUD31
+YCR086W	cell cycle	CSM1
+YDL002C	cell cycle	NHP10
+YDL056W	cell cycle	MBP1
+YDL059C	cell cycle	RAD59
+YDL074C	cell cycle	BRE1
+YDL083C	cell cycle	RPS16B
+YDL089W	cell cycle	NUR1
+YDL117W	cell cycle	CYK3
+YDL134C	cell cycle	PPH21
+YDR014W	cell cycle	RAD61
+YDR075W	cell cycle	PPH3
+YDR076W	cell cycle	RAD55
+YDR097C	cell cycle	MSH6
+YDR099W	cell cycle	BMH2
+YDR108W	cell cycle	TRS85
+YDR126W	cell cycle	SWF1
+YDR146C	cell cycle	SWI5
+YDR155C	cell cycle	CPR1
+YDR159W	cell cycle	SAC3
+YDR207C	cell cycle	UME6
+YDR217C	cell cycle	RAD9
+YDR245W	cell cycle	MNN10
+YDR254W	cell cycle	CHL4
+YDR260C	cell cycle	SWM1
+YDR310C	cell cycle	SUM1
+YDR318W	cell cycle	MCM21
+YDR363W	cell cycle	ESC2
+YDR363W-A	cell cycle	SEM1
+YDR369C	cell cycle	XRS2
+YDR386W	cell cycle	MUS81
+YDR409W	cell cycle	SIZ1
+YDR424C	cell cycle	DYN2
+YDR440W	cell cycle	DOT1
+YDR488C	cell cycle	PAC11
+YDR512C	cell cycle	EMI1
+YEL061C	cell cycle	CIN8
+YER016W	cell cycle	BIM1
+YER020W	cell cycle	GPA2
+YER089C	cell cycle	PTC2
+YER092W	cell cycle	IES5
+YER111C	cell cycle	SWI4
+YER149C	cell cycle	PEA2
+YER167W	cell cycle	BCK2
+YER177W	cell cycle	BMH1
+YFL003C	cell cycle	MSH4
+YFL031W	cell cycle	HAC1
+YFL033C	cell cycle	RIM15
+YFR040W	cell cycle	SAP155
+YGL003C	cell cycle	CDH1
+YGL054C	cell cycle	ERV14
+YGL058W	cell cycle	RAD6
+YGL086W	cell cycle	MAD1
+YGL127C	cell cycle	SOH1
+YGL163C	cell cycle	RAD54
+YGL173C	cell cycle	XRN1
+YGL174W	cell cycle	BUD13
+YGL175C	cell cycle	SAE2
+YGL194C	cell cycle	HOS2
+YGL213C	cell cycle	SKI8
+YGL216W	cell cycle	KIP3
+YGL228W	cell cycle	SHE10
+YGR058W	cell cycle	PEF1
+YGR072W	cell cycle	UPF3
+YGR092W	cell cycle	DBF2
+YGR188C	cell cycle	BUB1
+YGR229C	cell cycle	SMI1
+YHL027W	cell cycle	RIM101
+YHR077C	cell cycle	NMD2
+YHR115C	cell cycle	DMA1
+YHR129C	cell cycle	ARP1
+YHR157W	cell cycle	REC104
+YHR158C	cell cycle	KEL1
+YHR167W	cell cycle	THP2
+YIL112W	cell cycle	HOS4
+YIL131C	cell cycle	FKH1
+YIL153W	cell cycle	RRD1
+YIR002C	cell cycle	MPH1
+YJL013C	cell cycle	MAD3
+YJL030W	cell cycle	MAD2
+YJL092W	cell cycle	SRS2
+YJL098W	cell cycle	SAP185
+YJL157C	cell cycle	FAR1
+YJL168C	cell cycle	SET2
+YJL187C	cell cycle	SWE1
+YJR043C	cell cycle	POL32
+YJR053W	cell cycle	BFA1
+YJR059W	cell cycle	PTK2
+YJR060W	cell cycle	CBF1
+YJR066W	cell cycle	TOR1
+YJR090C	cell cycle	GRR1
+YJR094C	cell cycle	IME1
+YJR135C	cell cycle	MCM22
+YJR140C	cell cycle	HIR3
+YKL092C	cell cycle	BUD2
+YKL101W	cell cycle	HSL1
+YKL113C	cell cycle	RAD27
+YKL185W	cell cycle	ASH1
+YKR028W	cell cycle	SAP190
+YKR029C	cell cycle	SET3
+YKR054C	cell cycle	DYN1
+YKR072C	cell cycle	SIS2
+YKR077W	cell cycle	MSA2
+YLL021W	cell cycle	SPA2
+YLL039C	cell cycle	UBI4
+YLL040C	cell cycle	VPS13
+YLL049W	cell cycle	LDB18
+YLR079W	cell cycle	SIC1
+YLR113W	cell cycle	HOG1
+YLR131C	cell cycle	ACE2
+YLR135W	cell cycle	SLX4
+YLR182W	cell cycle	SWI6
+YLR418C	cell cycle	CDC73
+YML034W	cell cycle	SRC1
+YML062C	cell cycle	MFT1
+YML066C	cell cycle	SMA2
+YML124C	cell cycle	TUB3
+YML128C	cell cycle	MSC1
+YMR039C	cell cycle	SUB1
+YMR048W	cell cycle	CSM3
+YMR055C	cell cycle	BUB2
+YMR080C	cell cycle	NAM7
+YMR092C	cell cycle	AIP1
+YMR109W	cell cycle	MYO5
+YMR153W	cell cycle	NUP53
+YMR190C	cell cycle	SGS1
+YMR198W	cell cycle	CIK1
+YMR224C	cell cycle	MRE11
+YMR273C	cell cycle	ZDS1
+YMR294W	cell cycle	JNM1
+YNL025C	cell cycle	SSN8
+YNL031C	cell cycle	HHT2
+YNL068C	cell cycle	FKH2
+YNL082W	cell cycle	PMS1
+YNL116W	cell cycle	DMA2
+YNL201C	cell cycle	PSY2
+YNL233W	cell cycle	BNI4
+YNL271C	cell cycle	BNI1
+YNL294C	cell cycle	RIM21
+YNL298W	cell cycle	CLA4
+YNL307C	cell cycle	MCK1
+YOL001W	cell cycle	PHO80
+YOL004W	cell cycle	SIN3
+YOL006C	cell cycle	TOP1
+YOL068C	cell cycle	HST1
+YOL115W	cell cycle	PAP2
+YOR014W	cell cycle	RTS1
+YOR026W	cell cycle	BUB3
+YOR058C	cell cycle	ASE1
+YOR083W	cell cycle	WHI5
+YOR156C	cell cycle	NFI1
+YOR195W	cell cycle	SLK19
+YOR233W	cell cycle	KIN4
+YPL008W	cell cycle	CHL1
+YPL017C	cell cycle	IRC15
+YPL018W	cell cycle	CTF19
+YPL022W	cell cycle	RAD1
+YPL024W	cell cycle	RMI1
+YPL055C	cell cycle	LGE1
+YPL116W	cell cycle	HOS3
+YPL138C	cell cycle	SPP1
+YPL139C	cell cycle	UME1
+YPL152W	cell cycle	RRD2
+YPL157W	cell cycle	TGS1
+YPL158C	cell cycle	AIM44
+YPL174C	cell cycle	NIP100
+YPL253C	cell cycle	VIK1
+YPL269W	cell cycle	KAR9
+YPR046W	cell cycle	MCM16
+YPR054W	cell cycle	SMK1
+YPR075C	cell cycle	OPY2
+YPR119W	cell cycle	CLB2
+YPR120C	cell cycle	CLB5
+YPR135W	cell cycle	CTF4
+YPR164W	cell cycle	MMS1
+YAL020C	budding	ATS1
+YAL024C	budding	LTE1
+YAR014C	budding	BUD14
+YBL007C	budding	SLA1
+YBL047C	budding	EDE1
+YBL058W	budding	SHP1
+YBL061C	budding	SKT5
+YBL085W	budding	BOI1
+YBR009C	budding	HHF1
+YBR023C	budding	CHS3
+YBR057C	budding	MUM2
+YBR073W	budding	RDH54
+YBR098W	budding	MMS4
+YBR103W	budding	SIF2
+YBR107C	budding	IML3
+YBR175W	budding	SWD3
+YBR200W	budding	BEM1
+YCL014W	budding	BUD3
+YCL016C	budding	DCC1
+YCL029C	budding	BIK1
+YCL061C	budding	MRC1
+YCR017C	budding	CWH43
+YCR086W	budding	CSM1
+YDL074C	budding	BRE1
+YDL089W	budding	NUR1
+YDL117W	budding	CYK3
+YDL134C	budding	PPH21
+YDL135C	budding	RDI1
+YDR014W	budding	RAD61
+YDR075W	budding	PPH3
+YDR076W	budding	RAD55
+YDR097C	budding	MSH6
+YDR099W	budding	BMH2
+YDR108W	budding	TRS85
+YDR126W	budding	SWF1
+YDR146C	budding	SWI5
+YDR150W	budding	NUM1
+YDR155C	budding	CPR1
+YDR159W	budding	SAC3
+YDR207C	budding	UME6
+YDR254W	budding	CHL4
+YDR260C	budding	SWM1
+YDR293C	budding	SSD1
+YDR310C	budding	SUM1
+YDR318W	budding	MCM21
+YDR363W	budding	ESC2
+YDR369C	budding	XRS2
+YDR386W	budding	MUS81
+YDR440W	budding	DOT1
+YDR512C	budding	EMI1
+YEL060C	budding	PRB1
+YEL061C	budding	CIN8
+YER016W	budding	BIM1
+YER020W	budding	GPA2
+YER075C	budding	PTP3
+YER114C	budding	BOI2
+YER149C	budding	PEA2
+YER155C	budding	BEM2
+YER166W	budding	DNF1
+YER177W	budding	BMH1
+YFL003C	budding	MSH4
+YFL033C	budding	RIM15
+YGL003C	budding	CDH1
+YGL054C	budding	ERV14
+YGL058W	budding	RAD6
+YGL086W	budding	MAD1
+YGL127C	budding	SOH1
+YGL175C	budding	SAE2
+YGL194C	budding	HOS2
+YGL213C	budding	SKI8
+YGL216W	budding	KIP3
+YGL228W	budding	SHE10
+YGR056W	budding	RSC1
+YGR058W	budding	PEF1
+YGR092W	budding	DBF2
+YGR188C	budding	BUB1
+YGR229C	budding	SMI1
+YHL027W	budding	RIM101
+YHR111W	budding	UBA4
+YHR114W	budding	BZZ1
+YHR115C	budding	DMA1
+YHR129C	budding	ARP1
+YHR142W	budding	CHS7
+YHR157W	budding	REC104
+YHR158C	budding	KEL1
+YIL008W	budding	URM1
+YIL112W	budding	HOS4
+YJL013C	budding	MAD3
+YJL030W	budding	MAD2
+YJL128C	budding	PBS2
+YJL168C	budding	SET2
+YJL187C	budding	SWE1
+YJR053W	budding	BFA1
+YJR066W	budding	TOR1
+YJR090C	budding	GRR1
+YJR094C	budding	IME1
+YJR135C	budding	MCM22
+YKL007W	budding	CAP1
+YKL079W	budding	SMY1
+YKL092C	budding	BUD2
+YKL101W	budding	HSL1
+YKL185W	budding	ASH1
+YKR001C	budding	VPS1
+YKR020W	budding	VPS51
+YKR029C	budding	SET3
+YKR048C	budding	NAP1
+YKR054C	budding	DYN1
+YKR100C	budding	SKG1
+YLL001W	budding	DNM1
+YLL021W	budding	SPA2
+YLL039C	budding	UBI4
+YLL040C	budding	VPS13
+YLR110C	budding	CCW12
+YLR114C	budding	AVL9
+YLR135W	budding	SLX4
+YLR182W	budding	SWI6
+YLR425W	budding	TUS1
+YML034W	budding	SRC1
+YML047C	budding	PRM6
+YML066C	budding	SMA2
+YML072C	budding	TCB3
+YML124C	budding	TUB3
+YML128C	budding	MSC1
+YMR039C	budding	SUB1
+YMR048W	budding	CSM3
+YMR055C	budding	BUB2
+YMR109W	budding	MYO5
+YMR153W	budding	NUP53
+YMR190C	budding	SGS1
+YMR198W	budding	CIK1
+YMR224C	budding	MRE11
+YMR273C	budding	ZDS1
+YNL031C	budding	HHT2
+YNL079C	budding	TPM1
+YNL082W	budding	PMS1
+YNL087W	budding	TCB2
+YNL116W	budding	DMA2
+YNL154C	budding	YCK2
+YNL201C	budding	PSY2
+YNL233W	budding	BNI4
+YNL271C	budding	BNI1
+YNL294C	budding	RIM21
+YNL298W	budding	CLA4
+YNL307C	budding	MCK1
+YNR031C	budding	SSK2
+YOL006C	budding	TOP1
+YOL115W	budding	PAP2
+YOR008C	budding	SLG1
+YOR014W	budding	RTS1
+YOR026W	budding	BUB3
+YOR058C	budding	ASE1
+YOR127W	budding	RGA1
+YOR195W	budding	SLK19
+YOR233W	budding	KIN4
+YOR275C	budding	RIM20
+YOR327C	budding	SNC2
+YPL008W	budding	CHL1
+YPL017C	budding	IRC15
+YPL018W	budding	CTF19
+YPL022W	budding	RAD1
+YPL024W	budding	RMI1
+YPL115C	budding	BEM3
+YPL116W	budding	HOS3
+YPL138C	budding	SPP1
+YPL139C	budding	UME1
+YPL157W	budding	TGS1
+YPL158C	budding	AIM44
+YPL253C	budding	VIK1
+YPL269W	budding	KAR9
+YPR046W	budding	MCM16
+YPR054W	budding	SMK1
+YPR119W	budding	CLB2
+YPR120C	budding	CLB5
+YPR135W	budding	CTF4
+YAL010C	lipids	MDM10
+YAL013W	lipids	DEP1
+YAL026C	lipids	DRS2
+YAL051W	lipids	OAF1
+YAR002W	lipids	NUP60
+YBL011W	lipids	SCT1
+YBL082C	lipids	ALG3
+YBL085W	lipids	BOI1
+YBR036C	lipids	CSG2
+YBR131W	lipids	CCZ1
+YBR159W	lipids	IFA38
+YBR200W	lipids	BEM1
+YCR009C	lipids	RVS161
+YCR017C	lipids	CWH43
+YCR034W	lipids	ELO2
+YCR044C	lipids	PER1
+YDL052C	lipids	SLC1
+YDL077C	lipids	VAM6
+YDL088C	lipids	ASM4
+YDL142C	lipids	CRD1
+YDR072C	lipids	IPT1
+YDR080W	lipids	VPS41
+YDR126W	lipids	SWF1
+YDR173C	lipids	ARG82
+YDR191W	lipids	HST4
+YDR207C	lipids	UME6
+YDR276C	lipids	PMP3
+YDR294C	lipids	DPL1
+YDR297W	lipids	SUR2
+YDR313C	lipids	PIB1
+YDR372C	lipids	VPS74
+YDR388W	lipids	RVS167
+YDR448W	lipids	ADA2
+YER019W	lipids	ISC1
+YER061C	lipids	CEM1
+YER114C	lipids	BOI2
+YER166W	lipids	DNF1
+YFL025C	lipids	BST1
+YFR019W	lipids	FAB1
+YGL084C	lipids	GUP1
+YGL105W	lipids	ARC1
+YGL124C	lipids	MON1
+YGL212W	lipids	VAM7
+YGL219C	lipids	MDM34
+YGR037C	lipids	ACB1
+YGR086C	lipids	PIL1
+YGR157W	lipids	CHO2
+YGR170W	lipids	PSD2
+YGR197C	lipids	SNG1
+YGR202C	lipids	PCT1
+YGR227W	lipids	DIE2
+YHL003C	lipids	LAG1
+YHL020C	lipids	OPI1
+YHR004C	lipids	NEM1
+YHR067W	lipids	HTD2
+YHR194W	lipids	MDM31
+YIR033W	lipids	MGA2
+YJL062W	lipids	LAS21
+YJL187C	lipids	SWE1
+YJR060W	lipids	CBF1
+YJR066W	lipids	TOR1
+YJR125C	lipids	ENT3
+YKL020C	lipids	SPT23
+YKL053C-A	lipids	MDM35
+YKL140W	lipids	TGL1
+YKL212W	lipids	SAC1
+YLR056W	lipids	ERG3
+YLR450W	lipids	HMG2
+YML008C	lipids	ERG6
+YML072C	lipids	TCB3
+YMR004W	lipids	MVP1
+YMR015C	lipids	ERG5
+YMR060C	lipids	SAM37
+YMR070W	lipids	MOT3
+YMR153W	lipids	NUP53
+YMR202W	lipids	ERG2
+YMR272C	lipids	SCS7
+YNL054W	lipids	VAC7
+YNL087W	lipids	TCB2
+YNL106C	lipids	INP52
+YNL183C	lipids	NPR1
+YNL298W	lipids	CLA4
+YNL323W	lipids	LEM3
+YNL325C	lipids	FIG4
+YNR006W	lipids	VPS27
+YNR030W	lipids	ALG12
+YOL009C	lipids	MDM12
+YOL011W	lipids	PLB3
+YOL018C	lipids	TLG2
+YOL065C	lipids	INP54
+YOL108C	lipids	INO4
+YOR002W	lipids	ALG6
+YOR025W	lipids	HST3
+YOR034C	lipids	AKR2
+YOR067C	lipids	ALG8
+YOR069W	lipids	VPS5
+YOR109W	lipids	INP53
+YOR132W	lipids	VPS17
+YOR171C	lipids	LCB4
+YPL057C	lipids	SUR1
+YPL069C	lipids	BTS1
+YPL100W	lipids	ATG21
+YPL115C	lipids	BEM3
+YPL120W	lipids	VPS30
+YPR009W	lipids	SUT2
+YAL011W	nuclear transport	SWC3
+YAL013W	nuclear transport	DEP1
+YAL019W	nuclear transport	FUN30
+YAL021C	nuclear transport	CCR4
+YAL051W	nuclear transport	OAF1
+YAR002W	nuclear transport	NUP60
+YAR003W	nuclear transport	SWD1
+YAR014C	nuclear transport	BUD14
+YBL007C	nuclear transport	SLA1
+YBL008W	nuclear transport	HIR1
+YBL021C	nuclear transport	HAP3
+YBL024W	nuclear transport	NCL1
+YBL046W	nuclear transport	PSY4
+YBL058W	nuclear transport	SHP1
+YBL079W	nuclear transport	NUP170
+YBL103C	nuclear transport	RTG3
+YBR009C	nuclear transport	HHF1
+YBR034C	nuclear transport	HMT1
+YBR073W	nuclear transport	RDH54
+YBR095C	nuclear transport	RXT2
+YBR098W	nuclear transport	MMS4
+YBR103W	nuclear transport	SIF2
+YBR107C	nuclear transport	IML3
+YBR114W	nuclear transport	RAD16
+YBR119W	nuclear transport	MUD1
+YBR150C	nuclear transport	TBS1
+YBR175W	nuclear transport	SWD3
+YBR195C	nuclear transport	MSI1
+YBR215W	nuclear transport	HPC2
+YBR231C	nuclear transport	SWC5
+YBR245C	nuclear transport	ISW1
+YBR272C	nuclear transport	HSM3
+YBR274W	nuclear transport	CHK1
+YBR278W	nuclear transport	DPB3
+YBR289W	nuclear transport	SNF5
+YCL010C	nuclear transport	SGF29
+YCL011C	nuclear transport	GBP2
+YCL029C	nuclear transport	BIK1
+YCL061C	nuclear transport	MRC1
+YCR033W	nuclear transport	SNT1
+YCR036W	nuclear transport	RBK1
+YCR053W	nuclear transport	THR4
+YCR063W	nuclear transport	BUD31
+YCR065W	nuclear transport	HCM1
+YCR066W	nuclear transport	RAD18
+YCR082W	nuclear transport	AHC2
+YCR086W	nuclear transport	CSM1
+YDL002C	nuclear transport	NHP10
+YDL006W	nuclear transport	PTC1
+YDL013W	nuclear transport	SLX5
+YDL020C	nuclear transport	RPN4
+YDL048C	nuclear transport	STP4
+YDL056W	nuclear transport	MBP1
+YDL059C	nuclear transport	RAD59
+YDL070W	nuclear transport	BDF2
+YDL074C	nuclear transport	BRE1
+YDL076C	nuclear transport	RXT3
+YDL080C	nuclear transport	THI3
+YDL088C	nuclear transport	ASM4
+YDL089W	nuclear transport	NUR1
+YDL115C	nuclear transport	IWR1
+YDL117W	nuclear transport	CYK3
+YDL125C	nuclear transport	HNT1
+YDL134C	nuclear transport	PPH21
+YDL170W	nuclear transport	UGA3
+YDL175C	nuclear transport	AIR2
+YDL213C	nuclear transport	NOP6
+YDR005C	nuclear transport	MAF1
+YDR009W	nuclear transport	GAL3
+YDR014W	nuclear transport	RAD61
+YDR073W	nuclear transport	SNF11
+YDR075W	nuclear transport	PPH3
+YDR076W	nuclear transport	RAD55
+YDR083W	nuclear transport	RRP8
+YDR092W	nuclear transport	UBC13
+YDR097C	nuclear transport	MSH6
+YDR099W	nuclear transport	BMH2
+YDR101C	nuclear transport	ARX1
+YDR121W	nuclear transport	DPB4
+YDR146C	nuclear transport	SWI5
+YDR155C	nuclear transport	CPR1
+YDR156W	nuclear transport	RPA14
+YDR159W	nuclear transport	SAC3
+YDR161W	nuclear transport	YDR161W
+YDR162C	nuclear transport	NBP2
+YDR173C	nuclear transport	ARG82
+YDR174W	nuclear transport	HMO1
+YDR176W	nuclear transport	NGG1
+YDR181C	nuclear transport	SAS4
+YDR191W	nuclear transport	HST4
+YDR192C	nuclear transport	NUP42
+YDR207C	nuclear transport	UME6
+YDR217C	nuclear transport	RAD9
+YDR225W	nuclear transport	HTA1
+YDR233C	nuclear transport	RTN1
+YDR254W	nuclear transport	CHL4
+YDR255C	nuclear transport	RMD5
+YDR257C	nuclear transport	RKM4
+YDR260C	nuclear transport	SWM1
+YDR279W	nuclear transport	RNH202
+YDR289C	nuclear transport	RTT103
+YDR293C	nuclear transport	SSD1
+YDR310C	nuclear transport	SUM1
+YDR315C	nuclear transport	IPK1
+YDR318W	nuclear transport	MCM21
+YDR330W	nuclear transport	UBX5
+YDR334W	nuclear transport	SWR1
+YDR335W	nuclear transport	MSN5
+YDR359C	nuclear transport	EAF1
+YDR363W	nuclear transport	ESC2
+YDR363W-A	nuclear transport	SEM1
+YDR369C	nuclear transport	XRS2
+YDR372C	nuclear transport	VPS74
+YDR378C	nuclear transport	LSM6
+YDR386W	nuclear transport	MUS81
+YDR392W	nuclear transport	SPT3
+YDR395W	nuclear transport	SXM1
+YDR409W	nuclear transport	SIZ1
+YDR424C	nuclear transport	DYN2
+YDR440W	nuclear transport	DOT1
+YDR443C	nuclear transport	SSN2
+YDR448W	nuclear transport	ADA2
+YDR463W	nuclear transport	STP1
+YDR469W	nuclear transport	SDC1
+YDR477W	nuclear transport	SNF1
+YDR482C	nuclear transport	CWC21
+YDR485C	nuclear transport	VPS72
+YDR496C	nuclear transport	PUF6
+YDR532C	nuclear transport	KRE28
+YEL015W	nuclear transport	EDC3
+YEL037C	nuclear transport	RAD23
+YEL056W	nuclear transport	HAT2
+YEL061C	nuclear transport	CIN8
+YER002W	nuclear transport	NOP16
+YER030W	nuclear transport	CHZ1
+YER048C	nuclear transport	CAJ1
+YER075C	nuclear transport	PTP3
+YER089C	nuclear transport	PTC2
+YER092W	nuclear transport	IES5
+YER111C	nuclear transport	SWI4
+YER116C	nuclear transport	SLX8
+YER123W	nuclear transport	YCK3
+YER139C	nuclear transport	RTR1
+YER156C	nuclear transport	YER156C
+YER161C	nuclear transport	SPT2
+YER162C	nuclear transport	RAD4
+YER164W	nuclear transport	CHD1
+YER167W	nuclear transport	BCK2
+YER174C	nuclear transport	GRX4
+YER177W	nuclear transport	BMH1
+YFL001W	nuclear transport	DEG1
+YFL003C	nuclear transport	MSH4
+YFL007W	nuclear transport	BLM10
+YFL013C	nuclear transport	IES1
+YFL031W	nuclear transport	HAC1
+YFL033C	nuclear transport	RIM15
+YFL049W	nuclear transport	SWP82
+YFR013W	nuclear transport	IOC3
+YFR036W	nuclear transport	CDC26
+YGL003C	nuclear transport	CDH1
+YGL016W	nuclear transport	KAP122
+YGL019W	nuclear transport	CKB1
+YGL029W	nuclear transport	CGR1
+YGL035C	nuclear transport	MIG1
+YGL043W	nuclear transport	DST1
+YGL058W	nuclear transport	RAD6
+YGL066W	nuclear transport	SGF73
+YGL078C	nuclear transport	DBP3
+YGL086W	nuclear transport	MAD1
+YGL087C	nuclear transport	MMS2
+YGL115W	nuclear transport	SNF4
+YGL127C	nuclear transport	SOH1
+YGL131C	nuclear transport	SNT2
+YGL133W	nuclear transport	ITC1
+YGL141W	nuclear transport	HUL5
+YGL151W	nuclear transport	NUT1
+YGL163C	nuclear transport	RAD54
+YGL173C	nuclear transport	XRN1
+YGL174W	nuclear transport	BUD13
+YGL175C	nuclear transport	SAE2
+YGL194C	nuclear transport	HOS2
+YGL213C	nuclear transport	SKI8
+YGL216W	nuclear transport	KIP3
+YGL244W	nuclear transport	RTF1
+YGL253W	nuclear transport	HXK2
+YGR003W	nuclear transport	CUL3
+YGR037C	nuclear transport	ACB1
+YGR056W	nuclear transport	RSC1
+YGR058W	nuclear transport	PEF1
+YGR072W	nuclear transport	UPF3
+YGR081C	nuclear transport	SLX9
+YGR097W	nuclear transport	ASK10
+YGR122W	nuclear transport	YGR122W
+YGR123C	nuclear transport	PPT1
+YGR135W	nuclear transport	PRE9
+YGR178C	nuclear transport	PBP1
+YGR188C	nuclear transport	BUB1
+YGR200C	nuclear transport	ELP2
+YGR202C	nuclear transport	PCT1
+YGR208W	nuclear transport	SER2
+YGR214W	nuclear transport	RPS0A
+YGR252W	nuclear transport	GCN5
+YGR270W	nuclear transport	YTA7
+YHL020C	nuclear transport	OPI1
+YHL025W	nuclear transport	SNF6
+YHL027W	nuclear transport	RIM101
+YHR004C	nuclear transport	NEM1
+YHR006W	nuclear transport	STP2
+YHR034C	nuclear transport	PIH1
+YHR041C	nuclear transport	SRB2
+YHR066W	nuclear transport	SSF1
+YHR079C	nuclear transport	IRE1
+YHR081W	nuclear transport	LRP1
+YHR082C	nuclear transport	KSP1
+YHR134W	nuclear transport	WSS1
+YHR156C	nuclear transport	LIN1
+YHR157W	nuclear transport	REC104
+YHR167W	nuclear transport	THP2
+YHR178W	nuclear transport	STB5
+YHR187W	nuclear transport	IKI1
+YHR194W	nuclear transport	MDM31
+YHR207C	nuclear transport	SET5
+YIL008W	nuclear transport	URM1
+YIL035C	nuclear transport	CKA1
+YIL036W	nuclear transport	CST6
+YIL037C	nuclear transport	PRM2
+YIL040W	nuclear transport	APQ12
+YIL079C	nuclear transport	AIR1
+YIL084C	nuclear transport	SDS3
+YIL090W	nuclear transport	ICE2
+YIL110W	nuclear transport	HPM1
+YIL112W	nuclear transport	HOS4
+YIL131C	nuclear transport	FKH1
+YIL153W	nuclear transport	RRD1
+YIR002C	nuclear transport	MPH1
+YIR005W	nuclear transport	IST3
+YIR023W	nuclear transport	DAL81
+YIR033W	nuclear transport	MGA2
+YJL013C	nuclear transport	MAD3
+YJL030W	nuclear transport	MAD2
+YJL055W	nuclear transport	YJL055W
+YJL082W	nuclear transport	IML2
+YJL092W	nuclear transport	SRS2
+YJL103C	nuclear transport	GSM1
+YJL115W	nuclear transport	ASF1
+YJL124C	nuclear transport	LSM1
+YJL128C	nuclear transport	PBS2
+YJL140W	nuclear transport	RPB4
+YJL148W	nuclear transport	RPA34
+YJL157C	nuclear transport	FAR1
+YJL168C	nuclear transport	SET2
+YJL176C	nuclear transport	SWI3
+YJL187C	nuclear transport	SWE1
+YJL197W	nuclear transport	UBP12
+YJR036C	nuclear transport	HUL4
+YJR043C	nuclear transport	POL32
+YJR052W	nuclear transport	RAD7
+YJR059W	nuclear transport	PTK2
+YJR060W	nuclear transport	CBF1
+YJR066W	nuclear transport	TOR1
+YJR070C	nuclear transport	LIA1
+YJR074W	nuclear transport	MOG1
+YJR082C	nuclear transport	EAF6
+YJR088C	nuclear transport	EMC2
+YJR090C	nuclear transport	GRR1
+YJR094C	nuclear transport	IME1
+YJR117W	nuclear transport	STE24
+YJR135C	nuclear transport	MCM22
+YJR139C	nuclear transport	HOM6
+YJR140C	nuclear transport	HIR3
+YKL009W	nuclear transport	MRT4
+YKL020C	nuclear transport	SPT23
+YKL032C	nuclear transport	IXR1
+YKL053C-A	nuclear transport	MDM35
+YKL068W	nuclear transport	NUP100
+YKL074C	nuclear transport	MUD2
+YKL109W	nuclear transport	HAP4
+YKL110C	nuclear transport	KTI12
+YKL113C	nuclear transport	RAD27
+YKL139W	nuclear transport	CTK1
+YKL149C	nuclear transport	DBR1
+YKL160W	nuclear transport	ELF1
+YKL166C	nuclear transport	TPK3
+YKL185W	nuclear transport	ASH1
+YKL205W	nuclear transport	LOS1
+YKL213C	nuclear transport	DOA1
+YKR010C	nuclear transport	TOF2
+YKR024C	nuclear transport	DBP7
+YKR029C	nuclear transport	SET3
+YKR048C	nuclear transport	NAP1
+YKR072C	nuclear transport	SIS2
+YKR077W	nuclear transport	MSA2
+YKR082W	nuclear transport	NUP133
+YKR095W	nuclear transport	MLP1
+YKR099W	nuclear transport	BAS1
+YKR101W	nuclear transport	SIR1
+YLL002W	nuclear transport	RTT109
+YLL019C	nuclear transport	KNS1
+YLL024C	nuclear transport	SSA2
+YLR015W	nuclear transport	BRE2
+YLR018C	nuclear transport	POM34
+YLR032W	nuclear transport	RAD5
+YLR039C	nuclear transport	RIC1
+YLR044C	nuclear transport	PDC1
+YLR055C	nuclear transport	SPT8
+YLR079W	nuclear transport	SIC1
+YLR085C	nuclear transport	ARP6
+YLR095C	nuclear transport	IOC2
+YLR102C	nuclear transport	APC9
+YLR113W	nuclear transport	HOG1
+YLR119W	nuclear transport	SRN2
+YLR131C	nuclear transport	ACE2
+YLR135W	nuclear transport	SLX4
+YLR154C	nuclear transport	RNH203
+YLR182W	nuclear transport	SWI6
+YLR401C	nuclear transport	DUS3
+YLR418C	nuclear transport	CDC73
+YLR435W	nuclear transport	TSR2
+YLR450W	nuclear transport	HMG2
+YML007W	nuclear transport	YAP1
+YML016C	nuclear transport	PPZ1
+YML034W	nuclear transport	SRC1
+YML041C	nuclear transport	VPS71
+YML051W	nuclear transport	GAL80
+YML062C	nuclear transport	MFT1
+YML103C	nuclear transport	NUP188
+YML107C	nuclear transport	PML39
+YML108W	nuclear transport	YML108W
+YML112W	nuclear transport	CTK3
+YML121W	nuclear transport	GTR1
+YML124C	nuclear transport	TUB3
+YMR004W	nuclear transport	MVP1
+YMR016C	nuclear transport	SOK2
+YMR038C	nuclear transport	CCS1
+YMR039C	nuclear transport	SUB1
+YMR042W	nuclear transport	ARG80
+YMR048W	nuclear transport	CSM3
+YMR068W	nuclear transport	AVO2
+YMR070W	nuclear transport	MOT3
+YMR075W	nuclear transport	RCO1
+YMR092C	nuclear transport	AIP1
+YMR119W	nuclear transport	ASI1
+YMR127C	nuclear transport	SAS2
+YMR129W	nuclear transport	POM152
+YMR153W	nuclear transport	NUP53
+YMR176W	nuclear transport	ECM5
+YMR179W	nuclear transport	SPT21
+YMR190C	nuclear transport	SGS1
+YMR198W	nuclear transport	CIK1
+YMR201C	nuclear transport	RAD14
+YMR216C	nuclear transport	SKY1
+YMR219W	nuclear transport	ESC1
+YMR223W	nuclear transport	UBP8
+YMR224C	nuclear transport	MRE11
+YMR230W	nuclear transport	RPS10B
+YMR247C	nuclear transport	RKR1
+YMR255W	nuclear transport	GFD1
+YMR263W	nuclear transport	SAP30
+YMR269W	nuclear transport	TMA23
+YMR273C	nuclear transport	ZDS1
+YMR280C	nuclear transport	CAT8
+YMR307W	nuclear transport	GAS1
+YNL016W	nuclear transport	PUB1
+YNL021W	nuclear transport	HDA1
+YNL025C	nuclear transport	SSN8
+YNL027W	nuclear transport	CRZ1
+YNL031C	nuclear transport	HHT2
+YNL053W	nuclear transport	MSG5
+YNL064C	nuclear transport	YDJ1
+YNL068C	nuclear transport	FKH2
+YNL072W	nuclear transport	RNH201
+YNL082W	nuclear transport	PMS1
+YNL097C	nuclear transport	PHO23
+YNL135C	nuclear transport	FPR1
+YNL136W	nuclear transport	EAF7
+YNL147W	nuclear transport	LSM7
+YNL167C	nuclear transport	SKO1
+YNL199C	nuclear transport	GCR2
+YNL201C	nuclear transport	PSY2
+YNL215W	nuclear transport	IES2
+YNL218W	nuclear transport	MGS1
+YNL224C	nuclear transport	SQS1
+YNL227C	nuclear transport	JJJ1
+YNL229C	nuclear transport	URE2
+YNL236W	nuclear transport	SIN4
+YNL246W	nuclear transport	VPS75
+YNL292W	nuclear transport	PUS4
+YNL298W	nuclear transport	CLA4
+YNL299W	nuclear transport	TRF5
+YNL325C	nuclear transport	FIG4
+YNR004W	nuclear transport	SWM2
+YNR010W	nuclear transport	CSE2
+YNR032W	nuclear transport	PPG1
+YOL001W	nuclear transport	PHO80
+YOL004W	nuclear transport	SIN3
+YOL006C	nuclear transport	TOP1
+YOL009C	nuclear transport	MDM12
+YOL012C	nuclear transport	HTZ1
+YOL017W	nuclear transport	ESC8
+YOL041C	nuclear transport	NOP12
+YOL068C	nuclear transport	HST1
+YOL080C	nuclear transport	REX4
+YOL093W	nuclear transport	TRM10
+YOL108C	nuclear transport	INO4
+YOL111C	nuclear transport	MDY2
+YOL115W	nuclear transport	PAP2
+YOL116W	nuclear transport	MSN1
+YOR006C	nuclear transport	TSR3
+YOR014W	nuclear transport	RTS1
+YOR025W	nuclear transport	HST3
+YOR026W	nuclear transport	BUB3
+YOR039W	nuclear transport	CKB2
+YOR058C	nuclear transport	ASE1
+YOR061W	nuclear transport	CKA2
+YOR064C	nuclear transport	YNG1
+YOR078W	nuclear transport	BUD21
+YOR080W	nuclear transport	DIA2
+YOR083W	nuclear transport	WHI5
+YOR101W	nuclear transport	RAS1
+YOR112W	nuclear transport	CEX1
+YOR113W	nuclear transport	AZF1
+YOR140W	nuclear transport	SFL1
+YOR156C	nuclear transport	NFI1
+YOR179C	nuclear transport	SYC1
+YOR191W	nuclear transport	ULS1
+YOR195W	nuclear transport	SLK19
+YOR213C	nuclear transport	SAS5
+YOR269W	nuclear transport	PAC1
+YOR275C	nuclear transport	RIM20
+YOR298C-A	nuclear transport	MBF1
+YOR304W	nuclear transport	ISW2
+YOR308C	nuclear transport	SNU66
+YOR342C	nuclear transport	YOR342C
+YOR344C	nuclear transport	TYE7
+YOR346W	nuclear transport	REV1
+YOR355W	nuclear transport	GDS1
+YOR358W	nuclear transport	HAP5
+YOR360C	nuclear transport	PDE2
+YPL001W	nuclear transport	HAT1
+YPL008W	nuclear transport	CHL1
+YPL018W	nuclear transport	CTF19
+YPL022W	nuclear transport	RAD1
+YPL024W	nuclear transport	RMI1
+YPL047W	nuclear transport	SGF11
+YPL055C	nuclear transport	LGE1
+YPL068C	nuclear transport	YPL068C
+YPL086C	nuclear transport	ELP3
+YPL089C	nuclear transport	RLM1
+YPL116W	nuclear transport	HOS3
+YPL138C	nuclear transport	SPP1
+YPL139C	nuclear transport	UME1
+YPL157W	nuclear transport	TGS1
+YPL161C	nuclear transport	BEM4
+YPL181W	nuclear transport	CTI6
+YPL184C	nuclear transport	MRN1
+YPL212C	nuclear transport	PUS1
+YPL213W	nuclear transport	LEA1
+YPL226W	nuclear transport	NEW1
+YPL239W	nuclear transport	YAR1
+YPL254W	nuclear transport	HFI1
+YPL269W	nuclear transport	KAR9
+YPR009W	nuclear transport	SUT2
+YPR018W	nuclear transport	RLF2
+YPR022C	nuclear transport	YPR022C
+YPR023C	nuclear transport	EAF3
+YPR031W	nuclear transport	NTO1
+YPR045C	nuclear transport	THP3
+YPR046W	nuclear transport	MCM16
+YPR052C	nuclear transport	NHP6A
+YPR057W	nuclear transport	BRR1
+YPR065W	nuclear transport	ROX1
+YPR069C	nuclear transport	SPE3
+YPR070W	nuclear transport	MED1
+YPR119W	nuclear transport	CLB2
+YPR120C	nuclear transport	CLB5
+YPR135W	nuclear transport	CTF4
+YPR152C	nuclear transport	URN1
+YAL013W	metabolic	DEP1
+YAL021C	metabolic	CCR4
+YAL051W	metabolic	OAF1
+YBL011W	metabolic	SCT1
+YBL021C	metabolic	HAP3
+YBL058W	metabolic	SHP1
+YBL061C	metabolic	SKT5
+YBL082C	metabolic	ALG3
+YBR023C	metabolic	CHS3
+YBR036C	metabolic	CSG2
+YBR058C	metabolic	UBP14
+YBR098W	metabolic	MMS4
+YBR126C	metabolic	TPS1
+YBR159W	metabolic	IFA38
+YBR221C	metabolic	PDB1
+YBR229C	metabolic	ROT2
+YBR238C	metabolic	YBR238C
+YBR274W	metabolic	CHK1
+YBR289W	metabolic	SNF5
+YCL061C	metabolic	MRC1
+YCR008W	metabolic	SAT4
+YCR017C	metabolic	CWH43
+YCR020C	metabolic	PET18
+YCR026C	metabolic	NPP1
+YCR028C-A	metabolic	RIM1
+YCR034W	metabolic	ELO2
+YCR036W	metabolic	RBK1
+YCR044C	metabolic	PER1
+YCR053W	metabolic	THR4
+YDL020C	metabolic	RPN4
+YDL052C	metabolic	SLC1
+YDL059C	metabolic	RAD59
+YDL074C	metabolic	BRE1
+YDL080C	metabolic	THI3
+YDL125C	metabolic	HNT1
+YDL142C	metabolic	CRD1
+YDL170W	metabolic	UGA3
+YDR009W	metabolic	GAL3
+YDR069C	metabolic	DOA4
+YDR072C	metabolic	IPT1
+YDR074W	metabolic	TPS2
+YDR075W	metabolic	PPH3
+YDR097C	metabolic	MSH6
+YDR099W	metabolic	BMH2
+YDR173C	metabolic	ARG82
+YDR191W	metabolic	HST4
+YDR207C	metabolic	UME6
+YDR221W	metabolic	GTB1
+YDR255C	metabolic	RMD5
+YDR294C	metabolic	DPL1
+YDR297W	metabolic	SUR2
+YDR310C	metabolic	SUM1
+YDR318W	metabolic	MCM21
+YDR372C	metabolic	VPS74
+YDR477W	metabolic	SNF1
+YER019W	metabolic	ISC1
+YER052C	metabolic	HOM3
+YER061C	metabolic	CEM1
+YER129W	metabolic	SAK1
+YER164W	metabolic	CHD1
+YER177W	metabolic	BMH1
+YER178W	metabolic	PDA1
+YFL018C	metabolic	LPD1
+YFL025C	metabolic	BST1
+YFR019W	metabolic	FAB1
+YGL027C	metabolic	CWH41
+YGL084C	metabolic	GUP1
+YGL105W	metabolic	ARC1
+YGL115W	metabolic	SNF4
+YGL163C	metabolic	RAD54
+YGL244W	metabolic	RTF1
+YGL253W	metabolic	HXK2
+YGR019W	metabolic	UGA1
+YGR157W	metabolic	CHO2
+YGR170W	metabolic	PSD2
+YGR202C	metabolic	PCT1
+YGR208W	metabolic	SER2
+YGR227W	metabolic	DIE2
+YHL003C	metabolic	LAG1
+YHL020C	metabolic	OPI1
+YHL025W	metabolic	SNF6
+YHR001W-A	metabolic	QCR10
+YHR004C	metabolic	NEM1
+YHR025W	metabolic	THR1
+YHR067W	metabolic	HTD2
+YHR079C	metabolic	IRE1
+YHR142W	metabolic	CHS7
+YHR194W	metabolic	MDM31
+YIL131C	metabolic	FKH1
+YIR002C	metabolic	MPH1
+YIR023W	metabolic	DAL81
+YIR033W	metabolic	MGA2
+YJL062W	metabolic	LAS21
+YJL092W	metabolic	SRS2
+YJL103C	metabolic	GSM1
+YJL168C	metabolic	SET2
+YJL176C	metabolic	SWI3
+YJL187C	metabolic	SWE1
+YJR060W	metabolic	CBF1
+YJR066W	metabolic	TOR1
+YJR075W	metabolic	HOC1
+YJR139C	metabolic	HOM6
+YKL020C	metabolic	SPT23
+YKL109W	metabolic	HAP4
+YKL140W	metabolic	TGL1
+YKL212W	metabolic	SAC1
+YKR072C	metabolic	SIS2
+YLL002W	metabolic	RTT109
+YLR044C	metabolic	PDC1
+YLR056W	metabolic	ERG3
+YLR087C	metabolic	CSF1
+YLR089C	metabolic	ALT1
+YLR113W	metabolic	HOG1
+YLR135W	metabolic	SLX4
+YLR180W	metabolic	SAM1
+YLR182W	metabolic	SWI6
+YLR418C	metabolic	CDC73
+YLR450W	metabolic	HMG2
+YML008C	metabolic	ERG6
+YML035C	metabolic	AMD1
+YML051W	metabolic	GAL80
+YML072C	metabolic	TCB3
+YMR015C	metabolic	ERG5
+YMR042W	metabolic	ARG80
+YMR048W	metabolic	CSM3
+YMR070W	metabolic	MOT3
+YMR075W	metabolic	RCO1
+YMR190C	metabolic	SGS1
+YMR202W	metabolic	ERG2
+YMR205C	metabolic	PFK2
+YMR272C	metabolic	SCS7
+YMR280C	metabolic	CAT8
+YNL027W	metabolic	CRZ1
+YNL037C	metabolic	IDH1
+YNL054W	metabolic	VAC7
+YNL068C	metabolic	FKH2
+YNL071W	metabolic	LAT1
+YNL087W	metabolic	TCB2
+YNL106C	metabolic	INP52
+YNL135C	metabolic	FPR1
+YNL183C	metabolic	NPR1
+YNL199C	metabolic	GCR2
+YNL201C	metabolic	PSY2
+YNL218W	metabolic	MGS1
+YNL325C	metabolic	FIG4
+YNR030W	metabolic	ALG12
+YNR032W	metabolic	PPG1
+YNR041C	metabolic	COQ2
+YOL004W	metabolic	SIN3
+YOL006C	metabolic	TOP1
+YOL011W	metabolic	PLB3
+YOL018C	metabolic	TLG2
+YOL045W	metabolic	PSK2
+YOL064C	metabolic	MET22
+YOL065C	metabolic	INP54
+YOL068C	metabolic	HST1
+YOL081W	metabolic	IRA2
+YOL108C	metabolic	INO4
+YOL115W	metabolic	PAP2
+YOL116W	metabolic	MSN1
+YOR002W	metabolic	ALG6
+YOR025W	metabolic	HST3
+YOR065W	metabolic	CYT1
+YOR067C	metabolic	ALG8
+YOR080W	metabolic	DIA2
+YOR101W	metabolic	RAS1
+YOR109W	metabolic	INP53
+YOR171C	metabolic	LCB4
+YOR184W	metabolic	SER1
+YOR191W	metabolic	ULS1
+YOR344C	metabolic	TYE7
+YOR355W	metabolic	GDS1
+YOR358W	metabolic	HAP5
+YPL057C	metabolic	SUR1
+YPL069C	metabolic	BTS1
+YPL120W	metabolic	VPS30
+YPL157W	metabolic	TGS1
+YPL172C	metabolic	COX10
+YPL181W	metabolic	CTI6
+YPL214C	metabolic	THI6
+YPR023C	metabolic	EAF3
+YPR069C	metabolic	SPE3
+YPR120C	metabolic	CLB5
