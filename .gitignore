@@ -11,6 +11,8 @@
 # Session Data files
 .RData
 
+# E-MAP input data (too large)
+**preprocessed_ubermap*
 # Example code in package build process
 *-Ex.R
 
