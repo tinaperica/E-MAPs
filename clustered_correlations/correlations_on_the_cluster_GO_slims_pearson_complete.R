@@ -1,4 +1,4 @@
-### this script does all the clusters but for a small subset (56242) of pairs per task
+### this script does all the clusters but for a small subset (7837) of pairs per task (times 44 clusters)
 
 #library(getopt, lib.loc = "/netapp/home/tperica/R/x86_64-redhat-linux-gnu-library/3.3")
 
@@ -15,7 +15,7 @@ rm(orf_gene_name_index)
 
 #### library genes clustered
 cluster_method <- "GO_slims_pearson_complete" #
-cluster_file <- paste0("clustered_correlations/2016-11-02_", cluster_method, "_clusters.txt")
+cluster_file <- paste0("clusters/2016-11-02_", cluster_method, "_clusters.txt")
 library_clusters <- read.delim(cluster_file, head = T)
 clusters <- as.character(unique(library_clusters$cluster))
 ##############
@@ -24,8 +24,8 @@ clusters <- as.character(unique(library_clusters$cluster))
 ## load preprocessed ubermap data (preprocessed so that ubermap$Gene is either a Gsp1 mutant or an ORF)
 ubermap <- read.delim("preprocessed_ubermap_all_significant.txt", head = T)
 
-all_genes_and_mutants_df <- read.delim("all_genes_and_mutants.txt", head = F)
-all_genes_and_mutants <- all_genes_and_mutants_df$V1
+all_genes_and_mutants_df <- read.delim("genes_and_mutants_to_test.txt", head = T)
+all_genes_and_mutants <- all_genes_and_mutants_df$unique.genes_and_mutants_to_test.
 
 first_pair <- as.numeric( Sys.getenv( "SGE_TASK_ID" ) )   #
 last_pair <- as.numeric( Sys.getenv( "SGE_TASK_STEPSIZE" ) )
@@ -33,8 +33,10 @@ last_pair <- as.numeric( Sys.getenv( "SGE_TASK_STEPSIZE" ) )
 #library_clusters <- library_clusters[library_clusters$cluster %in% clusters,]
 ubermap <- ubermap[ubermap$library %in% library_clusters$ORF,]
 
-outputfilename <- paste0(Sys.Date(), "_", cluster_method, "_", first_pair, "_correlation_network_clusters.RData")
-output_file_path <- file.path("Output", cluster_method, outputfilename)
+filtered_outputfilename <- paste0(Sys.Date(), "_", cluster_method, "_", first_pair, "_filtered_correlation_network_clusters.txt")
+filtered_output_file_path <- file.path("Output", cluster_method, filtered_outputfilename)
+unfiltered_outputfilename <- paste0(Sys.Date(), "_", cluster_method, "_", first_pair, "_unfiltered_correlation_network_clusters.txt")
+unfiltered_output_file_path <- file.path("Output", cluster_method, unfiltered_outputfilename)
 
 pairs<-combn(all_genes_and_mutants, 2)
 
@@ -109,4 +111,5 @@ for (i in seq_along(clusters)) {
     }
   }
 }
-save(correlations_df, file = output_file_path)
+write.table(filtered_correlations_df, file = filtered_output_file_path, quote = F, sep = "\t", row.names = F)
+write.table(unfiltered_correlations_df, file = unfiltered_output_file_path, quote = F, sep = "\t", row.names = F)

@@ -24,7 +24,7 @@ clusters <- 1:max(library_clusters$cluster)
 ## load preprocessed ubermap data (preprocessed so that ubermap$Gene is either a Gsp1 mutant or an ORF)
 ubermap <- read.delim("preprocessed_ubermap_all.txt", head = T)
 
-all_genes_and_mutants_df <- read.delim("all_genes_and_mutants.txt", head = F)
+all_genes_and_mutants_df <- read.delim("genes_and_mutants_to_test.txt", head = F)
 all_genes_and_mutants <- all_genes_and_mutants_df$V1
 
 first_pair <- as.numeric( Sys.getenv( "SGE_TASK_ID" ) )   #
@@ -102,4 +102,4 @@ for (i in seq_along(clusters)) {
     }
   }
 }
-save(correlations_df, file = output_file_path)
+write.table(correlations_df, file = output_file_path, quote = F, sep = "\t", row.names = F)
