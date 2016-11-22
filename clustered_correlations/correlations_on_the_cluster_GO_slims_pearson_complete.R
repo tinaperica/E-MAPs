@@ -4,7 +4,7 @@
 
 options(stringsAsFactors = F)
 
-lim.points <- c(-2, 1)
+lim.points <- c(-3, 2)
 lim.ratio <- c(0.3, 3)
 percent.good.cutoff <- 0.1
 load("correlations_pair_preload.RData")
@@ -49,7 +49,6 @@ for ( i in seq_along(ubermap[["clusters"]]) ) {
           for (q2 in queries2) {
             temp.ubermap.q1 <- temp.ubermap.query1[temp.ubermap.query1$Gene_uniq == q1,]
             temp.ubermap.q2 <- temp.ubermap.query2[temp.ubermap.query2$Gene_uniq == q2,]
-            gene_names_q1 <- merge(ubermap[["orf_index"]], merged.for.cor, by.x = "orf", by.y = "ORF_q1" )
             gene_names_q1 <- merge(ubermap[["orf_index"]], temp.ubermap.q1, by.x = "orf", by.y = "ORF" )
             gene_names_q1 <- within(gene_names_q1, "q1" <- paste(gene_name, Gene_uniq, sep = " - "))
             if (length(gene_names_q1[,1]) > 0) {
@@ -58,6 +57,7 @@ for ( i in seq_along(ubermap[["clusters"]]) ) {
               gene_names_q1_q2 <- merge(gene_names_q1[, c(4,5,6)], gene_names_q2[, c(4,5,6)], by = "library")
               if (length(gene_names_q1_q2[,1]) > 0) {
                 names(gene_names_q1_q2) <- c("library", "score_q1", "q1", "score_q2", "q2")
+                gene_names_q1_q2 <- cbind( gene_names_q1_q2, "score_ratio" = abs(gene_names_q1_q2$score_q1)/abs(gene_names_q1_q2$score_q2) )
                 correlation <- cor(gene_names_q1_q2$score_q1, gene_names_q1_q2$score_q2, use="pairwise.complete.obs")
                 diagonal.merged.for.cor <- gene_names_q1_q2[ findInterval(gene_names_q1_q2$score_q1, lim.points) != 1 & 
                                   findInterval(gene_names_q1_q2$score_q2, lim.points) != 1 &
