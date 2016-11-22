@@ -13,6 +13,8 @@
 
 # E-MAP input data (too large)
 **preprocessed_ubermap*
+# correlations_data
+/clustered_correlations/correlations_data/
 # Example code in package build process
 *-Ex.R
 
