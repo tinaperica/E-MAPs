@@ -10,8 +10,8 @@ percent.good.cutoff <- 0.1
 load("correlations_pair_preload.RData")
 
 first_pair <- as.numeric( Sys.getenv( "SGE_TASK_ID" ) ) #
-last_pair <- as.numeric( Sys.getenv( "SGE_TASK_STEPSIZE" ) )
-
+step_size <- as.numeric( Sys.getenv( "SGE_TASK_STEPSIZE" ) )
+last_pair <- first_pair + step_size
 outputfilename <- paste0(Sys.Date(), "_", ubermap[["cluster_method"]], "_", first_pair, "_correlation_network_clusters.RData")
 output_file_path <- file.path("Output", ubermap[["cluster_method"]], outputfilename)
 #output_file_path <- file.path(outputfilename)  ## for debugging purposes
