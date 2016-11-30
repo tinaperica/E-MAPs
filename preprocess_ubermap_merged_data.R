@@ -4,7 +4,7 @@ options(stringsAsFactors = F)
 
 s.lim.point<-c(-3, 2)
 
-setwd("~/Documents/GSP1/E_MAP_data/emap_analysis/")
+#setwd("~/Documents/GSP1/E_MAP_data/emap_analysis/")
 
 ### merged and averaged E-MAP data for Gsp1 mutants
 e.map<-read.delim("avg_merged_June2016_screen_for_Gia.txt", head=T)   ## use export for Gia because it has ORF names for library

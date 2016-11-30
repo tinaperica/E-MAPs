@@ -10,7 +10,7 @@ percent.good.cutoff <- 0.1
 load("correlations_pair_preload.RData")
 
 first_pair <- as.numeric( Sys.getenv( "SGE_TASK_ID" ) ) #
-step_size <- as.numeric( Sys.getenv( "SGE_TASK_STEPSIZE" ) )
+step_size <- as.numeric( Sys.getenv( "SGE_TASK_STEPSIZE" ) ) - 1
 last_pair <- first_pair + step_size
 outputfilename <- paste0(Sys.Date(), "_", ubermap[["cluster_method"]], "_", first_pair, "_correlation_network_clusters.RData")
 output_file_path <- file.path("Output", ubermap[["cluster_method"]], outputfilename)
@@ -41,6 +41,12 @@ for ( p in first_pair:last_pair ) {
   ### also make sure to be able to handle cases when there are multiple mutants of the same gene - grep can have more than 1 hit
   ubermap.query1 <- ubermap[["ubermap"]][grepl( query1, ubermap[["ubermap"]][["Gene_uniq"]] ), ]
   ubermap.query2 <- ubermap[["ubermap"]][grepl( query2, ubermap[["ubermap"]][["Gene_uniq"]] ), ]
+   
+  ubermap.wt <- ubermap[["ubermap"]][grepl( "GSP1-NAT", ubermap[["ubermap"]][["Gene_uniq"]] ), ]
+  ubermap.wt <- ubermap.wt[findInterval(ubermap.wt[["score"]], lim.points) != 1,]
+  library_genes_to_remove_due_to_high_score_with_wt <- as.character(unique(ubermap.wt[["library"]]))
+  ubermap.query1 <- ubermap.query1[! ubermap.query1$library %in% library_genes_to_remove_due_to_high_score_with_wt,]
+  ubermap.query2 <- ubermap.query2[! ubermap.query2$library %in% library_genes_to_remove_due_to_high_score_with_wt,]
   
   if ( (length(orfs_to_plot[grepl(query1, orfs_to_plot)]) > 0 | length(orfs_to_plot[grepl(query2, orfs_to_plot)]) > 0) &
        (ubermap.query1$ORF[1] == "YLR293C" | ubermap.query1$ORF[1] == "YLR293C") ) {

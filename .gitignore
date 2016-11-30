@@ -9,7 +9,7 @@
 .Rapp.history
 
 # Session Data files
-.RData
+*.RData
 
 # E-MAP input data (too large)
 **preprocessed_ubermap*
@@ -17,6 +17,8 @@
 /clustered_correlations/correlations_data/
 # Example code in package build process
 *-Ex.R
+# control scatterplots
+/scatterplots/
 
 # Output files from R CMD build
 /*.tar.gz
