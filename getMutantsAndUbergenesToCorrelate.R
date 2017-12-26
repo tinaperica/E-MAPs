@@ -6,25 +6,25 @@ library(reshape2)
 library(calibrate)
 library(plyr)
 setwd("/home/tina/E-MAP/June2016_analysis")
-#setwd("~/Documents/GSP1/E_MAP_data/June2016_analysis/")
+#### index of ORFs to gene names
 orf_gene_name_index<-read.delim("orf_gene_GO_sgd_annotation.txt", head=F)
 orf_index<-unique(data.frame("orf" = orf_gene_name_index$V1, "gene_name" = orf_gene_name_index$V2))
 rm(orf_gene_name_index)
+###############
 e.map<-read.delim("avg_merged_June2016_screen_for_Gia.txt", head=T, sep="\t")   ## use export for Gia because it has ORF names for library
 e.map.tab<-melt(e.map, id.vars=c("Gene"), variable.name="library", value.name="score")
 e.map<-e.map.tab[order(e.map.tab$Gene, e.map.tab$library, decreasing=T),]
 e.map.temp<-data.frame(lapply(e.map, gsub, pattern = "GSP1:", replacement = "", perl = T))
 e.map<-cbind(e.map[,2:3], "Gene" = e.map.temp$Gene)
-query<-levels(e.map$Gene)
-lib.genes<-levels(e.map$library)
-#slope.cutoff<-0.1
-n.goods.cutoff<-5
-s.lim.point<-c(-3, 2)  ### this is also the threshold for the wt control
-s.lim.text<-c(-5, 4)
-ratio.lim<-c(0.3, 3)
+query <- unique(e.map$Gene)
+lib.genes <- unique(e.map$library)
+n.goods.cutoff <- 5
+s.lim.point <- c(-3, 2)  ### this is also the threshold for the wt control
+s.lim.text <- c(-5, 4)
+ratio.lim <- c(0.3, 3)
 x.limits=c(min(e.map$score, na.rm=TRUE), max(e.map$score, na.rm=TRUE))
 y.limits=c(min(e.map$score, na.rm=TRUE), max(e.map$score, na.rm=TRUE))
-ubermap.merged.gene_name_file<-"gene_names_merge_w_Ubermap_500.txt"
+ubermap.merged.gene_name_file <- "gene_names_merge_w_Ubermap_500.txt"
 temp.ubermap<-read.delim(ubermap.merged.gene_name_file, head = T, skip = 0, nrow = length(query), stringsAsFactors = F)
 ubermap.gene_names<-melt(temp.ubermap, id.vars = c("Gene"), variable.name = "library", valuename = "score")
 rm(temp.ubermap)

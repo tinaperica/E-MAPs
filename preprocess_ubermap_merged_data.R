@@ -4,10 +4,8 @@ options(stringsAsFactors = F)
 
 s.lim.point<-c(-3, 2)
 
-#setwd("~/Documents/GSP1/E_MAP_data/emap_analysis/")
-
 ### merged and averaged E-MAP data for Gsp1 mutants
-e.map<-read.delim("avg_merged_June2016_screen_for_Gia.txt", head=T)   ## use export for Gia because it has ORF names for library
+e.map<-read.delim("basic_E-MAP_data/avg_merged_June2016_screen_for_Gia.txt", head=T)   ## use export for Gia because it has ORF names for library
 e.map.tab<-melt(e.map, id.vars=c("Gene"), variable.name="library", value.name="score")
 e.map<-e.map.tab[order(e.map.tab$Gene, e.map.tab$library, decreasing=T),]
 e.map.temp<-data.frame(lapply(e.map, gsub, pattern = "GSP1:", replacement = "", perl = T))

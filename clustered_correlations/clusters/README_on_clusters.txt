@@ -6,7 +6,9 @@ Both sets of clusters (by date) were made by the hclust_EMAP_library_genes.R scr
 
 
 20161101 clusters are made by the same script but from the preprocessed_ubermap_ubergenes_only_significant.txt
---> that file should only contain the library genes that have scores out side of the c(-3,2) range for at least one of the Gsp1 mutants
+--> that file should only contain the library genes that have scores outside of the c(-3,2) range for at least one of the Gsp1 mutants
 --> this way, 328 library genes were discarded before clustering was done
 
-
+NOTE added on 20170130
+For all the downstream analysis I used GO slims clusters based on library genes, using pearson (distance) complete (hclust) clustering method
+That means I used clusters in this file 2016-11-01_GO_slims_pearson_complete_clusters.txt

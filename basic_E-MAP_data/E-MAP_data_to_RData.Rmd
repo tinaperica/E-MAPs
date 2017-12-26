@@ -1,0 +1,49 @@
+---
+title: "prepare_E-MAP_data_for_R"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(reshape2)
+e.map<-read.delim("avg_merged_June2016_screen_for_Gia.txt", head=T)
+head(e.map)
+```
+
+```{r}
+e.map.tab<-melt(e.map, id.vars=c("Gene"), variable.name="library", value.name="score")
+e.map<-e.map.tab[order(e.map.tab$Gene, e.map.tab$library, decreasing=T),]
+names(e.map) <- c("mutant", "library_ORF", "score")
+head(e.map)
+```
+```{r}
+e.map.temp<-data.frame(lapply(e.map, gsub, pattern = "GSP1:", replacement = "", perl = T))
+e.map<-cbind(e.map[,2:3], "mutant" = e.map.temp$mutant)
+head(e.map)
+```
+
+```{r}
+orf_gene_name_index <- read.delim("../orf_gene_GO_sgd_annotation.txt", head = F)
+orf_index<-unique(data.frame("orf" = orf_gene_name_index$V1, "gene_name" = orf_gene_name_index$V2))
+rm(orf_gene_name_index)
+head(orf_index)
+```
+
+```{r}
+emap_gene_names <- merge(e.map, orf_index, by.x = "library_ORF", by.y = "orf")
+head(emap_gene_names)
+```
+
+```{r}
+e.map <- emap_gene_names[, c(3, 1, 4, 2)]
+names(e.map)[3] <- "library_gene_name"
+head(e.map)
+```
+
+```{r}
+save(e.map, file = "June2016_Gsp1_E-MAP_data.RData")
+```
+

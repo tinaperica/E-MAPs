@@ -1,0 +1,140 @@
+Gene	Gene Systematic Name	Gene Ontology Term	Gene Ontology Term ID	Qualifier	Aspect	Method	Evidence	Source	Assigned On	Annotation Extension	Reference
+FUN12	YAL035W	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2003-04-23		Lee JH, et al. (2002) PMID:12471154
+FUN12	YAL035W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2008-12-09		Shin BS, et al. (2009) PMID:19029250
+FUN12	YAL035W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+GEM1	YAL048C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR020860, IPR021181	InterPro	2016-11-26		DDB, et al. (2001)
+GEM1	YAL048C	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2014-08-15		Frederick RL, et al. (2004) PMID:15479738
+TEF2	YBR118W	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2015-06-29		Gaudet P, et al. (2011)
+ARL1	YBR164C	GTPase activity	GO:0003924		molecular function	manually curated	ISS	SGD	2002-05-29		Lee FJ, et al. (1997) PMID:9388248
+ARL1	YBR164C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2002-05-29		Lee FJ, et al. (1997) PMID:9388248
+FZO1	YBR179C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2011-01-07		Amiott EA, et al. (2009) PMID:19812251
+FZO1	YBR179C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR027094, IPR027091	InterPro	2016-11-26		DDB, et al. (2001)
+YPT10	YBR264C	GTPase activity	GO:0003924		molecular function	manually curated	ISS with YPT1	SGD	2005-06-22		Lazar T, et al. (1997) PMID:9433126
+CDC10	YCR002C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2004-12-10		Versele M and Thorner J (2004) PMID:14993234
+RHB1	YCR027C	GTPase activity	GO:0003924		molecular function	manually curated	ISS	SGD	2001-10-23		Urano J, et al. (2000) PMID:10753927
+TSR1	YDL060W	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2015-04-28		Gaudet P, et al (2010)
+ARF2	YDL137W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2007-03-29		Poon PP, et al. (1996) PMID:8816753
+ARF1	YDL192W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2007-03-29		Poon PP, et al. (1996) PMID:8816753
+SUP35	YDR172W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+SUP35	YDR172W	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2015-06-29		Gaudet P, et al (2010)
+MRX8	YDR336W	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2016-04-21		Gaudet P, et al (2010)
+EFT2	YDR385W	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2015-06-29		Gaudet P, et al. (2011)
+NUG1	YER006W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2009-05-08		Bassler J, et al. (2006) PMID:16803892
+GPA2	YER020W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2007-12-03		Peeters T, et al. (2006) PMID:16924114
+GPA2	YER020W	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2007-12-03		Lorenz MC and Heitman J (1997) PMID:9384580
+GPA2	YER020W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR002975, IPR001019	InterPro	2016-11-26		DDB, et al. (2001)
+GCD11	YER025W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+GCD11	YER025W	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2015-06-29		Gaudet P, et al (2010)
+YPT31	YER031C	GTPase activity	GO:0003924		molecular function	manually curated	ISS	SGD	2002-06-24		Jedd G, et al. (1997) PMID:9151665
+YPT31	YER031C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-03-24		Will E, et al. (2001) PMID:11210571
+SEC4	YFL005W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2007-08-15		Kabcenell AK, et al. (1990) PMID:2111819
+TUB2	YFL037W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR003008	InterPro	2016-11-26		DDB, et al. (2001)
+YPT1	YFL038C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2009-09-15		Richardson CJ, et al. (1998) PMID:9447979
+YPT1	YFL038C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-05-27		Wagner P, et al. (1987) PMID:3311726
+LSG1	YGL099W	GTPase activity	GO:0003924		molecular function	manually curated	ISS with Q9H089	SGD	2013-05-24		Reynaud EG, et al. (2005) PMID:16209721
+LSG1	YGL099W	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2012-04-09		Gaudet P, et al (2010)
+YPT32	YGL210W	GTPase activity	GO:0003924		molecular function	manually curated	ISS	SGD	2002-06-24		Jedd G, et al. (1997) PMID:9151665
+YPT32	YGL210W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-03-24		Will E, et al. (2001) PMID:11210571
+RSR1	YGR152C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2002-12-01		Holden JL, et al. (1991) PMID:1910037
+GTR2	YGR163W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2015-10-06		Peli-Gulli MP, et al. (2015) PMID:26387955
+GPA1	YHR005C	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2006-07-19		Kurjan J, et al. (1991) PMID:1900495
+GPA1	YHR005C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2006-07-19		Cismowski MJ, et al. (2001) PMID:11394869
+GPA1	YHR005C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR002975, IPR001019	InterPro	2016-11-26		DDB, et al. (2001)
+CDC12	YHR107C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2004-12-10		Versele M and Thorner J (2004) PMID:14993234
+MTG2	YHR168W	GTPase activity	GO:0003924		molecular function	manually curated	ISS	SGD	2005-01-04		Datta K, et al. (2005) PMID:15591131
+MTG2	YHR168W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR014100	InterPro	2016-11-26		DDB, et al. (2001)
+EST3	YIL009C-A	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-12-02		Shubernetskaya O, et al. (2011) PMID:20884318
+EST3	YIL009C-A	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2010-12-02		Shubernetskaya O, et al. (2011) PMID:20884318
+RHO3	YIL118W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-06-07		Doignon F, et al. (1999) PMID:10526184
+MEF2	YJL102W	GTPase activity	GO:0003924		molecular function	manually curated	ISS with Q969S9	SGD	2014-03-25		Tsuboi M, et al. (2009) PMID:19716793
+MEF2	YJL102W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+MEF2	YJL102W	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2015-06-29		Gaudet P, et al (2010)
+CDC6	YJL194W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2007-08-10		Zwerschke W, et al. (1994) PMID:8083240
+NPA3	YJR072C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2014-12-09		Staresincic L, et al. (2011) PMID:21844196
+NPA3	YJR072C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR030230	InterPro	2016-11-26		DDB, et al. (2001)
+SRP102	YKL154W	GTPase activity	GO:0003924		molecular function	manually curated	ISS with AAA35552.1	SGD	2005-01-28		Miller JD, et al. (1995) PMID:7844142
+SNU114	YKL173W	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2005-05-27		Fabrizio P, et al. (1997) PMID:9233818
+SNU114	YKL173W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+VPS1	YKR001C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2001-01-18		Ekena K, et al. (1993) PMID:8299420
+VPS1	YKR001C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR001401, IPR003130	InterPro	2016-11-26		DDB, et al. (2001)
+VPS1	YKR001C	GTPase activity	GO:0003924		molecular function	manually curated	ISS	SGD	2001-01-18		Ekena K, et al. (1993) PMID:8299420
+YPT52	YKR014C	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2002-11-13		Singer-Kruger B, et al. (1994) PMID:8163546
+YPT52	YKR014C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-03-24		Will E, et al. (2001) PMID:11210571
+RHO4	YKR055W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-06-07		Doignon F, et al. (1999) PMID:10526184
+HBS1	YKR084C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-11-29		Shoemaker CJ, et al. (2010) PMID:20947765
+HBS1	YKR084C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+DNM1	YLL001W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2006-07-26		Ingerman E, et al. (2005) PMID:16186251
+DNM1	YLL001W	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2016-11-17		Naylor K, et al. (2006) PMID:16272155
+DNM1	YLL001W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR001401, IPR003130	InterPro	2016-11-26		DDB, et al. (2001)
+MEF1	YLR069C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+MEF1	YLR069C	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2015-06-29		Gaudet P, et al (2010)
+TUB4	YLR212C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR003008	InterPro	2016-11-26		DDB, et al. (2001)
+CDC42	YLR229C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2009-11-13		Roumanie O, et al. (2001) PMID:11591390
+GPN3	YLR243W	GTPase activity	GO:0003924		molecular function	manually curated	ISS with NPA3	SGD	2015-02-19		Minaker SW, et al. (2013) PMID:23267056
+GPN3	YLR243W	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2016-10-13		Gaudet P, et al (2010)
+YPT6	YLR262C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-03-24		Will E, et al. (2001) PMID:11210571
+GUF1	YLR289W	GTPase activity	GO:0003924		molecular function	manually curated	ISS	SGD	2002-10-07		Kiser GL and Weinert TA (1995) PMID:8553703
+GUF1	YLR289W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2006-02-03		Butcher RA, et al. (2006) PMID:16415861
+GUF1	YLR289W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+GSP1	YLR293C	GTPase activity	GO:0003924		molecular function	manually curated	IGI	SGD	2002-07-24		Belhumeur P, et al. (1993) PMID:8455603
+GSP1	YLR293C	GTPase activity	GO:0003924		molecular function	manually curated	ISS	SGD	2002-07-24		Belhumeur P, et al. (1993) PMID:8455603
+GSP1	YLR293C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR002041	InterPro	2016-11-26		DDB, et al. (2001)
+YPT7	YML001W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-03-24		Will E, et al. (2001) PMID:11210571
+TEM1	YML064C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2009-12-10		Geymonat M, et al. (2002) PMID:12048186
+TEM1	YML064C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2015-04-08	has direct input BFA1, has direct input BUB2	Scarfone I, et al. (2015) PMID:25658911
+TUB1	YML085C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR003008	InterPro	2016-11-26		DDB, et al. (2001)
+GTR1	YML121W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2014-03-12		Sengottaiyan P, et al. (2012) PMID:22726655
+GTR1	YML121W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2013-06-24		Panchaud N, et al. (2013) PMID:23716719
+TUB3	YML124C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR003008	InterPro	2016-11-26		DDB, et al. (2001)
+MSS1	YMR023C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR004520	InterPro	2016-11-26		DDB, et al. (2001)
+MSS1	YMR023C	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2016-04-21		Gaudet P, et al (2010)
+MTG1	YMR097C	GTPase activity	GO:0003924		molecular function	manually curated	ISA with NUG1	SGD	2009-09-21		Barrientos A, et al. (2003) PMID:12808030
+MTG1	YMR097C	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2012-04-09		Gaudet P, et al (2010)
+DDR48	YMR173W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2004-04-19		Sheng S and Schuster SM (1993) PMID:8444852
+DML1	YMR211W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR003008	InterPro	2016-11-26		DDB, et al. (2001)
+RHO2	YNL090W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2009-11-13		Roumanie O, et al. (2001) PMID:11591390
+RHO2	YNL090W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-06-07		Doignon F, et al. (1999) PMID:10526184
+YPT53	YNL093W	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2002-11-13		Singer-Kruger B, et al. (1994) PMID:8163546
+YPT53	YNL093W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-03-24		Will E, et al. (2001) PMID:11210571
+RAS2	YNL098C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2013-03-07		Wood DR, et al. (1994) PMID:8106517
+RIA1	YNL163C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2004-09-29		Senger B, et al. (2001) PMID:11779510
+RIA1	YNL163C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+RHO5	YNL180C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2002-06-20		Roumanie O, et al. (2001) PMID:11591390
+NOG2	YNR053C	GTPase activity	GO:0003924		molecular function	manually curated	ISS with G0SBX1	SGD	2015-08-20		Matsuo Y, et al. (2014) PMID:24240281
+NOG2	YNR053C	GTPase activity	GO:0003924		molecular function	manually curated	ISS with NUG1	SGD	2015-08-20		Bassler J, et al. (2001) PMID:11583615
+NOG2	YNR053C	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2012-04-09		Gaudet P, et al (2010)
+IFM1	YOL023W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2003-06-19		Garofalo C, et al. (2003) PMID:12729623
+IFM1	YOL023W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+SKI7	YOR076C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+SKI7	YOR076C	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2015-06-29		Gaudet P, et al (2010)
+VPS21	YOR089C	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2002-11-13		Singer-Kruger B, et al. (1994) PMID:8163546
+VPS21	YOR089C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2010-03-24		Will E, et al. (2001) PMID:11210571
+ARF3	YOR094W	GTPase activity	GO:0003924		molecular function	manually curated	ISS	SGD	2001-01-18		Lee FJ, et al. (1994) PMID:8063710
+RAS1	YOR101W	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2001-01-18		Kataoka T, et al. (1984) PMID:6327067
+RAS1	YOR101W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2014-03-07		Crechet JB, et al. (2003) PMID:14674766
+EFT1	YOR133W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2014-05-16		Ortiz PA, et al. (2006) PMID:16950777
+EFT1	YOR133W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+EFT1	YOR133W	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2015-06-29		Gaudet P, et al (2010)
+SEY1	YOR165W	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2009-08-19		Hu J, et al. (2009) PMID:19665976
+GSP2	YOR185C	GTPase activity	GO:0003924		molecular function	manually curated	ISS	SGD	2002-07-24		Belhumeur P, et al. (1993) PMID:8455603
+GSP2	YOR185C	GTPase activity	GO:0003924		molecular function	manually curated	IGI	SGD	2002-07-24		Belhumeur P, et al. (1993) PMID:8455603
+GSP2	YOR185C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR002041	InterPro	2016-11-26		DDB, et al. (2001)
+TUF1	YOR187W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2009-02-09		Rosenthal LP and Bodley JW (1987) PMID:3301847
+TUF1	YOR187W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+GEP3	YOR205C	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2012-04-09		Gaudet P, et al (2010)
+MGM1	YOR211C	GTPase activity	GO:0003924		molecular function	manually curated	ISA with DNM1	SGD	2010-12-02		Wong ED, et al. (2000) PMID:11038181
+MGM1	YOR211C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR001401	InterPro	2016-11-26		DDB, et al. (2001)
+MGM1	YOR211C	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2016-08-08		Gaudet P, et al (2010)
+GPN2	YOR262W	GTPase activity	GO:0003924		molecular function	manually curated	ISS with NPA3	SGD	2015-02-19		Minaker SW, et al. (2013) PMID:23267056
+GPN2	YOR262W	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2016-10-13		Gaudet P, et al (2010)
+ARL3	YPL051W	GTPase activity	GO:0003924		molecular function	manually curated	ISS	SGD	2002-05-29		Huang CF, et al. (1999) PMID:9920936
+ARL3	YPL051W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2002-05-29		Huang CF, et al. (1999) PMID:9920936
+BMS1	YPL217C	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2009-05-22		Karbstein K, et al. (2005) PMID:16307926
+BMS1	YPL217C	GTPase activity	GO:0003924		molecular function	manually curated	IMP	SGD	2009-05-22		Karbstein K, et al. (2005) PMID:16307926
+SAR1	YPL218W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2007-03-29		Barlowe C, et al. (1993) PMID:8419365
+SAR1	YPL218W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2007-03-29		Saito Y, et al. (1998) PMID:9756629
+TEF1	YPR080W	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR000795	InterPro	2016-11-26		DDB, et al. (2001)
+TEF1	YPR080W	GTPase activity	GO:0003924		molecular function	computational	IBA	GO_Central	2015-06-29		Gaudet P, et al (2010)
+SRP54	YPR088C	GTPase activity	GO:0003924		molecular function	computational	IEA with IPR022941, IPR006325	InterPro	2016-11-26		DDB, et al. (2001)
+RHO1	YPR165W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2009-11-13		Roumanie O, et al. (2001) PMID:11591390
+RHO1	YPR165W	GTPase activity	GO:0003924		molecular function	manually curated	IDA	SGD	2009-11-13		Peterson J, et al. (1994) PMID:7962098
