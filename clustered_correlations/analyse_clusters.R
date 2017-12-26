@@ -1,3 +1,5 @@
+#### this is deprecated. It was analysing the GO of the original clusters, that were GO blind when created
+
 ### This script can analyse the GO slim terms of the clusters made by hclust_EMAP_library_genes.R
 ## and also make it's own library clusters based on GO slim terms
 
@@ -6,9 +8,9 @@ library(magrittr)
 library(tidyr)
 options( stringsAsFactors = F)
 
-setwd( "~/Documents/GSP1/E_MAP_data/emap_analysis/clustered_correlations/" )
+setwd( "/clustered_correlations/" )
 
-clusters_prefix_to_analyse <- "2016-11-01"
+clusters_prefix_to_analyse <- "2016-11-02"
 
 GO_slims <- read.delim( "go_slim_mapping.tab.txt", head = F)
 names(GO_slims) <- c("ORF", "Gene", "SGID", "GO_Aspect", "GO_Slim_term",
