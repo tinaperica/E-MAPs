@@ -5,7 +5,7 @@ options(stringsAsFactors = F)
 
 ms_partners_df <- read.delim("Gsp1_MS_hits.txt", head = F)
 ms_partners <- ms_partners_df$V1
-load("corr_of_corr.RData")
+load("clustered_correlations/random_corr_of_corr.RData")
 corr_of_corr_df <- result[["corr_of_corr"]]
 clusters <- result[["clusters"]]
 rm(result)
@@ -15,7 +15,7 @@ corr_of_corr_df <- corr_of_corr_df[ order(corr_of_corr_df$mutant, corr_of_corr_d
 partners.list<- list()
 core_modifiers <- c("RNA1", "SRM1", "YRB1", "PSE1", "MOG1")
 partners.list[["Core_modifiers"]] <- core_modifiers
-selected_measures <- c( "corr_of_corr_no_na_no_mut")
+selected_measures <- c( "corr_of_corr_no_mut")
 
 temp <- corr_of_corr_df[ grepl(pattern = paste(core_modifiers, collapse="|"), corr_of_corr_df[["partner"]]), ]
 partners_to_plot <- as.character(unique(temp[["partner"]]))
@@ -44,7 +44,7 @@ print_heatmap <- function(df, rows, columns, file_prefix, file_suffix, file_heig
       cols[ grepl(pattern = names(coloring_list)[i], row.names(correlation.matrix)) ] <- unlist(coloring_list[[i]])
     }
     
-    filename <- paste0("clustered_correlations/corr_of_corr_plots/per_partner_heatmaps/", Sys.Date(), "_", file_prefix, "_", measure, "_", file_suffix, ".pdf")
+    filename <- paste0("clustered_correlations/corr_of_corr_plots/per_partner_heatmaps/", Sys.Date(), "_random_", file_prefix, "_", measure, "_", file_suffix, ".pdf")
     pdf(file = filename, width = file_width, height = file_height)
     heatmap <- heatmap.2( correlation.matrix, scale = "none", dendrogram="both", 
                           trace="none", density.info="none", col = cm.colors, 

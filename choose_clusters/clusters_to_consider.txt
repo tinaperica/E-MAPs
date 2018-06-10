@@ -1,0 +1,92 @@
+clusters_to_consider
+nucleobase-containing compound transport
+nuclear transport and organization_GO_1
+nuclear transport
+nuclear transport and organization
+nuclear transport_GO_1
+whole_library_20
+cell cycle_GO_4
+protein targeting
+response to heat
+chromatin organization_GO_2
+transcription from RNA polymerase II promoter_GO_2
+telomere organization
+DNA-templated transcription, elongation
+protein targeting_GO_1
+DNA recombination
+endomembrane system_GO_1
+whole_library_24
+transcription_GO_3
+chromatin_GO_1
+protein modification by small protein conjugation or removal_GO_2
+DNA repair_GO_2
+endomembrane system_GO_4
+transcription and mRNA processing_GO_5
+endomembrane system
+transcription_GO_2
+cellular response to DNA damage stimulus_GO_1
+transcription from RNA polymerase II promoter
+whole_library_17
+chromatin organization
+histone modification_GO_1
+cell cycle
+transcription
+DNA repair
+whole_library_13
+whole_library_22
+chromatin
+transcription and mRNA processing_GO_1
+regulation of cell cycle_GO_1
+transcription and mRNA processing
+chromatin_GO_3
+proteolysis involved in cellular protein catabolic process_GO_1
+cell cycle_GO_1
+cellular response to DNA damage stimulus
+histone modification
+chromatin organization_GO_3
+mRNA processing
+proteolysis involved in cellular protein catabolic process
+protein modification by small protein conjugation or removal
+whole_library_19
+RNA processing
+chromatin binding_GO_1
+RNA catabolic process
+peptidyl-amino acid modification_GO_2
+DNA repair_GO_1
+organelle fission_GO_3
+protein targeting_GO_2
+chromatin binding
+transcription and mRNA processing_GO_6
+transcription and mRNA processing_GO_3
+chromatin_GO_2
+chromosome segregation_GO_1
+regulation of cell cycle
+lipids
+whole_library_6
+transcription from RNA polymerase II promoter_GO_1
+mitotic cell cycle_GO_1
+ribosomes and translation_GO_1
+cytoskeleton organization
+DNA binding
+ribosomes and translation
+endoplasmic reticulum
+ER
+mitotic cell cycle
+peptidyl-amino acid modification
+whole_library_4
+cell cycle_GO_3
+mitochondria
+organelle fission
+DNA binding_GO_2
+cytoskeleton and microtubules_GO_2
+nucleolus
+lipids_GO_3
+endoplasmic reticulum_GO_2
+ER_GO_2
+mitochondrion organization
+lipid binding
+Golgi and ER
+budding
+endoplasmic reticulum_GO_1
+ER_GO_1
+cell cortex_GO_1

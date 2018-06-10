@@ -1,0 +1,1794 @@
+ORF	cluster	gene_name
+YAL020C	ribosome_GO_2	ATS1
+YAL026C	ribosome_GO_2	DRS2
+YBL024W	ribosome_GO_2	NCL1
+YBL027W	ribosome_GO_2	RPL19B
+YCL037C	ribosome_GO_2	SRO9
+YDL006W	ribosome_GO_2	PTC1
+YDL033C	ribosome_GO_2	SLM3
+YDL134C	ribosome_GO_2	PPH21
+YDL191W	ribosome_GO_2	RPL35A
+YDR159W	ribosome_GO_2	SAC3
+YDR293C	ribosome_GO_2	SSD1
+YDR378C	ribosome_GO_2	LSM6
+YDR477W	ribosome_GO_2	SNF1
+YEL043W	ribosome_GO_2	YEL043W
+YEL047C	ribosome_GO_2	FRD1
+YFL023W	ribosome_GO_2	BUD27
+YGL014W	ribosome_GO_2	PUF4
+YGL211W	ribosome_GO_2	NCS6
+YGL244W	ribosome_GO_2	RTF1
+YGR178C	ribosome_GO_2	PBP1
+YGR200C	ribosome_GO_2	ELP2
+YHR021C	ribosome_GO_2	RPS27B
+YHR111W	ribosome_GO_2	UBA4
+YHR187W	ribosome_GO_2	IKI1
+YHR189W	ribosome_GO_2	PTH1
+YIL008W	ribosome_GO_2	URM1
+YIR003W	ribosome_GO_2	AIM21
+YJL098W	ribosome_GO_2	SAP185
+YJL136C	ribosome_GO_2	RPS21B
+YJR066W	ribosome_GO_2	TOR1
+YJR145C	ribosome_GO_2	RPS4A
+YKL009W	ribosome_GO_2	MRT4
+YKL110C	ribosome_GO_2	KTI12
+YKL139W	ribosome_GO_2	CTK1
+YKL204W	ribosome_GO_2	EAP1
+YKR024C	ribosome_GO_2	DBP7
+YLR401C	ribosome_GO_2	DUS3
+YML107C	ribosome_GO_2	PML39
+YML112W	ribosome_GO_2	CTK3
+YMR247C	ribosome_GO_2	RKR1
+YMR282C	ribosome_GO_2	AEP2
+YMR283C	ribosome_GO_2	RIT1
+YMR285C	ribosome_GO_2	NGL2
+YMR312W	ribosome_GO_2	ELP6
+YNL001W	ribosome_GO_2	DOM34
+YNL119W	ribosome_GO_2	NCS2
+YNL147W	ribosome_GO_2	LSM7
+YNL255C	ribosome_GO_2	GIS2
+YNL299W	ribosome_GO_2	TRF5
+YNR004W	ribosome_GO_2	SWM2
+YOL045W	ribosome_GO_2	PSK2
+YOL115W	ribosome_GO_2	PAP2
+YOR308C	ribosome_GO_2	SNU66
+YPL086C	ribosome_GO_2	ELP3
+YPL101W	ribosome_GO_2	ELP4
+YPL157W	ribosome_GO_2	TGS1
+YPL226W	ribosome_GO_2	NEW1
+YPR043W	ribosome_GO_2	RPL43A
+YPR129W	ribosome_GO_2	SCD6
+YBL072C	ribosome_GO_1	RPS8A
+YBL087C	ribosome_GO_1	RPL23A
+YBR022W	ribosome_GO_1	POA1
+YBR031W	ribosome_GO_1	RPL4A
+YBR181C	ribosome_GO_1	RPS6B
+YCR031C	ribosome_GO_1	RPS14A
+YDL061C	ribosome_GO_1	RPS29B
+YDL082W	ribosome_GO_1	RPL13A
+YDL083C	ribosome_GO_1	RPS16B
+YDL130W	ribosome_GO_1	RPP1B
+YDL136W	ribosome_GO_1	RPL35B
+YDL175C	ribosome_GO_1	AIR2
+YDL213C	ribosome_GO_1	NOP6
+YDL224C	ribosome_GO_1	WHI4
+YDR025W	ribosome_GO_1	RPS11A
+YDR083W	ribosome_GO_1	RRP8
+YDR101C	ribosome_GO_1	ARX1
+YDR496C	ribosome_GO_1	PUF6
+YER002W	ribosome_GO_1	NOP16
+YFL001W	ribosome_GO_1	DEG1
+YFR009W	ribosome_GO_1	GCN20
+YFR031C-A	ribosome_GO_1	RPL2A
+YGL029W	ribosome_GO_1	CGR1
+YGL031C	ribosome_GO_1	RPL24A
+YGL049C	ribosome_GO_1	TIF4632
+YGL078C	ribosome_GO_1	DBP3
+YGL105W	ribosome_GO_1	ARC1
+YGL147C	ribosome_GO_1	RPL9A
+YGL173C	ribosome_GO_1	XRN1
+YGL195W	ribosome_GO_1	GCN1
+YGR054W	ribosome_GO_1	YGR054W
+YGR081C	ribosome_GO_1	SLX9
+YGR085C	ribosome_GO_1	RPL11B
+YGR214W	ribosome_GO_1	RPS0A
+YHL025W	ribosome_GO_1	SNF6
+YHL033C	ribosome_GO_1	RPL8A
+YHR034C	ribosome_GO_1	PIH1
+YHR066W	ribosome_GO_1	SSF1
+YHR081W	ribosome_GO_1	LRP1
+YHR203C	ribosome_GO_1	RPS4B
+YIL052C	ribosome_GO_1	RPL34B
+YIL133C	ribosome_GO_1	RPL16A
+YJL138C	ribosome_GO_1	TIF2
+YJL140W	ribosome_GO_1	RPB4
+YJL177W	ribosome_GO_1	RPL17B
+YKL081W	ribosome_GO_1	TEF4
+YKR028W	ribosome_GO_1	SAP190
+YKR059W	ribosome_GO_1	TIF1
+YLL045C	ribosome_GO_1	RPL8B
+YLR150W	ribosome_GO_1	STM1
+YLR435W	ribosome_GO_1	TSR2
+YML063W	ribosome_GO_1	RPS1B
+YMR080C	ribosome_GO_1	NAM7
+YMR116C	ribosome_GO_1	ASC1
+YMR230W	ribosome_GO_1	RPS10B
+YMR269W	ribosome_GO_1	TMA23
+YNL224C	ribosome_GO_1	SQS1
+YNL227C	ribosome_GO_1	JJJ1
+YNL292W	ribosome_GO_1	PUS4
+YOL027C	ribosome_GO_1	MDM38
+YOL041C	ribosome_GO_1	NOP12
+YOL080C	ribosome_GO_1	REX4
+YOL093W	ribosome_GO_1	TRM10
+YOL111C	ribosome_GO_1	MDY2
+YOR006C	ribosome_GO_1	TSR3
+YOR078W	ribosome_GO_1	BUD21
+YPL079W	ribosome_GO_1	RPL21B
+YPL090C	ribosome_GO_1	RPS6A
+YPL212C	ribosome_GO_1	PUS1
+YPL239W	ribosome_GO_1	YAR1
+YAL021C	transcription and mRNA processing_GO_5	CCR4
+YAL051W	transcription and mRNA processing_GO_5	OAF1
+YBR034C	transcription and mRNA processing_GO_5	HMT1
+YBR289W	transcription and mRNA processing_GO_5	SNF5
+YDR005C	transcription and mRNA processing_GO_5	MAF1
+YDR009W	transcription and mRNA processing_GO_5	GAL3
+YDR073W	transcription and mRNA processing_GO_5	SNF11
+YDR155C	transcription and mRNA processing_GO_5	CPR1
+YDR173C	transcription and mRNA processing_GO_5	ARG82
+YDR463W	transcription and mRNA processing_GO_5	STP1
+YDR505C	transcription and mRNA processing_GO_5	PSP1
+YFL049W	transcription and mRNA processing_GO_5	SWP82
+YGL019W	transcription and mRNA processing_GO_5	CKB1
+YGR134W	transcription and mRNA processing_GO_5	CAF130
+YGR178C	transcription and mRNA processing_GO_5	PBP1
+YHL025W	transcription and mRNA processing_GO_5	SNF6
+YHR006W	transcription and mRNA processing_GO_5	STP2
+YIR023W	transcription and mRNA processing_GO_5	DAL81
+YJL103C	transcription and mRNA processing_GO_5	GSM1
+YJL176C	transcription and mRNA processing_GO_5	SWI3
+YKL020C	transcription and mRNA processing_GO_5	SPT23
+YKL149C	transcription and mRNA processing_GO_5	DBR1
+YLL019C	transcription and mRNA processing_GO_5	KNS1
+YLR182W	transcription and mRNA processing_GO_5	SWI6
+YNL292W	transcription and mRNA processing_GO_5	PUS4
+YOL093W	transcription and mRNA processing_GO_5	TRM10
+YOR039W	transcription and mRNA processing_GO_5	CKB2
+YOR061W	transcription and mRNA processing_GO_5	CKA2
+YOR064C	transcription and mRNA processing_GO_5	YNG1
+YPL212C	transcription and mRNA processing_GO_5	PUS1
+YPR129W	transcription and mRNA processing_GO_5	SCD6
+YBR009C	transcription and mRNA processing_GO_4	HHF1
+YCL010C	transcription and mRNA processing_GO_4	SGF29
+YCL011C	transcription and mRNA processing_GO_4	GBP2
+YDL020C	transcription and mRNA processing_GO_4	RPN4
+YDL056W	transcription and mRNA processing_GO_4	MBP1
+YDR083W	transcription and mRNA processing_GO_4	RRP8
+YDR146C	transcription and mRNA processing_GO_4	SWI5
+YDR217C	transcription and mRNA processing_GO_4	RAD9
+YDR225W	transcription and mRNA processing_GO_4	HTA1
+YDR443C	transcription and mRNA processing_GO_4	SSN2
+YDR496C	transcription and mRNA processing_GO_4	PUF6
+YEL015W	transcription and mRNA processing_GO_4	EDC3
+YER161C	transcription and mRNA processing_GO_4	SPT2
+YER164W	transcription and mRNA processing_GO_4	CHD1
+YER177W	transcription and mRNA processing_GO_4	BMH1
+YFL031W	transcription and mRNA processing_GO_4	HAC1
+YGL151W	transcription and mRNA processing_GO_4	NUT1
+YIL131C	transcription and mRNA processing_GO_4	FKH1
+YIR033W	transcription and mRNA processing_GO_4	MGA2
+YJR066W	transcription and mRNA processing_GO_4	TOR1
+YKL160W	transcription and mRNA processing_GO_4	ELF1
+YKL204W	transcription and mRNA processing_GO_4	EAP1
+YML121W	transcription and mRNA processing_GO_4	GTR1
+YMR016C	transcription and mRNA processing_GO_4	SOK2
+YMR042W	transcription and mRNA processing_GO_4	ARG80
+YMR179W	transcription and mRNA processing_GO_4	SPT21
+YMR216C	transcription and mRNA processing_GO_4	SKY1
+YNL025C	transcription and mRNA processing_GO_4	SSN8
+YNL027W	transcription and mRNA processing_GO_4	CRZ1
+YNL068C	transcription and mRNA processing_GO_4	FKH2
+YNL167C	transcription and mRNA processing_GO_4	SKO1
+YNL224C	transcription and mRNA processing_GO_4	SQS1
+YOR140W	transcription and mRNA processing_GO_4	SFL1
+YAL020C	transcription and mRNA processing_GO_3	ATS1
+YBL021C	transcription and mRNA processing_GO_3	HAP3
+YBL024W	transcription and mRNA processing_GO_3	NCL1
+YBR238C	transcription and mRNA processing_GO_3	YBR238C
+YBR245C	transcription and mRNA processing_GO_3	ISW1
+YCL037C	transcription and mRNA processing_GO_3	SRO9
+YDL006W	transcription and mRNA processing_GO_3	PTC1
+YDL076C	transcription and mRNA processing_GO_3	RXT3
+YDL185W	transcription and mRNA processing_GO_3	VMA1
+YDR207C	transcription and mRNA processing_GO_3	UME6
+YDR289C	transcription and mRNA processing_GO_3	RTT103
+YDR310C	transcription and mRNA processing_GO_3	SUM1
+YDR512C	transcription and mRNA processing_GO_3	EMI1
+YER111C	transcription and mRNA processing_GO_3	SWI4
+YER151C	transcription and mRNA processing_GO_3	UBP3
+YER155C	transcription and mRNA processing_GO_3	BEM2
+YGL066W	transcription and mRNA processing_GO_3	SGF73
+YGL115W	transcription and mRNA processing_GO_3	SNF4
+YGL173C	transcription and mRNA processing_GO_3	XRN1
+YGL211W	transcription and mRNA processing_GO_3	NCS6
+YGR200C	transcription and mRNA processing_GO_3	ELP2
+YHL020C	transcription and mRNA processing_GO_3	OPI1
+YHR111W	transcription and mRNA processing_GO_3	UBA4
+YHR187W	transcription and mRNA processing_GO_3	IKI1
+YIL008W	transcription and mRNA processing_GO_3	URM1
+YIL035C	transcription and mRNA processing_GO_3	CKA1
+YIL153W	transcription and mRNA processing_GO_3	RRD1
+YJR060W	transcription and mRNA processing_GO_3	CBF1
+YKL032C	transcription and mRNA processing_GO_3	IXR1
+YKL109W	transcription and mRNA processing_GO_3	HAP4
+YKL110C	transcription and mRNA processing_GO_3	KTI12
+YKL208W	transcription and mRNA processing_GO_3	CBT1
+YKR048C	transcription and mRNA processing_GO_3	NAP1
+YLR113W	transcription and mRNA processing_GO_3	HOG1
+YLR401C	transcription and mRNA processing_GO_3	DUS3
+YML051W	transcription and mRNA processing_GO_3	GAL80
+YMR039C	transcription and mRNA processing_GO_3	SUB1
+YMR070W	transcription and mRNA processing_GO_3	MOT3
+YMR223W	transcription and mRNA processing_GO_3	UBP8
+YMR283C	transcription and mRNA processing_GO_3	RIT1
+YMR312W	transcription and mRNA processing_GO_3	ELP6
+YNL016W	transcription and mRNA processing_GO_3	PUB1
+YNL119W	transcription and mRNA processing_GO_3	NCS2
+YNL199C	transcription and mRNA processing_GO_3	GCR2
+YNL229C	transcription and mRNA processing_GO_3	URE2
+YNL236W	transcription and mRNA processing_GO_3	SIN4
+YNL255C	transcription and mRNA processing_GO_3	GIS2
+YNL288W	transcription and mRNA processing_GO_3	CAF40
+YNL298W	transcription and mRNA processing_GO_3	CLA4
+YNR051C	transcription and mRNA processing_GO_3	BRE5
+YOR027W	transcription and mRNA processing_GO_3	STI1
+YOR358W	transcription and mRNA processing_GO_3	HAP5
+YPL047W	transcription and mRNA processing_GO_3	SGF11
+YPL086C	transcription and mRNA processing_GO_3	ELP3
+YPL101W	transcription and mRNA processing_GO_3	ELP4
+YPL226W	transcription and mRNA processing_GO_3	NEW1
+YPL254W	transcription and mRNA processing_GO_3	HFI1
+YPR134W	transcription and mRNA processing_GO_3	MSS18
+YAL019W	transcription and mRNA processing_GO_2	FUN30
+YBL008W	transcription and mRNA processing_GO_2	HIR1
+YBL051C	transcription and mRNA processing_GO_2	PIN4
+YBL103C	transcription and mRNA processing_GO_2	RTG3
+YBR119W	transcription and mRNA processing_GO_2	MUD1
+YBR215W	transcription and mRNA processing_GO_2	HPC2
+YCR031C	transcription and mRNA processing_GO_2	RPS14A
+YDL033C	transcription and mRNA processing_GO_2	SLM3
+YDL170W	transcription and mRNA processing_GO_2	UGA3
+YDL175C	transcription and mRNA processing_GO_2	AIR2
+YDR156W	transcription and mRNA processing_GO_2	RPA14
+YDR159W	transcription and mRNA processing_GO_2	SAC3
+YDR174W	transcription and mRNA processing_GO_2	HMO1
+YDR378C	transcription and mRNA processing_GO_2	LSM6
+YDR482C	transcription and mRNA processing_GO_2	CWC21
+YER068W	transcription and mRNA processing_GO_2	MOT2
+YER162C	transcription and mRNA processing_GO_2	RAD4
+YER174C	transcription and mRNA processing_GO_2	GRX4
+YGL014W	transcription and mRNA processing_GO_2	PUF4
+YGL035C	transcription and mRNA processing_GO_2	MIG1
+YGL049C	transcription and mRNA processing_GO_2	TIF4632
+YGL131C	transcription and mRNA processing_GO_2	SNT2
+YGL133W	transcription and mRNA processing_GO_2	ITC1
+YGL174W	transcription and mRNA processing_GO_2	BUD13
+YGR054W	transcription and mRNA processing_GO_2	YGR054W
+YHR167W	transcription and mRNA processing_GO_2	THP2
+YHR178W	transcription and mRNA processing_GO_2	STB5
+YIL036W	transcription and mRNA processing_GO_2	CST6
+YIR005W	transcription and mRNA processing_GO_2	IST3
+YJL098W	transcription and mRNA processing_GO_2	SAP185
+YJL124C	transcription and mRNA processing_GO_2	LSM1
+YJL140W	transcription and mRNA processing_GO_2	RPB4
+YJL148W	transcription and mRNA processing_GO_2	RPA34
+YJR084W	transcription and mRNA processing_GO_2	YJR084W
+YJR094C	transcription and mRNA processing_GO_2	IME1
+YJR140C	transcription and mRNA processing_GO_2	HIR3
+YKL074C	transcription and mRNA processing_GO_2	MUD2
+YKR082W	transcription and mRNA processing_GO_2	NUP133
+YKR095W	transcription and mRNA processing_GO_2	MLP1
+YKR099W	transcription and mRNA processing_GO_2	BAS1
+YML017W	transcription and mRNA processing_GO_2	PSP2
+YML062C	transcription and mRNA processing_GO_2	MFT1
+YML112W	transcription and mRNA processing_GO_2	CTK3
+YML117W	transcription and mRNA processing_GO_2	NAB6
+YMR205C	transcription and mRNA processing_GO_2	PFK2
+YNL076W	transcription and mRNA processing_GO_2	MKS1
+YNL147W	transcription and mRNA processing_GO_2	LSM7
+YNR004W	transcription and mRNA processing_GO_2	SWM2
+YOL001W	transcription and mRNA processing_GO_2	PHO80
+YOL006C	transcription and mRNA processing_GO_2	TOP1
+YOL108C	transcription and mRNA processing_GO_2	INO4
+YOR083W	transcription and mRNA processing_GO_2	WHI5
+YOR113W	transcription and mRNA processing_GO_2	AZF1
+YOR304W	transcription and mRNA processing_GO_2	ISW2
+YOR308C	transcription and mRNA processing_GO_2	SNU66
+YOR344C	transcription and mRNA processing_GO_2	TYE7
+YPL089C	transcription and mRNA processing_GO_2	RLM1
+YPL116W	transcription and mRNA processing_GO_2	HOS3
+YPL157W	transcription and mRNA processing_GO_2	TGS1
+YPL184C	transcription and mRNA processing_GO_2	MRN1
+YPL213W	transcription and mRNA processing_GO_2	LEA1
+YPR009W	transcription and mRNA processing_GO_2	SUT2
+YPR057W	transcription and mRNA processing_GO_2	BRR1
+YAL013W	transcription and mRNA processing_GO_1	DEP1
+YBR022W	transcription and mRNA processing_GO_1	POA1
+YBR057C	transcription and mRNA processing_GO_1	MUM2
+YBR095C	transcription and mRNA processing_GO_1	RXT2
+YCR063W	transcription and mRNA processing_GO_1	BUD31
+YCR065W	transcription and mRNA processing_GO_1	HCM1
+YDL070W	transcription and mRNA processing_GO_1	BDF2
+YDL074C	transcription and mRNA processing_GO_1	BRE1
+YDL080C	transcription and mRNA processing_GO_1	THI3
+YDR183W	transcription and mRNA processing_GO_1	PLP1
+YDR293C	transcription and mRNA processing_GO_1	SSD1
+YDR392W	transcription and mRNA processing_GO_1	SPT3
+YDR448W	transcription and mRNA processing_GO_1	ADA2
+YEL037C	transcription and mRNA processing_GO_1	RAD23
+YER139C	transcription and mRNA processing_GO_1	RTR1
+YFL001W	transcription and mRNA processing_GO_1	DEG1
+YGL043W	transcription and mRNA processing_GO_1	DST1
+YGL058W	transcription and mRNA processing_GO_1	RAD6
+YGL127C	transcription and mRNA processing_GO_1	SOH1
+YGL244W	transcription and mRNA processing_GO_1	RTF1
+YGR056W	transcription and mRNA processing_GO_1	RSC1
+YGR072W	transcription and mRNA processing_GO_1	UPF3
+YGR122W	transcription and mRNA processing_GO_1	YGR122W
+YGR252W	transcription and mRNA processing_GO_1	GCN5
+YGR270W	transcription and mRNA processing_GO_1	YTA7
+YHL027W	transcription and mRNA processing_GO_1	RIM101
+YHR041C	transcription and mRNA processing_GO_1	SRB2
+YHR082C	transcription and mRNA processing_GO_1	KSP1
+YIL038C	transcription and mRNA processing_GO_1	NOT3
+YIL084C	transcription and mRNA processing_GO_1	SDS3
+YJL115W	transcription and mRNA processing_GO_1	ASF1
+YJL168C	transcription and mRNA processing_GO_1	SET2
+YKL139W	transcription and mRNA processing_GO_1	CTK1
+YKL185W	transcription and mRNA processing_GO_1	ASH1
+YKR028W	transcription and mRNA processing_GO_1	SAP190
+YLL002W	transcription and mRNA processing_GO_1	RTT109
+YLR055C	transcription and mRNA processing_GO_1	SPT8
+YLR131C	transcription and mRNA processing_GO_1	ACE2
+YLR418C	transcription and mRNA processing_GO_1	CDC73
+YML007W	transcription and mRNA processing_GO_1	YAP1
+YML094W	transcription and mRNA processing_GO_1	GIM5
+YMR075W	transcription and mRNA processing_GO_1	RCO1
+YMR080C	transcription and mRNA processing_GO_1	NAM7
+YMR263W	transcription and mRNA processing_GO_1	SAP30
+YMR280C	transcription and mRNA processing_GO_1	CAT8
+YNL021W	transcription and mRNA processing_GO_1	HDA1
+YNL097C	transcription and mRNA processing_GO_1	PHO23
+YNL136W	transcription and mRNA processing_GO_1	EAF7
+YNL153C	transcription and mRNA processing_GO_1	GIM3
+YNL278W	transcription and mRNA processing_GO_1	CAF120
+YNR010W	transcription and mRNA processing_GO_1	CSE2
+YOL004W	transcription and mRNA processing_GO_1	SIN3
+YOL012C	transcription and mRNA processing_GO_1	HTZ1
+YOL115W	transcription and mRNA processing_GO_1	PAP2
+YOL116W	transcription and mRNA processing_GO_1	MSN1
+YOR179C	transcription and mRNA processing_GO_1	SYC1
+YOR298C-A	transcription and mRNA processing_GO_1	MBF1
+YPL139C	transcription and mRNA processing_GO_1	UME1
+YPL181W	transcription and mRNA processing_GO_1	CTI6
+YPR023C	transcription and mRNA processing_GO_1	EAF3
+YPR045C	transcription and mRNA processing_GO_1	THP3
+YPR052C	transcription and mRNA processing_GO_1	NHP6A
+YPR065W	transcription and mRNA processing_GO_1	ROX1
+YPR070W	transcription and mRNA processing_GO_1	MED1
+YBL017C	Golgi and ER_GO_4	PEP1
+YBR164C	Golgi and ER_GO_4	ARL1
+YCL001W	Golgi and ER_GO_4	RER1
+YDL077C	Golgi and ER_GO_4	VAM6
+YDR080W	Golgi and ER_GO_4	VPS41
+YDR126W	Golgi and ER_GO_4	SWF1
+YDR153C	Golgi and ER_GO_4	ENT5
+YGL005C	Golgi and ER_GO_4	COG7
+YGL212W	Golgi and ER_GO_4	VAM7
+YHL031C	Golgi and ER_GO_4	GOS1
+YHR012W	Golgi and ER_GO_4	VPS29
+YJL004C	Golgi and ER_GO_4	SYS1
+YJL053W	Golgi and ER_GO_4	PEP8
+YJL154C	Golgi and ER_GO_4	VPS35
+YKR001C	Golgi and ER_GO_4	VPS1
+YKR020W	Golgi and ER_GO_4	VPS51
+YLL040C	Golgi and ER_GO_4	VPS13
+YLR039C	Golgi and ER_GO_4	RIC1
+YML071C	Golgi and ER_GO_4	COG8
+YMR004W	Golgi and ER_GO_4	MVP1
+YNL041C	Golgi and ER_GO_4	COG6
+YNL051W	Golgi and ER_GO_4	COG5
+YNL183C	Golgi and ER_GO_4	NPR1
+YOL018C	Golgi and ER_GO_4	TLG2
+YOR069W	Golgi and ER_GO_4	VPS5
+YOR070C	Golgi and ER_GO_4	GYP1
+YOR106W	Golgi and ER_GO_4	VAM3
+YOR132W	Golgi and ER_GO_4	VPS17
+YOR327C	Golgi and ER_GO_4	SNC2
+YPL051W	Golgi and ER_GO_4	ARL3
+YPL120W	Golgi and ER_GO_4	VPS30
+YPR032W	Golgi and ER_GO_4	SRO7
+YAL007C	Golgi and ER_GO_3	ERP2
+YBL078C	Golgi and ER_GO_3	ATG8
+YBL101C	Golgi and ER_GO_3	ECM21
+YCL008C	Golgi and ER_GO_3	STP22
+YDL091C	Golgi and ER_GO_3	UBX3
+YDL093W	Golgi and ER_GO_3	PMT5
+YDL099W	Golgi and ER_GO_3	BUG1
+YDR221W	Golgi and ER_GO_3	GTB1
+YDR233C	Golgi and ER_GO_3	RTN1
+YDR490C	Golgi and ER_GO_3	PKH1
+YER166W	Golgi and ER_GO_3	DNF1
+YGL058W	Golgi and ER_GO_3	RAD6
+YGR086C	Golgi and ER_GO_3	PIL1
+YGR097W	Golgi and ER_GO_3	ASK10
+YGR101W	Golgi and ER_GO_3	PCP1
+YGR197C	Golgi and ER_GO_3	SNG1
+YGR202C	Golgi and ER_GO_3	PCT1
+YHR158C	Golgi and ER_GO_3	KEL1
+YHR181W	Golgi and ER_GO_3	SVP26
+YJR125C	Golgi and ER_GO_3	ENT3
+YKL179C	Golgi and ER_GO_3	COY1
+YKL201C	Golgi and ER_GO_3	MNN4
+YKR030W	Golgi and ER_GO_3	GMH1
+YLL038C	Golgi and ER_GO_3	ENT4
+YML012W	Golgi and ER_GO_3	ERV25
+YML067C	Golgi and ER_GO_3	ERV41
+YMR054W	Golgi and ER_GO_3	STV1
+YMR274C	Golgi and ER_GO_3	RCE1
+YMR292W	Golgi and ER_GO_3	GOT1
+YNL044W	Golgi and ER_GO_3	YIP3
+YNL049C	Golgi and ER_GO_3	SFB2
+YNL227C	Golgi and ER_GO_3	JJJ1
+YOR016C	Golgi and ER_GO_3	ERP4
+YOR030W	Golgi and ER_GO_3	DFG16
+YOR034C	Golgi and ER_GO_3	AKR2
+YOR275C	Golgi and ER_GO_3	RIM20
+YOR322C	Golgi and ER_GO_3	LDB19
+YPR009W	Golgi and ER_GO_3	SUT2
+YAL042W	Golgi and ER_GO_2	ERV46
+YBL007C	Golgi and ER_GO_2	SLA1
+YBL047C	Golgi and ER_GO_2	EDE1
+YBR132C	Golgi and ER_GO_2	AGP2
+YCR009C	Golgi and ER_GO_2	RVS161
+YCR027C	Golgi and ER_GO_2	RHB1
+YCR034W	Golgi and ER_GO_2	ELO2
+YDL226C	Golgi and ER_GO_2	GCS1
+YDL232W	Golgi and ER_GO_2	OST4
+YDR069C	Golgi and ER_GO_2	DOA4
+YDR388W	Golgi and ER_GO_2	RVS167
+YEL013W	Golgi and ER_GO_2	VAC8
+YER031C	Golgi and ER_GO_2	YPT31
+YER151C	Golgi and ER_GO_2	UBP3
+YGR058W	Golgi and ER_GO_2	PEF1
+YGR184C	Golgi and ER_GO_2	UBR1
+YHL002W	Golgi and ER_GO_2	HSE1
+YHR114W	Golgi and ER_GO_2	BZZ1
+YHR142W	Golgi and ER_GO_2	CHS7
+YIL044C	Golgi and ER_GO_2	AGE2
+YIL076W	Golgi and ER_GO_2	SEC28
+YIL128W	Golgi and ER_GO_2	MET18
+YJR010C-A	Golgi and ER_GO_2	SPC1
+YJR066W	Golgi and ER_GO_2	TOR1
+YLR083C	Golgi and ER_GO_2	EMP70
+YLR114C	Golgi and ER_GO_2	AVL9
+YLR181C	Golgi and ER_GO_2	VTA1
+YMR035W	Golgi and ER_GO_2	IMP2
+YMR052W	Golgi and ER_GO_2	FAR3
+YMR109W	Golgi and ER_GO_2	MYO5
+YMR216C	Golgi and ER_GO_2	SKY1
+YMR266W	Golgi and ER_GO_2	RSN1
+YNL027W	Golgi and ER_GO_2	CRZ1
+YNL032W	Golgi and ER_GO_2	SIW14
+YNL154C	Golgi and ER_GO_2	YCK2
+YNL229C	Golgi and ER_GO_2	URE2
+YNL297C	Golgi and ER_GO_2	MON2
+YNL298W	Golgi and ER_GO_2	CLA4
+YNR006W	Golgi and ER_GO_2	VPS27
+YNR020C	Golgi and ER_GO_2	ATP23
+YNR051C	Golgi and ER_GO_2	BRE5
+YOR008C	Golgi and ER_GO_2	SLG1
+YOR043W	Golgi and ER_GO_2	WHI2
+YOR171C	Golgi and ER_GO_2	LCB4
+YPL100W	Golgi and ER_GO_2	ATG21
+YPL183C	Golgi and ER_GO_2	RTT10
+YPR024W	Golgi and ER_GO_2	YME1
+YAL002W	Golgi and ER_GO_1	VPS8
+YAL023C	Golgi and ER_GO_1	PMT2
+YAL026C	Golgi and ER_GO_1	DRS2
+YAR014C	Golgi and ER_GO_1	BUD14
+YBL082C	Golgi and ER_GO_1	ALG3
+YBR015C	Golgi and ER_GO_1	MNN2
+YBR229C	Golgi and ER_GO_1	ROT2
+YBR288C	Golgi and ER_GO_1	APM3
+YCR017C	Golgi and ER_GO_1	CWH43
+YCR044C	Golgi and ER_GO_1	PER1
+YDL095W	Golgi and ER_GO_1	PMT1
+YDL100C	Golgi and ER_GO_1	GET3
+YDR108W	Golgi and ER_GO_1	TRS85
+YDR245W	Golgi and ER_GO_1	MNN10
+YDR372C	Golgi and ER_GO_1	VPS74
+YDR414C	Golgi and ER_GO_1	ERD1
+YER083C	Golgi and ER_GO_1	GET2
+YFL025C	Golgi and ER_GO_1	BST1
+YGL020C	Golgi and ER_GO_1	GET1
+YGL027C	Golgi and ER_GO_1	CWH41
+YGL054C	Golgi and ER_GO_1	ERV14
+YGL084C	Golgi and ER_GO_1	GUP1
+YGL167C	Golgi and ER_GO_1	PMR1
+YGL203C	Golgi and ER_GO_1	KEX1
+YGL226C-A	Golgi and ER_GO_1	OST5
+YGR227W	Golgi and ER_GO_1	DIE2
+YHR079C	Golgi and ER_GO_1	IRE1
+YJL024C	Golgi and ER_GO_1	APS3
+YJL029C	Golgi and ER_GO_1	VPS53
+YJL062W	Golgi and ER_GO_1	LAS21
+YJL117W	Golgi and ER_GO_1	PHO86
+YJL139C	Golgi and ER_GO_1	YUR1
+YJL183W	Golgi and ER_GO_1	MNN11
+YJR075W	Golgi and ER_GO_1	HOC1
+YJR117W	Golgi and ER_GO_1	STE24
+YKL212W	Golgi and ER_GO_1	SAC1
+YLR087C	Golgi and ER_GO_1	CSF1
+YML097C	Golgi and ER_GO_1	VPS9
+YNL053W	Golgi and ER_GO_1	MSG5
+YNL238W	Golgi and ER_GO_1	KEX2
+YNR030W	Golgi and ER_GO_1	ALG12
+YOR002W	Golgi and ER_GO_1	ALG6
+YOR067C	Golgi and ER_GO_1	ALG8
+YOR085W	Golgi and ER_GO_1	OST3
+YOR089C	Golgi and ER_GO_1	VPS21
+YOR216C	Golgi and ER_GO_1	RUD3
+YPL195W	Golgi and ER_GO_1	APL5
+YPL227C	Golgi and ER_GO_1	ALG5
+YAL055W	peroxisome_GO_0	PEX22
+YBR168W	peroxisome_GO_0	PEX32
+YDL065C	peroxisome_GO_0	PEX19
+YDR233C	peroxisome_GO_0	RTN1
+YDR265W	peroxisome_GO_0	PEX10
+YDR329C	peroxisome_GO_0	PEX3
+YDR424C	peroxisome_GO_0	DYN2
+YDR479C	peroxisome_GO_0	PEX29
+YGL115W	peroxisome_GO_0	SNF4
+YGL153W	peroxisome_GO_0	PEX14
+YGR077C	peroxisome_GO_0	PEX8
+YGR133W	peroxisome_GO_0	PEX4
+YJL210W	peroxisome_GO_0	PEX2
+YKL197C	peroxisome_GO_0	PEX1
+YKR001C	peroxisome_GO_0	VPS1
+YLL001W	peroxisome_GO_0	DNM1
+YMR026C	peroxisome_GO_0	PEX12
+YMR304W	peroxisome_GO_0	UBP15
+YNL329C	peroxisome_GO_0	PEX6
+YOL044W	peroxisome_GO_0	PEX15
+YBL017C	vacuole_GO_1	PEP1
+YBL058W	vacuole_GO_1	SHP1
+YBL078C	vacuole_GO_1	ATG8
+YBR036C	vacuole_GO_1	CSG2
+YBR131W	vacuole_GO_1	CCZ1
+YBR132C	vacuole_GO_1	AGP2
+YBR162C	vacuole_GO_1	TOS1
+YBR290W	vacuole_GO_1	BSD2
+YCL001W	vacuole_GO_1	RER1
+YCR044C	vacuole_GO_1	PER1
+YDL077C	vacuole_GO_1	VAM6
+YDL130W	vacuole_GO_1	RPP1B
+YDL135C	vacuole_GO_1	RDI1
+YDL185W	vacuole_GO_1	VMA1
+YDR080W	vacuole_GO_1	VPS41
+YDR108W	vacuole_GO_1	TRS85
+YDR126W	vacuole_GO_1	SWF1
+YDR128W	vacuole_GO_1	MTC5
+YDR313C	vacuole_GO_1	PIB1
+YDR422C	vacuole_GO_1	SIP1
+YDR477W	vacuole_GO_1	SNF1
+YDR497C	vacuole_GO_1	ITR1
+YEL013W	vacuole_GO_1	VAC8
+YEL060C	vacuole_GO_1	PRB1
+YER123W	vacuole_GO_1	YCK3
+YFR019W	vacuole_GO_1	FAB1
+YGL027C	vacuole_GO_1	CWH41
+YGL124C	vacuole_GO_1	MON1
+YGL203C	vacuole_GO_1	KEX1
+YGL212W	vacuole_GO_1	VAM7
+YGR197C	vacuole_GO_1	SNG1
+YIL047C	vacuole_GO_1	SYG1
+YJL053W	vacuole_GO_1	PEP8
+YJL154C	vacuole_GO_1	VPS35
+YJR066W	vacuole_GO_1	TOR1
+YKL176C	vacuole_GO_1	LST4
+YKR001C	vacuole_GO_1	VPS1
+YKR007W	vacuole_GO_1	MEH1
+YKR103W	vacuole_GO_1	NFT1
+YLL024C	vacuole_GO_1	SSA2
+YLL043W	vacuole_GO_1	FPS1
+YLR083C	vacuole_GO_1	EMP70
+YLR110C	vacuole_GO_1	CCW12
+YML012W	vacuole_GO_1	ERV25
+YML066C	vacuole_GO_1	SMA2
+YML097C	vacuole_GO_1	VPS9
+YML121W	vacuole_GO_1	GTR1
+YML123C	vacuole_GO_1	PHO84
+YMR266W	vacuole_GO_1	RSN1
+YNL079C	vacuole_GO_1	TPM1
+YNL238W	vacuole_GO_1	KEX2
+YNL294C	vacuole_GO_1	RIM21
+YNL298W	vacuole_GO_1	CLA4
+YNL322C	vacuole_GO_1	KRE1
+YNL323W	vacuole_GO_1	LEM3
+YOL011W	vacuole_GO_1	PLB3
+YOL065C	vacuole_GO_1	INP54
+YOR008C	vacuole_GO_1	SLG1
+YOR068C	vacuole_GO_1	VAM10
+YOR089C	vacuole_GO_1	VPS21
+YOR106W	vacuole_GO_1	VAM3
+YPL057C	vacuole_GO_1	SUR1
+YPL100W	vacuole_GO_1	ATG21
+YPL120W	vacuole_GO_1	VPS30
+YPR075C	vacuole_GO_1	OPY2
+YBR150C	mitochondrion_GO_2	TBS1
+YBR221C	mitochondrion_GO_2	PDB1
+YBR291C	mitochondrion_GO_2	CTP1
+YCL033C	mitochondrion_GO_2	MXR2
+YDL048C	mitochondrion_GO_2	STP4
+YDL230W	mitochondrion_GO_2	PTP1
+YDL232W	mitochondrion_GO_2	OST4
+YDR074W	mitochondrion_GO_2	TPS2
+YDR125C	mitochondrion_GO_2	ECM18
+YDR155C	mitochondrion_GO_2	CPR1
+YDR191W	mitochondrion_GO_2	HST4
+YDR512C	mitochondrion_GO_2	EMI1
+YEL037C	mitochondrion_GO_2	RAD23
+YEL047C	mitochondrion_GO_2	FRD1
+YER020W	mitochondrion_GO_2	GPA2
+YER031C	mitochondrion_GO_2	YPT31
+YER061C	mitochondrion_GO_2	CEM1
+YER164W	mitochondrion_GO_2	CHD1
+YER166W	mitochondrion_GO_2	DNF1
+YER178W	mitochondrion_GO_2	PDA1
+YFL018C	mitochondrion_GO_2	LPD1
+YGL195W	mitochondrion_GO_2	GCN1
+YGL253W	mitochondrion_GO_2	HXK2
+YGR086C	mitochondrion_GO_2	PIL1
+YGR178C	mitochondrion_GO_2	PBP1
+YHR001W-A	mitochondrion_GO_2	QCR10
+YHR004C	mitochondrion_GO_2	NEM1
+YHR067W	mitochondrion_GO_2	HTD2
+YJL046W	mitochondrion_GO_2	AIM22
+YJL082W	mitochondrion_GO_2	IML2
+YJL098W	mitochondrion_GO_2	SAP185
+YKL109W	mitochondrion_GO_2	HAP4
+YKL120W	mitochondrion_GO_2	OAC1
+YKL166C	mitochondrion_GO_2	TPK3
+YKR010C	mitochondrion_GO_2	TOF2
+YKR042W	mitochondrion_GO_2	UTH1
+YLR426W	mitochondrion_GO_2	TDA5
+YML048W	mitochondrion_GO_2	GSF2
+YML072C	mitochondrion_GO_2	TCB3
+YMR186W	mitochondrion_GO_2	HSC82
+YMR282C	mitochondrion_GO_2	AEP2
+YNL064C	mitochondrion_GO_2	YDJ1
+YNL071W	mitochondrion_GO_2	LAT1
+YNL227C	mitochondrion_GO_2	JJJ1
+YNL315C	mitochondrion_GO_2	ATP11
+YNR020C	mitochondrion_GO_2	ATP23
+YOL045W	mitochondrion_GO_2	PSK2
+YOR027W	mitochondrion_GO_2	STI1
+YOR043W	mitochondrion_GO_2	WHI2
+YOR298C-A	mitochondrion_GO_2	MBF1
+YOR358W	mitochondrion_GO_2	HAP5
+YPL069C	mitochondrion_GO_2	BTS1
+YPL072W	mitochondrion_GO_2	UBP16
+YPL100W	mitochondrion_GO_2	ATG21
+YPR054W	mitochondrion_GO_2	SMK1
+YAL010C	mitochondrion_GO_1	MDM10
+YAL011W	mitochondrion_GO_1	SWC3
+YAL019W	mitochondrion_GO_1	FUN30
+YAL048C	mitochondrion_GO_1	GEM1
+YBL021C	mitochondrion_GO_1	HAP3
+YBL078C	mitochondrion_GO_1	ATG8
+YBL103C	mitochondrion_GO_1	RTG3
+YBR078W	mitochondrion_GO_1	ECM33
+YBR200W	mitochondrion_GO_1	BEM1
+YBR229C	mitochondrion_GO_1	ROT2
+YBR238C	mitochondrion_GO_1	YBR238C
+YCR008W	mitochondrion_GO_1	SAT4
+YCR028C-A	mitochondrion_GO_1	RIM1
+YCR065W	mitochondrion_GO_1	HCM1
+YDL006W	mitochondrion_GO_1	PTC1
+YDL033C	mitochondrion_GO_1	SLM3
+YDL142C	mitochondrion_GO_1	CRD1
+YDL203C	mitochondrion_GO_1	ACK1
+YDR049W	mitochondrion_GO_1	VMS1
+YDR069C	mitochondrion_GO_1	DOA4
+YDR150W	mitochondrion_GO_1	NUM1
+YDR219C	mitochondrion_GO_1	MFB1
+YDR233C	mitochondrion_GO_1	RTN1
+YDR332W	mitochondrion_GO_1	IRC3
+YDR393W	mitochondrion_GO_1	SHE9
+YDR477W	mitochondrion_GO_1	SNF1
+YDR505C	mitochondrion_GO_1	PSP1
+YEL031W	mitochondrion_GO_1	SPF1
+YEL061C	mitochondrion_GO_1	CIN8
+YER019W	mitochondrion_GO_1	ISC1
+YER155C	mitochondrion_GO_1	BEM2
+YFL036W	mitochondrion_GO_1	RPO41
+YFR019W	mitochondrion_GO_1	FAB1
+YGL005C	mitochondrion_GO_1	COG7
+YGL020C	mitochondrion_GO_1	GET1
+YGL151W	mitochondrion_GO_1	NUT1
+YGL211W	mitochondrion_GO_1	NCS6
+YGL219C	mitochondrion_GO_1	MDM34
+YGR101W	mitochondrion_GO_1	PCP1
+YGR174C	mitochondrion_GO_1	CBP4
+YGR231C	mitochondrion_GO_1	PHB2
+YHR189W	mitochondrion_GO_1	PTH1
+YHR194W	mitochondrion_GO_1	MDM31
+YIL047C	mitochondrion_GO_1	SYG1
+YIL134W	mitochondrion_GO_1	FLX1
+YJL023C	mitochondrion_GO_1	PET130
+YJR060W	mitochondrion_GO_1	CBF1
+YJR117W	mitochondrion_GO_1	STE24
+YJR118C	mitochondrion_GO_1	ILM1
+YKL053C-A	mitochondrion_GO_1	MDM35
+YKL081W	mitochondrion_GO_1	TEF4
+YKL113C	mitochondrion_GO_1	RAD27
+YKL205W	mitochondrion_GO_1	LOS1
+YKL208W	mitochondrion_GO_1	CBT1
+YKL212W	mitochondrion_GO_1	SAC1
+YKR001C	mitochondrion_GO_1	VPS1
+YKR019C	mitochondrion_GO_1	IRS4
+YKR065C	mitochondrion_GO_1	PAM17
+YLL001W	mitochondrion_GO_1	DNM1
+YLL024C	mitochondrion_GO_1	SSA2
+YLL040C	mitochondrion_GO_1	VPS13
+YLR087C	mitochondrion_GO_1	CSF1
+YLR089C	mitochondrion_GO_1	ALT1
+YLR091W	mitochondrion_GO_1	GEP5
+YML008C	mitochondrion_GO_1	ERG6
+YML013W	mitochondrion_GO_1	UBX2
+YML128C	mitochondrion_GO_1	MSC1
+YMR035W	mitochondrion_GO_1	IMP2
+YMR038C	mitochondrion_GO_1	CCS1
+YMR060C	mitochondrion_GO_1	SAM37
+YMR129W	mitochondrion_GO_1	POM152
+YMR205C	mitochondrion_GO_1	PFK2
+YMR224C	mitochondrion_GO_1	MRE11
+YMR264W	mitochondrion_GO_1	CUE1
+YMR275C	mitochondrion_GO_1	BUL1
+YMR307W	mitochondrion_GO_1	GAS1
+YNL037C	mitochondrion_GO_1	IDH1
+YNL070W	mitochondrion_GO_1	TOM7
+YNL079C	mitochondrion_GO_1	TPM1
+YNL135C	mitochondrion_GO_1	FPR1
+YNL292W	mitochondrion_GO_1	PUS4
+YNR041C	mitochondrion_GO_1	COQ2
+YOL009C	mitochondrion_GO_1	MDM12
+YOL027C	mitochondrion_GO_1	MDM38
+YOL081W	mitochondrion_GO_1	IRA2
+YOR002W	mitochondrion_GO_1	ALG6
+YOR065W	mitochondrion_GO_1	CYT1
+YOR070C	mitochondrion_GO_1	GYP1
+YOR089C	mitochondrion_GO_1	VPS21
+YOR191W	mitochondrion_GO_1	ULS1
+YOR266W	mitochondrion_GO_1	PNT1
+YOR297C	mitochondrion_GO_1	TIM18
+YOR330C	mitochondrion_GO_1	MIP1
+YOR346W	mitochondrion_GO_1	REV1
+YOR355W	mitochondrion_GO_1	GDS1
+YPL155C	mitochondrion_GO_1	KIP2
+YPL172C	mitochondrion_GO_1	COX10
+YPL226W	mitochondrion_GO_1	NEW1
+YPR024W	mitochondrion_GO_1	YME1
+YPR134W	mitochondrion_GO_1	MSS18
+YAL019W	chromatin_GO_4	FUN30
+YAR002W	chromatin_GO_4	NUP60
+YAR018C	chromatin_GO_4	KIN3
+YBL008W	chromatin_GO_4	HIR1
+YBL079W	chromatin_GO_4	NUP170
+YBR215W	chromatin_GO_4	HPC2
+YCL010C	chromatin_GO_4	SGF29
+YCR086W	chromatin_GO_4	CSM1
+YDL013W	chromatin_GO_4	SLX5
+YDR207C	chromatin_GO_4	UME6
+YDR363W-A	chromatin_GO_4	SEM1
+YEL056W	chromatin_GO_4	HAT2
+YER116C	chromatin_GO_4	SLX8
+YGL014W	chromatin_GO_4	PUF4
+YHR167W	chromatin_GO_4	THP2
+YIL076W	chromatin_GO_4	SEC28
+YJL124C	chromatin_GO_4	LSM1
+YJR060W	chromatin_GO_4	CBF1
+YJR140C	chromatin_GO_4	HIR3
+YKR019C	chromatin_GO_4	IRS4
+YKR082W	chromatin_GO_4	NUP133
+YKR095W	chromatin_GO_4	MLP1
+YML034W	chromatin_GO_4	SRC1
+YML121W	chromatin_GO_4	GTR1
+YMR219W	chromatin_GO_4	ESC1
+YMR307W	chromatin_GO_4	GAS1
+YNL307C	chromatin_GO_4	MCK1
+YOL006C	chromatin_GO_4	TOP1
+YOR080W	chromatin_GO_4	DIA2
+YOR233W	chromatin_GO_4	KIN4
+YPL254W	chromatin_GO_4	HFI1
+YAL013W	chromatin_GO_3	DEP1
+YAR003W	chromatin_GO_3	SWD1
+YBR073W	chromatin_GO_3	RDH54
+YBR095C	chromatin_GO_3	RXT2
+YBR103W	chromatin_GO_3	SIF2
+YBR175W	chromatin_GO_3	SWD3
+YCL011C	chromatin_GO_3	GBP2
+YCR033W	chromatin_GO_3	SNT1
+YDL059C	chromatin_GO_3	RAD59
+YDL074C	chromatin_GO_3	BRE1
+YDL091C	chromatin_GO_3	UBX3
+YDR176W	chromatin_GO_3	NGG1
+YDR392W	chromatin_GO_3	SPT3
+YDR448W	chromatin_GO_3	ADA2
+YDR469W	chromatin_GO_3	SDC1
+YGL058W	chromatin_GO_3	RAD6
+YGL127C	chromatin_GO_3	SOH1
+YGL194C	chromatin_GO_3	HOS2
+YGL244W	chromatin_GO_3	RTF1
+YGR252W	chromatin_GO_3	GCN5
+YIL084C	chromatin_GO_3	SDS3
+YIL112W	chromatin_GO_3	HOS4
+YIL131C	chromatin_GO_3	FKH1
+YIR033W	chromatin_GO_3	MGA2
+YKL020C	chromatin_GO_3	SPT23
+YKR029C	chromatin_GO_3	SET3
+YKR042W	chromatin_GO_3	UTH1
+YKR048C	chromatin_GO_3	NAP1
+YLR015W	chromatin_GO_3	BRE2
+YLR055C	chromatin_GO_3	SPT8
+YLR113W	chromatin_GO_3	HOG1
+YLR418C	chromatin_GO_3	CDC73
+YMR039C	chromatin_GO_3	SUB1
+YMR186W	chromatin_GO_3	HSC82
+YMR263W	chromatin_GO_3	SAP30
+YNL097C	chromatin_GO_3	PHO23
+YOL004W	chromatin_GO_3	SIN3
+YOR064C	chromatin_GO_3	YNG1
+YPL055C	chromatin_GO_3	LGE1
+YPL138C	chromatin_GO_3	SPP1
+YPL139C	chromatin_GO_3	UME1
+YPL181W	chromatin_GO_3	CTI6
+YPR031W	chromatin_GO_3	NTO1
+YBR009C	chromatin_GO_2	HHF1
+YBR098W	chromatin_GO_2	MMS4
+YBR195C	chromatin_GO_2	MSI1
+YBR278W	chromatin_GO_2	DPB3
+YCL061C	chromatin_GO_2	MRC1
+YDL002C	chromatin_GO_2	NHP10
+YDR005C	chromatin_GO_2	MAF1
+YDR121W	chromatin_GO_2	DPB4
+YDR191W	chromatin_GO_2	HST4
+YDR217C	chromatin_GO_2	RAD9
+YDR225W	chromatin_GO_2	HTA1
+YDR310C	chromatin_GO_2	SUM1
+YDR363W	chromatin_GO_2	ESC2
+YDR369C	chromatin_GO_2	XRS2
+YDR386W	chromatin_GO_2	MUS81
+YDR440W	chromatin_GO_2	DOT1
+YEL061C	chromatin_GO_2	CIN8
+YER016W	chromatin_GO_2	BIM1
+YER030W	chromatin_GO_2	CHZ1
+YER092W	chromatin_GO_2	IES5
+YER161C	chromatin_GO_2	SPT2
+YER164W	chromatin_GO_2	CHD1
+YFL013C	chromatin_GO_2	IES1
+YFR036W	chromatin_GO_2	CDC26
+YGL066W	chromatin_GO_2	SGF73
+YGL133W	chromatin_GO_2	ITC1
+YGL163C	chromatin_GO_2	RAD54
+YGL173C	chromatin_GO_2	XRN1
+YGL175C	chromatin_GO_2	SAE2
+YGL216W	chromatin_GO_2	KIP3
+YJL115W	chromatin_GO_2	ASF1
+YJR053W	chromatin_GO_2	BFA1
+YKL110C	chromatin_GO_2	KTI12
+YKL160W	chromatin_GO_2	ELF1
+YLL002W	chromatin_GO_2	RTT109
+YLR150W	chromatin_GO_2	STM1
+YML124C	chromatin_GO_2	TUB3
+YMR048W	chromatin_GO_2	CSM3
+YMR055C	chromatin_GO_2	BUB2
+YMR179W	chromatin_GO_2	SPT21
+YMR190C	chromatin_GO_2	SGS1
+YMR223W	chromatin_GO_2	UBP8
+YMR247C	chromatin_GO_2	RKR1
+YMR273C	chromatin_GO_2	ZDS1
+YNL021W	chromatin_GO_2	HDA1
+YNL031C	chromatin_GO_2	HHT2
+YNL068C	chromatin_GO_2	FKH2
+YNL135C	chromatin_GO_2	FPR1
+YOL017W	chromatin_GO_2	ESC8
+YOL068C	chromatin_GO_2	HST1
+YOR025W	chromatin_GO_2	HST3
+YOR058C	chromatin_GO_2	ASE1
+YOR191W	chromatin_GO_2	ULS1
+YOR304W	chromatin_GO_2	ISW2
+YPL024W	chromatin_GO_2	RMI1
+YPL047W	chromatin_GO_2	SGF11
+YPL157W	chromatin_GO_2	TGS1
+YPL253C	chromatin_GO_2	VIK1
+YPL269W	chromatin_GO_2	KAR9
+YPR018W	chromatin_GO_2	RLF2
+YAL011W	chromatin_GO_1	SWC3
+YAL024C	chromatin_GO_1	LTE1
+YBL058W	chromatin_GO_1	SHP1
+YBR107C	chromatin_GO_1	IML3
+YBR231C	chromatin_GO_1	SWC5
+YBR245C	chromatin_GO_1	ISW1
+YBR289W	chromatin_GO_1	SNF5
+YCL016C	chromatin_GO_1	DCC1
+YCL029C	chromatin_GO_1	BIK1
+YCR082W	chromatin_GO_1	AHC2
+YDL070W	chromatin_GO_1	BDF2
+YDL134C	chromatin_GO_1	PPH21
+YDR014W	chromatin_GO_1	RAD61
+YDR181C	chromatin_GO_1	SAS4
+YDR254W	chromatin_GO_1	CHL4
+YDR260C	chromatin_GO_1	SWM1
+YDR318W	chromatin_GO_1	MCM21
+YDR334W	chromatin_GO_1	SWR1
+YDR359C	chromatin_GO_1	EAF1
+YDR485C	chromatin_GO_1	VPS72
+YER177W	chromatin_GO_1	BMH1
+YGL003C	chromatin_GO_1	CDH1
+YGL086W	chromatin_GO_1	MAD1
+YGL131C	chromatin_GO_1	SNT2
+YGR056W	chromatin_GO_1	RSC1
+YGR188C	chromatin_GO_1	BUB1
+YGR270W	chromatin_GO_1	YTA7
+YHL025W	chromatin_GO_1	SNF6
+YHR115C	chromatin_GO_1	DMA1
+YHR129C	chromatin_GO_1	ARP1
+YHR207C	chromatin_GO_1	SET5
+YJL013C	chromatin_GO_1	MAD3
+YJL030W	chromatin_GO_1	MAD2
+YJL168C	chromatin_GO_1	SET2
+YJL176C	chromatin_GO_1	SWI3
+YJR082C	chromatin_GO_1	EAF6
+YJR135C	chromatin_GO_1	MCM22
+YKL092C	chromatin_GO_1	BUD2
+YKR010C	chromatin_GO_1	TOF2
+YKR054C	chromatin_GO_1	DYN1
+YLR085C	chromatin_GO_1	ARP6
+YLR095C	chromatin_GO_1	IOC2
+YLR102C	chromatin_GO_1	APC9
+YML041C	chromatin_GO_1	VPS71
+YMR075W	chromatin_GO_1	RCO1
+YMR080C	chromatin_GO_1	NAM7
+YMR127C	chromatin_GO_1	SAS2
+YMR198W	chromatin_GO_1	CIK1
+YNL116W	chromatin_GO_1	DMA2
+YNL136W	chromatin_GO_1	EAF7
+YNL246W	chromatin_GO_1	VPS75
+YOL012C	chromatin_GO_1	HTZ1
+YOR014W	chromatin_GO_1	RTS1
+YOR026W	chromatin_GO_1	BUB3
+YOR195W	chromatin_GO_1	SLK19
+YOR213C	chromatin_GO_1	SAS5
+YPL001W	chromatin_GO_1	HAT1
+YPL008W	chromatin_GO_1	CHL1
+YPL017C	chromatin_GO_1	IRC15
+YPL018W	chromatin_GO_1	CTF19
+YPL116W	chromatin_GO_1	HOS3
+YPR023C	chromatin_GO_1	EAF3
+YPR046W	chromatin_GO_1	MCM16
+YPR052C	chromatin_GO_1	NHP6A
+YPR119W	chromatin_GO_1	CLB2
+YPR135W	chromatin_GO_1	CTF4
+YBR107C	cytoskeleton_GO_3	IML3
+YCL014W	cytoskeleton_GO_3	BUD3
+YDL134C	cytoskeleton_GO_3	PPH21
+YDL135C	cytoskeleton_GO_3	RDI1
+YDL226C	cytoskeleton_GO_3	GCS1
+YDR014W	cytoskeleton_GO_3	RAD61
+YDR254W	cytoskeleton_GO_3	CHL4
+YDR318W	cytoskeleton_GO_3	MCM21
+YDR409W	cytoskeleton_GO_3	SIZ1
+YDR532C	cytoskeleton_GO_3	KRE28
+YER174C	cytoskeleton_GO_3	GRX4
+YGL054C	cytoskeleton_GO_3	ERV14
+YGL127C	cytoskeleton_GO_3	SOH1
+YGL174W	cytoskeleton_GO_3	BUD13
+YGR188C	cytoskeleton_GO_3	BUB1
+YJL128C	cytoskeleton_GO_3	PBS2
+YJR060W	cytoskeleton_GO_3	CBF1
+YJR090C	cytoskeleton_GO_3	GRR1
+YJR125C	cytoskeleton_GO_3	ENT3
+YJR135C	cytoskeleton_GO_3	MCM22
+YKL092C	cytoskeleton_GO_3	BUD2
+YLL038C	cytoskeleton_GO_3	ENT4
+YLR006C	cytoskeleton_GO_3	SSK1
+YNL032W	cytoskeleton_GO_3	SIW14
+YNL307C	cytoskeleton_GO_3	MCK1
+YNR031C	cytoskeleton_GO_3	SSK2
+YOR014W	cytoskeleton_GO_3	RTS1
+YOR026W	cytoskeleton_GO_3	BUB3
+YOR043W	cytoskeleton_GO_3	WHI2
+YOR109W	cytoskeleton_GO_3	INP53
+YPL017C	cytoskeleton_GO_3	IRC15
+YPL018W	cytoskeleton_GO_3	CTF19
+YPL158C	cytoskeleton_GO_3	AIM44
+YPR046W	cytoskeleton_GO_3	MCM16
+YAL024C	cytoskeleton_GO_2	LTE1
+YAR014C	cytoskeleton_GO_2	BUD14
+YAR018C	cytoskeleton_GO_2	KIN3
+YBL058W	cytoskeleton_GO_2	SHP1
+YBL079W	cytoskeleton_GO_2	NUP170
+YBR073W	cytoskeleton_GO_2	RDH54
+YBR098W	cytoskeleton_GO_2	MMS4
+YCL016C	cytoskeleton_GO_2	DCC1
+YCL061C	cytoskeleton_GO_2	MRC1
+YCR086W	cytoskeleton_GO_2	CSM1
+YDR245W	cytoskeleton_GO_2	MNN10
+YDR260C	cytoskeleton_GO_2	SWM1
+YDR363W	cytoskeleton_GO_2	ESC2
+YDR386W	cytoskeleton_GO_2	MUS81
+YDR389W	cytoskeleton_GO_2	SAC7
+YGL003C	cytoskeleton_GO_2	CDH1
+YGR092W	cytoskeleton_GO_2	DBF2
+YHR115C	cytoskeleton_GO_2	DMA1
+YHR158C	cytoskeleton_GO_2	KEL1
+YJR070C	cytoskeleton_GO_2	LIA1
+YKL101W	cytoskeleton_GO_2	HSL1
+YKR001C	cytoskeleton_GO_2	VPS1
+YKR048C	cytoskeleton_GO_2	NAP1
+YKR095W	cytoskeleton_GO_2	MLP1
+YLR018C	cytoskeleton_GO_2	POM34
+YML034W	cytoskeleton_GO_2	SRC1
+YMR048W	cytoskeleton_GO_2	CSM3
+YMR068W	cytoskeleton_GO_2	AVO2
+YMR129W	cytoskeleton_GO_2	POM152
+YMR190C	cytoskeleton_GO_2	SGS1
+YNL031C	cytoskeleton_GO_2	HHT2
+YNL298W	cytoskeleton_GO_2	CLA4
+YOL006C	cytoskeleton_GO_2	TOP1
+YOR156C	cytoskeleton_GO_2	NFI1
+YOR233W	cytoskeleton_GO_2	KIN4
+YPL008W	cytoskeleton_GO_2	CHL1
+YPL024W	cytoskeleton_GO_2	RMI1
+YPR135W	cytoskeleton_GO_2	CTF4
+YAL020C	cytoskeleton_GO_1	ATS1
+YBL007C	cytoskeleton_GO_1	SLA1
+YBL047C	cytoskeleton_GO_1	EDE1
+YBL061C	cytoskeleton_GO_1	SKT5
+YCL029C	cytoskeleton_GO_1	BIK1
+YCR009C	cytoskeleton_GO_1	RVS161
+YCR065W	cytoskeleton_GO_1	HCM1
+YDL117W	cytoskeleton_GO_1	CYK3
+YDR126W	cytoskeleton_GO_1	SWF1
+YDR150W	cytoskeleton_GO_1	NUM1
+YDR388W	cytoskeleton_GO_1	RVS167
+YDR424C	cytoskeleton_GO_1	DYN2
+YDR488C	cytoskeleton_GO_1	PAC11
+YEL003W	cytoskeleton_GO_1	GIM4
+YEL061C	cytoskeleton_GO_1	CIN8
+YER016W	cytoskeleton_GO_1	BIM1
+YER149C	cytoskeleton_GO_1	PEA2
+YER155C	cytoskeleton_GO_1	BEM2
+YER177W	cytoskeleton_GO_1	BMH1
+YGL086W	cytoskeleton_GO_1	MAD1
+YGL216W	cytoskeleton_GO_1	KIP3
+YGR058W	cytoskeleton_GO_1	PEF1
+YGR078C	cytoskeleton_GO_1	PAC10
+YGR200C	cytoskeleton_GO_1	ELP2
+YHL027W	cytoskeleton_GO_1	RIM101
+YHR114W	cytoskeleton_GO_1	BZZ1
+YHR129C	cytoskeleton_GO_1	ARP1
+YIL090W	cytoskeleton_GO_1	ICE2
+YJL013C	cytoskeleton_GO_1	MAD3
+YJL020C	cytoskeleton_GO_1	BBC1
+YJL030W	cytoskeleton_GO_1	MAD2
+YJL187C	cytoskeleton_GO_1	SWE1
+YJR053W	cytoskeleton_GO_1	BFA1
+YKR054C	cytoskeleton_GO_1	DYN1
+YLL021W	cytoskeleton_GO_1	SPA2
+YLL049W	cytoskeleton_GO_1	LDB18
+YLR429W	cytoskeleton_GO_1	CRN1
+YML094W	cytoskeleton_GO_1	GIM5
+YML124C	cytoskeleton_GO_1	TUB3
+YMR055C	cytoskeleton_GO_1	BUB2
+YMR092C	cytoskeleton_GO_1	AIP1
+YMR198W	cytoskeleton_GO_1	CIK1
+YMR294W	cytoskeleton_GO_1	JNM1
+YMR299C	cytoskeleton_GO_1	DYN3
+YNL079C	cytoskeleton_GO_1	TPM1
+YNL106C	cytoskeleton_GO_1	INP52
+YNL116W	cytoskeleton_GO_1	DMA2
+YNL153C	cytoskeleton_GO_1	GIM3
+YNL233W	cytoskeleton_GO_1	BNI4
+YNL271C	cytoskeleton_GO_1	BNI1
+YOR008C	cytoskeleton_GO_1	SLG1
+YOR035C	cytoskeleton_GO_1	SHE4
+YOR058C	cytoskeleton_GO_1	ASE1
+YOR127W	cytoskeleton_GO_1	RGA1
+YOR195W	cytoskeleton_GO_1	SLK19
+YOR265W	cytoskeleton_GO_1	RBL2
+YOR269W	cytoskeleton_GO_1	PAC1
+YPL115C	cytoskeleton_GO_1	BEM3
+YPL155C	cytoskeleton_GO_1	KIP2
+YPL161C	cytoskeleton_GO_1	BEM4
+YPL174C	cytoskeleton_GO_1	NIP100
+YPL253C	cytoskeleton_GO_1	VIK1
+YPL269W	cytoskeleton_GO_1	KAR9
+YPR119W	cytoskeleton_GO_1	CLB2
+YPR120C	cytoskeleton_GO_1	CLB5
+YAL024C	cell cycle_GO_4	LTE1
+YBR057C	cell cycle_GO_4	MUM2
+YBR073W	cell cycle_GO_4	RDH54
+YBR098W	cell cycle_GO_4	MMS4
+YCL016C	cell cycle_GO_4	DCC1
+YCL061C	cell cycle_GO_4	MRC1
+YCR086W	cell cycle_GO_4	CSM1
+YDR076W	cell cycle_GO_4	RAD55
+YDR217C	cell cycle_GO_4	RAD9
+YDR260C	cell cycle_GO_4	SWM1
+YDR363W	cell cycle_GO_4	ESC2
+YDR369C	cell cycle_GO_4	XRS2
+YDR386W	cell cycle_GO_4	MUS81
+YER089C	cell cycle_GO_4	PTC2
+YGL163C	cell cycle_GO_4	RAD54
+YGL175C	cell cycle_GO_4	SAE2
+YGR092W	cell cycle_GO_4	DBF2
+YJL092W	cell cycle_GO_4	SRS2
+YJR043C	cell cycle_GO_4	POL32
+YKL101W	cell cycle_GO_4	HSL1
+YKL113C	cell cycle_GO_4	RAD27
+YLR135W	cell cycle_GO_4	SLX4
+YMR048W	cell cycle_GO_4	CSM3
+YMR190C	cell cycle_GO_4	SGS1
+YMR198W	cell cycle_GO_4	CIK1
+YMR224C	cell cycle_GO_4	MRE11
+YNL298W	cell cycle_GO_4	CLA4
+YOL006C	cell cycle_GO_4	TOP1
+YPL008W	cell cycle_GO_4	CHL1
+YPL024W	cell cycle_GO_4	RMI1
+YPR135W	cell cycle_GO_4	CTF4
+YPR164W	cell cycle_GO_4	MMS1
+YBR009C	cell cycle_GO_3	HHF1
+YBR175W	cell cycle_GO_3	SWD3
+YBR215W	cell cycle_GO_3	HPC2
+YCR008W	cell cycle_GO_3	SAT4
+YDL002C	cell cycle_GO_3	NHP10
+YDL074C	cell cycle_GO_3	BRE1
+YDR097C	cell cycle_GO_3	MSH6
+YDR099W	cell cycle_GO_3	BMH2
+YDR159W	cell cycle_GO_3	SAC3
+YDR207C	cell cycle_GO_3	UME6
+YDR363W-A	cell cycle_GO_3	SEM1
+YER092W	cell cycle_GO_3	IES5
+YGL058W	cell cycle_GO_3	RAD6
+YGL127C	cell cycle_GO_3	SOH1
+YGL173C	cell cycle_GO_3	XRN1
+YGL213C	cell cycle_GO_3	SKI8
+YGR072W	cell cycle_GO_3	UPF3
+YHL027W	cell cycle_GO_3	RIM101
+YHR077C	cell cycle_GO_3	NMD2
+YHR115C	cell cycle_GO_3	DMA1
+YHR167W	cell cycle_GO_3	THP2
+YJL168C	cell cycle_GO_3	SET2
+YJR090C	cell cycle_GO_3	GRR1
+YJR094C	cell cycle_GO_3	IME1
+YJR140C	cell cycle_GO_3	HIR3
+YKL185W	cell cycle_GO_3	ASH1
+YKR072C	cell cycle_GO_3	SIS2
+YLR131C	cell cycle_GO_3	ACE2
+YLR418C	cell cycle_GO_3	CDC73
+YML034W	cell cycle_GO_3	SRC1
+YML062C	cell cycle_GO_3	MFT1
+YMR080C	cell cycle_GO_3	NAM7
+YNL031C	cell cycle_GO_3	HHT2
+YNL082W	cell cycle_GO_3	PMS1
+YNL116W	cell cycle_GO_3	DMA2
+YNL294C	cell cycle_GO_3	RIM21
+YNL307C	cell cycle_GO_3	MCK1
+YOL004W	cell cycle_GO_3	SIN3
+YPL055C	cell cycle_GO_3	LGE1
+YPL139C	cell cycle_GO_3	UME1
+YAL021C	cell cycle_GO_2	CCR4
+YAR014C	cell cycle_GO_2	BUD14
+YAR018C	cell cycle_GO_2	KIN3
+YBL046W	cell cycle_GO_2	PSY4
+YBL047C	cell cycle_GO_2	EDE1
+YBL079W	cell cycle_GO_2	NUP170
+YBR023C	cell cycle_GO_2	CHS3
+YBR289W	cell cycle_GO_2	SNF5
+YCL014W	cell cycle_GO_2	BUD3
+YCR063W	cell cycle_GO_2	BUD31
+YDL056W	cell cycle_GO_2	MBP1
+YDL059C	cell cycle_GO_2	RAD59
+YDL083C	cell cycle_GO_2	RPS16B
+YDL117W	cell cycle_GO_2	CYK3
+YDL134C	cell cycle_GO_2	PPH21
+YDR075W	cell cycle_GO_2	PPH3
+YDR108W	cell cycle_GO_2	TRS85
+YDR126W	cell cycle_GO_2	SWF1
+YDR146C	cell cycle_GO_2	SWI5
+YDR245W	cell cycle_GO_2	MNN10
+YDR310C	cell cycle_GO_2	SUM1
+YDR409W	cell cycle_GO_2	SIZ1
+YDR440W	cell cycle_GO_2	DOT1
+YER111C	cell cycle_GO_2	SWI4
+YER149C	cell cycle_GO_2	PEA2
+YER167W	cell cycle_GO_2	BCK2
+YER177W	cell cycle_GO_2	BMH1
+YFL033C	cell cycle_GO_2	RIM15
+YGL054C	cell cycle_GO_2	ERV14
+YGL174W	cell cycle_GO_2	BUD13
+YGL228W	cell cycle_GO_2	SHE10
+YGR058W	cell cycle_GO_2	PEF1
+YGR229C	cell cycle_GO_2	SMI1
+YHR158C	cell cycle_GO_2	KEL1
+YIL131C	cell cycle_GO_2	FKH1
+YIL153W	cell cycle_GO_2	RRD1
+YJL098W	cell cycle_GO_2	SAP185
+YJL187C	cell cycle_GO_2	SWE1
+YJR060W	cell cycle_GO_2	CBF1
+YKR077W	cell cycle_GO_2	MSA2
+YLL021W	cell cycle_GO_2	SPA2
+YLL040C	cell cycle_GO_2	VPS13
+YLR113W	cell cycle_GO_2	HOG1
+YLR182W	cell cycle_GO_2	SWI6
+YMR039C	cell cycle_GO_2	SUB1
+YMR109W	cell cycle_GO_2	MYO5
+YMR153W	cell cycle_GO_2	NUP53
+YMR273C	cell cycle_GO_2	ZDS1
+YNL025C	cell cycle_GO_2	SSN8
+YNL068C	cell cycle_GO_2	FKH2
+YNL201C	cell cycle_GO_2	PSY2
+YNL233W	cell cycle_GO_2	BNI4
+YOL068C	cell cycle_GO_2	HST1
+YOR233W	cell cycle_GO_2	KIN4
+YPL152W	cell cycle_GO_2	RRD2
+YPL157W	cell cycle_GO_2	TGS1
+YPL158C	cell cycle_GO_2	AIM44
+YPR075C	cell cycle_GO_2	OPY2
+YBL051C	cell cycle_GO_1	PIN4
+YBL058W	cell cycle_GO_1	SHP1
+YBR103W	cell cycle_GO_1	SIF2
+YBR107C	cell cycle_GO_1	IML3
+YCL029C	cell cycle_GO_1	BIK1
+YDL089W	cell cycle_GO_1	NUR1
+YDR014W	cell cycle_GO_1	RAD61
+YDR155C	cell cycle_GO_1	CPR1
+YDR254W	cell cycle_GO_1	CHL4
+YDR318W	cell cycle_GO_1	MCM21
+YDR424C	cell cycle_GO_1	DYN2
+YDR488C	cell cycle_GO_1	PAC11
+YDR512C	cell cycle_GO_1	EMI1
+YEL061C	cell cycle_GO_1	CIN8
+YER016W	cell cycle_GO_1	BIM1
+YFL031W	cell cycle_GO_1	HAC1
+YFR040W	cell cycle_GO_1	SAP155
+YGL003C	cell cycle_GO_1	CDH1
+YGL086W	cell cycle_GO_1	MAD1
+YGL194C	cell cycle_GO_1	HOS2
+YGL216W	cell cycle_GO_1	KIP3
+YGR188C	cell cycle_GO_1	BUB1
+YHR129C	cell cycle_GO_1	ARP1
+YIL112W	cell cycle_GO_1	HOS4
+YIR002C	cell cycle_GO_1	MPH1
+YJL013C	cell cycle_GO_1	MAD3
+YJL030W	cell cycle_GO_1	MAD2
+YJL157C	cell cycle_GO_1	FAR1
+YJR053W	cell cycle_GO_1	BFA1
+YJR059W	cell cycle_GO_1	PTK2
+YJR066W	cell cycle_GO_1	TOR1
+YJR135C	cell cycle_GO_1	MCM22
+YKL092C	cell cycle_GO_1	BUD2
+YKR028W	cell cycle_GO_1	SAP190
+YKR029C	cell cycle_GO_1	SET3
+YKR054C	cell cycle_GO_1	DYN1
+YLL049W	cell cycle_GO_1	LDB18
+YLR079W	cell cycle_GO_1	SIC1
+YML066C	cell cycle_GO_1	SMA2
+YML124C	cell cycle_GO_1	TUB3
+YML128C	cell cycle_GO_1	MSC1
+YMR055C	cell cycle_GO_1	BUB2
+YMR294W	cell cycle_GO_1	JNM1
+YNL271C	cell cycle_GO_1	BNI1
+YOL001W	cell cycle_GO_1	PHO80
+YOL115W	cell cycle_GO_1	PAP2
+YOR014W	cell cycle_GO_1	RTS1
+YOR026W	cell cycle_GO_1	BUB3
+YOR058C	cell cycle_GO_1	ASE1
+YOR083W	cell cycle_GO_1	WHI5
+YOR156C	cell cycle_GO_1	NFI1
+YOR195W	cell cycle_GO_1	SLK19
+YPL017C	cell cycle_GO_1	IRC15
+YPL018W	cell cycle_GO_1	CTF19
+YPL138C	cell cycle_GO_1	SPP1
+YPL174C	cell cycle_GO_1	NIP100
+YPL253C	cell cycle_GO_1	VIK1
+YPL269W	cell cycle_GO_1	KAR9
+YPR046W	cell cycle_GO_1	MCM16
+YPR054W	cell cycle_GO_1	SMK1
+YPR119W	cell cycle_GO_1	CLB2
+YPR120C	cell cycle_GO_1	CLB5
+YBL007C	budding_GO_4	SLA1
+YBL047C	budding_GO_4	EDE1
+YBR200W	budding_GO_4	BEM1
+YDR146C	budding_GO_4	SWI5
+YDR293C	budding_GO_4	SSD1
+YDR310C	budding_GO_4	SUM1
+YER155C	budding_GO_4	BEM2
+YGL216W	budding_GO_4	KIP3
+YGL228W	budding_GO_4	SHE10
+YGR229C	budding_GO_4	SMI1
+YHL027W	budding_GO_4	RIM101
+YHR114W	budding_GO_4	BZZ1
+YJR053W	budding_GO_4	BFA1
+YJR066W	budding_GO_4	TOR1
+YJR094C	budding_GO_4	IME1
+YKL007W	budding_GO_4	CAP1
+YLL001W	budding_GO_4	DNM1
+YLR110C	budding_GO_4	CCW12
+YLR114C	budding_GO_4	AVL9
+YLR425W	budding_GO_4	TUS1
+YML066C	budding_GO_4	SMA2
+YMR055C	budding_GO_4	BUB2
+YMR109W	budding_GO_4	MYO5
+YNL079C	budding_GO_4	TPM1
+YNL271C	budding_GO_4	BNI1
+YNL294C	budding_GO_4	RIM21
+YOR058C	budding_GO_4	ASE1
+YOR275C	budding_GO_4	RIM20
+YPL158C	budding_GO_4	AIM44
+YPL269W	budding_GO_4	KAR9
+YPR119W	budding_GO_4	CLB2
+YAR014C	budding_GO_3	BUD14
+YBL061C	budding_GO_3	SKT5
+YBL085W	budding_GO_3	BOI1
+YBR023C	budding_GO_3	CHS3
+YCR017C	budding_GO_3	CWH43
+YCR086W	budding_GO_3	CSM1
+YDL117W	budding_GO_3	CYK3
+YDL135C	budding_GO_3	RDI1
+YDR075W	budding_GO_3	PPH3
+YDR108W	budding_GO_3	TRS85
+YDR126W	budding_GO_3	SWF1
+YEL060C	budding_GO_3	PRB1
+YER075C	budding_GO_3	PTP3
+YER114C	budding_GO_3	BOI2
+YER149C	budding_GO_3	PEA2
+YFL033C	budding_GO_3	RIM15
+YGL054C	budding_GO_3	ERV14
+YGR058W	budding_GO_3	PEF1
+YHR142W	budding_GO_3	CHS7
+YHR158C	budding_GO_3	KEL1
+YJL187C	budding_GO_3	SWE1
+YKL079W	budding_GO_3	SMY1
+YKL092C	budding_GO_3	BUD2
+YKR001C	budding_GO_3	VPS1
+YKR020W	budding_GO_3	VPS51
+YKR048C	budding_GO_3	NAP1
+YLL021W	budding_GO_3	SPA2
+YLL040C	budding_GO_3	VPS13
+YML034W	budding_GO_3	SRC1
+YMR153W	budding_GO_3	NUP53
+YNL154C	budding_GO_3	YCK2
+YNL201C	budding_GO_3	PSY2
+YNL233W	budding_GO_3	BNI4
+YOL006C	budding_GO_3	TOP1
+YOR008C	budding_GO_3	SLG1
+YOR127W	budding_GO_3	RGA1
+YOR233W	budding_GO_3	KIN4
+YOR327C	budding_GO_3	SNC2
+YPL115C	budding_GO_3	BEM3
+YPL139C	budding_GO_3	UME1
+YPR120C	budding_GO_3	CLB5
+YBR098W	budding_GO_2	MMS4
+YBR107C	budding_GO_2	IML3
+YBR175W	budding_GO_2	SWD3
+YCL029C	budding_GO_2	BIK1
+YDL074C	budding_GO_2	BRE1
+YDR014W	budding_GO_2	RAD61
+YDR076W	budding_GO_2	RAD55
+YDR097C	budding_GO_2	MSH6
+YDR099W	budding_GO_2	BMH2
+YDR150W	budding_GO_2	NUM1
+YDR159W	budding_GO_2	SAC3
+YDR254W	budding_GO_2	CHL4
+YDR318W	budding_GO_2	MCM21
+YDR363W	budding_GO_2	ESC2
+YDR369C	budding_GO_2	XRS2
+YDR386W	budding_GO_2	MUS81
+YDR440W	budding_GO_2	DOT1
+YEL061C	budding_GO_2	CIN8
+YER016W	budding_GO_2	BIM1
+YER177W	budding_GO_2	BMH1
+YGL058W	budding_GO_2	RAD6
+YGL086W	budding_GO_2	MAD1
+YGL127C	budding_GO_2	SOH1
+YGR056W	budding_GO_2	RSC1
+YGR188C	budding_GO_2	BUB1
+YHR115C	budding_GO_2	DMA1
+YHR129C	budding_GO_2	ARP1
+YJL013C	budding_GO_2	MAD3
+YJL030W	budding_GO_2	MAD2
+YJL168C	budding_GO_2	SET2
+YJR090C	budding_GO_2	GRR1
+YJR135C	budding_GO_2	MCM22
+YKR054C	budding_GO_2	DYN1
+YML124C	budding_GO_2	TUB3
+YMR190C	budding_GO_2	SGS1
+YMR224C	budding_GO_2	MRE11
+YNL087W	budding_GO_2	TCB2
+YOL115W	budding_GO_2	PAP2
+YOR014W	budding_GO_2	RTS1
+YOR026W	budding_GO_2	BUB3
+YOR195W	budding_GO_2	SLK19
+YPL017C	budding_GO_2	IRC15
+YPL018W	budding_GO_2	CTF19
+YPL024W	budding_GO_2	RMI1
+YPL138C	budding_GO_2	SPP1
+YPL253C	budding_GO_2	VIK1
+YPR046W	budding_GO_2	MCM16
+YAL020C	budding_GO_1	ATS1
+YAL024C	budding_GO_1	LTE1
+YBL058W	budding_GO_1	SHP1
+YBR009C	budding_GO_1	HHF1
+YBR057C	budding_GO_1	MUM2
+YBR073W	budding_GO_1	RDH54
+YBR103W	budding_GO_1	SIF2
+YCL014W	budding_GO_1	BUD3
+YCL016C	budding_GO_1	DCC1
+YCL061C	budding_GO_1	MRC1
+YDL089W	budding_GO_1	NUR1
+YDL134C	budding_GO_1	PPH21
+YDR155C	budding_GO_1	CPR1
+YDR207C	budding_GO_1	UME6
+YDR260C	budding_GO_1	SWM1
+YDR512C	budding_GO_1	EMI1
+YER020W	budding_GO_1	GPA2
+YER166W	budding_GO_1	DNF1
+YFL003C	budding_GO_1	MSH4
+YGL003C	budding_GO_1	CDH1
+YGL175C	budding_GO_1	SAE2
+YGL194C	budding_GO_1	HOS2
+YGL213C	budding_GO_1	SKI8
+YGR092W	budding_GO_1	DBF2
+YHR111W	budding_GO_1	UBA4
+YHR157W	budding_GO_1	REC104
+YIL008W	budding_GO_1	URM1
+YIL112W	budding_GO_1	HOS4
+YJL128C	budding_GO_1	PBS2
+YKL101W	budding_GO_1	HSL1
+YKL185W	budding_GO_1	ASH1
+YKR029C	budding_GO_1	SET3
+YKR100C	budding_GO_1	SKG1
+YLL039C	budding_GO_1	UBI4
+YLR135W	budding_GO_1	SLX4
+YLR182W	budding_GO_1	SWI6
+YML047C	budding_GO_1	PRM6
+YML072C	budding_GO_1	TCB3
+YML128C	budding_GO_1	MSC1
+YMR039C	budding_GO_1	SUB1
+YMR048W	budding_GO_1	CSM3
+YMR198W	budding_GO_1	CIK1
+YMR273C	budding_GO_1	ZDS1
+YNL031C	budding_GO_1	HHT2
+YNL082W	budding_GO_1	PMS1
+YNL116W	budding_GO_1	DMA2
+YNL298W	budding_GO_1	CLA4
+YNL307C	budding_GO_1	MCK1
+YNR031C	budding_GO_1	SSK2
+YPL008W	budding_GO_1	CHL1
+YPL022W	budding_GO_1	RAD1
+YPL116W	budding_GO_1	HOS3
+YPL157W	budding_GO_1	TGS1
+YPR054W	budding_GO_1	SMK1
+YPR135W	budding_GO_1	CTF4
+YAL010C	lipids_GO_1	MDM10
+YAL013W	lipids_GO_1	DEP1
+YAL026C	lipids_GO_1	DRS2
+YAR002W	lipids_GO_1	NUP60
+YBL011W	lipids_GO_1	SCT1
+YBL082C	lipids_GO_1	ALG3
+YBL085W	lipids_GO_1	BOI1
+YBR036C	lipids_GO_1	CSG2
+YBR131W	lipids_GO_1	CCZ1
+YBR159W	lipids_GO_1	IFA38
+YBR200W	lipids_GO_1	BEM1
+YCR009C	lipids_GO_1	RVS161
+YCR017C	lipids_GO_1	CWH43
+YCR034W	lipids_GO_1	ELO2
+YCR044C	lipids_GO_1	PER1
+YDL052C	lipids_GO_1	SLC1
+YDL077C	lipids_GO_1	VAM6
+YDL088C	lipids_GO_1	ASM4
+YDL142C	lipids_GO_1	CRD1
+YDR080W	lipids_GO_1	VPS41
+YDR126W	lipids_GO_1	SWF1
+YDR207C	lipids_GO_1	UME6
+YDR276C	lipids_GO_1	PMP3
+YDR294C	lipids_GO_1	DPL1
+YDR297W	lipids_GO_1	SUR2
+YDR313C	lipids_GO_1	PIB1
+YDR372C	lipids_GO_1	VPS74
+YDR388W	lipids_GO_1	RVS167
+YER061C	lipids_GO_1	CEM1
+YER114C	lipids_GO_1	BOI2
+YER166W	lipids_GO_1	DNF1
+YFL025C	lipids_GO_1	BST1
+YFR019W	lipids_GO_1	FAB1
+YGL084C	lipids_GO_1	GUP1
+YGL105W	lipids_GO_1	ARC1
+YGL124C	lipids_GO_1	MON1
+YGL212W	lipids_GO_1	VAM7
+YGL219C	lipids_GO_1	MDM34
+YGR037C	lipids_GO_1	ACB1
+YGR086C	lipids_GO_1	PIL1
+YGR157W	lipids_GO_1	CHO2
+YGR202C	lipids_GO_1	PCT1
+YGR227W	lipids_GO_1	DIE2
+YHL003C	lipids_GO_1	LAG1
+YHL020C	lipids_GO_1	OPI1
+YHR004C	lipids_GO_1	NEM1
+YHR067W	lipids_GO_1	HTD2
+YHR194W	lipids_GO_1	MDM31
+YIR033W	lipids_GO_1	MGA2
+YJL062W	lipids_GO_1	LAS21
+YJL187C	lipids_GO_1	SWE1
+YJR060W	lipids_GO_1	CBF1
+YJR066W	lipids_GO_1	TOR1
+YJR125C	lipids_GO_1	ENT3
+YKL020C	lipids_GO_1	SPT23
+YKL053C-A	lipids_GO_1	MDM35
+YKL140W	lipids_GO_1	TGL1
+YKL212W	lipids_GO_1	SAC1
+YLR056W	lipids_GO_1	ERG3
+YLR450W	lipids_GO_1	HMG2
+YML008C	lipids_GO_1	ERG6
+YML072C	lipids_GO_1	TCB3
+YMR004W	lipids_GO_1	MVP1
+YMR015C	lipids_GO_1	ERG5
+YMR060C	lipids_GO_1	SAM37
+YMR070W	lipids_GO_1	MOT3
+YMR153W	lipids_GO_1	NUP53
+YMR202W	lipids_GO_1	ERG2
+YMR272C	lipids_GO_1	SCS7
+YNL087W	lipids_GO_1	TCB2
+YNL106C	lipids_GO_1	INP52
+YNL183C	lipids_GO_1	NPR1
+YNL298W	lipids_GO_1	CLA4
+YNL323W	lipids_GO_1	LEM3
+YNL325C	lipids_GO_1	FIG4
+YNR006W	lipids_GO_1	VPS27
+YNR030W	lipids_GO_1	ALG12
+YOL009C	lipids_GO_1	MDM12
+YOL011W	lipids_GO_1	PLB3
+YOL018C	lipids_GO_1	TLG2
+YOL065C	lipids_GO_1	INP54
+YOL108C	lipids_GO_1	INO4
+YOR002W	lipids_GO_1	ALG6
+YOR034C	lipids_GO_1	AKR2
+YOR067C	lipids_GO_1	ALG8
+YOR069W	lipids_GO_1	VPS5
+YOR109W	lipids_GO_1	INP53
+YOR132W	lipids_GO_1	VPS17
+YPL057C	lipids_GO_1	SUR1
+YPL069C	lipids_GO_1	BTS1
+YPL100W	lipids_GO_1	ATG21
+YPL115C	lipids_GO_1	BEM3
+YPL120W	lipids_GO_1	VPS30
+YPR009W	lipids_GO_1	SUT2
+YBL079W	nuclear transport_GO_1	NUP170
+YBL103C	nuclear transport_GO_1	RTG3
+YBR034C	nuclear transport_GO_1	HMT1
+YDL088C	nuclear transport_GO_1	ASM4
+YDL115C	nuclear transport_GO_1	IWR1
+YDR101C	nuclear transport_GO_1	ARX1
+YDR192C	nuclear transport_GO_1	NUP42
+YDR335W	nuclear transport_GO_1	MSN5
+YFL007W	nuclear transport_GO_1	BLM10
+YGR081C	nuclear transport_GO_1	SLX9
+YGR214W	nuclear transport_GO_1	RPS0A
+YIL040W	nuclear transport_GO_1	APQ12
+YIL090W	nuclear transport_GO_1	ICE2
+YJL140W	nuclear transport_GO_1	RPB4
+YJR074W	nuclear transport_GO_1	MOG1
+YKL068W	nuclear transport_GO_1	NUP100
+YKR048C	nuclear transport_GO_1	NAP1
+YLL024C	nuclear transport_GO_1	SSA2
+YLR018C	nuclear transport_GO_1	POM34
+YML103C	nuclear transport_GO_1	NUP188
+YMR129W	nuclear transport_GO_1	POM152
+YMR153W	nuclear transport_GO_1	NUP53
+YMR230W	nuclear transport_GO_1	RPS10B
+YMR273C	nuclear transport_GO_1	ZDS1
+YNL053W	nuclear transport_GO_1	MSG5
+YNL064C	nuclear transport_GO_1	YDJ1
+YNL227C	nuclear transport_GO_1	JJJ1
+YNL229C	nuclear transport_GO_1	URE2
+YNL298W	nuclear transport_GO_1	CLA4
+YOR112W	nuclear transport_GO_1	CEX1
+YPL226W	nuclear transport_GO_1	NEW1
+YPL239W	nuclear transport_GO_1	YAR1
+YBL061C	metabolic_GO_3	SKT5
+YBR023C	metabolic_GO_3	CHS3
+YBR221C	metabolic_GO_3	PDB1
+YBR289W	metabolic_GO_3	SNF5
+YCR053W	metabolic_GO_3	THR4
+YDR069C	metabolic_GO_3	DOA4
+YDR173C	metabolic_GO_3	ARG82
+YDR207C	metabolic_GO_3	UME6
+YDR372C	metabolic_GO_3	VPS74
+YDR477W	metabolic_GO_3	SNF1
+YER052C	metabolic_GO_3	HOM3
+YER061C	metabolic_GO_3	CEM1
+YER129W	metabolic_GO_3	SAK1
+YER178W	metabolic_GO_3	PDA1
+YFL018C	metabolic_GO_3	LPD1
+YFR019W	metabolic_GO_3	FAB1
+YGL105W	metabolic_GO_3	ARC1
+YGL115W	metabolic_GO_3	SNF4
+YGR208W	metabolic_GO_3	SER2
+YHL020C	metabolic_GO_3	OPI1
+YHL025W	metabolic_GO_3	SNF6
+YHR067W	metabolic_GO_3	HTD2
+YHR142W	metabolic_GO_3	CHS7
+YIR023W	metabolic_GO_3	DAL81
+YJL176C	metabolic_GO_3	SWI3
+YJL187C	metabolic_GO_3	SWE1
+YJR060W	metabolic_GO_3	CBF1
+YJR066W	metabolic_GO_3	TOR1
+YJR075W	metabolic_GO_3	HOC1
+YJR139C	metabolic_GO_3	HOM6
+YKL212W	metabolic_GO_3	SAC1
+YLR056W	metabolic_GO_3	ERG3
+YML008C	metabolic_GO_3	ERG6
+YML035C	metabolic_GO_3	AMD1
+YMR015C	metabolic_GO_3	ERG5
+YMR205C	metabolic_GO_3	PFK2
+YNL027W	metabolic_GO_3	CRZ1
+YNL054W	metabolic_GO_3	VAC7
+YNL071W	metabolic_GO_3	LAT1
+YNL106C	metabolic_GO_3	INP52
+YNL325C	metabolic_GO_3	FIG4
+YOL018C	metabolic_GO_3	TLG2
+YOL045W	metabolic_GO_3	PSK2
+YOL081W	metabolic_GO_3	IRA2
+YOR109W	metabolic_GO_3	INP53
+YOR171C	metabolic_GO_3	LCB4
+YOR184W	metabolic_GO_3	SER1
+YOR355W	metabolic_GO_3	GDS1
+YPL120W	metabolic_GO_3	VPS30
+YBL021C	metabolic_GO_2	HAP3
+YBL058W	metabolic_GO_2	SHP1
+YBR036C	metabolic_GO_2	CSG2
+YBR058C	metabolic_GO_2	UBP14
+YBR098W	metabolic_GO_2	MMS4
+YBR126C	metabolic_GO_2	TPS1
+YBR159W	metabolic_GO_2	IFA38
+YCL061C	metabolic_GO_2	MRC1
+YCR020C	metabolic_GO_2	PET18
+YCR028C-A	metabolic_GO_2	RIM1
+YDL020C	metabolic_GO_2	RPN4
+YDL074C	metabolic_GO_2	BRE1
+YDL080C	metabolic_GO_2	THI3
+YDR099W	metabolic_GO_2	BMH2
+YDR310C	metabolic_GO_2	SUM1
+YDR318W	metabolic_GO_2	MCM21
+YER164W	metabolic_GO_2	CHD1
+YER177W	metabolic_GO_2	BMH1
+YGL163C	metabolic_GO_2	RAD54
+YGL244W	metabolic_GO_2	RTF1
+YGL253W	metabolic_GO_2	HXK2
+YIR033W	metabolic_GO_2	MGA2
+YJL092W	metabolic_GO_2	SRS2
+YJL168C	metabolic_GO_2	SET2
+YKL109W	metabolic_GO_2	HAP4
+YLL002W	metabolic_GO_2	RTT109
+YLR044C	metabolic_GO_2	PDC1
+YLR135W	metabolic_GO_2	SLX4
+YLR180W	metabolic_GO_2	SAM1
+YLR182W	metabolic_GO_2	SWI6
+YLR418C	metabolic_GO_2	CDC73
+YML051W	metabolic_GO_2	GAL80
+YML072C	metabolic_GO_2	TCB3
+YMR048W	metabolic_GO_2	CSM3
+YMR075W	metabolic_GO_2	RCO1
+YMR190C	metabolic_GO_2	SGS1
+YMR272C	metabolic_GO_2	SCS7
+YMR280C	metabolic_GO_2	CAT8
+YNL068C	metabolic_GO_2	FKH2
+YNL183C	metabolic_GO_2	NPR1
+YNL218W	metabolic_GO_2	MGS1
+YNR032W	metabolic_GO_2	PPG1
+YNR041C	metabolic_GO_2	COQ2
+YOL068C	metabolic_GO_2	HST1
+YOR025W	metabolic_GO_2	HST3
+YOR065W	metabolic_GO_2	CYT1
+YOR080W	metabolic_GO_2	DIA2
+YOR191W	metabolic_GO_2	ULS1
+YOR344C	metabolic_GO_2	TYE7
+YOR358W	metabolic_GO_2	HAP5
+YPL057C	metabolic_GO_2	SUR1
+YPL172C	metabolic_GO_2	COX10
+YPR023C	metabolic_GO_2	EAF3
+YPR069C	metabolic_GO_2	SPE3
+YPR120C	metabolic_GO_2	CLB5
+YAL013W	metabolic_GO_1	DEP1
+YAL021C	metabolic_GO_1	CCR4
+YAL051W	metabolic_GO_1	OAF1
+YBL011W	metabolic_GO_1	SCT1
+YBL082C	metabolic_GO_1	ALG3
+YBR229C	metabolic_GO_1	ROT2
+YBR238C	metabolic_GO_1	YBR238C
+YBR274W	metabolic_GO_1	CHK1
+YCR008W	metabolic_GO_1	SAT4
+YCR017C	metabolic_GO_1	CWH43
+YCR026C	metabolic_GO_1	NPP1
+YCR034W	metabolic_GO_1	ELO2
+YCR036W	metabolic_GO_1	RBK1
+YCR044C	metabolic_GO_1	PER1
+YDL052C	metabolic_GO_1	SLC1
+YDL059C	metabolic_GO_1	RAD59
+YDL125C	metabolic_GO_1	HNT1
+YDL142C	metabolic_GO_1	CRD1
+YDL170W	metabolic_GO_1	UGA3
+YDR009W	metabolic_GO_1	GAL3
+YDR072C	metabolic_GO_1	IPT1
+YDR074W	metabolic_GO_1	TPS2
+YDR075W	metabolic_GO_1	PPH3
+YDR097C	metabolic_GO_1	MSH6
+YDR191W	metabolic_GO_1	HST4
+YDR221W	metabolic_GO_1	GTB1
+YDR255C	metabolic_GO_1	RMD5
+YDR294C	metabolic_GO_1	DPL1
+YDR297W	metabolic_GO_1	SUR2
+YER019W	metabolic_GO_1	ISC1
+YFL025C	metabolic_GO_1	BST1
+YGL027C	metabolic_GO_1	CWH41
+YGL084C	metabolic_GO_1	GUP1
+YGR019W	metabolic_GO_1	UGA1
+YGR157W	metabolic_GO_1	CHO2
+YGR170W	metabolic_GO_1	PSD2
+YGR202C	metabolic_GO_1	PCT1
+YGR227W	metabolic_GO_1	DIE2
+YHL003C	metabolic_GO_1	LAG1
+YHR001W-A	metabolic_GO_1	QCR10
+YHR025W	metabolic_GO_1	THR1
+YHR079C	metabolic_GO_1	IRE1
+YHR194W	metabolic_GO_1	MDM31
+YIL131C	metabolic_GO_1	FKH1
+YIR002C	metabolic_GO_1	MPH1
+YJL062W	metabolic_GO_1	LAS21
+YJL103C	metabolic_GO_1	GSM1
+YKL020C	metabolic_GO_1	SPT23
+YKL140W	metabolic_GO_1	TGL1
+YKR072C	metabolic_GO_1	SIS2
+YLR087C	metabolic_GO_1	CSF1
+YLR089C	metabolic_GO_1	ALT1
+YLR113W	metabolic_GO_1	HOG1
+YLR450W	metabolic_GO_1	HMG2
+YMR042W	metabolic_GO_1	ARG80
+YMR070W	metabolic_GO_1	MOT3
+YMR202W	metabolic_GO_1	ERG2
+YNL037C	metabolic_GO_1	IDH1
+YNL087W	metabolic_GO_1	TCB2
+YNL135C	metabolic_GO_1	FPR1
+YNL199C	metabolic_GO_1	GCR2
+YNL201C	metabolic_GO_1	PSY2
+YNR030W	metabolic_GO_1	ALG12
+YOL004W	metabolic_GO_1	SIN3
+YOL006C	metabolic_GO_1	TOP1
+YOL011W	metabolic_GO_1	PLB3
+YOL064C	metabolic_GO_1	MET22
+YOL065C	metabolic_GO_1	INP54
+YOL108C	metabolic_GO_1	INO4
+YOL115W	metabolic_GO_1	PAP2
+YOL116W	metabolic_GO_1	MSN1
+YOR002W	metabolic_GO_1	ALG6
+YOR067C	metabolic_GO_1	ALG8
+YOR101W	metabolic_GO_1	RAS1
+YPL157W	metabolic_GO_1	TGS1
+YPL181W	metabolic_GO_1	CTI6
+YPL214C	metabolic_GO_1	THI6
