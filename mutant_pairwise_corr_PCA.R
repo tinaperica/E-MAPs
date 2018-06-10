@@ -4,7 +4,11 @@ library(ggcorrplot)
 library(pcaMethods)
 
 ##### correlations between mutants
+<<<<<<< HEAD
 load("clustered_correlations/correlation_RData/mutants_only.RData")
+=======
+load("~/Documents/Gsp1_bioinformatics/E-MAPs/emap_analysis/clustered_correlations/correlation_RData/mutants_only.RData")
+>>>>>>> d45a417865a900f9b28ab0d4109e98f430143977
 mutants <- c("T34G","D79A","H141E","D79S","T34Q","R112S","R112A","R78K",
              "H141R","K101R","T34E","R108Y","NTER3XFLAG WT","CTER3XFLAG WT","R108G","R108Q",
              "Q147E","R108L","H141I","R108A","T34A","Y148I","G80A","Y157A",
