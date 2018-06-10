@@ -10,7 +10,7 @@
 
 # Session Data files
 *.RData
-
+.DS_Store
 # E-MAP input data (too large)
 **preprocessed_ubermap*
 # correlations_data
