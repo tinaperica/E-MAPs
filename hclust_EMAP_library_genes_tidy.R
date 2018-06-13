@@ -135,7 +135,7 @@ for (cat in names(GO_slims_for_clusters)) {
   GO_slims_ORFs <- GO_slims %>% filter(GO_Slim_term %in% GO_slims_cat) %>% pull("ORF") %>% unique()
   clust.ubermap <- ubermap %>% filter(library.ORF %in% GO_slims_ORFs) 
   unique_library_genes_with_cat <- clust.ubermap %>% pull(library.gene_name) %>% unique()
-  if (length(unique_library_genes_with_cat) > 30) {
+  if (length(unique_library_genes_with_cat) > 20) {
     cluster <- clust.ubermap %>% select("ORF" = library.ORF, "gene_name" = library.gene_name) %>% 
       mutate("cluster" = cat) %>% unique() %>% select(cluster, ORF, gene_name)
     GO_cat_clusters <- bind_rows(GO_cat_clusters, cluster)

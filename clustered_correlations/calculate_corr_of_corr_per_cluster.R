@@ -36,7 +36,7 @@ corr_of_corr <- data.frame()
 load(corr_input_file)
 #### loads corr_lst with two names corr_lst[["cluster"]] and corr_lst[["correlations"]]
 cluster <- corr_lst[["cluster"]]
-pdf("corr_of_corr_test.pdf", width = 10)
+#pdf("corr_of_corr_test.pdf", width = 10)
 #for ( p in seq_along(task.info[["pairs"]][1,]) ) {
 for (p in 1:100) {
   geneA <- task.info[["pairs"]][1, p]
@@ -71,10 +71,10 @@ for (p in 1:100) {
             "random_corr_of_corr_3", "random_corr_of_corr_4"),
     "corr" = c(real[1], random[1], random_2[1], random_3[1], random_4[1]),
     "p.value" = c(real[2], random[2], random_2[2], random_3[2], random_4[2]) ))
-  plot(merged.corrs$correlation.x, merged.corrs$correlation.y, main = cluster, xlab = geneA, ylab = geneB)
-  legend("topleft", legend = c(paste0("corr = ", real[1]), paste0("p value = ", real[2])))
+  #plot(merged.corrs$correlation.x, merged.corrs$correlation.y, main = cluster, xlab = geneA, ylab = geneB)
+  #legend("topleft", legend = c(paste0("corr = ", real[1]), paste0("p value = ", real[2])))
 }
-
+#dev.off()
 
 #temp_pairs <- as.character(unique(corr_of_corr$pair))
 #corr_types <- c("corr_of_corr", "random_corr_of_corr", "random_corr_of_corr_2", 
