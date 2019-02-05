@@ -1,0 +1,185 @@
+cluster
+transcription_GO_30_4_all
+transcription from RNA polymerase II promoter_GO_30_1_all
+cell cycle_GO_15_5_all
+chromatin_GO_30_2_all
+protein targeting
+protein targeting_GO_30_1_all
+cytoskeleton and microtubules_GO_30_3_all
+nucleobase-containing compound transport
+transcription and mRNA processing_GO_30_2_all
+nuclear transport_GO_15_2_all
+chromatin_GO_30_3_mut
+cell cycle_GO_30_2_all
+transcription_GO_15_2_all
+nuclear transport and organization
+transcription and mRNA processing_GO_15_3_all
+DNA recombination_GO_30_1_mut
+DNA recombination
+transcription from RNA polymerase II promoter_GO_30_1_mut
+cell cycle
+protein targeting_GO_30_1_mut
+chromatin_GO_15_7_mut
+sig_Gsp1_GI_30_1_all
+nuclear transport
+DNA recombination_GO_15_1_mut
+chromatin organization_GO_15_1_mut
+DNA-templated transcription, elongation
+nuclear transport and organization_GO_15_2_all
+whole_library_30_3_all
+cytoskeleton and microtubules_GO_15_3_all
+response to heat
+telomere organization
+transcription from RNA polymerase II promoter
+chromatin organization_GO_30_1_mut
+response to heat_GO_30_1_all
+DNA recombination_GO_30_1_all
+transcription
+chromatin
+transcription from RNA polymerase II promoter_GO_15_4_all
+DNA-templated transcription, elongation_GO_15_1_all
+cell cycle_GO_30_3_mut
+DNA-templated transcription, elongation_GO_15_1_mut
+transcription_GO_15_1_mut
+sig_Gsp1_GI
+transcription from RNA polymerase II promoter_GO_15_3_mut
+sig_Gsp1_GI_30_2_all
+whole_library_30_5_all
+whole_library_15_13_all
+sig_Gsp1_GI_15_3_all
+telomere organization_GO_15_1_mut
+protein targeting_GO_15_2_mut
+proteolysis involved in cellular protein catabolic process_GO_15_2_mut
+chromatin_GO_15_5_all
+cellular response to DNA damage stimulus_GO_30_1_mut
+whole_library_30_12_mut
+sig_Gsp1_GI_30_1_mut
+transcription and mRNA processing_GO_30_2_mut
+chromatin organization
+transcription and mRNA processing
+chromatin organization_GO_30_2_all
+transcription and mRNA processing_GO_15_1_all
+DNA repair_GO_30_1_mut
+DNA repair
+transcription and mRNA processing_GO_30_1_all
+DNA recombination_GO_15_3_all
+DNA repair_GO_15_1_all
+proteolysis involved in cellular protein catabolic process_GO_15_1_all
+endomembrane system_GO_30_3_all
+endomembrane system
+nuclear transport and organization_GO_30_1_all
+response to heat_GO_15_1_all
+proteolysis involved in cellular protein catabolic process
+cell cycle_GO_15_3_all
+histone modification_GO_15_1_all
+protein targeting_GO_15_3_all
+histone modification_GO_30_1_all
+cellular response to DNA damage stimulus
+whole_library_15_23_all
+response to heat_GO_15_1_mut
+sig_Gsp1_GI_15_9_all
+regulation of cell cycle_GO_30_1_all
+nucleus organization
+histone modification_GO_15_1_mut
+chromatin organization_GO_15_5_all
+DNA repair_GO_15_3_mut
+whole_library_30_1_all
+cytoskeleton and microtubules_GO_15_2_mut
+regulation of cell cycle
+lipids_GO_15_2_all
+histone modification
+chromosome segregation_GO_30_1_all
+chromosome segregation
+regulation of cell cycle_GO_30_1_mut
+sig_Gsp1_GI_15_11_all
+protein modification by small protein conjugation or removal
+regulation of cell cycle_GO_15_2_mut
+nucleus organization_GO_15_1_mut
+cytoskeleton and microtubules
+chromosome segregation_GO_30_1_mut
+chromosome segregation_GO_15_1_mut
+cytoskeleton organization_GO_15_3_all
+nuclear transport and organization_GO_15_1_mut
+cellular response to DNA damage stimulus_GO_30_3_all
+whole_library_15_14_mut
+cytoplasmic translation_GO_15_1_all
+nuclear transport_GO_15_1_mut
+nucleobase-containing compound transport_GO_15_2_all
+cellular response to DNA damage stimulus_GO_15_1_all
+budding_GO_15_1_all
+protein modification by small protein conjugation or removal_GO_30_1_mut
+mitotic cell cycle_GO_30_1_mut
+cellular response to DNA damage stimulus_GO_15_3_mut
+nuclear transport_GO_15_1_all
+regulation of cell cycle_GO_15_4_all
+sig_Gsp1_GI_30_3_all
+cell cycle_GO_15_9_mut
+endomembrane system_GO_15_8_all
+mitotic cell cycle
+chromosome segregation_GO_15_1_all
+nucleobase-containing compound transport_GO_15_1_mut
+organelle fission
+ribosomes and translation_GO_30_1_all
+ribosomal small subunit biogenesis
+endomembrane system_GO_15_3_mut
+chromosome_GO_15_2_mut
+sig_Gsp1_GI_15_4_mut
+protein modification by small protein conjugation or removal_GO_15_1_mut
+ribosome_GO_15_1_all
+RNA processing
+lipid binding_GO_15_2_all
+RNA processing_GO_15_1_all
+cytoskeleton organization
+mRNA processing
+sig_Gsp1_GI_15_5_all
+organelle fission_GO_30_1_mut
+cytoskeleton organization_GO_30_1_all
+budding
+transcription and mRNA processing_GO_15_7_all
+sig_Gsp1_GI_30_4_all
+ribosomes and translation
+chromosome_GO_30_2_all
+ribosome
+structural constituent of ribosome
+regulation of organelle organization_GO_15_1_all
+cytoplasmic translation
+mitotic cell cycle_GO_15_1_all
+chromosome
+cytoskeleton organization_GO_30_1_mut
+RNA catabolic process
+budding_GO_30_1_mut
+nucleus organization_GO_15_1_all
+nuclear transport and organization_GO_15_3_all
+whole_library_15_36_all
+transcription and mRNA processing_GO_15_14_mut
+sig_Gsp1_GI_15_7_mut
+sig_Gsp1_GI_15_6_mut
+cytoskeleton_GO_15_2_mut
+whole_library_15_24_mut
+cytoskeleton organization_GO_15_1_mut
+whole_library_15_22_mut
+sig_Gsp1_GI_30_5_mut
+cytoskeleton and microtubules_GO_15_5_all
+whole_library_30_14_mut
+whole_library_15_3_all
+sig_Gsp1_GI_15_1_all
+sig_Gsp1_GI_30_2_mut
+RNA modification_GO_15_1_all
+peptidyl-amino acid modification_GO_15_2_mut
+organelle fission_GO_15_3_mut
+sig_Gsp1_GI_15_9_mut
+sig_Gsp1_GI_15_1_mut
+RNA modification_GO_15_1_mut
+ribosomal small subunit biogenesis_GO_15_1_all
+DNA binding_GO_15_3_mut
+ribosomes and translation_GO_15_2_mut
+sig_Gsp1_GI_15_3_mut
+transcription and mRNA processing_GO_15_8_all
+chromatin_GO_15_3_mut
+mitotic cell cycle_GO_15_2_all
+whole_library_30_9_all
+sig_Gsp1_GI_30_3_mut
+chromatin_GO_15_1_all
+chromosome_GO_30_1_mut
+whole_library
+sig_Gsp1_GI

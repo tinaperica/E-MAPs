@@ -13,6 +13,9 @@
 .DS_Store
 # E-MAP input data (too large)
 **preprocessed_ubermap*
+basic_E-MAP_data/ORF_names_ubermap_not_merged.txt
+# some pdf files with plots that are too large
+all_NIPALS_PCA_GO_cluster_groups.pdf
 # correlations_data
 /clustered_correlations/correlations_data/
 # Example code in package build process

@@ -2,76 +2,122 @@
 # Things it does:
 ### 1) defines all possible pairs of genes and mutants
 ### 2) makes random E-MAP scores - for each query: same scores but library genes names will be shuffled
-### 3) load all the clusters
-### 4) make a bunch of final .RData files (containing only info on the pairs to calculate correlstions that will be calulted in that job/task) 
+### 3) randomizes only the high scoring library genes
+### 4) make pairs and combine everything into an ubermap list used for correlation calculations on the cluster 
 library(tidyverse)
 library(gmp) #### for factorize
-combined.emap.data <- read_delim("basic_E-MAP_data/preprocessed_ubermap_all.txt", delim = "\t")
-clusters.table <- read_delim("basic_E-MAP_data/GO_slims_2018-03-05_pearson_complete_clusters.txt", delim = "\t")
+data <- read_tsv("basic_E-MAP_data/preprocessed_ubermap_all.txt") # includes data for Gsp1 mutants and the ubermap data
+clusters.file <- "clustered_correlations/clusters/GO_slims_2018-06-30_pearson_complete_clusters.txt"
+clusters.table <- read_tsv(clusters.file)   # all the library genes GO and GI based categories
+selected_clusters_file <- "choose_clusters/2018-07-02_selected_pearson_complete_clusters.txt"
+if ( file.exists(selected_clusters_file)) {
+  selected.clusters.table <- read_tsv(selected_clusters_file) 
+} else {
+  selected.clusters.table <- read_tsv(clusters.file)
+}
+high_score_lib_genes <- read_tsv("library_genes_with_score_range_over_7.5_in_Gsp1_mut_screens.txt")
 clusters <- clusters.table %>% pull(cluster) %>% unique()
+selected.clusters <- selected.clusters.table %>% pull(cluster) %>% unique()
+#### on 20180917 - added extended selected clusters
+extended.selected.clusters <- sort(clusters[grepl(clusters, pattern = "GO_30_[0-9]+_mut", perl = T)])
+extendend.selected.clusters <- sort(unique(append(extended.selected.clusters, selected.clusters)))
 #### add a randomized score column to the combined.emap.data
 ##### the score is ramdomized by random sampling of the scores for that Gene_uniq
+### two types of randomization: all and high
 set.seed(2013)
-combined.and.randomized.emap.data <- combined.emap.data %>%
+## first shuffle only the scores of the high scoring library genes (defined in the high_score_lib_genes)
+high_score_randomized_ubermap <- data %>% 
+  filter(library.ORF %in% high_score_lib_genes$library.ORF) %>% 
+  group_by(Gene_uniq) %>% 
+  mutate("random_high_score" = sample(x = score, size = length(score)))
+randomized_ubermap <- data %>% 
+  filter(! library.ORF %in% high_score_randomized_ubermap$library.ORF) %>% 
+  mutate("random_high_score" = score) %>% 
+  bind_rows(., high_score_randomized_ubermap) %>% 
+  arrange(Gene_uniq, library.ORF)
+### then shuffle all the scores
+randomized_ubermap <- randomized_ubermap %>%
   group_by(Gene_uniq) %>%
   mutate("random_score" = sample(x = score, size = length(score)))
+
+### now do everything once more with a different seed
 set.seed(2017)
-combined.and.randomized.emap.data <- combined.and.randomized.emap.data %>%
+high_score_randomized_ubermap <- randomized_ubermap %>% 
+  filter(library.ORF %in% high_score_lib_genes$library.ORF) %>% 
+  group_by(Gene_uniq) %>% 
+  mutate("random_high_score_2" = sample(x = score, size = length(score)))
+randomized_ubermap <- randomized_ubermap %>% 
+  filter(! library.ORF %in% high_score_randomized_ubermap$library.ORF) %>% 
+  mutate("random_high_score_2" = score) %>% 
+  bind_rows(., high_score_randomized_ubermap) %>% 
+  arrange(Gene_uniq, library.ORF)
+### shuffle all the scores again
+randomized_ubermap <- randomized_ubermap %>%
   group_by(Gene_uniq) %>%
   mutate("random_score_2" = sample(x = score, size = length(score)))
-mutants <- c("T34G","D79A","H141E","D79S","T34Q","R112S","R112A","R78K",
-             "H141R","K101R","T34E","R108Y","NTER3XFLAG WT","CTER3XFLAG WT","R108G","R108Q",
-             "Q147E","R108L","H141I","R108A","T34A","Y148I","G80A","Y157A",
-             "R108S","R108I","K143Y","T34N","N84Y","E115I","K154M","T137G",
-             "K143W","T139A","N105L","GSP1-NAT","K143H","K132H","K169I","K129F",
-             "A180T","E115A","N105V","H141V","T34S","K129E","K129I","F58L",
-             "N102I","T34D","T139R","N102K","T34L","T34Y","Q147L","F58A",
-             "N102M","R108D","K129T")
-##### test plots
-# combined.and.randomized.emap.data %>% 
-#   filter(Gene_uniq == "F58A") %>%
-#   ggplot(aes(x = score)) + geom_density() + geom_density(aes(x = random_score), color = "red", linetype = 2)
-# combined.and.randomized.emap.data %>% 
-#   filter(Gene_uniq == "R108L") %>%
-#   ggplot(aes(x = score)) + geom_density() + geom_density(aes(x = random_score), color = "red", linetype = 2)
 
-########## make all possible pairs of Gsp1 mutants and ubermap genes for correlation calculations
-all_genes_and_mutants_for_pairwise_cor_calculations <- combined.emap.data %>%
+### now make task.info files that will define which pairwise correlations/similarities are calculated in 
+## that particular task on the cluster
+# a general funciton that makes task files when pairs and steps are defined
+make_task_files <- function(pairs, step, task_outpath) {
+  tasks <- seq(1, length(pairs)/2, step)
+  for (t in seq_along(tasks)) {
+    first_pair <- tasks[t]
+    last_pair <- first_pair + step - 1
+    task.info <- list()
+    task.info[["pairs"]] <- pairs[, first_pair:last_pair]
+    outfilename <- str_c(task_outpath, first_pair, "_task_info.RData", sep = "")
+    save(task.info, file = outfilename)
+  }
+}
+
+mutants <- data %>% 
+  filter(ORF == "YLR293C") %>% 
   pull(Gene_uniq) %>% unique()
-length(all_genes_and_mutants_for_pairwise_cor_calculations)
-# real pairs
-#pairs <- combn(all_genes_and_mutants_for_pairwise_cor_calculations, 2)
-#### debugging pairs - just mutants
-#pairs <- combn(all_genes_and_mutants_for_pairwise_cor_calculations[1:59], 2)
-# only pairs of mutants and partners (useful for quick correlation of correlations calculations )
-pairs <- t(as.matrix(expand.grid(
-  mutants, all_genes_and_mutants_for_pairwise_cor_calculations[
-    60:length(all_genes_and_mutants_for_pairwise_cor_calculations)])))
 
-(n_pairs <- length(pairs)/2)
-(factors <- factorize(length(pairs)/2))
-#step <- as.numeric(as.character(factors[2]))
-step <- 37*61  ### for correlations calculations
-tasks <- seq(1, n_pairs, step)
-## 1-10185841:2257  ### for correlations
-## 1-262845:177  ## this is for mut:partner corr of corr (1485 jobs)
+all_genes_and_mutants <- data %>%
+  pull(Gene_uniq) %>% unique()
+length(all_genes_and_mutants)
+genes <- all_genes_and_mutants[! all_genes_and_mutants %in% mutants]
+length(genes)
+
+### only mutant pairs (for choosing which library (sub)clusters are informative)
+cluster_eval_pairs <- combn(mutants, 2) ### only mutant pairs
+### all the pairs, including the mutants, to calculate all correlations/similarities
+all_pairs <- combn(all_genes_and_mutants, 2) ### all pairs (including mutants)
+# only pairs of mutants and partners (for quick correlation of correlations calculations )
+mut_gene_pairs <- t(as.matrix(expand.grid(mutants, genes)))
+
+### first make task.info files for mutant only pairwise calculations
+(n_pairs <- length(cluster_eval_pairs)/2)
+(factors <- factorize(n_pairs))  
+step <- as.numeric(as.character(factors[1]))
+#### 1-1711:29
+make_task_files(pairs = cluster_eval_pairs, step, "clustered_correlations/mutant_correlations_task_info/")
+
+### now for all pairs
+(n_pairs <- length(all_pairs)/2)
+(factors <- factorize(n_pairs))
+step <- 181  * 5
+### 1-10240075:905  ## for correlations - 11315 jobs
+make_task_files(all_pairs, step, "clustered_correlations/all_correlations_task_info/")
+
+# # finally for all mut-gene pairs (for corr of corr calculations later)
+(n_pairs <- length(mut_gene_pairs)/2)
+(factors <- factorize(n_pairs))
+step <- n_pairs
+# 1-183  ## 1 job per selected cluster
+make_task_files(mut_gene_pairs, step, "clustered_correlations/mut_gene_corr_of_corr_task_info/")
+
 ubermap <- list()
+ubermap[["ubermap"]] <- randomized_ubermap
 ubermap[["library_clusters"]] <- clusters.table
 ubermap[["clusters"]] <- clusters
-ubermap[["ubermap"]] <- combined.and.randomized.emap.data
-#save(ubermap, file = str_c(Sys.Date(), "_emap_data_for_corr.RData"))
-task.info <- list()
-for (t in seq_along(tasks)) {
-  first_pair <- as.numeric(as.character(tasks[t]))
-  last_pair <- first_pair + step - 1
-  task_genes_and_mutants <- unique(c(pairs[1, first_pair:last_pair], pairs[2, first_pair:last_pair]))
-  #task.emap.data <- combined.and.randomized.emap.data %>%
-   # filter(Gene_uniq %in% task_genes_and_mutants)
-  #task.info[["all_genes_and_mutants"]] <- task_genes_and_mutants
-  #ubermap[["ubermap"]] <- task.emap.data
-  task.info[["pairs"]] <- pairs[,first_pair:last_pair]
-  outfilename <- str_c("clustered_correlations/info_for_mut_partner_corr_of_corr/", 
-                       first_pair, "_task_info.RData" )
-  save(task.info, file = outfilename)
-}
+save(ubermap, file = "basic_E-MAP_data/20180630_emap_data_for_corr_all_clusters.RData")
+
+ubermap <- list()
+ubermap[["ubermap"]] <- randomized_ubermap
+ubermap[["library_clusters"]] <- selected.clusters.table
+ubermap[["clusters"]] <- selected.clusters
+save(ubermap, file = "basic_E-MAP_data/20180630_emap_data_for_corr.RData")
 

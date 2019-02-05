@@ -15,9 +15,29 @@ reorder_cormat <- function(cormat){
   hc <- hclust(dd)
   cormat <- cormat[hc$order, hc$order]
 }
+gene_orf <- read_tsv("orf_gene_GO_sgd_annotation.txt", col_names = F) %>% 
+  select("ORF" = X1, "gene_name" = X2) %>% 
+  unique()
 #load("20180507_corr_of_corr_all.RData")  # combined_data
-load("20180507_corr_of_corr_filter_FDR.RData") ## combined_filtered_data
-combined_filtered_data
+corr_of_corr_path <- "clustered_correlations/corr_of_corr/"
+files <- dir(corr_of_corr_path)
+(files <- files[grepl(files, pattern = "soft_cos_sim_20180914_all_corr_of_corr.RData")])
+combined_filtered_data <- data.frame()
+for (i in seq_along(files))  {    ## this loops through files (one per cluster)
+  filepath <- file.path(corr_of_corr_path, files[i])
+  load(filepath)
+  combined_filtered_data <- bind_rows(combined_filtered_data, soft_cos_sim)
+}
+rm(soft_cos_sim)
+
+#load("20180507_corr_of_corr_filter_FDR.RData") ## combined_filtered_data
+combined_filtered_data <- as_tibble(combined_filtered_data) %>% 
+  separate(col = geneB, into = c("ORF"), sep = "_", remove = F) %>% 
+  inner_join(., gene_orf, by = "ORF")
+combined_filtered_data <- combined_filtered_data %>% 
+  select(geneA, geneB, cluster, ORF, "corr" = corr.x, gene_name) %>% 
+  mutate("corr" = as.numeric(corr))
+  
 
 ### filtered data is filtered by FDR (filter(FDR < 0.05 & random_avrg_FDR > 0.05))
 #### only keep cluster + geneB combinations where at least one of the mutants has a high correlation
@@ -40,9 +60,8 @@ combined_filtered_data
 # ###### use the strong data in all the downstream analysis
 # combined_filtered_data <- strong_corr_subset
 
-ms_hits <- read_tsv("Gsp1_PPIs_20180402_gene_names.txt", col_names = T) %>% 
-  filter(BFDR < 0.05) %>% 
-  select("ORF" = PreyORF) %>% 
+ms_hits <- read_tsv("SAINT_MS_hits.txt", col_names = F) %>% 
+  rename("ORF" = X1) %>% 
   unique()
 add <- c("YGR218W", "YER110C", "YAR002W", "YGL241W", "YDR192C", "YDR335W", "YJR074W", 
       "YGL097W", "YMR235C", "YKL205W", "YHR200W", "YMR308C", "YDR002W")
@@ -111,10 +130,41 @@ head(spread_geneB_and_cluster[1:10, 1:10])
 hclust_data <- hcut(spread_geneB_and_cluster, k = 8)
 fviz_dend(hclust_data, main = "mutants clustered by all corr of corr, k = 8", cex = 0.6)  ## from ‘factoextra’ package 
 
-groups <- cutree(hclust_data, h = 300)
+order_of_mutants_based_on_all_corr_of_corr <- hclust_data$labels[hclust_data$order]
+groups <- cutree(hclust_data, h = 500)
 mut_in_group_with_WT <- names(groups[groups == 1])
 spread_geneB_and_cluster_strong_mutants <- spread_geneB_and_cluster[
-                !(row.names(spread_geneB_and_cluster) %in% mut_in_group_with_WT), ]
+  !(row.names(spread_geneB_and_cluster) %in% mut_in_group_with_WT), ]
+mutants_diff_from_WT <- names(groups[groups != 1])
+hclust_data_strong <- hcut(spread_geneB_and_cluster_strong_mutants, k = 5)
+fviz_dend(hclust_data_strong, main = "Strong mutants clustered by all the correlations of correlations", cex = 0.6)  ## from ‘factoextra’ package 
+
+
+spread_geneA_and_cluster <- combined_filtered_data %>% 
+  filter(ORF %in% ms_hits$ORF) %>% 
+  mutate("gene_name_uniq" = str_c(gene_name, geneB, sep = " ")) %>% 
+  mutate("geneA_cluster" = str_c(geneA, cluster, sep = " ")) %>% 
+  select(geneA_cluster, gene_name_uniq, corr) %>% 
+  spread(geneA_cluster, corr)
+spread_geneA_and_cluster <- data.frame(spread_geneA_and_cluster)
+rownames(spread_geneA_and_cluster) <- spread_geneA_and_cluster$gene_name_uniq
+spread_geneA_cluster <- spread_geneA_and_cluster[, -1]
+spread_geneA_and_cluster <- spread_geneA_and_cluster[, which(colMeans(is.na(spread_geneA_and_cluster)) < 0.5)]
+spread_geneA_and_cluster <- spread_geneA_and_cluster[which(rowMeans(is.na(spread_geneA_and_cluster)) < 0.5), ]
+
+spread_geneA_and_cluster <- Filter(function (x) !all (is.na(x)), spread_geneA_and_cluster)
+head(spread_geneA_and_cluster[1:10, 1:10])
+hclust_data <- hcut(spread_geneA_and_cluster, k = 6)
+order_of_ms_hits_genes <- hclust_data$labels[hclust_data$order]
+fviz_dend(hclust_data, main = "MS hits clustered by corr of corr with Gsp1 mutants, k = 10", cex = 0.5)  ## from ‘factoextra’ package 
+ggsave("MS_hits_dendrogram_by_EMAP_corr_of_corr.pdf", width = 20)
+
+groups <- cutree(hclust_data, h = 75)
+GEF_group <- names(groups[groups == 7])
+GAP_group <- names(groups[groups == 6])
+GAP_and_GEF_groups <- names(groups[groups == 6 | groups == 7])
+spread_geneB_and_cluster_strong_mutants <- spread_geneB_and_cluster[
+  !(row.names(spread_geneB_and_cluster) %in% mut_in_group_with_WT), ]
 mutants_diff_from_WT <- names(groups[groups != 1])
 hclust_data_strong <- hcut(spread_geneB_and_cluster_strong_mutants, k = 5)
 fviz_dend(hclust_data_strong, main = "Strong mutants clustered by all the correlations of correlations", cex = 0.6)  ## from ‘factoextra’ package 
@@ -148,18 +198,26 @@ partners_to_color <- ms_hits_corr_data %>%
   pull(uniq_gene_name) %>% unique()
 coloring_list <- list()
 #colors <- c("dodgerblue3", "brown3", "darkcyan", "darkviolet", "darkorange3", "darkgoldenrod2")
-colors <- c("coral1", "dodgerblue3", "deeppink3", "dodgerblue3", "deeppink3", 
-            "plum4",  "brown3", "darkcyan", "darkviolet", "red3", "palevioletred4", "darkorange3", "darkgoldenrod2")
+#colors <- c("coral1", "dodgerblue3", "deeppink3", "dodgerblue3", "deeppink3", 
+ #           "plum4",  "brown3", "darkcyan", "darkviolet", "red3", "palevioletred4", "darkorange3", "darkgoldenrod2")
+colors <- c("coral1", "coral1", "darkcyan", "darkviolet", 
+           "coral1",  "coral1", "coral1", "coral1", "coral1", "coral1", "coral1", "red3", "coral1")
+
 for ( i in seq_along(partners_to_color) ) {
   coloring_list[partners_to_color[i]] <- colors[i]
 }
-pdf("20180509_corr_of_corr_heatmaps_APMS_hits.pdf", height = 18, width = 10)
+pdf("20180915_corr_of_corr_soft_cos_sim_heatmaps_APMS_hits.pdf", height = 25, width = 14)
 for (cn in seq_along(clusters)) {
   clust <- clusters[cn]
   temp <- ms_hits_corr_data %>% 
     filter(cluster == clust) %>% 
     select(uniq_gene_name, corr, geneA) %>% 
-    spread(uniq_gene_name, corr) %>% 
+    mutate("geneA" = factor(geneA, order_of_mutants_based_on_all_corr_of_corr)) %>% 
+    #mutate("uniq_gene_name" = factor(uniq_gene_name, order_of_ms_hits_genes)) %>% 
+    filter(! is.na(uniq_gene_name)) %>% 
+    arrange(geneA, uniq_gene_name) %>% 
+    spread(uniq_gene_name, corr)
+  temp <- temp[, which(colMeans(is.na(temp)) < 0.8)] %>%   # remove columns that are more than half NA
     replace(is.na(.), 0)
   if (ncol(temp) > 6) {
     temp_df <- data.frame(temp)
@@ -169,14 +227,14 @@ for (cn in seq_along(clusters)) {
     for (i in seq_along(names(coloring_list))) {
       cols[row.names(temp.mat) %in% as.vector(names(coloring_list)[i]) ] <- unlist(coloring_list[[i]])
     }
-    heatmap.2(temp.mat, col = cm.colors, scale = "none", trace = "none", cexCol = 0.8, 
+    heatmap.2(temp.mat, Colv = F, col = cm.colors, scale = "none", trace = "none", cexCol = 0.8, 
             cexRow = 0.8, keysize = 0.5, margin = c(10, 10), colRow = cols, main = clust)
   }
 }
 dev.off()
 
 #### heatmaps with just core partners
-pdf("20180509_corr_of_corr_heatmaps_partners.pdf", height = 10, width = 15)
+pdf("20180915_corr_of_corr_soft_cos_sim_heatmaps_partners.pdf", height = 10, width = 15)
 for (cn in seq_along(clusters)) {
   clust <- clusters[cn]
   temp <- ms_hits_corr_data %>%
@@ -196,7 +254,43 @@ for (cn in seq_along(clusters)) {
 }
 dev.off()
 
+### gap and gef groups
+#### heatmaps with just core partners
+pdf("20180915_corr_of_corr_soft_cos_sim_heatmaps_GAP_and_GEF_group.pdf", height = 10, width = 15)
+for (cn in seq_along(clusters)) {
+  clust <- clusters[cn]
+  temp <- ms_hits_corr_data %>%
+    filter(cluster == clust & uniq_gene_name %in% GAP_and_GEF_groups) %>% 
+    select(uniq_gene_name, corr, geneA) %>% 
+    mutate("geneA" = factor(geneA, order_of_mutants_based_on_all_corr_of_corr)) %>% 
+    spread(uniq_gene_name, corr) %>% 
+    replace(is.na(.), 0)
+  temp_df <- data.frame(temp)
+  rownames(temp_df) <- temp_df$geneA
+  temp.mat <- t(as.matrix(temp_df[, -1]))
+  cols <- rep('black', nrow(temp.mat))
+  for (i in seq_along(names(coloring_list))) {
+    cols[row.names(temp.mat) %in% as.vector(names(coloring_list)[i]) ] <- unlist(coloring_list[[i]])
+  }
+  heatmap.2(temp.mat, Colv = F, col = cm.colors, scale = "none", trace = "none", cexCol = 0.8, 
+            cexRow = 0.8, key = F, margin = c(7, 10), colRow = cols, main = clust)
+}
+dev.off()
 
+
+### core regulators
+core_regulators <- c("MOG1 YJR074W", "YRB1 YDR002W_TSQ582", "RNA1 YMR235C_TSQ172", "SRM1 YGL097W_TSQ958")
+ms_hits_corr_data %>% 
+  filter(uniq_gene_name %in% core_regulators) %>% 
+  mutate() %>% 
+  mutate("geneB_cluster_combo" = str_c(gene_name, cluster, sep = " ")) %>% 
+  select(geneA, geneB_cluster_combo, corr)
+coloring_list <- list()
+colors <- c("dodgerblue3", "darkgoldenrod2", "darkviolet", "darkcyan")
+
+for ( i in seq_along(partners_to_color) ) {
+  coloring_list[partners_to_color[i]] <- colors[i]
+}
 # for each mutant find the highest cluster/geneB combinations and explore those
 
 
@@ -205,7 +299,7 @@ dev.off()
 ###
 pca_wrap <- function(data, pcn = 2) {
   #### first remove columns with more than half NA
-  data <- data[, -which(colMeans(is.na(data)) > 0.5)]  # remove columns that are more than half NA
+  data <- data[, which(colMeans(is.na(data)) < 0.5)]  # remove columns that are more than half NA
   data_preped <- pcaMethods::prep(data[, -1], center = FALSE, scale = "none")
   pca <- pcaMethods::pca(data_preped, nPcs = pcn)
   scores <- as_tibble(scale(scores(pca))) %>% 
@@ -228,16 +322,23 @@ pca_wrap <- function(data, pcn = 2) {
 #   loadings %>% ggplot(., aes(PC2, PC3, color = gene)) + geom_point() 
 # }
 
-core_regulators <- c("YRB1", "KAP95", "SRM1", 
-                     "NTF2", "CSE1", "CRM1", "RNA1", "SRP1", "MOG1")
+# core_regulators <- c("YRB1", "KAP95", "SRM1", 
+#                      "NTF2", "CSE1", "CRM1", "RNA1", "SRP1", "MOG1")
+core_regulators <- c("SRM1", "RNA1", "MOG1", "YRB1")
 core_regulator_geneBs <- combined_filtered_data %>% 
   filter(gene_name %in% core_regulators) %>% 
   pull(geneB) %>% unique()
 core_regulator_data <- combined_filtered_data %>% 
   filter(geneB %in% core_regulator_geneBs) %>% 
+  filter(! geneA %in% mut_in_group_with_WT) %>% 
   mutate("cluster_gene_combo" = str_c(cluster, gene_name, sep = " ")) %>% 
   select(geneA, corr, cluster_gene_combo) %>% 
   spread(cluster_gene_combo, corr)
+
+sig_Gsp1_GI_15_7_mut_data <- ms_hits_corr_data %>% 
+  filter(cluster == "sig_Gsp1_GI_15_7_mut") %>% 
+  select(geneA, corr, uniq_gene_name) %>% 
+  spread(uniq_gene_name, corr)
 
 principal_components <- str_c("PC", 1:7)
 core_pca <- pca_wrap(core_regulator_data, pcn = length(principal_components))
@@ -246,17 +347,17 @@ core_pca$loadings <- core_pca$loadings %>%
 plots <- list()
 for (pc in principal_components[2:length(principal_components)]) {
   plots[[pc]] <-  ggplot(data = core_pca$scores, aes_string("PC1", pc)) + 
-    geom_label(aes(label = mutant)) +
+    geom_label(aes(label = mutant), label.size = 0.01) +
     theme_classic() +
     geom_point(data = core_pca$loadings, aes_string("PC1", pc, color = "gene"), 
-               size = 5, alpha = 0.5)
+               size = 3, alpha = 0.2)
 }
-pdf("core_partners_NIPALS_PCA.pdf")
+pdf("20180918_GAP_GEF_NIPALS_PCA_strong.pdf")
 print(plots)
 dev.off()
 
 
-#### correlate the GO glusters
+#### correlate the GO clusters
 cluster_genes_spread <- combined_filtered_data %>% 
   mutate("gene_combo" = str_c(geneA, geneB, sep = " ")) %>% 
   select(gene_combo, cluster, corr) %>% 

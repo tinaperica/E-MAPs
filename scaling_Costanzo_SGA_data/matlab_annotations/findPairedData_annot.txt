@@ -1,0 +1,29 @@
+function: findPairedData()
+input: a matrix of genetic interaction scores
+output: [x,y], a 2D matrix of paired scores, where the tuple (x[i], y[i]) contains a pair of scores such that x[i] = score(geneA, geneB) and y[i] = score(geneB, geneA) from independent strain constructions. All information of which genes are being measured in each score is lost. This method just allows you to know what repeat measurements with flipped alleles tend to look like. So you know in general how variable a single score measurement is, as a function of that score's value. I.e. if you bin [x,y] by x, you can compute mean/median/sd of values of y for x. Presumably y should be centered around x because it's a repeat measurement, but there will be some error associated.
+
+(1) Remove all rows/cols with only NaNs
+(2) get dimensions of data
+(3) using the function "addMutatationAnnotToOrfnames", add the type of mutation to each gene name (row/col label), so that two different alleles aren't averaged
+(4) find the intersect of query/library genes. "These are the genes for which we have both a NAT and KAN marked strain"
+(5) pre-allocate NaN vectors for x and y with length 5*l^2, with l being the number of intersecting genes (from 4)
+(6) colInds and rowInds are 1D vectors of same length as the list of intersecting genes, but the elements are lists of indices of the col or row corresponding to that gene, in the original matrix
+(7) for every pair of genes A,B:
+
+- ind1x is the list of row (query) indices corresponding to geneA
+- ind1y is the list of col (array) indices corresponding to geneA
+- ind2x is the list of row (query) indices corresponding to geneB
+- ind2y is the list of col (array) indices corresponding to geneB
+- list1 is the list of all scores from geneA x geneB
+- list2 is the list of all scores from geneB x geneA
+
+- take all combinations of scores, choosing one from list1 and one from list2. If they aren't NaNs, append that pair of genes to x and y, with the list1 gene going to x and the list2 gene going to y
+
+- make sure none are NaN and return x, y
+
+*** 
+
+Not sure if the following happens, but it is written to allow this: if an allele of geneA is screened as a query against an allele of geneB in the library twice, but geneB is screened as a query against geneA only once, this will result in two paired entries:
+    (x,y) 1 = (score(geneA, geneB) 1, score(geneB, geneA))
+    (x,y) 2 = (score(geneA, geneB) 2, score(geneB, geneA))
+

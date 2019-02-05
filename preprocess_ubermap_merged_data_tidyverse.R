@@ -26,6 +26,13 @@ orf_index <- unique(tibble("orf" = orf_gene_name_index$X1, "gene_name" = orf_gen
 rm(orf_gene_name_index)
 #############################
 
+#### make a file of E-MAP scores with gene names for library genes (fromavg_merged_June2016_screen_for_Gia.txt)
+e.map_gene_names <- e.map %>% inner_join(., orf_index, by = c("library" = "orf")) %>% 
+  arrange(Gene, gene_name)
+e.map_gene_names <- e.map_gene_names %>% 
+  select(-library) %>% 
+  spread(gene_name, score)
+write_tsv(e.map_gene_names, path ="avg_merged_E-MAP_screens_July2016.txt")
 ### Gsp1 mutants merged with ubermap (merged with ubermap if there is an at least 100 library genes overlap between 
 # chromatin library and the library against which that query was screened)
 # (gene names) - this is only necessary to distinguish point mutants (they are all the same in the ORF file)

@@ -1,336 +1,243 @@
 Group	Size
-regulation of cell cycle	113
 mitotic cell cycle	134
-R112A	1
-mitotic cell cycle_GO_1	55
-meiotic cell cycle_GO_2	36
-meiotic cell cycle_GO_1	67
-N84Y	1
-response to osmotic stress	42
-cellular bud_GO_1	51
-carbohydrate metabolic process	51
-Golgi	100
-endosomal transport	41
-nuclear transport and organization_GO_1	62
-DNA repair_GO_1	57
-organelle fission_GO_3	39
-DNA repair_GO_2	44
+histone modification_GO_30_1_all	51
+cytoskeleton organization_GO_15_3_all	18
+nucleus organization	26
+whole_library_30_12_mut	51
+response to heat	35
+GSP1-NAT	1
+chromatin_GO_30_3_mut	77
+chromosome_GO_30_2_all	68
 budding	227
-pseudohyphal growth	36
-endosomal transport_GO_1	34
-vacuole	79
-N102K	1
-organelle assembly	39
+nuclear transport and organization_GO_30_1_all	43
+K143Y	1
 T137G	1
-Golgi apparatus	64
-site of polarized growth	80
-Golgi and ER_GO_7	31
-Golgi and ER_GO_6	32
+lipid binding_GO_15_2_all	16
+organelle fission_GO_30_1_mut	52
 protein modification by small protein conjugation or removal	92
-Golgi and ER_GO_4	45
-Golgi and ER_GO_3	48
-Golgi and ER_GO_2	49
-Golgi and ER_GO_1	87
+DNA binding_GO_15_3_mut	32
 K143W	1
 K143H	1
-transcription and mRNA processing_GO_6	41
-lipids_GO_2	45
-lipids	131
-Golgi_GO_2	30
+sig_Gsp1_GI_15_11_all	16
 proteolysis involved in cellular protein catabolic process	83
 DNA repair	101
-nucleolus_GO_1	31
-E115I	1
-tRNA processing	32
+protein targeting_GO_15_3_all	26
+DNA repair_GO_15_1_all	62
 R78K	1
-D79A	1
-carbohydrate metabolic process_GO_1	38
+cytoskeleton and microtubules_GO_30_3_all	43
 chromatin	254
-transcription and mRNA processing	330
-DNA replication_GO_1	32
+organelle fission	130
+sig_Gsp1_GI_30_3_all	54
+endomembrane system_GO_15_3_mut	35
 chromatin organization	166
-RNA modification	32
+N105L	1
 R112S	1
-oxidoreductase activity	31
+sig_Gsp1_GI_30_4_all	47
 ribosomes and translation	153
 endomembrane system	308
-whole_library_7	61
-ion transport_GO_1	42
-whole_library_5	64
+chromatin organization_GO_15_5_all	25
+N105V	1
 DNA-templated transcription, elongation	43
-transmembrane transporter activity	36
-whole_library_2	67
-whole_library_1	79
-lipids_GO_1	48
-mitochondrion organization	54
-whole_library_9	59
-whole_library_8	59
-metabolic_GO_1	53
-metabolic_GO_2	39
-sporulation	40
-metabolic_GO_4	38
-metabolic_GO_5	35
-lipid binding	37
-cytoskeleton and microtubules_GO_1	73
-cytoskeleton and microtubules_GO_3	35
-cytoskeleton and microtubules_GO_2	69
-response to heat	35
-K129E	1
-Golgi vesicle transport	69
-lipid metabolic process	84
-chromatin binding_GO_1	32
-organelle fission_GO_2	41
-cytoskeleton organization	85
-Golgi_GO_3	30
-regulation of cell cycle_GO_2	36
-protein modification by small protein conjugation or removal_GO_2	31
-budding_GO_5	31
-budding_GO_4	34
-budding_GO_3	43
-mitochondrial envelope	47
-budding_GO_1	63
-metabolic	235
-kinase activity_GO_2	33
-RNA binding	85
-organelle fission_GO_1	50
-K169I	1
+DNA recombination_GO_30_1_mut	45
+telomere organization	31
+protein modification by small protein conjugation or removal_GO_30_1_mut	49
+transcription and mRNA processing_GO_15_3_all	33
+R112A	1
+cell cycle_GO_15_3_all	40
+DNA repair_GO_30_1_mut	65
+whole_library_15_22_mut	24
+transcription and mRNA processing_GO_15_14_mut	16
+chromatin_GO_15_3_mut	28
+response to heat_GO_15_1_mut	21
+transcription and mRNA processing_GO_15_8_all	24
+sig_Gsp1_GI_30_2_mut	69
+sig_Gsp1_GI_30_1_all	74
 K154M	1
-peptidyl-amino acid modification	63
-H141I	1
-kinase activity_GO_1	34
-DNA binding_GO_1	53
-DNA binding_GO_2	47
-DNA binding_GO_3	32
+cytoskeleton organization	85
+ribosomal small subunit biogenesis	26
+transcription_GO_15_1_mut	47
+whole_library_15_14_mut	29
+cytoskeleton and microtubules_GO_15_5_all	19
+peptidyl-amino acid modification_GO_15_2_mut	21
+transcription and mRNA processing_GO_30_2_mut	68
+chromatin organization_GO_30_1_mut	81
+sig_Gsp1_GI_15_3_all	36
+cytoskeleton organization_GO_30_1_mut	56
+chromosome segregation_GO_15_1_all	28
+nucleus organization_GO_15_1_all	16
+response to heat_GO_30_1_all	31
+whole_library_30_3_all	114
+protein modification by small protein conjugation or removal_GO_15_1_mut	26
+T139A	1
+K169I	1
+chromosome segregation_GO_15_1_mut	33
+transcription_GO_30_4_all	44
+sig_Gsp1_GI_15_5_all	29
 T139R	1
-endocytosis	32
-vacuoles	96
-regulation of organelle organization_GO_1	61
-cell cortex_GO_1	32
-metabolic_GO_3	39
-regulation of organelle organization_GO_2	38
+transcription from RNA polymerase II promoter_GO_15_4_all	18
+whole_library_30_5_all	92
+sig_Gsp1_GI_15_9_mut	19
+whole_library_30_1_all	125
 cellular response to DNA damage stimulus	120
-hydrolase activity_GO_1	67
-rRNA processing	41
+sig_Gsp1_GI_30_3_mut	58
 K129T	1
-protein folding	33
+organelle fission_GO_15_3_mut	22
 cytoplasmic translation	41
-cytoplasmic vesicle	73
-kinase activity	67
-DNA recombination	65
-protein targeting_GO_1	56
-vacuole_GO_1	45
-plasma membrane	89
-vacuole_GO_2	34
-nuclear transport_GO_1	42
-RNA binding_GO_1	56
-mitochondrion	171
+E115I	1
+K129I	1
+protein targeting_GO_30_1_mut	59
+whole_library_15_23_all	25
+E115A	1
+DNA recombination_GO_15_3_all	19
+budding_GO_30_1_mut	75
+K129E	1
 K129F	1
-nucleic acid binding transcription factor activity_GO_1	33
-ribosomes and translation_GO_4	32
-ribosomes and translation_GO_3	34
-ribosomes and translation_GO_2	36
-ribosomes and translation_GO_1	51
-K143Y	1
-cellular response to DNA damage stimulus_GO_1	66
-regulation of DNA metabolic process	52
-cellular response to DNA damage stimulus_GO_2	54
-chromosome_GO_3	36
-chromosome_GO_2	45
-chromosome_GO_1	63
-ER_GO_3	55
+histone modification_GO_15_1_all	28
+RNA modification_GO_15_1_mut	20
+cytoskeleton organization_GO_15_1_mut	39
+sig_Gsp1_GI_15_3_mut	24
+budding_GO_15_1_all	42
+cell cycle_GO_30_2_all	67
 protein targeting	104
-Golgi and ER	327
-ER_GO_2	57
-Golgi and ER_GO_5	35
-Golgi_GO_1	40
-sporulation_GO_1	32
-vacuoles_GO_1	44
-peptidyl-amino acid modification_GO_2	30
-lipid metabolic process_GO_1	61
-ER	182
+nuclear transport_GO_15_1_all	34
+whole_library_30_14_mut	48
+cellular response to DNA damage stimulus_GO_30_1_mut	75
 F58A	1
-G80A	1
+Q147E	1
+cytoskeleton and microtubules_GO_15_3_all	22
 RNA catabolic process	46
-transferase activity	239
+regulation of cell cycle_GO_15_2_mut	29
 Q147L	1
+chromosome_GO_30_1_mut	109
+nuclear transport_GO_15_2_all	24
 Y148I	1
 F58L	1
-mitochondrion_GO_1	107
-transferase activity_GO_3	41
-mitochondrion_GO_2	64
-transferase activity_GO_6	31
-transferase activity_GO_4	36
-transferase activity_GO_5	34
+protein targeting_GO_30_1_all	85
+protein targeting_GO_15_2_mut	38
+transcription and mRNA processing_GO_15_7_all	25
 N102M	1
 K132H	1
-metabolic_GO_6	31
-regulation of protein modification process	49
+N102K	1
+A180T	1
 histone modification	68
 H141R	1
-proteolysis involved in cellular protein catabolic process_GO_1	57
+transcription from RNA polymerase II promoter_GO_30_1_mut	77
+DNA-templated transcription, elongation_GO_15_1_all	31
 H141V	1
-regulation of protein modification process_GO_1	30
-cell cortex	58
-T34Q	1
-N105V	1
+proteolysis involved in cellular protein catabolic process_GO_15_1_all	45
+cell cycle_GO_30_3_mut	38
+nuclear transport and organization_GO_15_3_all	16
+transcription from RNA polymerase II promoter_GO_15_3_mut	32
+cell cycle_GO_15_5_all	26
 H141E	1
-conjugation	43
-protein modification by small protein conjugation or removal_GO_1	53
-chromatin_GO_3	53
-chromatin_GO_2	56
-chromatin_GO_1	74
-cellular bud	74
-chromatin_GO_5	31
-budding_GO_2	56
-ion transport	54
-structural constituent of ribosome	38
-regulation of organelle organization	99
-K129I	1
-T34S	1
-DNA binding	132
-enzyme regulator activity_GO_2	39
-endoplasmic reticulum	182
-enzyme regulator activity_GO_1	51
-cell cycle_GO_1	60
-cell cycle_GO_3	54
-mRNA binding_GO_1	38
-cell cycle_GO_5	41
-cell cycle_GO_4	42
-peptidyl-amino acid modification_GO_1	33
-nucleobase-containing compound transport	44
-site of polarized growth_GO_2	38
-cytoskeleton and microtubules	177
-transcription_GO_3	53
-transcription_GO_1	59
+histone modification_GO_15_1_mut	30
+regulation of cell cycle_GO_30_1_all	57
+cellular response to DNA damage stimulus_GO_30_3_all	32
+H141I	1
+chromosome_GO_15_2_mut	34
+whole_library_15_13_all	29
+N84Y	1
+NTER3XFLAG_WT	1
+cell cycle_GO_15_9_mut	18
+nuclear transport and organization_GO_15_1_mut	37
+DNA-templated transcription, elongation_GO_15_1_mut	23
+chromatin_GO_15_5_all	27
+cytoplasmic translation_GO_15_1_all	16
+transcription and mRNA processing_GO_15_1_all	48
+nuclear transport	58
+regulation of cell cycle_GO_30_1_mut	67
+cellular response to DNA damage stimulus_GO_15_3_mut	28
+endomembrane system_GO_30_3_all	60
+ribosomal small subunit biogenesis_GO_15_1_all	21
+chromosome segregation_GO_30_1_mut	59
+lipids_GO_15_2_all	31
+chromatin organization_GO_15_1_mut	52
+whole_library	1325
+R108A	1
 R108D	1
-ribosome_GO_2	30
-transcription_GO_4	34
-nucleic acid binding transcription factor activity	51
-R108I	1
+R108G	1
+sig_Gsp1_GI_30_2_all	70
 R108L	1
-endomembrane system_GO_1	74
+cytoskeleton organization_GO_30_1_all	49
 R108Q	1
 R108S	1
-mitochondrion organization_GO_1	38
-histone modification_GO_1	52
-mRNA binding	46
-Golgi apparatus_GO_1	51
-lipids_GO_3	38
-A180T	1
-cell wall organization or biogenesis_GO_1	34
-whole_library_19	38
-whole_library_18	41
-protein phosphorylation	82
-whole_library_13	56
-whole_library_12	56
-whole_library_11	57
-whole_library_10	58
-whole_library_17	42
-whole_library_16	53
-whole_library_15	54
-whole_library_14	54
-Y157A	1
-transferase activity_GO_1	49
-mitochondria_GO_1	46
-mitochondria_GO_2	46
-mitochondria_GO_3	39
-mitochondria_GO_4	32
-mitochondria_GO_5	31
 R108Y	1
-transcription from RNA polymerase II promoter	180
-transcription_GO_2	55
+sig_Gsp1_GI	304
+nucleus organization_GO_15_1_mut	23
+mitotic cell cycle_GO_15_2_all	38
+cytoskeleton and microtubules_GO_15_2_mut	46
+ribosomes and translation_GO_15_2_mut	30
+whole_library_15_36_all	20
+DNA recombination_GO_30_1_all	39
+nuclear transport and organization_GO_15_2_all	27
+transcription and mRNA processing_GO_30_1_all	77
+Y157A	1
+DNA recombination	65
+sig_Gsp1_GI_15_1_all	38
+RNA modification_GO_15_1_all	19
+endomembrane system_GO_15_8_all	22
+cytoskeleton and microtubules	177
 K101R	1
-hydrolase activity_GO_3	47
-regulation of DNA metabolic process_GO_1	30
-R108A	1
-hydrolase activity	217
-protein phosphorylation_GO_1	49
-protein phosphorylation_GO_2	33
-hydrolase activity_GO_2	63
+structural constituent of ribosome	38
+nucleobase-containing compound transport	44
+DNA recombination_GO_15_1_mut	23
 chromosome segregation	74
-plasma membrane_GO_1	64
-protein acylation	31
-chromatin organization_GO_3	37
-chromatin organization_GO_2	51
-chromatin organization_GO_1	78
-endomembrane system_GO_3	55
-cytoplasmic vesicle_GO_1	45
-endomembrane system_GO_5	41
-endomembrane system_GO_6	30
-Golgi vesicle transport_GO_1	42
-chromosome segregation_GO_1	46
-cytoskeleton	70
-transcription from RNA polymerase II promoter_GO_1	79
-enzyme regulator activity	90
-chromosome	150
-organelle fission	130
-chromatin_GO_4	40
-transferase activity_GO_2	48
-T139A	1
-ribosome_GO_1	33
-whole_library_26	30
+sig_Gsp1_GI_15_6_mut	23
+sig_Gsp1_GI_15_7_mut	22
+chromatin_GO_30_2_all	57
+transcription from RNA polymerase II promoter	180
+transcription from RNA polymerase II promoter_GO_30_1_all	90
+mitotic cell cycle_GO_30_1_mut	64
+CTER3XFLAG_WT	1
+sig_Gsp1_GI_15_1_mut	38
+chromosome segregation_GO_30_1_all	72
+nucleobase-containing compound transport_GO_15_1_mut	23
 transcription	201
 ribosome	63
-whole_library_25	32
-whole_library_22	34
-whole_library_23	33
-endomembrane system_GO_2	57
-whole_library_21	35
-phosphatase activity	35
-ER_GO_1	70
-transcription and mRNA processing_GO_4	53
-transcription and mRNA processing_GO_5	46
-transcription and mRNA processing_GO_2	59
-transcription and mRNA processing_GO_3	56
-transcription and mRNA processing_GO_1	75
-cell wall organization or biogenesis	63
-protein targeting_GO_2	30
-transcription factor activity, protein binding	45
+whole_library_15_24_mut	24
+mRNA processing	34
+sig_Gsp1_GI_30_1_mut	97
+cytoskeleton_GO_15_2_mut	15
+sig_Gsp1_GI_30_5_mut	39
+regulation of cell cycle	113
+chromosome	150
+R108I	1
+transcription_GO_15_2_all	28
+ribosomes and translation_GO_30_1_all	99
+whole_library_15_3_all	44
+DNA repair_GO_15_3_mut	24
+telomere organization_GO_15_1_mut	19
 T34N	1
+RNA processing_GO_15_1_all	31
 T34L	1
-cytoskeleton_GO_2	30
-cytoskeleton_GO_1	40
-Q147E	1
+chromatin organization_GO_30_2_all	42
+sig_Gsp1_GI_15_9_all	23
+chromatin_GO_15_1_all	40
 T34G	1
 nuclear transport and organization	73
 T34E	1
 T34D	1
-DNA recombination_GO_1	42
+sig_Gsp1_GI_15_4_mut	24
 T34A	1
 D79S	1
-hydrolase activity_GO_4	40
-cytoskeleton organization_GO_2	35
-cytoskeleton organization_GO_1	50
-R108G	1
+response to heat_GO_15_1_all	16
+regulation of organelle organization_GO_15_1_all	30
 cell cycle	254
+proteolysis involved in cellular protein catabolic process_GO_15_2_mut	36
 T34Y	1
-whole_library_20	36
-chromatin binding	37
-mRNA processing	34
-endoplasmic reticulum_GO_3	55
-endoplasmic reticulum_GO_2	57
-endoplasmic reticulum_GO_1	70
-regulation of cell cycle_GO_1	54
-GSP1-NAT	1
-N105L	1
-nucleolus	52
-response to osmotic stress_GO_1	30
-site of polarized growth_GO_1	42
-whole_library_6	63
+nuclear transport_GO_15_1_mut	37
+mitotic cell cycle_GO_15_1_all	41
+T34S	1
+D79A	1
+T34Q	1
+whole_library_30_9_all	71
+G80A	1
+chromatin_GO_15_7_mut	26
 RNA processing	43
-endomembrane system_GO_4	51
-mitochondria	194
-transcription from RNA polymerase II promoter_GO_2	58
-transcription from RNA polymerase II promoter_GO_3	43
-transmembrane transport	41
-cell cycle_GO_2	57
-mitotic cell cycle_GO_2	48
-whole_library_4	65
-meiotic cell cycle	103
-mitotic cell cycle_GO_3	31
-nuclear transport	58
-whole_library_3	67
+transcription and mRNA processing	330
+cellular response to DNA damage stimulus_GO_15_1_all	30
+transcription and mRNA processing_GO_30_2_all	61
+ribosome_GO_15_1_all	33
 N102I	1
-whole_library_24	32
-DNA replication	52
-telomere organization	31
+regulation of cell cycle_GO_15_4_all	18
+nucleobase-containing compound transport_GO_15_2_all	19
