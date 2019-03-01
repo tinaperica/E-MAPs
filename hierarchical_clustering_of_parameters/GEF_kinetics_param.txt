@@ -1,4 +1,4 @@
-mutant	kcat	Km	kcat_Km
+mutant	GEF_kcat	GEF_Km	GEF_kcat_Km
 A180T	2.63	1.53	1.72
 D79A	3.20	2.65	1.21
 D79S	2.63	1.14	2.31
