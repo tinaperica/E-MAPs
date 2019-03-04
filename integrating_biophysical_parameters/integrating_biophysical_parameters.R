@@ -14,14 +14,14 @@ e.map <- as_tibble(e.map) %>%
 #### simple hierarchical clustering of mutants based on E-MAP scores
 
 ### input all the parameters for mutants
-GEF_kin <- read_tsv("hierarchical_clustering_of_parameters/GEF_kinetics_param.txt", col_names = T) %>% 
+GEF_kin <- read_tsv("integrating_biophysical_parameters/GEF_kinetics_param.txt", col_names = T) %>% 
   gather("measure", "value", -mutant)
-GAP_kin <- read_tsv("hierarchical_clustering_of_parameters/GAP_MM_parameters_clean.txt", col_names = T) %>% 
+GAP_kin <- read_tsv("integrating_biophysical_parameters/GAP_MM_parameters_clean.txt", col_names = T) %>% 
   gather("measure", "value", -mutant)
-NMR_data <- read_tsv("hierarchical_clustering_of_parameters/20190224_nmr_data.txt", col_names = T) %>% 
+NMR_data <- read_tsv("integrating_biophysical_parameters/20190224_nmr_data.txt", col_names = T) %>% 
   select("mutant" = "gsp1_mutation", "gamma2" = gamma2_percent) %>% 
   gather("measure", "value", -mutant)
-apms_foldchange <- read_tsv("hierarchical_clustering_of_parameters/apms_log2_fold_change.txt", col_names = T) %>% 
+apms_foldchange <- read_tsv("integrating_biophysical_parameters/apms_log2_fold_change.txt", col_names = T) %>% 
   select(mutant, log2FC, tag, gene_name) %>% 
   filter(tag == "N") %>% 
   group_by(mutant, gene_name) %>% 
@@ -113,7 +113,7 @@ cluster_by_parameters <- function(emap, biophy_params, k) {
     arrange(mut_fact)
   plots[["by_param"]] <- fviz_dend(hclust_param_data, label_cols =  mut_groups$color, k_colors = "black", 
             main = str_c( c("mutants clustered by: (", biophy_params, ") -> k =", k), collapse = " "))
-  pdf(file = str_c(c("hierarchical_clustering_of_parameters/", date, "_", biophy_params, ".pdf"), collapse = ""), width = 10)
+  pdf(file = str_c(c("integrating_biophysical_parameters/", date, "_", biophy_params, ".pdf"), collapse = ""), width = 10)
   print(plots)
   dev.off()
 }
@@ -149,7 +149,7 @@ all_parameters %>% filter(measure %in% c("gamma2", "GAP_kcat_Km")) %>%
   ylab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GAP mediated GTP hydrolysis") +
   xlab("% state 2") +
   theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
-ggsave(filename = "hierarchical_clustering_of_parameters/GAP_enzyme_eff_vs_gamma2.pdf", width = 12)
+ggsave(filename = "integrating_biophysical_parameters/GAP_enzyme_eff_vs_gamma2.pdf", width = 12)
 
 
 rel_GAP_GEF_efficiency <- all_parameters %>% 
@@ -169,7 +169,7 @@ rel_GAP_GEF_efficiency %>%
   ylab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GAP mediated GTP hydrolysis") +
   theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
 
-ggsave(filename = "hierarchical_clustering_of_parameters/GAP_enzyme_eff_vs_GEF_enzyme_eff.pdf", width = 12)
+ggsave(filename = "integrating_biophysical_parameters/GAP_enzyme_eff_vs_GEF_enzyme_eff.pdf", width = 12)
 
 GAP_GEF_ratio <- rel_GAP_GEF_efficiency %>% 
   spread(measure, rel_value) %>% 
@@ -188,8 +188,8 @@ GAP_GEF_ratio %>%
   theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 15),
         axis.title = element_text(size = 15)) +
   geom_hline(yintercept = 0, color = "red", alpha = 0.5)
-
-
+ggsave(filename = "integrating_biophysical_parameters/titration_of_relative_GAP_and_GEF_efficiency.pdf", width = 10)
+write_tsv(GAP_GEF_ratio, "titration_curves/GAP_GEF_ratio.txt")
 
 # 
 # GEF_kin <- data.frame(GEF_kin)
