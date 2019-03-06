@@ -119,17 +119,17 @@ cluster_by_parameters <- function(emap, biophy_params, k) {
 }
 
 available_parameters <- all_parameters %>% pull(measure) %>% unique()
-cluster_by_parameters(emap = e.map, biophy_params = c("GAP_kcat", "GAP_Km", "GEF_kcat", "GEF_Km"), k = 6)
-cluster_by_parameters(emap = e.map, biophy_params = c("GAP_kcat_Km", "GEF_kcat_Km"), k = 4)
-
-cluster_by_parameters(emap = e.map, biophy_params = c("GAP_kcat", "GAP_Km", "GEF_kcat", "GEF_Km", "gamma2"), k = 4)
-
-cluster_by_parameters(emap = e.map, biophy_params = c("SRM1", "RNA1"), k = 4)
-cluster_by_parameters(emap = e.map, biophy_params = c("SRM1", "RNA1", "MOG1"), k = 4)
-cluster_by_parameters(emap = e.map, biophy_params = c("SRM1", "RNA1", "YRB1"), k = 4)
-cluster_by_parameters(emap = e.map, biophy_params = c("SRM1", "RNA1", "MOG1", "YRB1"), k = 4)
-cluster_by_parameters(emap = e.map, biophy_params = c("GAP_kcat", "GAP_Km", "GEF_kcat", "GEF_Km", "gamma2", "SRM1", "RNA1"), k = 4)
-cluster_by_parameters(emap = e.map, biophy_params = c("GAP_kcat", "GAP_Km", "GEF_kcat", "GEF_Km", "gamma2", "SRM1", "RNA1", "MOG1", "YRB1"), k = 4)
+# cluster_by_parameters(emap = e.map, biophy_params = c("GAP_kcat", "GAP_Km", "GEF_kcat", "GEF_Km"), k = 6)
+# cluster_by_parameters(emap = e.map, biophy_params = c("GAP_kcat_Km", "GEF_kcat_Km"), k = 4)
+# 
+# cluster_by_parameters(emap = e.map, biophy_params = c("GAP_kcat", "GAP_Km", "GEF_kcat", "GEF_Km", "gamma2"), k = 4)
+# 
+# cluster_by_parameters(emap = e.map, biophy_params = c("SRM1", "RNA1"), k = 4)
+# cluster_by_parameters(emap = e.map, biophy_params = c("SRM1", "RNA1", "MOG1"), k = 4)
+# cluster_by_parameters(emap = e.map, biophy_params = c("SRM1", "RNA1", "YRB1"), k = 4)
+# cluster_by_parameters(emap = e.map, biophy_params = c("SRM1", "RNA1", "MOG1", "YRB1"), k = 4)
+# cluster_by_parameters(emap = e.map, biophy_params = c("GAP_kcat", "GAP_Km", "GEF_kcat", "GEF_Km", "gamma2", "SRM1", "RNA1"), k = 4)
+# cluster_by_parameters(emap = e.map, biophy_params = c("GAP_kcat", "GAP_Km", "GEF_kcat", "GEF_Km", "gamma2", "SRM1", "RNA1", "MOG1", "YRB1"), k = 4)
 
 
 
@@ -151,6 +151,14 @@ all_parameters %>% filter(measure %in% c("gamma2", "GAP_kcat_Km")) %>%
   theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
 ggsave(filename = "integrating_biophysical_parameters/GAP_enzyme_eff_vs_gamma2.pdf", width = 12)
 
+
+relative_parameters <- all_parameters %>% 
+  filter(measure %in% c("GEF_kcat", "GEF_Km", "GEF_kcat_Km", 
+                        "GAP_kcat", "GAP_Km", "GAP_kcat_Km", "gamma2")) %>% 
+  select(-value) %>% 
+  inner_join(., WT_parameters, by = c("measure")) %>% 
+  mutate("rel_value" = raw_value/wt_value) %>% 
+  select(-raw_value, -wt_value) 
 
 rel_GAP_GEF_efficiency <- all_parameters %>% 
   filter(measure %in% c("GEF_kcat_Km", "GAP_kcat_Km")) %>% 
@@ -188,8 +196,36 @@ GAP_GEF_ratio %>%
   theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 15),
         axis.title = element_text(size = 15)) +
   geom_hline(yintercept = 0, color = "red", alpha = 0.5)
+
 ggsave(filename = "integrating_biophysical_parameters/titration_of_relative_GAP_and_GEF_efficiency.pdf", width = 10)
 write_tsv(GAP_GEF_ratio, "titration_curves/GAP_GEF_ratio.txt")
+
+
+
+
+GAP_GEF_ratio <- relative_parameters %>% 
+  spread(measure, rel_value) %>% 
+  mutate("GAP/GEF efficiency" = GAP_kcat_Km / GEF_kcat_Km,
+         "GAP kcat / GEF kcat" = GAP_kcat / GEF_kcat) %>% 
+  filter(! is.na(`GAP/GEF efficiency`)) %>% 
+  arrange(`GAP/GEF efficiency`) 
+mutants_by_GAP_GEF_ratio <- GAP_GEF_ratio %>% 
+  pull(mutant) %>% unique()
+
+GAP_GEF_ratio %>% 
+  #select(mutant, `GAP/GEF efficiency`, `GAP kcat / GEF kcat`) %>% 
+  gather(parameter, value, -mutant) %>% 
+  mutate("mutant" = factor(mutant, mutants_by_GAP_GEF_ratio)) %>% 
+  ggplot(aes(x = mutant, y = log(value), color = parameter, group = 1)) +
+  geom_point(size = 6, alpha = 0.5) +
+  ylab("ln(value)") +
+  xlab("Gsp1 point mutant") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 15),
+        axis.title = element_text(size = 15)) +
+  geom_hline(yintercept = 0, color = "red", alpha = 0.5)
+
+write_tsv(GAP_GEF_ratio, "titration_curves/GAP_GEF_ratio_all.txt")
+
 
 # 
 # GEF_kin <- data.frame(GEF_kin)

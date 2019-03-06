@@ -33,6 +33,7 @@ emap_complex_data <- complex_tibble %>%
 ##### GAP/GEF ratio
 GAP_GEF_ratio <- read_tsv("titration_curves/GAP_GEF_ratio.txt")
 GAP_GEF_ratio_mutants <- GAP_GEF_ratio %>% pull(mutant) %>% unique()
+
 for (i in seq_along(complexes)) {
   complex <- complexes[i]
   temp.emap <- emap_complex_data %>% 
@@ -95,6 +96,11 @@ for (i in seq_along(complexes)) {
          filename = str_c("titration_curves/output/titration_curves_GAP_GEF_order/",
                           str_replace_all(complex, pattern = "/", replacement = ""), ".pdf"), base_width = 10, base_height = 7)
 }
+
+
+prot_corr <- function(gene1, gene2) {
+  corr <- cor(temp$score[temp$Name == gene1], temp$score[temp$Name == gene2], use = "pairwise.complete.obs")
+}
 mean_complex_correlation <- tibble("complex" = complexes, "mean_corr" = vector("double", length(complexes)) )
 for (i in seq_along(complexes)) {
   temp <- emap_complex_data %>% 
@@ -102,9 +108,6 @@ for (i in seq_along(complexes)) {
   complex_members <- temp %>% pull(Name) %>% unique()
   complex_member_pairs <- combn(complex_members, m = 2)
   complex_member_pairs <- list("gene1" = complex_member_pairs[1,], "gene2" = complex_member_pairs[2,])
-  prot_corr <- function(gene1, gene2) {
-    corr <- cor(temp$score[temp$Name == gene1], temp$score[temp$Name == gene2], use = "pairwise.complete.obs")
-    }
   mean_complex_correlation$mean_corr[[i]] <- complex_member_pairs %>% pmap(prot_corr) %>% unlist() %>% mean
 }
 mean_complex_correlation %>% arrange(mean_corr) %>% ggplot(aes(x = mean_corr)) + geom_density()
