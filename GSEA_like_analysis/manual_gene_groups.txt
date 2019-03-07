@@ -1,0 +1,48 @@
+YNL172W	APC1	SAC and APC
+YDL008W	APC11	SAC and APC
+YLR127C	APC2	SAC and APC
+YDR118W	APC4	SAC and APC
+YOR249C	APC5	SAC and APC
+YLR102C	APC9	SAC and APC
+YGR188C	BUB1	SAC and APC
+YOR026W	BUB3	SAC and APC
+YKL022C	CDC16	SAC and APC
+YGL116W	CDC20	SAC and APC
+YHR166C	CDC23	SAC and APC
+YFR036W	CDC26	SAC and APC
+YBL084C	CDC27	SAC and APC
+YGL003C	CDH1	SAC and APC
+YGL240W	DOC1	SAC and APC
+YGL086W	MAD1	SAC and APC
+YJL030W	MAD2	SAC and APC
+YJL013C	MAD3	SAC and APC
+YIR025W	MND2	SAC and APC
+YDL028C	MPS1	SAC and APC
+YDR260C	SWM1	SAC and APC
+YAL021C	CCR4	traversing start control point of mitotic cell cycle
+YLR310C	CDC25	traversing start control point of mitotic cell cycle
+YMR199W	CLN1	traversing start control point of mitotic cell cycle
+YPL256C	CLN2	traversing start control point of mitotic cell cycle
+YAL040C	CLN3	traversing start control point of mitotic cell cycle
+YGR155W	CYS4	traversing start control point of mitotic cell cycle
+YLR361C	DCR2	traversing start control point of mitotic cell cycle
+YMR135C	GID8	traversing start control point of mitotic cell cycle
+YOR066W	MSA1	traversing start control point of mitotic cell cycle
+YGR245C	SDA1	traversing start control point of mitotic cell cycle
+YNL197C	WHI3	traversing start control point of mitotic cell cycle
+YOR083W	WHI5	traversing start control point of mitotic cell cycle
+YGL173C	XRN1	traversing start control point of mitotic cell cycle
+YGL194C	HOS2	secretory stress
+YIL112W	HOS4	secretory stress
+YDR155C	CPR1	secretory stress
+YOL068C	HST1	secretory stress
+YKR029C	SET3	secretory stress
+YBR103W	SIF2	secretory stress
+YCR033W	SNT1	secretory stress
+YHR030C	SLT2	secretory stress
+YOL068C	HST1	secretory stress
+YOR279C	RFM1	secretory stress
+YDR310C	SUM1	secretory stress
+YBL105C	PKC1	secretory stress
+YJL095W	BCK1	secretory stress
+YOR231W	MKK1	secretory stress

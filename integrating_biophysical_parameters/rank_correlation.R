@@ -194,4 +194,11 @@ gap_gef %>%
 
 write_tsv(gap_gef, "integrating_biophysical_parameters/kendall_correlation.txt")
 
-
+ranked_by_GAP <- gap_gef %>% 
+  select(gene_name, GAP_kcat_Km) %>% 
+  arrange(desc(GAP_kcat_Km))
+write_tsv(ranked_by_GAP, "integrating_biophysical_parameters/ranked_by_GAP.rnk")
+ranked_by_GEF <- gap_gef %>% 
+  select(gene_name, GEF_kcat_Km) %>% 
+  arrange(desc(GEF_kcat_Km))
+write_tsv(ranked_by_GEF, "integrating_biophysical_parameters/ranked_by_GEF.rnk")
