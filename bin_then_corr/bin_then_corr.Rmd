@@ -1,0 +1,14 @@
+---
+title: "bin_then_corr.Rmd"
+author: "Chris Mathy"
+date: "3/7/2019"
+output: html_document
+---
+
+import packages
+```{r echo=T, results='hide'}
+library(tidyverse)
+```
+
+
+
