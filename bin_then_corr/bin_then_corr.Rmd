@@ -10,5 +10,15 @@ import packages
 library(tidyverse)
 ```
 
+import data
 
+```{r echo=T, results='hide'}
+load('../scaling_Costanzo_SGA_data/data/SGA_2016_full_scaled.rda')
+load('../scaling_Costanzo_SGA_data/data/June2016_Gsp1_E-MAP_data.Rdata')
+```
+
+```{r}
+head(SGA_scaled_to_EMAP)
+head(e.map)
+```
 
