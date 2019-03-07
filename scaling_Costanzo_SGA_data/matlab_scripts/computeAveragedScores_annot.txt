@@ -1,0 +1,31 @@
+function [averaged,filtered,medians] = computeAveragedScores_hannes4(unaveraged,averagingVar)
+
+input: a matrix of genetic interaction scores, optionally a 
+output: res, a 
+
+
+
+(1) pre-allocate a vector (rx1) the length of the number of query genes, and a matrix (rx10) that can hold the replicate IDs of up to 10 replicates
+(2) add the mutation type (listed in the attributes 'rowMut' and 'colMut') to the row/column labels
+(3) if you don't provide an averaging variable, it computes one from the unaveraged data using the function "estimatePartnerScores"
+    - this object (var) has four attributes
+      1. var.pp: a piecewise polynomial describing the relationship between a score and it's likely repeat score
+      2. var.bins: an evenly spaced set of bins, from -12:0.5:7
+      3. var.fitx: an evenly spaced set of values, from -12:0.1:7
+      4. var.fity: the piecewise polynomial evaluated at each point in res.fitx 
+    - also make var.fitx go from -120:1:70 instead of -12:0.1:7 -- this allows later steps to use the round function
+(4) set a threshold for the the averaged value to run between -120 and 70 (so EMAP scores between -12 and -7) so that partner scores are limited to this range that was used to fit the spline.
+(5) For each ORF (i), find all of the rows that correpond to that ORF and have non-NaNs (so some measurement made for the gene-NAT), and all of the cols that fit the same criteria (so some measurement made for the gene-KAN)
+    - number of replicates is the total number of indices found with this method, i.e. the number of times the ORF appeard as a query or as a library gene, across potentially several different alleles
+    - at the ith row of repID, store a vector of the replicate IDs, using positive numbers for NAT replicates, and negative numbers for KAN replicates
+(6) For each pair of ORFs that are present in the dataset
+    - get any measurements of that pair
+    - if there's only one measurement, check whether it's a possible outlier (above weak positive cutoff = 70th percentile). If it is, give it an NA, and agument a counter for number of filtered pairs. If it's not an outlier, take the value (unless it's out of bounds, in which take the bound) and feed it into the averaging variable, i.e. the spline you fit earlier. The cal is estPartner=averagingVar.fity(averagingVar.fitx==score1), where you round score1 before hand to make sure you find the fitx value that it is closest to. Average the original value with this estimated partner, and store it in the new average matrix.
+    - if there are two measurements, there are a few choices:
+        - if one of the values is past the hard cutoff (5th/95th percentile), and the other value is past the soft cutoff (30th/70th percentile), then this is likely to be a true value of a strong score. Simply average the two values.
+        - if one of the values is in the 95th percentile but the other is not, ignore the pair (and add them to filtered)
+    - if there are more than two measurements,
+        - if they are all strong scores (for pos scores max list is past the strong cutoff, min list is past weak cutoff, or vice versa for neg scores), take their mean.
+        - if some are strong but some are not past the weak cutoff, take median (deals with high noise in many measurements)
+        - if none past strong cutoff, take mean
+(7)  add geneToOrf labels, clean up the averaged matrix, deal with disjoint case (return a labeled matrix with all NAs for data, I believe, and add type of mutation for each col/row value to the object

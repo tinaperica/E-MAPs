@@ -1,0 +1,29 @@
+Genetic interaction Datasets for matlab functions
+
+object: 1x1 struct with 8 fields
+    
+    (1) rowlabels [670 x 1]
+    (2) collabels [1536 x 1]
+        - cell matrix, one column, each cell contains an ORF string
+
+    (3) rowMut [670 x 1]
+    (4) colMut [1536 x 1]
+        - cell matrix, one column, each cell contains a string labeling the type of mutation (i.e. DELETION, DAMP, TRUNC_GFP, etc
+    
+    (5) data [670x1536]
+        - double matrix, each value is a score, NaNs included
+
+    (6) geneToOrf [1x1] struct
+        (a) orfname [5702 x 1]
+        (b) genename [5702 x 1]
+            - cell matrix, one column ORF strings or gene strings
+    
+    (7) colCoord [1x1] struct
+        (a) chrom [1 x 1536]
+            - double matrix, one row of integers
+        (b) coord [1536 x 2]
+            - double matrix, two columns of integers, referring to gene coordinates (I assume in bp)
+
+    (8) rowCoord [1x1] struct
+        (a) chrom [1 x 670]
+        (b) coord [670 x 2]
