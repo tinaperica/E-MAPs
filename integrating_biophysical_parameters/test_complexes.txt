@@ -1,0 +1,45 @@
+YBR211C	AME1	mitotic checkpoint and kinetochore
+YDR254W	CHL4	mitotic checkpoint and kinetochore
+YPL018W	CTF19	mitotic checkpoint and kinetochore
+YBR107C	IML3	mitotic checkpoint and kinetochore
+YDR318W	MCM21	mitotic checkpoint and kinetochore
+YPR046W	MCM16	mitotic checkpoint and kinetochore
+YGR179C	OKP1	mitotic checkpoint and kinetochore
+YLR381W	CTF3	mitotic checkpoint and kinetochore
+YJR135C	MCM22	mitotic checkpoint and kinetochore
+YOR026W	BUB3	mitotic checkpoint and kinetochore
+YGL116W	CDC20	mitotic checkpoint and kinetochore
+YJL030W	MAD2	mitotic checkpoint and kinetochore
+YJL013C	MAD3	mitotic checkpoint and kinetochore
+YDR138W	HPR1	THO complex
+YML062C	MFT1	THO complex
+YNL139C	RLR1	THO complex
+YHR167W	THP2	THO complex
+YNR051C	BRE5	Ubp3p/Bre5p complex
+YER151C	UBP3	Ubp3p/Bre5p complex
+YDL088C	ASM4	karyopherin docking subcomplex of the NPC
+YBL079W	NUP170	karyopherin docking subcomplex of the NPC
+YMR153W	NUP53	karyopherin docking subcomplex of the NPC
+YGR200C	ELP2	Elongator complex
+YPL086C	ELP3	Elongator complex
+YPL101W	ELP4	Elongator complex
+YMR312W	ELP6	Elongator complex
+YHR187W	IKI1	Elongator complex
+YLR384C	IKI3	Elongator complex
+YPR034W	ARP7	RSC complex
+YMR033W	ARP9	RSC complex
+YCR020W-B	HTL1	RSC complex
+YBL006C	LDB7	RSC complex
+YMR091C	NPL6	RSC complex
+YGR056W	RSC1	RSC complex
+YLR357W	RSC2	RSC complex
+YDR303C	RSC3	RSC complex
+YHR056C	RSC30	RSC complex
+YKR008W	RSC4	RSC complex
+YLR033W	RSC58	RSC complex
+YCR052W	RSC6	RSC complex
+YFR037C	RSC8	RSC complex
+YML127W	RSC9	RSC complex
+YGR275W	RTT102	RSC complex
+YLR321C	SFH1	RSC complex
+YIL126W	STH1	RSC complex
