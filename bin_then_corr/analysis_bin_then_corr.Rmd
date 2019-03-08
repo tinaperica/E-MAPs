@@ -1,0 +1,20 @@
+---
+title: "bin_then_corr.Rmd"
+author: "Chris Mathy"
+date: "3/8/2019"
+output: html_document
+---
+
+import packages and data
+```{r echo=T, results='hide'}
+library(tidyverse)
+load('../spitzemap/spitzemap.rda')
+```
+
+```{r}
+head(spitzemap)
+```
+
+Goal here: bin first, using thresholds of 2, 3, and 5 (positive and negative),
+because those are interesting confidence intervals as described in Collins et
+al 2006 (figure 4b/c).
