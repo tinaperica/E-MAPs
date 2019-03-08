@@ -10,17 +10,47 @@ import packages
 library(tidyverse)
 ```
 
-import data
+Read in the Gsp1 data, output from MATLAB
+- The data is processed to have six labels for each strain (query or array) to match the labels
+  used for the SGA preprocessing.
+```{r}
+name_to_ORF <- list()
+name_to_ORF$array_allele_name <- read_delim('gsp1_pEMAP_avg_merged_gene_names.txt', delim='\t') %>% colnames()
+name_to_ORF$array_ORF <- read_delim('gsp1_pEMAP_avg_merged.txt', delim='\t') %>% colnames()
+name_to_ORF <- as.data.frame(name_to_ORF)
 
-```{r echo=T, results='hide'}
+gsp1_pEMAP <-
+  read_delim('gsp1_pEMAP_avg_merged_gene_names.txt', delim='\t') %>% 
+  rename(query_allele_name = Gene) %>%
+  separate(query_allele_name, into = c('query_name', 'query_mutant'),
+           sep = ' - ', extra = "drop", remove = FALSE) %>% 
+  mutate(query_ORF = 'YLR293C', query_descriptor = NA) %>% 
+  unite('query_strain_id', c('query_ORF','query_mutant'), remove = FALSE) %>% 
+  gather(-starts_with('query'), key = 'array_allele_name', value = 'score', na.rm = TRUE) %>%
+  left_join(name_to_ORF, by = 'array_allele_name') %>% 
+  separate(array_allele_name, into = c('array_name', 'array_descriptor'),
+           sep = ' - ', extra = "drop", remove = FALSE) %>% 
+  mutate('array_mutant' = NA,
+         'array_strain_id' = paste(array_ORF, 'emap', sep = '_'),
+         'interaction_network' = 'gsp1_pEMAP',
+         'pvalue' = NA) %>%
+  select(starts_with('query'), starts_with('array'), score, pvalue, interaction_network)
+```
+
+import SGA data and prepare it for concatenation
+```{r}
 load('../scaling_Costanzo_SGA_data/data/SGA_2016_full_scaled.rda')
 
-
-
+SGA_to_combine <-
+  SGA_scaled_to_EMAP %>% 
+  mutate(interaction_network = paste(interaction_network, 'SGA', sep = '_')) %>% 
+  select(interaction_network, starts_with('query'), starts_with('array'),
+         -ends_with('smf'), -arraytype_temp, score_scaled_to_emap, pvalue) %>% 
+  rename('score' = score_scaled_to_emap)
 ```
 
+Combine pEMAP with SGA to make spitzemap, then save
 ```{r}
-head(SGA_scaled_to_EMAP)
-head(e.map)
+spitzemap <- bind_rows(gsp1_pEMAP, SGA_to_combine)
+save(spitzemap, file = 'spitzemap.rda')
 ```
-
