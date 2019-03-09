@@ -191,7 +191,7 @@ GAP_GEF_ratio %>%
   mutate("mutant" = factor(mutant, mutants_by_GAP_GEF_ratio)) %>% 
   ggplot(aes(x = mutant, y = log(GAP_GEF_ratio))) + 
   geom_point(size = 6, alpha = 0.5) +
-  ylab("ln(relative GAP over relative GEF efficiency)") +
+  ylab("ln(relative GAP / relative GEF efficiency)") +
   xlab("Gsp1 point mutant") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 15),
         axis.title = element_text(size = 15)) +
@@ -200,6 +200,13 @@ GAP_GEF_ratio %>%
 ggsave(filename = "integrating_biophysical_parameters/titration_of_relative_GAP_and_GEF_efficiency.pdf", width = 10)
 write_tsv(GAP_GEF_ratio, "titration_curves/GAP_GEF_ratio.txt")
 
+mut_ranked_by_GAP_eff <- GAP_GEF_ratio %>% arrange(GAP_kcat_Km) %>% 
+  select(mutant, GAP_kcat_Km)
+write_tsv(mut_ranked_by_GAP_eff, "integrating_biophysical_parameters/ranked_by_GAP_eff.txt")
+
+mut_ranked_by_GEF_eff <- GAP_GEF_ratio %>% arrange(GEF_kcat_Km) %>% 
+  select(mutant, GEF_kcat_Km)
+write_tsv(mut_ranked_by_GEF_eff, "integrating_biophysical_parameters/ranked_by_GEF_eff.txt")
 
 
 
@@ -225,6 +232,18 @@ GAP_GEF_ratio %>%
   geom_hline(yintercept = 0, color = "red", alpha = 0.5)
 
 write_tsv(GAP_GEF_ratio, "titration_curves/GAP_GEF_ratio_all.txt")
+
+GAP_GEF_ratio %>% 
+  select(mutant, gamma2, GAP_kcat_Km) %>% 
+  gather(parameter, value, -mutant) %>% 
+  mutate("mutant" = factor(mutant, mutants_by_GAP_GEF_ratio)) %>% 
+  ggplot(aes(x = mutant, y = log(value), color = parameter, group = 1)) +
+  geom_point(size = 6, alpha = 0.5) +
+  ylab("ln(value)") +
+  xlab("Gsp1 point mutant") +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 15),
+        axis.title = element_text(size = 15)) +
+  geom_hline(yintercept = 0, color = "red", alpha = 0.5)
 
 
 # 
