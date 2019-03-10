@@ -1,16 +1,14 @@
-<<<<<<< HEAD
 .Rproj.user
-.Rhistory
-.RData
 .Ruserdata
-=======
 # History files
 .Rhistory
 .Rapp.history
 
 # Session Data files
 *.RData
+
 .DS_Store
+
 # E-MAP input data (too large)
 **preprocessed_ubermap*
 basic_E-MAP_data/ORF_names_ubermap_not_merged.txt
@@ -54,4 +52,3 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
->>>>>>> 01b0c9e754ff91f715fbdd846dc78a9d95d7b0d8
