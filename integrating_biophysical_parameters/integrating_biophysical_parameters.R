@@ -39,7 +39,8 @@ all_parameters <- all_parameters %>%
   mutate("value" = scale(raw_value)) %>% 
   ungroup()
 ###########
-
+### input APMS based GAP GEF ratio
+apms_GAP_GEF_diff <- read_tsv("integrating_biophysical_parameters/tag_averagged_gap_minus_gef_ln_APMS_fold_change_from_WT.txt")
 
 ### hierarchical clustering of the emap data
 spread_emap <- e.map %>% 
@@ -167,7 +168,7 @@ rel_GAP_GEF_efficiency <- all_parameters %>%
   mutate("rel_value" = raw_value/wt_value) %>% 
   select(-raw_value, -wt_value) 
   
-  
+
 rel_GAP_GEF_efficiency %>% 
   spread(measure, rel_value) %>% 
   ggplot(aes(x = log(GEF_kcat_Km), y = log(GAP_kcat_Km), label = mutant)) +
@@ -178,6 +179,20 @@ rel_GAP_GEF_efficiency %>%
   theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
 
 ggsave(filename = "integrating_biophysical_parameters/GAP_enzyme_eff_vs_GEF_enzyme_eff.pdf", width = 12)
+
+rel_GAP_GEF_efficiency %>% 
+  spread(measure, rel_value) %>% 
+  inner_join(., apms_GAP_GEF_diff) %>% 
+  ggplot(aes(x = log(GEF_kcat_Km), y = log(GAP_kcat_Km), label = mutant)) +
+  geom_point(aes(color = gap_minus_gef_FC), size = 5) +
+  geom_text_repel() +
+  scale_color_gradient2() +
+  labs(color = "GAP - GEF\nln(fold change MUT/WT)") +
+  xlab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GEF mediated nucleotide exchange") +
+  ylab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GAP mediated GTP hydrolysis") +
+  theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
+ggsave("integrating_biophysical_parameters/GAP_enzyme_eff_vs_GEF_enzyme_eff_color_by_APMS_GAP_GEF.pdf", height = 7, width = 11)
+
 
 GAP_GEF_ratio <- rel_GAP_GEF_efficiency %>% 
   spread(measure, rel_value) %>% 
@@ -244,44 +259,3 @@ GAP_GEF_ratio %>%
   theme(axis.text.x = element_text(angle = 90, hjust = 1, size = 15),
         axis.title = element_text(size = 15)) +
   geom_hline(yintercept = 0, color = "red", alpha = 0.5)
-
-
-# 
-# GEF_kin <- data.frame(GEF_kin)
-# rownames(GEF_kin) <- GEF_kin$mutant
-# GEF_kin <- GEF_kin[, -1]
-# k = 8
-# hclust_kin_data <- hcut(GEF_kin, k = k)
-# # fviz_dend(hclust_kin_data,  k_colors = c("#1B9E77", "#D95F02", "#7570B3", "#E7298A"), 
-# #           main = "mutants clustered by nucleotide exchange kinetics, k = 4")
-# fviz_dend(hclust_kin_data,  k_colors = brewer.pal(k, "Set1"), 
-#       main = str_c("mutants clustered by nucleotide exchange kinetics, k = ", k))
-# GEF_groups <- data.frame(cutree(hclust_kin_data, k = k))
-# names(GEF_groups) <- "group"
-# GEF_groups <- tibble("mutant" = rownames(GEF_groups), "group" = GEF_groups$group) %>% 
-#   inner_join(., tibble("group" = seq(1, k, 1), "color" = brewer.pal(k, "Set2")), by = "group") %>% 
-#   arrange(group)
-# order_mutants <- hclust_kin_data$labels[hclust_kin_data$order]
-# GEF_groups <- GEF_groups %>% 
-#   mutate("mut_fact" = factor(mutant, order_mutants)) %>% 
-#   arrange(mut_fact)
-# fviz_dend(hclust_kin_data,  label_cols =  GEF_groups$color, k_colors = "black", 
-#           main = str_c("mutants clustered by nucleotide exchange kinetics, k = ", k))
-# spread_emap <- e.map %>% 
-#   filter(mutant %in% rownames(GEF_kin)) %>% 
-#   select(library_gene_name, mutant, score) %>% 
-#   spread(library_gene_name, score)
-# spread_emap <- data.frame(spread_emap)
-# rownames(spread_emap) <- spread_emap$mutant
-# spread_emap <- spread_emap[, -1]
-# spread_emap <- Filter(function (x) !all (is.na(x)), spread_emap)  # this removes columns that are all NA
-# head(spread_emap[1:10, 1:10])
-# hclust_mut_data <- hcut(spread_emap, k = 4)
-# order_mutants <- hclust_mut_data$labels[hclust_mut_data$order]
-# GEF_groups <- GEF_groups %>% 
-#   mutate("mut_fact" = factor(mutant, order_mutants)) %>% 
-#   arrange(mut_fact)
-# fviz_dend(hclust_mut_data, label_cols =  GEF_groups$color, k_colors = "black",
-#           main = "mutants clustered by E-MAP score, clusters by GEF kinetic parameters")  # from ‘factoextra’ package 
-# 
-# 

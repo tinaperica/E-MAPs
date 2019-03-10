@@ -1,0 +1,38 @@
+function: estimatePartnerScores()
+input: a matrix of genetic interaction scores
+output: res, an object containing the following:
+    res.pp: a piecewise polynomial describing the relationship between a score and it's likely repeat score
+    res.bins: an evenly spaced set of bins, from -12:0.5:7
+    res.fitx: an evenly spaced set of values, from -12:0.1:7
+    res.fity: the piecewise polynomial evaluated at each point in res.fitx
+
+(1) remove any rows or columns containing only NaNs
+(2) create [x,y] with the function "findPairedData", effectively a list of tuples where x[i] corresponds to the score of an unlabeled geneA x geneB pair and y[i] corresponds to the score of a flipped measurement geneB x geneA of the same pair. This method just allows you to know what repeat measurements with flipped alleles tend to look like. So you know in general how variable a single score measurement is, as a function of that score's value.
+(3) if there is no paired data, i.e. if there are no genes for which genetic interactions were measured with both alleles as both query and library gene, then do the "noPseudoMethod" function. This just assumes that a second measurement will be exactly the same as the first, reflected in the identity polynomial used in res.pp.
+    - res.pp = a piecewise polynomial that is just a line through (0,0) with slope 1, from -15 to 15 (from function mkpp)
+    - res.bins = a vector from -12 to 7 with 0.5 steps
+    - res.fitx = a vector from -12 to 7 with 0.1 steps
+    - res.fity = a vector from -12 to 7 with 0.1 steps
+(4) in case that there is paired data, do method with pseudoaveraging:
+    - create bin starting values running from -12 to 7 with 0.5 steps
+    - for each bin starting value,
+      - define the bin as the starting value +/- the binsize (0.5) * factor, which starts at 1 and augments if the bin doesn't include enough observations. The +/- being at least as large as the step size ensures that bins overlap (presumably this avoids artifacts of arbitrary bin thresholds, and perhaps allows for a more continuous spline to be fit from the medians).
+      - take every value from x ("first" reads from the list of paired read tuples) that lies within the bin, and get all of their indices in x
+      - if there aren't 50 observations in the bin (i.e. enough to compute a median) then repeat but with a factor augmented by 0.05 (making the bin slightly larger on each side)
+      - get all of the second measurements, and compute a mean, median, and sd. store them in a vector where the index associates it with the bin from which the statistics were computed (so store it at position i, where i is iterating through the bins)
+    - Now that you have medians for each bin (taking the non-NaNs), you need to fit a smoothed curve to the medians
+      - create a knot vector for the spline,
+        - use knots = [-12:4:-8 -6:1:-4 -3:0.5:3 4 7], which is length 20 but not evenly spaced.
+        - a knot vector is a series of x-values that cut up the length of the spline domain and associate a different polynomial with each segment. So a knot vector with three values will have two segments and lead to a spline that knots together two polynomials at the middle value.
+      - replace the vector of medians with a monotonically increasing stepwise set of values (so if the medians are [m1 m2 ... mn] replace that vector with [v1 v2 ... vn], where vi <= vi+1, but the distance from mi to vi is minimized. Do this with the pool adjacent violators algorithm.
+      - create more and evenly-spaced bins (binsize/3) between the bin that produced m1 and the bin that produced mn (these might not be the first and last bins because those bins might have contained NaNs)
+      - match the monotonically increasing median estimates to the new evenly-spaced bins using linear interpolation. the new vector will still be monotonically increasing, and is presumably still a pretty good approximation for the data, just now evenly spaced.
+      - using the chosen knots, fit a spline to these evenly-spaced values along the approximation of medians, using the function "splinefit"
+      - first, uses levenburg-marquardt least squares to fit a spline segmented by the bins (so x is used as the knots), giving values (p) that lie along the spline and are mapped to the values of the knots. So each of 20 knots is mapped to a p value that lies along this spline. The spline is fit by how well the values of x (the bins) along the spline match the values of y. So basically the data [x,y] -- corresponding to bins and their medians -- constains the solution of a spline that passes through points [k,p] for 20 knots (k).
+        - Sean Collins modified a MATLAB implementation by Richard Shrager, Arthur Jutan, Ray Muzic (can be found online, also just look in the EMAP toolbox)
+      - now that we know that [k,p] define a really accurate spline, we want to return the piecewise polynomial of that spline, so we simply call pp=spline(k,p).
+  - finally we have a spline, described by the piecewise polynomial res.pp
+  - define res.bins as the initial bins (binsize=0.5; bins=-12:binsize:7)
+  - define res.fitx as -12:0.1:7
+  - call ppval to evaluate the piecewise polynomial at each of the values in res.fitx. replace that output with a monotonic final estimate (again using the pool adjacent violators algorithm)
+  - return this result
