@@ -1,0 +1,22 @@
+function: pav(dat)
+input: dat, a matrix
+output: v, a matrix of the same size as dat, but with monotonic scaling performed along each column (so the rows are observations in a single dimension, and the columns are dimensions). The scaling is done independently in each dimension.
+
+passing a vector of values "dat" gets you back a vector of values "v" where v_i <= v_i+1
+so essentially a monotonically increasing summary of the distribution.
+
+The algorithm used to compute the optimal scaled values is pool adjacent violators, described very well at the following wiki page for isotonic regression:
+http://stat.wikia.com/wiki/Isotonic_regression#Pool_Adjacent_Violators_Algorithm
+
+the algorithm basically first picks v_i = dat_i for all data points. There will likely be violations where subsequent observations are decreasing (i.e. v_i > v_i+1). It deals with this by choosing a consensus value for them, i.e by making v_i = v_i+1, and choosing that value to minimize the squared distance from the corresponding dat values. that new value might be less than the value chosen for v_i-1 (meaning we've violated the monotonic increase) so the algorithm brings that into the averaging too, choosing a good value and setting v_i-1 = v_i = v_i+1. It continues this until an optimal solution where each subsequent v value is less than or equal to the next. This gives a step function that is monotonically increasing.
+
+The implementation goes like:
+    - create a nx2 bookkeeping matrix that records, for each data point i from 1:n, which values of i define the pool that was used to compute v_i
+        - all values of i in the same pool will have the same values, so if the 5th through 8th data points are pooled, rows 5-8 will be (5,8)
+    - iterate until no violations: 
+        - find all violations, i.e. values of i where v_i is greater than v_i+1.
+          - Note: This may be because dat_i > dat_i+1, or it may be because the value of v_i+1 is the result of pooling from other violations already resolved, and those resolutions created this new violation
+        - get the indexes of all i's that are currently "pooled", meaning they were included in the calculation of the current v_i+1 value
+        - find the average of all the pooled values, including the newcomer v_i
+        - set all of the values used to compute that average to the value of the average
+        - update the bookkeeping of which indices are pooled together

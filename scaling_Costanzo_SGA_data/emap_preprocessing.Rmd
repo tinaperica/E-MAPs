@@ -1,0 +1,164 @@
+---CJM, Tuesday Mar 5, 2019---
+Realized that the datasets output by the computeAveragedScores_hannes4
+script are ready to be used by Colm's scaling, so no pre-processing
+is necessary for the EMAP data. Here's how I was preprocessing it, but
+honestly it's probably not useful anymore, because as long as I have
+the SGA symmetric data prepared in a way that allows for Colm's script
+to identify overlapping interactions (i.e., as long as the ORFs that 
+need to be compared are identical), the cF3 needs no pre-processing.
+This works because the DAmP, pseudogene, and ts gene names are always
+ORF - DAMP or ORF - delta ybrxxx, and I don't name my SGA variables
+like that.
+
+I prep an SGA dataset using unique IDs that allow for marker swaps
+to be averaged, but ultimately only the subset NxN with KOs will
+be used for the averaging to the cF3. These will just use ORF as
+gene names, meaning no pre-processing is needed for cF3.
+
+
+--
+
+Define a function to read and process E-MAP screens in the Krogan Lab file format
+- Note that all of the data files here encode square matrices, where the rows in "Gene" are the same
+  order as the columns after "Gene"
+- Additionally, the datafiles for processing ORFs will have ORFs in the form "ORF - ORF" for knockdown strains
+  (as opposed to "ORF" for knockout strains), and the string is always the same before and after the hyphen. For
+  this reason, geneA_ID is dropped after separating out the ORF ID into geneA_name and geneA_perturbation.
+```{r}
+parse_emap <- function(dataset) {
+  
+  data <-
+    read_delim(paste0('data/krogan_lab_EMAP_screens/', dataset, '_gene_names.txt'), delim='\t') %>% 
+    rename(geneA_strain = Gene) %>% 
+    mutate(geneA_ID = read_delim(paste0('data/krogan_lab_EMAP_screens/', dataset, '.txt'), delim='\t')$Gene) %>%
+    select(geneA_ID, geneA_strain, everything()) %>% 
+    separate(geneA_ID, into = c('geneA_ORF'), sep =' - ', extra = "drop", remove = TRUE) %>%
+    separate(geneA_strain, into = c('geneA_name','geneA_perturbation'), sep =' - ', remove = FALSE) %>%
+    mutate(geneA_perturbation = ifelse(is.na(geneA_perturbation), "KO", geneA_perturbation))
+  
+  strain_info <- 
+    data %>% 
+    select(starts_with('geneA')) %>% 
+    rename(geneB_ORF = geneA_ORF,
+           geneB_strain = geneA_strain,
+           geneB_name = geneA_name,
+           geneB_perturbation = geneA_perturbation)
+  
+  data %>%
+    gather(-starts_with('geneA'), key = 'geneB_strain', value = 'score', na.rm = TRUE) %>% 
+    left_join(strain_info, by = c('geneB_strain' = 'geneB_strain')) %>% 
+    mutate(dataset = dataset) %>% 
+    select(dataset, starts_with('geneA'), starts_with('geneB'), score)
+}
+```
+
+
+Read in EMAP data, then column-wise concatenate, and save files
+```{r}
+TF <- parse_emap('TF')                     # TF, transcription factor emap [not 1536]
+cF3 <- parse_emap('cF3')                   # cF3, chromosome biology emap [not 1536]
+combRNAP <- parse_emap('combRNAP')         # combRNAP, RNA processing [not 1536]
+cc2I <- parse_emap('cc2I')                 # cc2I, cell cycle screens (unpublished?)
+endo <- parse_emap('endo')                 # endo, endocytosis emap (unpublished?) [not 1536]
+espT <- parse_emap('espT')                 # espT, early secretory pathway emap [not 1536]
+kinase <- parse_emap('kinase')             # kinase, kinase emap [not 1536]
+scorematQC1p <- parse_emap('scorematQC1p') # scorematQC1p, lipid emap [1536]
+slp <- parse_emap('slp')                   # slp, mitochondrial emap [1536]
+
+# bind emap data together
+EMAP <- bind_rows(TF, cF3, combRNAP, cc2I, endo, espT, kinase, scorematQC1p, slp)
+
+# write datafiles
+# Rdata
+save(EMAP, file='data/EMAP_full.rda') 
+
+# Tab-delimited text
+# write_delim(EMAP, 'data/EMAP_full.txt', delim = '\t')
+```
+
+
+- For the EMAP, only the cF3 (chromosome biology) dataset is used, as this was the dataset
+  chosen as reference in the original EMAP scaling paper (Ryan et al 2012 Molecular Cell),
+  and other EMAPs have been scaled to it previously.
+- Within the cF3, only KO perturbations are considered. The other perturbations include DAmPs,
+  pseudogene deletions, and four point mutant temperature sensitive strains. Non-KO perturbations
+  were excluded because DAmPs were excluded from the preprocessed SGA dataset and because there
+  are relatively few pseudogene and ts mutant measurements.
+  
+  The following code shows that:
+    - The dataset includes 305164 interactions
+    - KO x KO measurements make up 80.8% of the dataset (n_interactions = 246502)
+    - measurements involving a DAmP make up 48152/305164 = 15.8% of the dataset
+    - measurements involving at least one pseudogene or ts mutant make up only 3.8% of the
+      dataset (n = 11582)
+
+```{r}
+filter(EMAP, dataset == 'cF3') %>% summarise(n())
+filter(EMAP, dataset == 'cF3') %>% filter((geneA_perturbation == 'KO') & (geneB_perturbation == 'KO')) %>% summarise(n())
+filter(EMAP, dataset == 'cF3') %>% filter((geneA_perturbation == 'DAMP') | (geneB_perturbation == 'DAMP')) %>% summarise(n())
+filter(EMAP, dataset == 'cF3') %>%
+  filter( !(geneA_perturbation %in% c('KO','DAMP')) | !(geneB_perturbation %in% c('KO','DAMP'))) %>%
+  summarise(n())
+```
+
+
+Once the cF3 data is filtered to only include KO x KO measurements, it can be confirmed that
+  query_ORF == query_strain == query_name, so query_ORF can be renamed "query_unique_id" and the
+  others can be dropped. The same is true for the array ORFs.
+
+```{r}
+EMAP_cF3_KOs <- EMAP %>%
+  filter(dataset == 'cF3') %>% 
+  filter((geneA_perturbation == 'KO') & (geneB_perturbation == 'KO')) %>% 
+  select(geneA_ORF, geneB_ORF, score)
+```
+
+- Note that the EMAP long format was generated from a square matrix because it was already
+  averaged/pseudo-averaged using the EMAP toolbox. This resulted in duplicate gene pairs with
+  the same score (i.e. score(geneA, geneB) = score(geneB, geneA)) being reported twice in our
+  table. This is shown in the following code, which sorts the query_unique_id and the
+  array_unique_id alphabetically, groups by genes and score, and identifies that all gene
+  pair - score combinations are replicated twice.
+- To resolve this, simply call "distinct" after grouping by Pert1, Pert2, score)
+  
+```{r}
+# Identify AB vs BA duplicates
+EMAP_cF3_KOs %>% 
+  rowwise() %>%
+  mutate(geneA = min(geneA_ORF, geneB_ORF), geneB = max(geneA_ORF, geneB_ORF)) %>%
+  ungroup() %>% 
+  group_by(geneA, geneB, score) %>%
+  mutate(n_rep = n()) %>% 
+  ungroup() %>% 
+  group_by(n_rep) %>% 
+  summarise(n())
+
+# Remove AB vs BA duplicates
+EMAP_for_scaling <-
+  EMAP_cF3_KOs %>% 
+  rowwise() %>%
+  mutate(geneA = min(geneA_ORF, geneB_ORF), geneB = max(geneA_ORF, geneB_ORF)) %>%
+  ungroup() %>% 
+  select(geneA, geneB, score) %>% 
+  distinct() %>% 
+  ungroup()
+
+# Check that removal was successful
+EMAP_for_scaling %>% 
+  group_by(geneA, geneB) %>% 
+  mutate(n_rep = n()) %>% 
+  ungroup() %>% 
+  group_by(n_rep) %>%
+  summarise(n())
+
+```
+
+This table "EMAP_for_scaling" is now ready to be made into a square, symmetric format and used for scaling.
+```{r}
+write_delim(EMAP_for_scaling, 'data/EMAP_for_scaling_long.txt', delim = '\t')
+```
+
+
+
+Now, run the python script "sga_emap_long_to_symm.py", which converts the long form table into a symmetric
+matrix using pandas dataframes.

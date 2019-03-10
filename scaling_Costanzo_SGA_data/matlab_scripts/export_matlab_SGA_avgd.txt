@@ -1,0 +1,9 @@
+load('Users/tina/Desktop/SGA_NxN_unaveraged.mat');
+
+SGA_NxN_avg = computeAveragedScores_hannes4(SGA_NxN_unaveraged);
+exportTabwORFNames(SGA_NxN_avg, '~/Desktop/SGA_NxN_avg.txt');
+
+load('Users/tina/Desktop/SGA_unaveraged.mat');
+
+SGA_avg = computeAveragedScores_hannes4(SGA_unaveraged);
+exportTabwORFNames(SGA_avg, '~/Desktop/SGA_avg.txt');

@@ -52,3 +52,6 @@ vignettes/*.pdf
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+.DS_Store
+.rda
+scaling_Costanzo_SGA_data/data
