@@ -43,83 +43,83 @@ all_parameters <- all_parameters %>%
 apms_GAP_GEF_diff <- read_tsv("integrating_biophysical_parameters/tag_averagged_gap_minus_gef_ln_APMS_fold_change_from_WT.txt")
 
 ### hierarchical clustering of the emap data
-spread_emap <- e.map %>% 
-  filter(mutant %in% unique(all_parameters$mutant)) %>% 
-  select(library_gene_name, mutant, score) %>% 
-  spread(library_gene_name, score)
-spread_emap <- data.frame(spread_emap)
-rownames(spread_emap) <- spread_emap$mutant
-spread_emap <- spread_emap[, -1]
-spread_emap <- Filter(function (x) !all (is.na(x)), spread_emap)  # this removes columns that are all NA
-head(spread_emap[1:10, 1:10])
-hclust_mut_data <- hcut(spread_emap, k = 4)
-order_mutants <- hclust_mut_data$labels[hclust_mut_data$order]
-fviz_dend(hclust_mut_data, k_colors = brewer.pal(4, "Set1"),
-          main = "mutants clustered by E-MAP score, k = 4")  # from ‘factoextra’ package 
-
-
-
-
-cluster_by_parameters <- function(emap, biophy_params, k) {
-  plots <- list()
-  param_subset <- all_parameters %>% 
-    filter(measure %in% biophy_params)
-  mutants_with_all_params <- param_subset %>% 
-    select(mutant, measure) %>% 
-    group_by(mutant) %>% 
-    summarise("n_param" = n()) %>% 
-    ungroup() %>% 
-    mutate("max_n_param" = max(n_param)) %>% 
-    filter(n_param == max_n_param) %>% 
-    pull(mutant)
-  emap.subset <- emap %>% 
-    filter(mutant %in% mutants_with_all_params)
-  
-  ### hierarchical clustering of the emap data
-  spread_emap <- emap.subset %>% 
-    #filter(mutant %in% unique(all_parameters$mutant)) %>% 
-    select(library_gene_name, mutant, score) %>% 
-    spread(library_gene_name, score)
-  spread_emap <- data.frame(spread_emap)
-  rownames(spread_emap) <- spread_emap$mutant
-  spread_emap <- spread_emap[, -1]
-  spread_emap <- Filter(function (x) !all (is.na(x)), spread_emap)  # this removes columns that are all NA
-  head(spread_emap[1:10, 1:10])
-  hclust_emap_data <- hcut(spread_emap, k = k)
-  
-  mut_groups <- data.frame(cutree(hclust_emap_data, k = k))
-  names(mut_groups) <- "group"
-  mut_groups <- tibble("mutant" = rownames(mut_groups), "group" = mut_groups$group) %>% 
-    inner_join(., tibble("group" = seq(1, k, 1), "color" = brewer.pal(k, "Set1")), by = "group") %>% 
-    arrange(group)
-  order_mutants <- hclust_emap_data$labels[hclust_emap_data$order]
-  mut_groups <- mut_groups %>% 
-    mutate("mut_fact" = factor(mutant, order_mutants)) %>% 
-    arrange(mut_fact)
-  plots[["by_emap"]] <- fviz_dend(hclust_emap_data, label_cols =  mut_groups$color, k_colors = "black",
-            main = str_c("mutants clustered by E-MAP score, k = ", k))  # from ‘factoextra’ package 
-  
-  #### cluster by parameters
-  param_subset_spread <- param_subset %>% 
-    filter(mutant %in% mutants_with_all_params) %>% 
-    select(-raw_value) %>% 
-    spread(measure, value)
-  param_subset_spread <- data.frame(param_subset_spread)
-  rownames(param_subset_spread) <- param_subset_spread$mutant
-  param_subset_spread <- param_subset_spread[, -1]
-  hclust_param_data <- hcut(param_subset_spread, k = k)
-  order_mutants_by_param <- hclust_param_data$labels[hclust_param_data$order]
-  mut_groups <- mut_groups %>% 
-    mutate("mut_fact" = factor(mutant, order_mutants_by_param)) %>% 
-    arrange(mut_fact)
-  plots[["by_param"]] <- fviz_dend(hclust_param_data, label_cols =  mut_groups$color, k_colors = "black", 
-            main = str_c( c("mutants clustered by: (", biophy_params, ") -> k =", k), collapse = " "))
-  pdf(file = str_c(c("integrating_biophysical_parameters/", date, "_", biophy_params, ".pdf"), collapse = ""), width = 10)
-  print(plots)
-  dev.off()
-}
-
-available_parameters <- all_parameters %>% pull(measure) %>% unique()
+# spread_emap <- e.map %>% 
+#   filter(mutant %in% unique(all_parameters$mutant)) %>% 
+#   select(library_gene_name, mutant, score) %>% 
+#   spread(library_gene_name, score)
+# spread_emap <- data.frame(spread_emap)
+# rownames(spread_emap) <- spread_emap$mutant
+# spread_emap <- spread_emap[, -1]
+# spread_emap <- Filter(function (x) !all (is.na(x)), spread_emap)  # this removes columns that are all NA
+# head(spread_emap[1:10, 1:10])
+# hclust_mut_data <- hcut(spread_emap, k = 4)
+# order_mutants <- hclust_mut_data$labels[hclust_mut_data$order]
+# fviz_dend(hclust_mut_data, k_colors = brewer.pal(4, "Set1"),
+#           main = "mutants clustered by E-MAP score, k = 4")  # from ‘factoextra’ package 
+# 
+# 
+# 
+# 
+# cluster_by_parameters <- function(emap, biophy_params, k) {
+#   plots <- list()
+#   param_subset <- all_parameters %>% 
+#     filter(measure %in% biophy_params)
+#   mutants_with_all_params <- param_subset %>% 
+#     select(mutant, measure) %>% 
+#     group_by(mutant) %>% 
+#     summarise("n_param" = n()) %>% 
+#     ungroup() %>% 
+#     mutate("max_n_param" = max(n_param)) %>% 
+#     filter(n_param == max_n_param) %>% 
+#     pull(mutant)
+#   emap.subset <- emap %>% 
+#     filter(mutant %in% mutants_with_all_params)
+#   
+#   ### hierarchical clustering of the emap data
+#   spread_emap <- emap.subset %>% 
+#     #filter(mutant %in% unique(all_parameters$mutant)) %>% 
+#     select(library_gene_name, mutant, score) %>% 
+#     spread(library_gene_name, score)
+#   spread_emap <- data.frame(spread_emap)
+#   rownames(spread_emap) <- spread_emap$mutant
+#   spread_emap <- spread_emap[, -1]
+#   spread_emap <- Filter(function (x) !all (is.na(x)), spread_emap)  # this removes columns that are all NA
+#   head(spread_emap[1:10, 1:10])
+#   hclust_emap_data <- hcut(spread_emap, k = k)
+#   
+#   mut_groups <- data.frame(cutree(hclust_emap_data, k = k))
+#   names(mut_groups) <- "group"
+#   mut_groups <- tibble("mutant" = rownames(mut_groups), "group" = mut_groups$group) %>% 
+#     inner_join(., tibble("group" = seq(1, k, 1), "color" = brewer.pal(k, "Set1")), by = "group") %>% 
+#     arrange(group)
+#   order_mutants <- hclust_emap_data$labels[hclust_emap_data$order]
+#   mut_groups <- mut_groups %>% 
+#     mutate("mut_fact" = factor(mutant, order_mutants)) %>% 
+#     arrange(mut_fact)
+#   plots[["by_emap"]] <- fviz_dend(hclust_emap_data, label_cols =  mut_groups$color, k_colors = "black",
+#             main = str_c("mutants clustered by E-MAP score, k = ", k))  # from ‘factoextra’ package 
+#   
+#   #### cluster by parameters
+#   param_subset_spread <- param_subset %>% 
+#     filter(mutant %in% mutants_with_all_params) %>% 
+#     select(-raw_value) %>% 
+#     spread(measure, value)
+#   param_subset_spread <- data.frame(param_subset_spread)
+#   rownames(param_subset_spread) <- param_subset_spread$mutant
+#   param_subset_spread <- param_subset_spread[, -1]
+#   hclust_param_data <- hcut(param_subset_spread, k = k)
+#   order_mutants_by_param <- hclust_param_data$labels[hclust_param_data$order]
+#   mut_groups <- mut_groups %>% 
+#     mutate("mut_fact" = factor(mutant, order_mutants_by_param)) %>% 
+#     arrange(mut_fact)
+#   plots[["by_param"]] <- fviz_dend(hclust_param_data, label_cols =  mut_groups$color, k_colors = "black", 
+#             main = str_c( c("mutants clustered by: (", biophy_params, ") -> k =", k), collapse = " "))
+#   pdf(file = str_c(c("integrating_biophysical_parameters/", date, "_", biophy_params, ".pdf"), collapse = ""), width = 10)
+#   print(plots)
+#   dev.off()
+# }
+# 
+# available_parameters <- all_parameters %>% pull(measure) %>% unique()
 # cluster_by_parameters(emap = e.map, biophy_params = c("GAP_kcat", "GAP_Km", "GEF_kcat", "GEF_Km"), k = 6)
 # cluster_by_parameters(emap = e.map, biophy_params = c("GAP_kcat_Km", "GEF_kcat_Km"), k = 4)
 # 
