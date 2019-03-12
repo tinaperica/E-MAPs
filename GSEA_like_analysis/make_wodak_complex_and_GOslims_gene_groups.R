@@ -33,13 +33,21 @@ complexes <- complex_tibble %>% pull(Complex) %>% unique()
 ### make each remaining GO_slim term it's own group
 #### and then make some composite groups (e.g. combin ER and Golgi, or combine multiple terms into mRNA processing group etc.)
 ##################################################################
+
+### finally add some manually made gene groups
+manual <- read_tsv("GSEA_like_analysis/manual_gene_groups.txt", col_names = F) %>% 
+  rename("ORF" = X1, "Gene" = X2, "term" = X3)
+manual_terms <- manual %>% pull(term) %>% unique()
 ## first add all the terms as groups
 gene_groups <- list()
 for (i in seq_along(GO_slim_terms)) {
   gene_groups[[GO_slim_terms[i]]] <- GO_slim_terms[i]
 }
-for (i in seq_along(larger_than_3_complex)) {
-  gene_groups[[larger_than_3_complex[i]]] <- larger_than_3_complex[i]
+for (i in seq_along(complexes)) {
+  gene_groups[[complexes[i]]] <- complexes[i]
+}
+for (i in seq_along(manual_terms)) {
+  gene_groups[[manual_terms[i]]] <- manual_terms[i]
 }
 ### then manually select some terms based on which I will make GO based clusters
 #### make sure that composite GO_slims_terms have unique names, that don't already exist as GO_slims_terms
@@ -104,7 +112,8 @@ gene_groups[["metabolic"]] <- unique ( GO_slims$GO_Slim_term[
 term_orf_index <- complex_tibble %>% 
   rename("GO_Slim_term" = "Complex") %>% 
   bind_rows(., GO_slims) %>% 
-  rename("term" = GO_Slim_term)
+  rename("term" = GO_Slim_term) %>% 
+  bind_rows(., manual)
 gene_categories <- tibble("ORF" = character(), Gene = "character", term = "character")
 for (i in seq_along(groups)) {
   terms <- gene_groups[[groups[i]]]
@@ -131,7 +140,9 @@ write_tsv(gene_categories, path = "GSEA_like_analysis/gene_groups.txt")
 gene_categories <- gene_categories %>% 
   mutate("gene_set_type" = ifelse(term %in% complexes, "Wodak complex", "GO slims"))
 terms <- gene_categories %>% pull(term) %>% unique()
-
+if (file.exists("GSEA_like_analysis/gene_groups.gmt")) {
+  unlink("GSEA_like_analysis/gene_groups.gmt")
+}
 for (i in seq_along(terms)) {
   gene.set <- gene_categories %>% filter(term == terms[i]) %>% 
     pull(Gene)

@@ -12,14 +12,16 @@ e.map <- as_tibble(e.map) %>%
 #### Wodak complexes
 ##### keep only complexes that have more than one member that has a significant E-MAP score with at least one mutant
 library_ORFs <- e.map %>% 
-  filter(score < -4 | score > 2) %>% 
+  filter(score < -2 | score > 2) %>% 
   pull(library_ORF) %>% unique()
-complex_tibble <- read_tsv("titration_curves/all_wodak_complexes.txt") %>% 
-  filter(ORF %in% library_ORFs)
+complex_tibble <- read_tsv("titration_curves/all_wodak_complexes.txt")
 complexes <- complex_tibble %>% 
+  filter(ORF %in% library_ORFs) %>% 
   group_by(Complex) %>% 
   summarize("count" = n()) %>% 
   filter(count > 1) %>% pull(Complex)
+complex_tibble <- complex_tibble %>% 
+  filter(Complex %in% complexes)
 ###### after this filtering ended up with 115 complexes
 emap_complex_data <- complex_tibble %>% 
   filter(Complex %in% complexes) %>% 

@@ -1,7 +1,59 @@
 .Rproj.user
-.Rhistory
-.RData
 .Ruserdata
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+*.RData
+
+.DS_Store
+
+# E-MAP input data (too large)
+**preprocessed_ubermap*
+basic_E-MAP_data/ORF_names_ubermap_not_merged.txt
+soft_cos_corr_of_corr_for_gia.txt
+
+### scaling data
+scaling_Costanzo_SGA_data/data/ubermap_gene_names_not_merged.txt
+
+# some pdf files with plots that are too large
+all_NIPALS_PCA_GO_cluster_groups.pdf
+choose_clusters/pairwise_scatterplots.pdf
+choose_clusters/pairwise_scatterplots_by_query_pair.pdf
+
+### titration curve output .pdf files
+titration_curves/output/
+# correlations_data
+/clustered_correlations/correlations_data/
+# Example code in package build process
+*-Ex.R
+# control scatterplots
+/scatterplots/
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+/*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
 .DS_Store
 .rda
 scaling_Costanzo_SGA_data/data

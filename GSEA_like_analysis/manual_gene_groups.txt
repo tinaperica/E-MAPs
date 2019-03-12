@@ -46,3 +46,119 @@ YDR310C	SUM1	secretory stress
 YBL105C	PKC1	secretory stress
 YJL095W	BCK1	secretory stress
 YOR231W	MKK1	secretory stress
+YPL089C	RLM1	secretory stress
+YER167W	BCK2	G1 to S transition of mitotic cell cycle
+YDR054C	CDC34	G1 to S transition of mitotic cell cycle
+YFL009W	CDC4	G1 to S transition of mitotic cell cycle
+YDL132W	CDC53	G1 to S transition of mitotic cell cycle
+YJL194W	CDC6	G1 to S transition of mitotic cell cycle
+YPR120C	CLB5	G1 to S transition of mitotic cell cycle
+YGR109C	CLB6	G1 to S transition of mitotic cell cycle
+YOL133W	HRT1	G1 to S transition of mitotic cell cycle
+YIL046W	MET30	G1 to S transition of mitotic cell cycle
+YOR066W	MSA1	G1 to S transition of mitotic cell cycle
+YDL134C	PPH21	G1 to S transition of mitotic cell cycle
+YDL188C	PPH22	G1 to S transition of mitotic cell cycle
+YJR059W	PTK2	G1 to S transition of mitotic cell cycle
+YJR059W	PTK2	G1 to S transition of mitotic cell cycle
+YIL153W	RRD1	G1 to S transition of mitotic cell cycle
+YFR040W	SAP155	G1 to S transition of mitotic cell cycle
+YJL098W	SAP185	G1 to S transition of mitotic cell cycle
+YKR028W	SAP190	G1 to S transition of mitotic cell cycle
+YGL229C	SAP4	G1 to S transition of mitotic cell cycle
+YCR008W	SAT4	G1 to S transition of mitotic cell cycle
+YDL225W	SHS1	G1 to S transition of mitotic cell cycle
+YLR079W	SIC1	G1 to S transition of mitotic cell cycle
+YDL047W	SIT4	G1 to S transition of mitotic cell cycle
+YDR328C	SKP1	G1 to S transition of mitotic cell cycle
+YDR247W	VHS1	G1 to S transition of mitotic cell cycle
+YDR002W	YRB1	G1 to S transition of mitotic cell cycle
+YNL172W	APC1	mitotic start control
+YDL008W	APC11	mitotic start control
+YLR127C	APC2	mitotic start control
+YDR118W	APC4	mitotic start control
+YOR249C	APC5	mitotic start control
+YLR102C	APC9	mitotic start control
+YGR188C	BUB1	mitotic start control
+YOR026W	BUB3	mitotic start control
+YKL022C	CDC16	mitotic start control
+YGL116W	CDC20	mitotic start control
+YHR166C	CDC23	mitotic start control
+YFR036W	CDC26	mitotic start control
+YBL084C	CDC27	mitotic start control
+YGL003C	CDH1	mitotic start control
+YGL240W	DOC1	mitotic start control
+YGL086W	MAD1	mitotic start control
+YJL030W	MAD2	mitotic start control
+YJL013C	MAD3	mitotic start control
+YIR025W	MND2	mitotic start control
+YDL028C	MPS1	mitotic start control
+YDR260C	SWM1	mitotic start control
+YAL021C	CCR4	mitotic start control
+YLR310C	CDC25	mitotic start control
+YMR199W	CLN1	mitotic start control
+YPL256C	CLN2	mitotic start control
+YAL040C	CLN3	mitotic start control
+YGR155W	CYS4	mitotic start control
+YLR361C	DCR2	mitotic start control
+YMR135C	GID8	mitotic start control
+YOR066W	MSA1	mitotic start control
+YGR245C	SDA1	mitotic start control
+YNL197C	WHI3	mitotic start control
+YOR083W	WHI5	mitotic start control
+YGL173C	XRN1	mitotic start control
+YER167W	BCK2	mitotic start control
+YDR054C	CDC34	mitotic start control
+YFL009W	CDC4	mitotic start control
+YDL132W	CDC53	mitotic start control
+YJL194W	CDC6	mitotic start control
+YPR120C	CLB5	mitotic start control
+YGR109C	CLB6	mitotic start control
+YOL133W	HRT1	mitotic start control
+YIL046W	MET30	mitotic start control
+YOR066W	MSA1	mitotic start control
+YDL134C	PPH21	mitotic start control
+YDL188C	PPH22	mitotic start control
+YJR059W	PTK2	mitotic start control
+YJR059W	PTK2	mitotic start control
+YIL153W	RRD1	mitotic start control
+YFR040W	SAP155	mitotic start control
+YJL098W	SAP185	mitotic start control
+YKR028W	SAP190	mitotic start control
+YGL229C	SAP4	mitotic start control
+YCR008W	SAT4	mitotic start control
+YDL225W	SHS1	mitotic start control
+YLR079W	SIC1	mitotic start control
+YDL047W	SIT4	mitotic start control
+YDR328C	SKP1	mitotic start control
+YDR247W	VHS1	mitotic start control
+YDR002W	YRB1	mitotic start control
+YJR042W	NUP85	nuclear pore complex
+YKL057C	NUP120	nuclear pore complex
+YDL116W	NUP84	nuclear pore complex
+YGL092W	NUP145	nuclear pore complex
+YKR082W	NUP133	nuclear pore complex
+YGL100W	SEH1	nuclear pore complex
+YFR002W	NIC96	nuclear pore complex
+YML103C	NUP188	nuclear pore complex
+YJL039C	NUP192	nuclear pore complex
+YER105C	NUP157	nuclear pore complex
+YBL079W	NUP170	nuclear pore complex
+YMR153W	NUP53	nuclear pore complex
+YDL088C	ASM4	nuclear pore complex
+YML031W	NDC1	nuclear pore complex
+YLR018C	POM34	nuclear pore complex
+YMR129W	POM152	nuclear pore complex
+YMR047C	NUP116	nuclear pore complex
+YKL068W	NUP100	nuclear pore complex
+YIL115C	NUP159	nuclear pore complex
+YDR192C	NUP42	nuclear pore complex
+YJL061W	NUP82	nuclear pore complex
+YDL207W	GLE1	nuclear pore complex
+YOR098C	NUP1	nuclear pore complex
+YAR002W	NUP60	nuclear pore complex
+YKR095W	MLP1	nuclear pore complex
+YIL149C	MLP2	nuclear pore complex
+YGL172W	NUP49	nuclear pore complex
+YGR119C	NUP57	nuclear pore complex
+YLL023C	POM33	nuclear pore complex

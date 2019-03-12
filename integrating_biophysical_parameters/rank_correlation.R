@@ -1,7 +1,8 @@
 library(tidyverse)
 library(viridis)
 library(pracma)
-
+library(RColorBrewer)
+colors <- brewer.pal(n = 6, name = "Set1")
 orf_gene_index <- read_tsv(file = "orf_gene_GO_sgd_annotation.txt", col_names = F) %>% 
   select("ORF" = X1, "gene_name" = X2) %>% unique()
 
@@ -65,31 +66,48 @@ gap_gef <- per_lib_gene_param_rank_correlation %>%
 
 ####### GAP kcat/Km and GEF kcat/Km
 fit <- odregress(gap_gef$GAP_kcat_Km, gap_gef$GEF_kcat_Km)
+cor <- signif(cor(gap_gef$GEF_kcat_Km, gap_gef$GAP_kcat_Km), digits = 2)
 gap_gef %>% 
-  ggplot(aes(x = GAP_kcat_Km, y = GEF_kcat_Km)) + geom_point() +
-  geom_abline(intercept = fit$coeff[2], slope = fit$coeff[1]) +
+  ggplot(aes(x = GAP_kcat_Km, y = GEF_kcat_Km)) + #geom_point(alpha = 0.5) +
+  stat_density_2d(aes(fill = ..level..), geom = "polygon", colour="white") +
   xlim(c(-1, 1)) + ylim(c(-1, 1)) +
-  ylab("GEF kcat/Km and E-MAP score") +
-  xlab("GAP kcat/Km and E-MAP score") +
-  ggtitle("Kendall rank correlation of GTPase parameters and\n
-  genetic interactions between yeast genes and Gsp1 mutants") +
-  geom_hline(yintercept = 0) + geom_vline(xintercept = 0)
-
-cor(gap_gef$GEF_kcat_Km, gap_gef$GAP_kcat_Km)
+  ylab("relative GEF kcat/Km and E-MAP score") +
+  xlab("relative GAP kcat/Km and E-MAP score") +
+  ggtitle(str_c("Kendall rank correlation of Gsp1 mutants based on GAP and GEF relative efficiency and\n
+  on genetic interactions with 1536 yeast genes - cor = ", cor)) +
+  geom_abline(intercept = fit$coeff[2], slope = fit$coeff[1], size = 0.3) +
+  geom_hline(yintercept = 0, size = 0.3) + geom_vline(xintercept = 0, size = 0.3)
+ggsave("integrating_biophysical_parameters/GAP_vs_GEF_rank_cor_2ddensity_plot.pdf", width = 10)
 
 # GAP kcat and GEF kcat
 fit <- odregress(gap_gef$GAP_kcat, gap_gef$GEF_kcat)
+cor <- signif(cor(gap_gef$GEF_kcat, gap_gef$GAP_kcat), digits = 2)
 gap_gef %>% 
-  ggplot(aes(x = GAP_kcat, y = GEF_kcat)) + geom_point() +
-  geom_abline(intercept = fit$coeff[2], slope = fit$coeff[1]) +
+  ggplot(aes(x = GAP_kcat, y = GEF_kcat)) + #geom_point() +
+  stat_density_2d(aes(fill = ..level..), geom = "polygon", colour="white") +
   xlim(c(-1, 1)) + ylim(c(-1, 1)) +
   ylab("GEF kcat and E-MAP score") +
   xlab("GAP kcat and E-MAP score") +
-  ggtitle("Kendall rank correlation of GTPase parameters and\n
-          genetic interactions between yeast genes and Gsp1 mutants") +
-  geom_hline(yintercept = 0) + geom_vline(xintercept = 0)
+  ggtitle(str_c("Kendall rank correlation of Gsp1 mutants based on GAP and GEF kcat and\n
+  on genetic interactions with 1536 yeast genes - cor = ", cor)) +
+  geom_abline(intercept = fit$coeff[2], slope = fit$coeff[1], size = 0.3) +
+  geom_hline(yintercept = 0, size = 0.3) + geom_vline(xintercept = 0, size = 0.3)
+ggsave("integrating_biophysical_parameters/GAP_vs_GEF_kcat_rank_cor_2ddensity_plot.pdf", width = 10)
 
-cor(gap_gef$GEF_kcat, gap_gef$GAP_kcat)
+
+fit <- odregress(gap_gef$GAP_Km, gap_gef$GEF_Km)
+cor <- signif(cor(gap_gef$GEF_Km, gap_gef$GAP_Km), digits = 2)
+gap_gef %>% 
+  ggplot(aes(x = GAP_Km, y = GEF_Km)) + #geom_point() +
+  stat_density_2d(aes(fill = ..level..), geom = "polygon", colour="white") +
+  xlim(c(-1, 1)) + ylim(c(-1, 1)) +
+  ylab("GEF kcat and E-MAP score") +
+  xlab("GAP kcat and E-MAP score") +
+  ggtitle(str_c("Kendall rank correlation of Gsp1 mutants based on GAP and GEF kcat and\n
+                on genetic interactions with 1536 yeast genes - cor = ", cor)) +
+  geom_abline(intercept = fit$coeff[2], slope = fit$coeff[1], size = 0.3) +
+  geom_hline(yintercept = 0, size = 0.3) + geom_vline(xintercept = 0, size = 0.3)
+ggsave("integrating_biophysical_parameters/GAP_vs_GEF_kcat_rank_cor_2ddensity_plot.pdf", width = 10)
 
 test_complexes <- read_tsv("integrating_biophysical_parameters/test_complexes.txt", col_names = F) %>% 
   select("gene_name" = X2, "complex" = X3)
@@ -105,11 +123,11 @@ gap_gef %>%
   xlim(c(-1, 1)) + ylim(c(-1, 1)) +
   ylab("GEF kcat/Km and E-MAP score") +
   xlab("GAP kcat/Km and E-MAP score") +
-  ggtitle("Kendall rank correlation of GTPase parameters and\n
-          genetic interactions between yeast genes and Gsp1 mutants") +
+  ggtitle("Kendall rank correlation of GTPase parameters and genetic interactions between yeast genes and Gsp1 mutants") +
   geom_hline(yintercept = 0) + geom_vline(xintercept = 0) +
-  scale_color_viridis(discrete = T)
-
+  #scale_color_viridis(discrete = T)
+  scale_color_manual( values = colors) + theme_gray()
+ggsave("integrating_biophysical_parameters/GAP_vs_GEF_rel_eff_rank_cor_select_complexes_plot.pdf", height = 6)
 
 
 #### kcat
@@ -120,10 +138,10 @@ gap_gef %>%
   xlim(c(-1, 1)) + ylim(c(-1, 1)) +
   ylab("GEF kcat and E-MAP score") +
   xlab("GAP kcat and E-MAP score") +
-  ggtitle("Kendall rank correlation of GTPase parameters and\n
-          genetic interactions between yeast genes and Gsp1 mutants") +
+  ggtitle("Kendall rank correlation of GTPase parameters and genetic interactions between yeast genes and Gsp1 mutants") +
   geom_hline(yintercept = 0) + geom_vline(xintercept = 0) +
-  scale_color_viridis(discrete = T)
+  scale_color_manual( values = colors) + theme_gray()
+ggsave("integrating_biophysical_parameters/GAP_vs_GEF_rel_kcat_rank_cor_select_complexes_plot.pdf", width = 14, height = 6)
 
 
 ### Km
@@ -134,10 +152,10 @@ gap_gef %>%
   xlim(c(-1, 1)) + ylim(c(-1, 1)) +
   ylab("GEF Km and E-MAP score") +
   xlab("GAP Km and E-MAP score") +
-  ggtitle("Kendall rank correlation of GTPase parameters and\n
-          genetic interactions between yeast genes and Gsp1 mutants") +
+  ggtitle("Kendall rank correlation of GTPase parameters and genetic interactions between yeast genes and Gsp1 mutants") +
   geom_hline(yintercept = 0) + geom_vline(xintercept = 0) +
-  scale_color_viridis(discrete = T)
+  scale_color_manual( values = colors) + theme_gray()
+ggsave("integrating_biophysical_parameters/GAP_vs_GEF_rel_Km_rank_cor_select_complexes_plot.pdf", width = 14, height = 6)
 
 
 cor(gap_gef$GEF_Km, gap_gef$GAP_Km)
