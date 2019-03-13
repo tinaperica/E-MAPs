@@ -144,13 +144,15 @@ all_parameters %>% filter(measure %in% c("gamma2", "GAP_kcat_Km")) %>%
   mutate("rel_value" = raw_value/wt_value) %>% 
   select(-raw_value, -wt_value) %>% 
   spread(measure, rel_value) %>% 
-  ggplot(aes(x = gamma2, y = log(GAP_kcat_Km), label = mutant)) +
-  geom_point() +
-  geom_text_repel() +
-  ylab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GAP mediated GTP hydrolysis") +
-  xlab("% state 2") +
-  theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
-ggsave(filename = "integrating_biophysical_parameters/GAP_enzyme_eff_vs_gamma2.pdf", width = 12)
+  ggplot(aes(x = gamma2, y = log(GAP_kcat_Km))) +
+  geom_point(size = 5, alpha = 0.5)  +
+  geom_text_repel(aes(label = mutant), size = 7) +
+  ylab("GAP hydrolysis relative kcat/Km\n\nln(kcat/Km(MUT) / kcat/Km(WT))\n") +
+  xlab("\n% in hydrolysis ready conformation") +
+  theme(axis.title.x = element_text(size = 18), 
+        axis.title.y = element_text(size = 18)
+        )
+ggsave(filename = "integrating_biophysical_parameters/GAP_enzyme_eff_vs_gamma2.pdf", width = 9, height = 5)
 
 
 relative_parameters <- all_parameters %>% 
@@ -172,26 +174,30 @@ rel_GAP_GEF_efficiency <- all_parameters %>%
 rel_GAP_GEF_efficiency %>% 
   spread(measure, rel_value) %>% 
   ggplot(aes(x = log(GEF_kcat_Km), y = log(GAP_kcat_Km), label = mutant)) +
+  geom_abline(slope = 1, intercept = 0, alpha = 0.2) +
   geom_point() +
   geom_text_repel() +
   xlab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GEF mediated nucleotide exchange") +
   ylab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GAP mediated GTP hydrolysis") +
+  xlim(c(-6, 1)) + ylim(c(-6, 1)) +
   theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
 
-ggsave(filename = "integrating_biophysical_parameters/GAP_enzyme_eff_vs_GEF_enzyme_eff.pdf", width = 12)
+ggsave(filename = "integrating_biophysical_parameters/GAP_enzyme_eff_vs_GEF_enzyme_eff.pdf", width = 9, height = 7)
 
 rel_GAP_GEF_efficiency %>% 
   spread(measure, rel_value) %>% 
   inner_join(., apms_GAP_GEF_diff) %>% 
   ggplot(aes(x = log(GEF_kcat_Km), y = log(GAP_kcat_Km), label = mutant)) +
+  geom_abline(slope = 1, intercept = 0, alpha = 0.1) +
   geom_point(aes(color = gap_minus_gef_FC), size = 5) +
   geom_text_repel() +
   scale_color_gradient2() +
   labs(color = "GAP - GEF\nln(fold change MUT/WT)") +
   xlab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GEF mediated nucleotide exchange") +
   ylab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GAP mediated GTP hydrolysis") +
+  xlim(c(-6, 1)) + ylim(c(-6, 1)) +
   theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
-ggsave("integrating_biophysical_parameters/GAP_enzyme_eff_vs_GEF_enzyme_eff_color_by_APMS_GAP_GEF.pdf", height = 7, width = 11)
+ggsave("integrating_biophysical_parameters/GAP_enzyme_eff_vs_GEF_enzyme_eff_color_by_APMS_GAP_GEF.pdf", width = 10, height = 7)
 
 
 GAP_GEF_ratio <- rel_GAP_GEF_efficiency %>% 
