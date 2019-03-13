@@ -27920,6 +27920,84 @@ YIL149C	MLP2	nuclear pore complex
 YGL172W	NUP49	nuclear pore complex
 YGR119C	NUP57	nuclear pore complex
 YLL023C	POM33	nuclear pore complex
+YGR009C	SEC9	extended SNARE complex
+YPL232W	SSO1	extended SNARE complex
+YAL030W	SNC1	extended SNARE complex
+YOR106W	VAM3	extended SNARE complex
+YGL212W	VAM7	extended SNARE complex
+YBL050W	SEC17	extended SNARE complex
+YBR080C	SEC18	extended SNARE complex
+YDR468C	TLG1	extended SNARE complex
+YOL018C	TLG2	extended SNARE complex
+YMR197C	VTI1	extended SNARE complex
+YLR026C	SED5	extended SNARE complex
+YOR036W	PEP12	extended SNARE complex
+YDR498C	SEC20	extended SNARE complex
+YGL095C	VPS45	extended SNARE complex
+YGL098W	USE1	extended SNARE complex
+YHL031C	GOS1	extended SNARE complex
+YIL004C	BET1	extended SNARE complex
+YKL006C-A	SFT1	extended SNARE complex
+YKL196C	YKT6	extended SNARE complex
+YLR078C	BOS1	extended SNARE complex
+YLR093C	NYV1	extended SNARE complex
+YLR268W	SEC22	extended SNARE complex
+YMR017W	SPO20	extended SNARE complex
+YNR049C	MSO1	extended SNARE complex
+YOL018C	TLG2	extended SNARE complex
+YOR075W	UFE1	extended SNARE complex
+YOR327C	SNC2	extended SNARE complex
+YPL232W	SSO1	extended SNARE complex
+YLL042C	ATG10	phenotype: delayed exit from mitosis
+YPR122W	AXL1	phenotype: delayed exit from mitosis
+YPL181W	CTI6	phenotype: delayed exit from mitosis
+YPL177C	CUP9	phenotype: delayed exit from mitosis
+YAL013W	DEP1	phenotype: delayed exit from mitosis
+YGR227W	DIE2	phenotype: delayed exit from mitosis
+YGR254W	ENO1	phenotype: delayed exit from mitosis
+YAR002C-A	ERP1	phenotype: delayed exit from mitosis
+YPR037C	ERV2	phenotype: delayed exit from mitosis
+YMR319C	FET4	phenotype: delayed exit from mitosis
+YAL028W	FRT2	phenotype: delayed exit from mitosis
+YPL137C	GIP3	phenotype: delayed exit from mitosis
+YEL011W	GLC3	phenotype: delayed exit from mitosis
+YMR311C	GLC8	phenotype: delayed exit from mitosis
+YOR320C	GNT1	phenotype: delayed exit from mitosis
+YER174C	GRX4	phenotype: delayed exit from mitosis
+YJR075W	HOC1	phenotype: delayed exit from mitosis
+YMR251W-A	HOR7	phenotype: delayed exit from mitosis
+YNL322C	KRE1	phenotype: delayed exit from mitosis
+YNL045W	LAP2	phenotype: delayed exit from mitosis
+YLR260W	LCB5	phenotype: delayed exit from mitosis
+YPR073C	LTP1	phenotype: delayed exit from mitosis
+YBR115C	LYS2	phenotype: delayed exit from mitosis
+YIL014W	MNT3	phenotype: delayed exit from mitosis
+YGR084C	MRP13	phenotype: delayed exit from mitosis
+YPL006W	NCR1	phenotype: delayed exit from mitosis
+YFL044C	OTU1	phenotype: delayed exit from mitosis
+YJR153W	PGU1	phenotype: delayed exit from mitosis
+YKL077W	PSG1	phenotype: delayed exit from mitosis
+YCL001W	RER1	phenotype: delayed exit from mitosis
+YBR084C-A	RPL19A	phenotype: delayed exit from mitosis
+YGR034W	RPL26B	phenotype: delayed exit from mitosis
+YDL136W	RPL35B	phenotype: delayed exit from mitosis
+YLR185W	RPL37A	phenotype: delayed exit from mitosis
+YNR037C	RSM19	phenotype: delayed exit from mitosis
+YJR113C	RSM7	phenotype: delayed exit from mitosis
+YMR086W	SEG1	phenotype: delayed exit from mitosis
+YDL033C	SLM3	phenotype: delayed exit from mitosis
+YPL057C	SUR1	phenotype: delayed exit from mitosis
+YGR260W	TNA1	phenotype: delayed exit from mitosis
+YPL203W	TPK2	phenotype: delayed exit from mitosis
+YPR156C	TPO3	phenotype: delayed exit from mitosis
+YCR084C	TUP1	phenotype: delayed exit from mitosis
+YGR080W	TWF1	phenotype: delayed exit from mitosis
+YOR064C	YNG1	phenotype: delayed exit from mitosis
+YJR154W	YJR154W	phenotype: delayed exit from mitosis
+YKL063C	YKL063C	phenotype: delayed exit from mitosis
+YLR046C	YLR046C	phenotype: delayed exit from mitosis
+YML018C	YML018C	phenotype: delayed exit from mitosis
+YNR014W	YNR014W	phenotype: delayed exit from mitosis
 HRA1	HRA1	rRNA processing
 HRA1	HRA1	ribosomal small subunit biogenesis
 NME1	NME1	rRNA processing

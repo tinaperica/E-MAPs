@@ -22,7 +22,8 @@ complexes <- complex_tibble %>%
   filter(count > 1) %>% pull(Complex)
 complex_tibble <- complex_tibble %>% 
   filter(Complex %in% complexes)
-###### after this filtering ended up with 115 complexes
+
+###### after this filtering ended up with 143 complexes
 emap_complex_data <- complex_tibble %>% 
   filter(Complex %in% complexes) %>% 
   inner_join(e.map, by = c("ORF" = "library_ORF")) %>% 
@@ -184,4 +185,5 @@ selected_emap %>%
   ggplot(aes(x = mutant, y = Complex, fill = mean_score)) +
   geom_tile() + scale_fill_gradient2() +
   theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
 
