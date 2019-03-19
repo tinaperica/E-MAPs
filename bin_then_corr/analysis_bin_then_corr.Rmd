@@ -8,16 +8,16 @@ output: html_document
 import packages and data
 ```{r echo=T, results='hide'}
 library(tidyverse)
+library(plotly)
+library(reshape2)
+library(mclust)
+library(factoextra)
+library(heatmaply)
+# need to run the following one time to save heatmaply files:
+#   webshot::install_phantomjs()
+
 load('../spitzemap/spitzemap.rda')
-```
-
-```{r}
-spitzemap %>% distinct(interaction_network)
-
-spitzemap_thin <-
-  spitzemap %>% 
-  filter(interaction_network != 'DAmP_SGA') %>% 
-  select(ends_with('ORF'), ends_with('y_name'), ends_with('strain_id'), score, pvalue)
+partners <- read_delim('partners.txt', delim = ',')
 ```
 
 One question we might ask is: what is the distribution of pvalues for SGA scores that
@@ -27,30 +27,64 @@ One question we might ask is: what is the distribution of pvalues for SGA scores
 ```{r}
 spitzemap %>% 
   filter(interaction_network != 'gsp1_pEMAP',
-         abs(score) < 10) %>% 
-  select(score, pvalue) %>% 
+         abs(score) < 10) %>%
+  select(score, pvalue) %>%
   mutate('neg_log_pvalue' = -log10(pvalue),
-         'score_rounded' = as.factor(trunc(score))) %>% 
+         'score_rounded' = as.factor(trunc(score))) %>%
   ggplot(aes(x = score_rounded, y = neg_log_pvalue)) +
     geom_boxplot(outlier.shape = NA) +
     geom_hline(yintercept = -log10(0.05), color = 'red') +
-    ylim(0,2) 
+    ylim(0,2) +
+    ggtitle('Distribution of SGA p-values scaled to EMAP format (scores truncated)
+             red line indicates a p-value of 0.05')
+
+ggsave('SGA_scaled_score_vs_pval.png')
 
 ```
+
+get weighting function for EMAP scores based on Collins et al 2006 (fig 4c)
+```{r}
+
+d <- data.frame(avg_S_score = seq(-6, 6, by=0.5),
+                confidence = c(1, 1, 0.99, 0.98, 0.95, 0.9, 0.85, 0.65, 0.45,
+                               0.2, 0.15, 0.08, 0, 0.05, 0.07, 0.15,
+                               0.22, 0.5, 0.65, 0.75, 0.87, 0.93, .95, .98, 0.95))
+
+confidence_spline <- smooth.spline(x = d$avg_S_score,
+                                   y = d$confidence,
+                                   spar = 0.3)
+
+confidence_fxn <- data.frame(x <- seq(-6, 6, by = 0.1),
+                             y <- predict(confidence_spline, seq(-6, 6, by = 0.1))$y)
+
+ggplot(confidence_fxn, aes(x=x, y=y)) +
+  geom_point(color='red') +
+  geom_hline(yintercept = 0.95, color = 'blue') +
+  theme(
+    panel.background = element_rect(fill = "transparent",colour = NA), # or theme_blank()
+    plot.background = element_rect(fill = "transparent",colour = NA),
+    text = element_text(size=26))
+ggsave('spline.png')
+ggsave('spline_transparent.png', bg = 'transparent')
+
+```
+
+
+```{r}
+spitzemap_thin <-
+  spitzemap %>% 
+  filter(interaction_network %in% c('NxN_SGA', 'ExN_SGA')) %>% 
+  select(ends_with('ORF'), ends_with('y_name'), ends_with('strain_id'), score, pvalue) %>% 
+  select(starts_with('Query'), starts_with('Array'), score, pvalue)
+```
+
 
 Goal here: bin first, using thresholds of 2, 3, and 5 (positive and negative),
 because those are interesting confidence intervals as described in Collins et
 al 2006 (figure 4b/c), and as measured by the p-val analysis for scaled SGA
 scores above.
 
-```{r}
-spitzemap_sig2 <- filter(spitzemap_thin, abs(score) > 2)
-spitzemap_sig3 <- filter(spitzemap_thin, abs(score) > 3)
-spitzemap_sig5 <- filter(spitzemap_thin, abs(score) > 5)
-```
-
-
-Costanzo et al 2016 suggested three thresholds: lenient (P < 0.05),
+Additionall, Costanzo et al 2016 suggested three thresholds: lenient (P < 0.05),
 intermediate (P < 0.05 and |score| > 0.08), and stringent confidence
 (P <0.05 and score > 0.16 or score < -0.12). For the intermediate confidence,
 the code below shows that the scaled score thresholds corresponding to
@@ -62,19 +96,26 @@ pass the intermediate p-value confidence threshold for SGA data, and the 2
 dataset will pass the lenient threshold
 
 ```{r}
+# score filtering
+spitzemap_sig2 <- filter(spitzemap_thin, abs(score) > 2)
+spitzemap_sig3 <- filter(spitzemap_thin, abs(score) > 3)
+spitzemap_sig5 <- filter(spitzemap_thin, abs(score) > 5)
+
+# SGA p-value filtering
 spline_input <- read_delim('../scaling_Costanzo_SGA_data/scaler_output/spline.txt', delim = '\t')
 scaling_spline <- smooth.spline(x = spline_input$score,
                                 y = spline_input$scale,
                                 spar = 0.02)
-print(predict(scaling_spline, 0.08)$y * 0.08) # upper threshold
-print(predict(scaling_spline, -0.08)$y * -0.08) # lower threshold
+# need to add adjustment to score first (adjustment = .0051)
+
+adj = .0051
+print(predict(scaling_spline, 0.08 + adj)$y * (0.08 + adj)) # upper threshold
+print(predict(scaling_spline, -0.08 + adj)$y * (-0.08 + adj)) # lower threshold
 
 spitzemap_sig2_pfilter <- filter(spitzemap_sig2, (pvalue < 0.05 | is.na(pvalue)))
 spitzemap_sig3_pfilter <- filter(spitzemap_sig3, (pvalue < 0.05 | is.na(pvalue)))
 spitzemap_sig5_pfilter <- filter(spitzemap_sig5, (pvalue < 0.05 | is.na(pvalue)))
 ```
-
-
 
 For each of these datasets, we want to perform the following computation:
 
@@ -85,121 +126,61 @@ For each of these datasets, we want to perform the following computation:
   - cluster in both directions
   - show heatmap
 
-
+######
 ```{r}
-partners <- read_delim('partners.txt', delim = ',')
-```
+spitzemap_to_corr <-
+  spitzemap %>% 
+  filter(interaction_network %in% c('gsp1_pEMAP','NxN_SGA', 'ExN_SGA'),
+         !grepl('tsa', array_strain_id)) %>%
+  filter(query_ORF %in% partners$ORF) %>%
+  select(query_allele_name, array_ORF, score)
 
+cormat <-
+  spitzemap_to_corr %>% 
+  spread(query_allele_name, score) %>% 
+  select(-array_ORF) %>% 
+  cor(., use = "pairwise.complete.obs", method = 'pearson')
 
-
-
-```{r}
-
-cluster <- function(data) {
-  
-  # compute the correlation matrix
-  cormat <- round(cor(mydata),2)
-
-  # melt the correlation matrix into long format
-  melted_cormat <- gather(cormat, Var1, Var2)
-  
-  # visualize the correlation matrix
-  ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) + 
-    geom_tile()
-  
-}
-
-
-```
-
-
-```{r}
-# Cluster on correlations across all genes
-
-corr_mat <- cor(gsp1_mat, use = "pairwise.complete.obs") # compute pairwise correlations on the columns (mutants)
-dd <- as.dist((1-corr_mat)/2) # create a distance matrix, corr of "1" has dist 0 and "-1" has dist 2
+dd <- as.dist((1-cormat)/2) # create a distance matrix, corr of "1" has dist 0 and "-1" has dist 2
 hc <- hclust(dd)
-corr_mat <- corr_mat[hc$order, hc$order]
 
-melted_corr_mat <- melt(corr_mat)
-min(melted_corr_mat$value)
-(ggplot(data = melted_corr_mat, aes(x=Var1, y=Var2, fill=value))
- + geom_tile()
- + scale_fill_gradient2()
- + theme(axis.text.x = element_text(angle = 90, hjust = 1))
- + ggtitle("Pairwise hierarchical clustering of Gsp1 mutants \nusing full emap vector correlation as distance metric")
- + xlab("Gsp1 Mutant") + ylab("Gsp1 Mutant"))
-ggsave('full_emap_mutant_clustering.png')
+fviz_dend(hc, k = 7)
+ggsave('dend.png', height = 10, width = 20)
+cormat2 <- cormat[hc$order, hc$order]
+melted_cormat2 <- melt(cormat2)
+
+heatmap.2(
+
+
+ ggplot(data = melted_cormat2, aes(x=Var1, y=Var2, fill=value)) +
+  geom_tile() + 
+  scale_fill_gradient2() + 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+
+ggsave('corr.pdf', height = 20, width = 20)
 ```
 
 
 ```{r}
-# df <- data_spread[complete.cases(data_spread),]
-# gene_names <- df[,1]$library_gene
-# df <- df[,2:length(df)]
-# cor_df <- cor(t(df))
-# colnames(cor_df) <- gene_names
-# rownames(cor_df) <- gene_names
+mat <- 
+  spitzemap %>% 
+  filter(interaction_network %in% c('gsp1_pEMAP','NxN_SGA', 'ExN_SGA'),
+         !grepl('tsa', array_strain_id)) %>%
+  filter(query_ORF %in% partners$ORF) %>%
+  select(query_allele_name, array_ORF, score) %>%
+  spread(query_allele_name, score) %>% 
+  select(-array_ORF) %>% 
+  data.matrix()
 
-reorder_cor_df <- function(cor_df){
-    # Use correlation between variables as distance
-    dd <- as.dist((1-cor_df)/2)
-    hc <- hclust(dd)
-    cor_df <- cor_df[hc$order, hc$order]
-}
+heatmap(mat, na.rm = FALSE, keep.demdrp)
 
-df <- data_spread[complete.cases(data_spread),] %>%
-    select(R108Y, H141R, R112S, R112A, R108L,
-           Y148I, R108Q, Q147E, H141I, T34A,
-           R108I, G80A, Y157A, H141E, R78K,
-           D79S, D79A, T34G, T34Q, T34E, K101R)
-df <- df[,2:length(df)]
-cor_df <- cor(df)
-
-
-cor_df <- reorder_cor_df(cor_df)
-
-melted_cor_df <- melt(cor_df)
-ggplot(data = melted_cor_df, aes(x=Var1, y=Var2, fill=value)) +
-    geom_tile() +
-    scale_fill_gradient2(low = "green", mid = "white", high = "blue") +
-    theme(axis.text.x = element_text(angle = 90, hjust = 1),
-          axis.text = element_text(size = 20),
-          axis.title = element_text(size = 20),
-          legend.text = element_text(size = 20),
-          legend.title = element_text(size = 20)) +
-    xlab('Gsp1 Point Mutant') +
-    ylab('Gsp1 Point Mutant') +
-    guides(fill = guide_legend(title="Correlation\nof E-MAP\nprofiles"))
-ggsave("~/Desktop/emap_strong_mutant_correlations.png", width = 12, height = 10, dpi = 300)
 
 ```
+
 
 ```{r}
-reorder_cor_df <- function(cor_df){
-    # Use correlation between variables as distance
-    dd <- as.dist((1-cor_df)/2)
-    hc <- hclust(dd)
-    cor_df <- cor_df[hc$order, hc$order]
-}
 
+library(plotly)
 
-cor_df <- cor(select(ranked_NMR_data, -query))
-cor_df <- reorder_cor_df(cor_df)
-
-cor_df
-
-melted_cor_df <- melt(cor_df)
-ggplot(data = melted_cor_df, aes(x=Var1, y=Var2, fill=value)) +
-    geom_tile() +
-    scale_fill_gradient2(low = "green", mid = "white", high = "blue") +
-    theme(axis.text.x = element_text(angle = 90, hjust = 1),
-          axis.text = element_text(size = 20),
-          axis.title = element_text(size = 20),
-          legend.text = element_text(size = 20),
-          legend.title = element_text(size = 20)) +
-    xlab('Gsp1 Point Mutant') +
-    ylab('Gsp1 Point Mutant') +
-    guides(fill = guide_legend(title="Correlation\nof E-MAP\nprofiles"))
-# ggsave("~/Desktop/emap_strong_mutant_correlations.png", width = 12, height = 10, dpi = 300)
 ```
+
