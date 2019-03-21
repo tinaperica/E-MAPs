@@ -132,7 +132,8 @@ gene_categories <- gene_categories %>%
   filter(term %in% larger_than_5_terms)
 write_tsv(gene_categories, path = "GSEA_like_analysis/gene_groups.txt")
 
-
+for_gia <- gene_categories %>% select(ORF, term)
+write_tsv(for_gia, "GSEA_like_analysis/gia_analysis/gia_right_annotations_gene_groups.txt")
 ### output the categories for GSEA 3.0 Java script (output in .gmt format)
 ### .gmt format defined in http://software.broadinstitute.org/cancer/software/gsea/wiki/index.php/Data_formats#TXT:_Text_file_format_for_expression_dataset_.28.2A.txt.29
 

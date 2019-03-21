@@ -1,0 +1,140 @@
+Group	Size
+mitotic cell cycle	151
+Golgi apparatus	66
+ribosomal large subunit biogenesis	19
+nucleus organization	27
+endosomal transport	45
+H141R	1
+nuclease activity	28
+R108Y	1
+translational initiation	14
+cytoplasmic ribosomal small subunit	19
+K143Y	1
+T137G	1
+mitochondrial translation	7
+protein modification by small protein conjugation or removal	116
+K143W	1
+K143H	1
+Elongator complex	5
+DNA repair	119
+tRNA processing	33
+R78K	1
+transferase activity, transferring glycosyl groups	27
+organelle fission	141
+chromatin organization	194
+RNA modification	32
+R112S	1
+endomembrane system	319
+N105V	1
+DNA-templated transcription, elongation	55
+cytoplasmic ribosomal large subunit	25
+mitochondrion organization	61
+R112A	1
+sporulation	40
+lipid binding	40
+WT	1
+Golgi vesicle transport	71
+lipid metabolic process	87
+K154M	1
+cytoskeleton organization	91
+ribosomal small subunit biogenesis	26
+SLIK (SAGA-like) complex	14
+mitochondrial envelope	49
+RNA binding	90
+T139A	1
+K169I	1
+T139R	1
+monocarboxylic acid metabolic process	27
+extended SNARE complex	5
+cellular response to DNA damage stimulus	139
+rRNA processing	42
+K129T	1
+cytoplasmic translation	46
+E115I	1
+K129I	1
+signal transducer activity	14
+N102K	1
+E115A	1
+K129E	1
+K129F	1
+nuclear pore complex	12
+protein targeting	107
+SAGA complex	16
+F58A	1
+Q147E	1
+Q147L	1
+Y148I	1
+F58L	1
+peroxisome organization	23
+N102M	1
+K132H	1
+transmembrane transport	43
+A180T	1
+histone modification	80
+protein glycosylation	28
+H141V	1
+cell cortex	60
+H141E	1
+H141I	1
+N84Y	1
+plasma membrane	92
+NTER3XFLAG_WT	1
+regulation of organelle organization	106
+endoplasmic reticulum	187
+Golgi transport complex	4
+R108A	1
+N105L	1
+R108D	1
+R108G	1
+vesicle organization	24
+R108I	1
+R108L	1
+R108Q	1
+R108S	1
+mRNA binding	48
+Set3p complex	7
+protein phosphorylation	89
+mitotic start control	43
+COMA complex	5
+peptidyl-amino acid modification	75
+Y157A	1
+K101R	1
+structural constituent of ribosome	47
+hydrolase activity	232
+nucleobase-containing compound transport	45
+COMPASS complex	5
+chromosome segregation	82
+protein acylation	41
+transcription from RNA polymerase II promoter	234
+Swr1p complex	8
+mitochondrion	186
+cytoskeleton	73
+secretory stress	12
+SAC and APC	19
+chromosome	160
+ribosome	76
+regulation of cell cycle	124
+CTER3XFLAG_WT	1
+peroxisome	23
+transcription factor activity, protein binding	58
+T34N	1
+T34L	1
+T34G	1
+T34E	1
+T34D	1
+T34A	1
+D79S	1
+T34Y	1
+T34S	1
+D79A	1
+T34Q	1
+G80A	1
+protein alkylation	20
+Rpd3L complex	12
+prefoldin complex	4
+guanyl-nucleotide exchange factor activity	14
+microtubule organizing center	24
+regulation of protein modification process	55
+meiotic cell cycle	109
+nuclear transport	60
+N102I	1
