@@ -2,7 +2,11 @@ Version: 1.0
 
 RestoreWorkspace: No
 SaveWorkspace: No
+<<<<<<< HEAD
 AlwaysSaveHistory: Default
+=======
+AlwaysSaveHistory: No
+>>>>>>> f53fc48efcbc0be0bffb393231865838a40d1770
 
 EnableCodeIndexing: Yes
 UseSpacesForTab: Yes
@@ -11,3 +15,5 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
+
+QuitChildProcessesOnExit: Yes
