@@ -9,7 +9,7 @@ GO_slims <- read_delim( "go_slim_mapping.tab.txt", col_names = F, delim = "\t") 
   mutate("Gene" = ifelse(is.na(Gene), ORF, Gene))
 
 orf_gene_name_index <- GO_slims %>% select(ORF, Gene) %>% unique()
-write_tsv(orf_gene_name_index, path = "orf_gene_GO_sgd_annotation.txt", col_names = F)
+#write_tsv(orf_gene_name_index, path = "orf_gene_GO_sgd_annotation.txt", col_names = F)
 #### check for overly general slims
 (GO_slims_count <- GO_slims %>% group_by(GO_Slim_term) %>%
     summarize("count" = n()) %>% arrange(desc(count)))
@@ -34,10 +34,18 @@ complexes <- complex_tibble %>% pull(Complex) %>% unique()
 #### and then make some composite groups (e.g. combin ER and Golgi, or combine multiple terms into mRNA processing group etc.)
 ##################################################################
 
-### finally add some manually made gene groups
+### add some manually made by Hannes gene groups (with focus on nuclear processes)
+hannes <- read_tsv("GSEA_like_analysis/hannesbraberg_process_annos_v2_notoss.txt", col_names = F) %>% 
+  rename("Gene" = X1, "term" = X2) %>% 
+  inner_join(., orf_gene_name_index, by = "Gene") %>% 
+  select(ORF, Gene, term)
+hannes_terms <- hannes %>% pull(term) %>% unique()
+### finally add some manually made by Tina gene groups
 manual <- read_tsv("GSEA_like_analysis/manual_gene_groups.txt", col_names = F) %>% 
   rename("ORF" = X1, "Gene" = X2, "term" = X3)
 manual_terms <- manual %>% pull(term) %>% unique()
+
+
 ## first add all the terms as groups
 gene_groups <- list()
 for (i in seq_along(GO_slim_terms)) {
@@ -48,6 +56,9 @@ for (i in seq_along(complexes)) {
 }
 for (i in seq_along(manual_terms)) {
   gene_groups[[manual_terms[i]]] <- manual_terms[i]
+}
+for (i in seq_along(hannes_terms)) {
+  gene_groups[[hannes_terms[i]]] <- hannes_terms[i]
 }
 ### then manually select some terms based on which I will make GO based clusters
 #### make sure that composite GO_slims_terms have unique names, that don't already exist as GO_slims_terms
@@ -63,7 +74,7 @@ gene_groups[["transcription"]] <- unique ( GO_slims$GO_Slim_term[
   grep( paste( c("transcription"), collapse = "|"), GO_slims$GO_Slim_term) 
   ])
 gene_groups[["RNA processing"]] <- unique ( GO_slims$GO_Slim_term[
-  grep( paste( c("mRNA processing", "splicing", "snoRNA processing"), collapse = "|"), GO_slims$GO_Slim_term) 
+  grep( paste( c("mRNA processing", "splicing", "snoRNA processing", "tRNA processing", "rRNA processing", "RNA modification"), collapse = "|"), GO_slims$GO_Slim_term) 
   ])
 gene_groups[["Golgi and ER"]] <- unique ( GO_slims$GO_Slim_term[
   grep( paste( c("protein lipidation", "protein maturation", "endocytosis", "regulation of transport", "glycosylation",
@@ -90,17 +101,11 @@ gene_groups[["chromatin"]] <- unique ( GO_slims$GO_Slim_term[
 gene_groups[["cytoskeleton and microtubules"]] <- unique ( GO_slims$GO_Slim_term[
   grep( paste( c("cytoskelet", "cytokinesis", "chromosome segregation", "microtubule"), collapse = "|"), GO_slims$GO_Slim_term) 
   ])
-gene_groups[["cell cycle"]] <- unique ( GO_slims$GO_Slim_term[
-  grep( paste( c("cell cycle", "recombination", "chromosome segregation"), collapse = "|"), GO_slims$GO_Slim_term) 
-  ])
 gene_groups[["budding"]] <- unique ( GO_slims$GO_Slim_term[
   grep( paste( c("bud", "fission", "sporulation"), collapse = "|"), GO_slims$GO_Slim_term) 
   ])
 gene_groups[["lipids"]] <- unique ( GO_slims$GO_Slim_term[
   grep( paste( c("lipid"), collapse = "|"), GO_slims$GO_Slim_term) 
-  ])
-gene_groups[["nuclear transport and organization"]] <- unique ( GO_slims$GO_Slim_term[
-  grep( paste( c("nuclear transport", "nucleus"), collapse = "|"), GO_slims$GO_Slim_term) 
   ])
 gene_groups[["metabolic"]] <- unique ( GO_slims$GO_Slim_term[
   grep( paste( c("metabolic", "metabolite"), collapse = "|"), GO_slims$GO_Slim_term) 
@@ -113,12 +118,14 @@ term_orf_index <- complex_tibble %>%
   rename("GO_Slim_term" = "Complex") %>% 
   bind_rows(., GO_slims) %>% 
   rename("term" = GO_Slim_term) %>% 
-  bind_rows(., manual)
+  bind_rows(., manual) %>% 
+  bind_rows(hannes)
 gene_categories <- tibble("ORF" = character(), Gene = "character", term = "character")
 for (i in seq_along(groups)) {
   terms <- gene_groups[[groups[i]]]
   temp <- term_orf_index %>% 
-    filter(term %in% terms)
+    filter(term %in% terms) %>% 
+    mutate("term" = groups[i])
   gene_categories <- bind_rows(gene_categories, temp)
 }
 
@@ -129,11 +136,12 @@ larger_than_5_terms <- gene_categories %>%
   filter(count > 5) %>% 
   pull(term) %>% unique()
 gene_categories <- gene_categories %>% 
-  filter(term %in% larger_than_5_terms)
+  filter(term %in% larger_than_5_terms) %>% 
+  arrange(term, ORF)
 write_tsv(gene_categories, path = "GSEA_like_analysis/gene_groups.txt")
 
 for_gia <- gene_categories %>% select(ORF, term)
-write_tsv(for_gia, "GSEA_like_analysis/gia_analysis/gia_right_annotations_gene_groups.txt")
+write_tsv(for_gia, "GSEA_like_analysis/gia_right_annotations_gene_groups.txt")
 ### output the categories for GSEA 3.0 Java script (output in .gmt format)
 ### .gmt format defined in http://software.broadinstitute.org/cancer/software/gsea/wiki/index.php/Data_formats#TXT:_Text_file_format_for_expression_dataset_.28.2A.txt.29
 

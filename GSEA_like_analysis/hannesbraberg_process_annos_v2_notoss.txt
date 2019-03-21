@@ -1,0 +1,757 @@
+HTL1	Hannes Chromatin remodeling
+HST4	Hannes Chromatin remodeling
+FUN30	Hannes Chromatin remodeling
+ESC2	Hannes Chromatin remodeling
+HST3	Hannes Chromatin remodeling
+YBR090C-A	Hannes Chromatin remodeling
+HHF1	Hannes Chromatin remodeling
+NKP2	Hannes Chromatin remodeling
+HTA2	Hannes Chromatin remodeling
+ARP8	Hannes Chromatin remodeling
+CHZ1	Hannes Chromatin remodeling
+BDF2	Hannes Chromatin remodeling
+YNG1	Hannes Chromatin remodeling
+RSC2	Hannes Chromatin remodeling
+RFM1	Hannes Chromatin remodeling
+ISW1	Hannes Chromatin remodeling
+RXT3	Hannes Chromatin remodeling
+NAT4	Hannes Chromatin remodeling
+YAF9	Hannes Chromatin remodeling
+HDA1	Hannes Chromatin remodeling
+SWC3	Hannes Chromatin remodeling
+BRE2	Hannes Chromatin remodeling
+ESC1	Hannes Chromatin remodeling
+BRE1	Hannes Chromatin remodeling
+IES3	Hannes Chromatin remodeling
+SWI3	Hannes Chromatin remodeling
+SWC5	Hannes Chromatin remodeling
+DEP1	Hannes Chromatin remodeling
+PHO23	Hannes Chromatin remodeling
+RSC1	Hannes Chromatin remodeling
+HDA3	Hannes Chromatin remodeling
+SWR1	Hannes Chromatin remodeling
+EAF6	Hannes Chromatin remodeling
+HTZ1	Hannes Chromatin remodeling
+DOT1	Hannes Chromatin remodeling
+HAT1	Hannes Chromatin remodeling
+DLS1	Hannes Chromatin remodeling
+IOC3	Hannes Chromatin remodeling
+ARD1	Hannes Chromatin remodeling
+PDP3	Hannes Chromatin remodeling
+LGE1	Hannes Chromatin remodeling
+EAF7	Hannes Chromatin remodeling
+VPS75	Hannes Chromatin remodeling
+SIR1	Hannes Chromatin remodeling
+HST1	Hannes Chromatin remodeling
+UME6	Hannes Chromatin remodeling
+JHD2	Hannes Chromatin remodeling
+TOD6	Hannes Chromatin remodeling
+IES4	Hannes Chromatin remodeling
+SWC7	Hannes Chromatin remodeling
+EAF1	Hannes Chromatin remodeling
+JHD1	Hannes Chromatin remodeling
+DOT6	Hannes Chromatin remodeling
+HTA1	Hannes Chromatin remodeling
+SAS2	Hannes Chromatin remodeling
+VPS72	Hannes Chromatin remodeling
+ISW2	Hannes Chromatin remodeling
+SAS3	Hannes Chromatin remodeling
+SDC1	Hannes Chromatin remodeling
+SHG1	Hannes Chromatin remodeling
+RXT2	Hannes Chromatin remodeling
+GIS1	Hannes Chromatin remodeling
+SWD3	Hannes Chromatin remodeling
+IOC2	Hannes Chromatin remodeling
+VPS71	Hannes Chromatin remodeling
+ASF2	Hannes Chromatin remodeling
+SIF2	Hannes Chromatin remodeling
+SET3	Hannes Chromatin remodeling
+SAS5	Hannes Chromatin remodeling
+SET5	Hannes Chromatin remodeling
+SNT1	Hannes Chromatin remodeling
+IES2	Hannes Chromatin remodeling
+PSY2	Hannes Chromatin remodeling
+SNF5	Hannes Chromatin remodeling
+ARP6	Hannes Chromatin remodeling
+HHF2	Hannes Chromatin remodeling
+SNF6	Hannes Chromatin remodeling
+CTI6	Hannes Chromatin remodeling
+HTB2	Hannes Chromatin remodeling
+HHT2	Hannes Chromatin remodeling
+HPA2	Hannes Chromatin remodeling
+NHP6B	Hannes Chromatin remodeling
+SDS3	Hannes Chromatin remodeling
+HST2	Hannes Chromatin remodeling
+ASH1	Hannes Chromatin remodeling
+SAS4	Hannes Chromatin remodeling
+NHP10	Hannes Chromatin remodeling
+HHT1	Hannes Chromatin remodeling
+HHO1	Hannes Chromatin remodeling
+HOS3	Hannes Chromatin remodeling
+HOS4	Hannes Chromatin remodeling
+ITC1	Hannes Chromatin remodeling
+FPR4	Hannes Chromatin remodeling
+NHP6A	Hannes Chromatin remodeling
+HAT2	Hannes Chromatin remodeling
+IOC4	Hannes Chromatin remodeling
+SNF11	Hannes Chromatin remodeling
+SWD1	Hannes Chromatin remodeling
+SAP30	Hannes Chromatin remodeling
+HOS1	Hannes Chromatin remodeling
+EAF5	Hannes Chromatin remodeling
+RTT102	Hannes Chromatin remodeling
+HOS2	Hannes Chromatin remodeling
+IES1	Hannes Chromatin remodeling
+SPP1	Hannes Chromatin remodeling
+ESC8	Hannes Chromatin remodeling
+CSM4	Hannes Chromosome segregation
+YML033W	Hannes Chromosome segregation
+REC8	Hannes Chromosome segregation
+CHL1	Hannes Chromosome segregation
+CTF4	Hannes Chromosome segregation
+CTF8	Hannes Chromosome segregation
+CTF18	Hannes Chromosome segregation
+CBF1	Hannes Chromosome segregation
+TRF5	Hannes Chromosome segregation
+SRC1	Hannes Chromosome segregation
+DCC1	Hannes Chromosome segregation
+KIP1	Hannes Chromosome segregation
+KAR3	Hannes Chromosome segregation
+CNN1	Hannes Chromosome segregation
+NDL1	Hannes Chromosome segregation
+MAM1	Hannes Chromosome segregation
+YBP2	Hannes Chromosome segregation
+KIP3	Hannes Chromosome segregation
+KIP2	Hannes Chromosome segregation
+DYN2	Hannes Chromosome segregation
+LDB18	Hannes Chromosome segregation
+MCM21	Hannes Chromosome segregation
+MCM22	Hannes Chromosome segregation
+GIP4	Hannes Chromosome segregation
+GLC8	Hannes Chromosome segregation
+DYN1	Hannes Chromosome segregation
+CIN4	Hannes Chromosome segregation
+SGO1	Hannes Chromosome segregation
+CIN8	Hannes Chromosome segregation
+MCM16	Hannes Chromosome segregation
+LRS4	Hannes Chromosome segregation
+BIK1	Hannes Chromosome segregation
+VIK1	Hannes Chromosome segregation
+CSM1	Hannes Chromosome segregation
+NKP1	Hannes Chromosome segregation
+CTF19	Hannes Chromosome segregation
+CTF3	Hannes Chromosome segregation
+CHL4	Hannes Chromosome segregation
+CIK1	Hannes Chromosome segregation
+DYN3	Hannes Chromosome segregation
+PAC1	Hannes Chromosome segregation
+CIN2	Hannes Chromosome segregation
+IML3	Hannes Chromosome segregation
+PAC11	Hannes Chromosome segregation
+JNM1	Hannes Chromosome segregation
+IRC15	Hannes Chromosome segregation
+ARP1	Hannes Chromosome segregation
+ASE1	Hannes Chromosome segregation
+CIN1	Hannes Chromosome segregation
+RTS1	Hannes Chromosome segregation
+SLK19	Hannes Chromosome segregation
+HCM1	Hannes Chromosome segregation
+SHE1	Hannes Chromosome segregation
+TUB3	Hannes Chromosome segregation
+HIR1	Hannes Cryptic transcription
+HPC2	Hannes Cryptic transcription
+HIR3	Hannes Cryptic transcription
+RTF1	Hannes Cryptic transcription
+ASF1	Hannes Cryptic transcription
+RCO1	Hannes Cryptic transcription
+SET2	Hannes Cryptic transcription
+LEO1	Hannes Cryptic transcription
+CDC73	Hannes Cryptic transcription
+PAF1	Hannes Cryptic transcription
+CTR9	Hannes Cryptic transcription
+RPD3	Hannes Cryptic transcription
+MSI1	Hannes Cryptic transcription
+HIR2	Hannes Cryptic transcription
+CTK1	Hannes Cryptic transcription
+CTK3	Hannes Cryptic transcription
+SWI4	Hannes Cryptic transcription
+SPT21	Hannes Cryptic transcription
+RTT106	Hannes Cryptic transcription
+CHD1	Hannes Cryptic transcription
+SIN3	Hannes Cryptic transcription
+EAF3	Hannes Cryptic transcription
+SPT2	Hannes Cryptic transcription
+CTK2	Hannes Cryptic transcription
+CAC2	Hannes Cryptic transcription
+YTA7	Hannes Cryptic transcription
+ELF1	Hannes Cryptic transcription
+UME1	Hannes Cryptic transcription
+RLF2	Hannes Cryptic transcription
+SKI8	Hannes DNA recombination & repair
+MEI4	Hannes DNA recombination & repair
+SPO22	Hannes DNA recombination & repair
+HOP1	Hannes DNA recombination & repair
+REC102	Hannes DNA recombination & repair
+MSH4	Hannes DNA recombination & repair
+MND1	Hannes DNA recombination & repair
+REC107	Hannes DNA recombination & repair
+REC104	Hannes DNA recombination & repair
+HO	Hannes DNA recombination & repair
+RIM4	Hannes DNA recombination & repair
+PIN4	Hannes DNA recombination & repair
+SPO11	Hannes DNA recombination & repair
+RMI1	Hannes DNA recombination & repair
+EXO1	Hannes DNA recombination & repair
+DIA2	Hannes DNA recombination & repair
+REV3	Hannes DNA recombination & repair
+SAW1	Hannes DNA recombination & repair
+RAD2	Hannes DNA recombination & repair
+MMS22	Hannes DNA recombination & repair
+PMS1	Hannes DNA recombination & repair
+MRE11	Hannes DNA recombination & repair
+MMS4	Hannes DNA recombination & repair
+REC114	Hannes DNA recombination & repair
+HIM1	Hannes DNA recombination & repair
+PSY3	Hannes DNA recombination & repair
+RAD5	Hannes DNA recombination & repair
+RRD1	Hannes DNA recombination & repair
+PHR1	Hannes DNA recombination & repair
+RAD9	Hannes DNA recombination & repair
+SML1	Hannes DNA recombination & repair
+MSH3	Hannes DNA recombination & repair
+APN1	Hannes DNA recombination & repair
+RAD1	Hannes DNA recombination & repair
+PSO2	Hannes DNA recombination & repair
+HAM1	Hannes DNA recombination & repair
+TOP3	Hannes DNA recombination & repair
+RAD7	Hannes DNA recombination & repair
+RAD57	Hannes DNA recombination & repair
+MEI5	Hannes DNA recombination & repair
+FOB1	Hannes DNA recombination & repair
+RAD30	Hannes DNA recombination & repair
+MMS1	Hannes DNA recombination & repair
+MPH1	Hannes DNA recombination & repair
+RAD26	Hannes DNA recombination & repair
+NTG1	Hannes DNA recombination & repair
+MSH6	Hannes DNA recombination & repair
+RAD27	Hannes DNA recombination & repair
+SLX8	Hannes DNA recombination & repair
+RTT101	Hannes DNA recombination & repair
+MSC1	Hannes DNA recombination & repair
+MLH1	Hannes DNA recombination & repair
+RAD54	Hannes DNA recombination & repair
+RAD23	Hannes DNA recombination & repair
+MUS81	Hannes DNA recombination & repair
+SLX1	Hannes DNA recombination & repair
+UNG1	Hannes DNA recombination & repair
+NEJ1	Hannes DNA recombination & repair
+SRS2	Hannes DNA recombination & repair
+IRC20	Hannes DNA recombination & repair
+RDH54	Hannes DNA recombination & repair
+RAD24	Hannes DNA recombination & repair
+REV7	Hannes DNA recombination & repair
+NTG2	Hannes DNA recombination & repair
+RAD59	Hannes DNA recombination & repair
+SGS1	Hannes DNA recombination & repair
+MSH2	Hannes DNA recombination & repair
+TDP1	Hannes DNA recombination & repair
+MSH1	Hannes DNA recombination & repair
+MSH5	Hannes DNA recombination & repair
+RAD17	Hannes DNA recombination & repair
+APN2	Hannes DNA recombination & repair
+MGT1	Hannes DNA recombination & repair
+CSM2	Hannes DNA recombination & repair
+RAD28	Hannes DNA recombination & repair
+DMC1	Hannes DNA recombination & repair
+SHU1	Hannes DNA recombination & repair
+OGG1	Hannes DNA recombination & repair
+CMR1	Hannes DNA recombination & repair
+YBR100W	Hannes DNA recombination & repair
+RAD4	Hannes DNA recombination & repair
+RAD33	Hannes DNA recombination & repair
+TPP1	Hannes DNA recombination & repair
+POL4	Hannes DNA recombination & repair
+XRS2	Hannes DNA recombination & repair
+RAD18	Hannes DNA recombination & repair
+HOP2	Hannes DNA recombination & repair
+RAD52	Hannes DNA recombination & repair
+RAD50	Hannes DNA recombination & repair
+CSM3	Hannes DNA recombination & repair
+DNL4	Hannes DNA recombination & repair
+MAG1	Hannes DNA recombination & repair
+SLX5	Hannes DNA recombination & repair
+DIN7	Hannes DNA recombination & repair
+RAD51	Hannes DNA recombination & repair
+RTT107	Hannes DNA recombination & repair
+MEK1	Hannes DNA recombination & repair
+YCL060C	Hannes DNA recombination & repair
+LIF1	Hannes DNA recombination & repair
+MRC1	Hannes DNA recombination & repair
+IRC5	Hannes DNA recombination & repair
+MGM101	Hannes DNA recombination & repair
+SAE2	Hannes DNA recombination & repair
+TOF1	Hannes DNA recombination & repair
+WSS1	Hannes DNA recombination & repair
+RAD14	Hannes DNA recombination & repair
+MEC3	Hannes DNA recombination & repair
+YHR079C-B	Hannes DNA recombination & repair
+SAE3	Hannes DNA recombination & repair
+MLH3	Hannes DNA recombination & repair
+DDR48	Hannes DNA recombination & repair
+MLH2	Hannes DNA recombination & repair
+RAD16	Hannes DNA recombination & repair
+HSM3	Hannes DNA recombination & repair
+RAD10	Hannes DNA recombination & repair
+RAD55	Hannes DNA recombination & repair
+RTT109	Hannes DNA recombination & repair
+MND2	Hannes DNA recombination & repair
+HRQ1	Hannes DNA replication
+HFM1	Hannes DNA replication
+RNH202	Hannes DNA replication
+MIP1	Hannes DNA replication
+RNH203	Hannes DNA replication
+REV1	Hannes DNA replication
+DPB3	Hannes DNA replication
+MGS1	Hannes DNA replication
+SLX4	Hannes DNA replication
+RRM3	Hannes DNA replication
+RNH201	Hannes DNA replication
+POL32	Hannes DNA replication
+HCS1	Hannes DNA replication
+MUM2	Hannes DNA replication
+TOP1	Hannes DNA replication
+HUR1	Hannes DNA replication
+RNR3	Hannes DNA replication
+ELG1	Hannes DNA replication
+RNH1	Hannes DNA replication
+SPO13	Hannes Meiosis
+IME1	Hannes Meiosis
+DON1	Hannes Meiosis
+ISC10	Hannes Meiosis
+SPO73	Hannes Meiosis
+MPC54	Hannes Meiosis
+ZIP1	Hannes Meiosis
+SPO1	Hannes Meiosis
+YSW1	Hannes Meiosis
+SPO71	Hannes Meiosis
+SPO20	Hannes Meiosis
+SPO19	Hannes Meiosis
+SPO77	Hannes Meiosis
+SPO75	Hannes Meiosis
+SMA2	Hannes Meiosis
+SSP1	Hannes Meiosis
+ECM11	Hannes Meiosis
+PFS1	Hannes Meiosis
+IDS2	Hannes Meiosis
+SPO16	Hannes Meiosis
+GIP1	Hannes Meiosis
+RED1	Hannes Meiosis
+NDT80	Hannes Meiosis
+FPR3	Hannes Meiosis
+PML1	Hannes mRNA export
+HMT1	Hannes mRNA export
+AIR1	Hannes mRNA export
+NPL3	Hannes mRNA export
+THP1	Hannes mRNA export
+SAC3	Hannes mRNA export
+MLP1	Hannes mRNA export
+SWT1	Hannes mRNA export
+GLE2	Hannes mRNA export
+HRB1	Hannes mRNA export
+SHE2	Hannes mRNA export
+MSN5	Hannes mRNA export
+TEX1	Hannes mRNA export
+MIP6	Hannes mRNA export
+AIR2	Hannes mRNA export
+YRA2	Hannes mRNA export
+TOM1	Hannes mRNA export
+THP2	Hannes mRNA export
+GBP2	Hannes mRNA export
+THO1	Hannes mRNA export
+REF2	Hannes mRNA processing
+FIR1	Hannes mRNA processing
+EDC2	Hannes mRNA processing
+LSM6	Hannes mRNA processing
+EDC3	Hannes mRNA processing
+TGS1	Hannes mRNA processing
+RAI1	Hannes mRNA processing
+CTL1	Hannes mRNA processing
+PBP1	Hannes mRNA processing
+PAN3	Hannes mRNA processing
+CBC2	Hannes mRNA processing
+SYC1	Hannes mRNA processing
+EDC1	Hannes mRNA processing
+DBR1	Hannes mRNA processing
+PAN2	Hannes mRNA processing
+RTT103	Hannes mRNA processing
+MUD2	Hannes mRNA splicing
+BRR1	Hannes mRNA splicing
+SWT21	Hannes mRNA splicing
+LEA1	Hannes mRNA splicing
+BUD31	Hannes mRNA splicing
+DRN1	Hannes mRNA splicing
+NTC20	Hannes mRNA splicing
+ISY1	Hannes mRNA splicing
+SNT309	Hannes mRNA splicing
+IST3	Hannes mRNA splicing
+PRP18	Hannes mRNA splicing
+ECM2	Hannes mRNA splicing
+CUS2	Hannes mRNA splicing
+CWC21	Hannes mRNA splicing
+SYF2	Hannes mRNA splicing
+CWC27	Hannes mRNA splicing
+SNU66	Hannes mRNA splicing
+LIN1	Hannes mRNA splicing
+MUD1	Hannes mRNA splicing
+BUD13	Hannes mRNA splicing
+CWC15	Hannes mRNA splicing
+HUB1	Hannes mRNA splicing
+PRP8	Hannes mRNA splicing
+NAM8	Hannes mRNA splicing
+MLP2	Hannes Nucleocytoplasmic transport
+NMD5	Hannes Nucleocytoplasmic transport
+SYH1	Hannes Nucleocytoplasmic transport
+NUP84	Hannes Nucleocytoplasmic transport
+NUP120	Hannes Nucleocytoplasmic transport
+KAP114	Hannes Nucleocytoplasmic transport
+NUP42	Hannes Nucleocytoplasmic transport
+MOG1	Hannes Nucleocytoplasmic transport
+NUP100	Hannes Nucleocytoplasmic transport
+NUP170	Hannes Nucleocytoplasmic transport
+KAP122	Hannes Nucleocytoplasmic transport
+KAP123	Hannes Nucleocytoplasmic transport
+ASM4	Hannes Nucleocytoplasmic transport
+NUP53	Hannes Nucleocytoplasmic transport
+NUP2	Hannes Nucleocytoplasmic transport
+POM34	Hannes Nucleocytoplasmic transport
+POM152	Hannes Nucleocytoplasmic transport
+NUP133	Hannes Nucleocytoplasmic transport
+SXM1	Hannes Nucleocytoplasmic transport
+NUP188	Hannes Nucleocytoplasmic transport
+CEX1	Hannes Nucleocytoplasmic transport
+GSP2	Hannes Nucleocytoplasmic transport
+NUP60	Hannes Nucleocytoplasmic transport
+PML39	Hannes Nucleocytoplasmic transport
+NUP157	Hannes Nucleocytoplasmic transport
+GIM5	Hannes General TFs
+YKE2	Hannes General TFs
+GIM4	Hannes General TFs
+GIM3	Hannes General TFs
+PFD1	Hannes General TFs
+UBC13	Hannes DNA recombination & repair
+MMS2	Hannes DNA recombination & repair
+HEK2	Hannes rDNA/telomere silence & maintenance
+NDJ1	Hannes rDNA/telomere silence & maintenance
+SBA1	Hannes rDNA/telomere silence & maintenance
+RIF2	Hannes rDNA/telomere silence & maintenance
+DPB4	Hannes rDNA/telomere silence & maintenance
+PBP2	Hannes rDNA/telomere silence & maintenance
+TEL1	Hannes rDNA/telomere silence & maintenance
+EST1	Hannes rDNA/telomere silence & maintenance
+YKU80	Hannes rDNA/telomere silence & maintenance
+EST3	Hannes rDNA/telomere silence & maintenance
+RIF1	Hannes rDNA/telomere silence & maintenance
+YKU70	Hannes rDNA/telomere silence & maintenance
+TOF2	Hannes rDNA/telomere silence & maintenance
+NPT1	Hannes rDNA/telomere silence & maintenance
+NNT1	Hannes rDNA/telomere silence & maintenance
+BUD32	Hannes rDNA/telomere silence & maintenance
+GON7	Hannes rDNA/telomere silence & maintenance
+PNC1	Hannes rDNA/telomere silence & maintenance
+NSI1	Hannes rDNA/telomere silence & maintenance
+WHI3	Hannes Cell cycle
+SPS4	Hannes Cell cycle
+SMA1	Hannes Cell cycle
+RRT8	Hannes Cell cycle
+DMA1	Hannes Cell cycle
+HSL1	Hannes Cell cycle
+DTR1	Hannes Cell cycle
+SHE10	Hannes Cell cycle
+SMK1	Hannes Cell cycle
+YCL012W	Hannes Cell cycle
+RRT12	Hannes Cell cycle
+PCH2	Hannes Cell cycle
+CLB3	Hannes Cell cycle
+CLB6	Hannes Cell cycle
+ZDS1	Hannes Cell cycle
+SAP185	Hannes Cell cycle
+KCC4	Hannes Cell cycle
+CLN2	Hannes Cell cycle
+CLB1	Hannes Cell cycle
+LDS2	Hannes Cell cycle
+EGT2	Hannes Cell cycle
+LOH1	Hannes Cell cycle
+YNL319W	Hannes Cell cycle
+VHS3	Hannes Cell cycle
+YHR127W	Hannes Cell cycle
+CLB5	Hannes Cell cycle
+SDS23	Hannes Cell cycle
+CLN1	Hannes Cell cycle
+FAR1	Hannes Cell cycle
+GMC2	Hannes Cell cycle
+CLN3	Hannes Cell cycle
+BUD17	Hannes Cell cycle
+SPR6	Hannes Cell cycle
+RME1	Hannes Cell cycle
+SPO21	Hannes Cell cycle
+SPR28	Hannes Cell cycle
+MSC2	Hannes Cell cycle
+BCK2	Hannes Cell cycle
+SDH5	Hannes Cell cycle
+ADY2	Hannes Cell cycle
+CNM67	Hannes Cell cycle
+IRC18	Hannes Cell cycle
+YGL046W	Hannes Cell cycle
+SAP190	Hannes Cell cycle
+AIM44	Hannes Cell cycle
+ATC1	Hannes Cell cycle
+HOF1	Hannes Cell cycle
+FAR11	Hannes Cell cycle
+CLB2	Hannes Cell cycle
+PMD1	Hannes Cell cycle
+SKN7	Hannes Cell cycle
+GAS2	Hannes Cell cycle
+SLM2	Hannes Cell cycle
+NIS1	Hannes Cell cycle
+IME2	Hannes Cell cycle
+SGA1	Hannes Cell cycle
+SPR3	Hannes Cell cycle
+CLB4	Hannes Cell cycle
+PCL9	Hannes Cell cycle
+MSC7	Hannes Cell cycle
+BUD9	Hannes Cell cycle
+WHI4	Hannes Cell cycle
+FAR10	Hannes Cell cycle
+RMD1	Hannes Cell cycle
+NEM1	Hannes Cell cycle
+VHS2	Hannes Cell cycle
+ALK1	Hannes Cell cycle
+MSC6	Hannes Cell cycle
+FUS3	Hannes Cell cycle
+MUM3	Hannes Cell cycle
+SFG1	Hannes Cell cycle
+PCL7	Hannes Cell cycle
+NPR3	Hannes Cell cycle
+SDS24	Hannes Cell cycle
+SPO74	Hannes Cell cycle
+ALK2	Hannes Cell cycle
+CDC55	Hannes Cell cycle
+SIC1	Hannes Cell cycle
+DDC1	Hannes Cell cycle
+DUN1	Hannes Cell cycle
+CHK1	Hannes Cell cycle
+KEL2	Hannes Cell cycle
+ZDS2	Hannes Cell cycle
+BUB1	Hannes Cell cycle
+BFA1	Hannes Cell cycle
+BIM1	Hannes Cell cycle
+BUB2	Hannes Cell cycle
+MAD3	Hannes Cell cycle
+DBF2	Hannes Cell cycle
+BUB3	Hannes Cell cycle
+AMN1	Hannes Cell cycle
+NUR1	Hannes Cell cycle
+MAD1	Hannes Cell cycle
+FIN1	Hannes Cell cycle
+MAD2	Hannes Cell cycle
+KIN4	Hannes Cell cycle
+KRE28	Hannes Cell cycle
+KEL1	Hannes Cell cycle
+DBF20	Hannes Cell cycle
+LTE1	Hannes Cell cycle
+MBP1	Hannes Cell cycle
+NRM1	Hannes Cell cycle
+PCL5	Hannes Cell cycle
+MSA1	Hannes Cell cycle
+CAF40	Hannes RNA degradation
+REX2	Hannes RNA degradation
+NMD4	Hannes RNA degradation
+UPF3	Hannes RNA degradation
+RNH70	Hannes RNA degradation
+PAP2	Hannes RNA degradation
+MOT2	Hannes RNA degradation
+SKI2	Hannes RNA degradation
+CAF120	Hannes RNA degradation
+REX3	Hannes RNA degradation
+PAT1	Hannes RNA degradation
+NMD2	Hannes RNA degradation
+MPT5	Hannes RNA degradation
+MPP6	Hannes RNA degradation
+EBS1	Hannes RNA degradation
+SKI7	Hannes RNA degradation
+VTS1	Hannes RNA degradation
+XRN1	Hannes RNA degradation
+TIS11	Hannes RNA degradation
+LSM7	Hannes RNA degradation
+RNY1	Hannes RNA degradation
+MRT4	Hannes RNA degradation
+RRP6	Hannes RNA degradation
+LSM1	Hannes RNA degradation
+SKI3	Hannes RNA degradation
+NGL3	Hannes RNA degradation
+SLH1	Hannes RNA degradation
+LRP1	Hannes RNA degradation
+NAM7	Hannes RNA degradation
+NOT3	Hannes RNA degradation
+CAF130	Hannes RNA degradation
+CAF16	Hannes RNA degradation
+CCR4	Hannes RNA degradation
+CAF4	Hannes RNA degradation
+RRP8	Hannes rRNA processing
+RCM1	Hannes rRNA processing
+NOP6	Hannes rRNA processing
+DBP1	Hannes rRNA processing
+GIR2	Hannes rRNA processing
+NOP12	Hannes rRNA processing
+NGL2	Hannes rRNA processing
+UTP30	Hannes rRNA processing
+SRP40	Hannes rRNA processing
+ARX1	Hannes rRNA processing
+SLX9	Hannes rRNA processing
+NOP13	Hannes rRNA processing
+LHP1	Hannes tRNA metabolism
+POA1	Hannes tRNA metabolism
+TAD1	Hannes tRNA metabolism
+DTD1	Hannes tRNA metabolism
+GRS2	Hannes tRNA metabolism
+DUS1	Hannes tRNA metabolism
+PUS7	Hannes tRNA metabolism
+SSN2	Hannes General TFs
+RPA49	Hannes General TFs
+SSN3	Hannes General TFs
+GLN3	Hannes Site-specific TFs
+SRB8	Hannes General TFs
+SUS1	Hannes General TFs
+RPH1	Hannes General TFs
+HAP1	Hannes Site-specific TFs
+TOS4	Hannes Site-specific TFs
+BDF1	Hannes General TFs
+WTM2	Hannes Site-specific TFs
+GAT4	Hannes Site-specific TFs
+SPT4	Hannes General TFs
+HAP2	Hannes Site-specific TFs
+MSN1	Hannes Site-specific TFs
+SMP1	Hannes Site-specific TFs
+GAL4	Hannes Site-specific TFs
+SPT3	Hannes General TFs
+SRB2	Hannes General TFs
+STP2	Hannes Site-specific TFs
+RPI1	Hannes Site-specific TFs
+CRT10	Hannes Site-specific TFs
+FLO8	Hannes Site-specific TFs
+RTR1	Hannes General TFs
+ARR1	Hannes Site-specific TFs
+PPR1	Hannes Site-specific TFs
+AZF1	Hannes Site-specific TFs
+SGF29	Hannes General TFs
+MAC1	Hannes Site-specific TFs
+ADR1	Hannes Site-specific TFs
+IXR1	Hannes Site-specific TFs
+SPT8	Hannes General TFs
+SGF73	Hannes General TFs
+WAR1	Hannes Site-specific TFs
+OAF1	Hannes Site-specific TFs
+FKH2	Hannes Site-specific TFs
+SWI5	Hannes Site-specific TFs
+CYC8	Hannes General TFs
+XBP1	Hannes Site-specific TFs
+PIP2	Hannes Site-specific TFs
+RTG3	Hannes Site-specific TFs
+USV1	Hannes Site-specific TFs
+CAT8	Hannes Site-specific TFs
+GAT2	Hannes Site-specific TFs
+RPA34	Hannes General TFs
+BYE1	Hannes General TFs
+CUP2	Hannes Site-specific TFs
+RTG1	Hannes Site-specific TFs
+YAP3	Hannes Site-specific TFs
+HAP4	Hannes Site-specific TFs
+SOH1	Hannes General TFs
+SUB1	Hannes General TFs
+VHR1	Hannes Site-specific TFs
+YAP6	Hannes Site-specific TFs
+GCN5	Hannes General TFs
+DST1	Hannes General TFs
+PDR1	Hannes Site-specific TFs
+SSN8	Hannes General TFs
+PHO4	Hannes Site-specific TFs
+YRM1	Hannes Site-specific TFs
+YOX1	Hannes Site-specific TFs
+SFL1	Hannes Site-specific TFs
+HAP3	Hannes Site-specific TFs
+NTO1	Hannes General TFs
+MKS1	Hannes Site-specific TFs
+SWI6	Hannes Site-specific TFs
+CTH1	Hannes Site-specific TFs
+TEA1	Hannes General TFs
+YAP1	Hannes Site-specific TFs
+ACA1	Hannes Site-specific TFs
+RDR1	Hannes Site-specific TFs
+RGT1	Hannes Site-specific TFs
+THO2	Hannes General TFs
+KAR4	Hannes Site-specific TFs
+ZAP1	Hannes Site-specific TFs
+MIG2	Hannes Site-specific TFs
+FZF1	Hannes Site-specific TFs
+GZF3	Hannes Site-specific TFs
+PGD1	Hannes General TFs
+RPA14	Hannes General TFs
+UGA3	Hannes Site-specific TFs
+GAT1	Hannes Site-specific TFs
+SGF11	Hannes General TFs
+TOG1	Hannes Site-specific TFs
+WTM1	Hannes Site-specific TFs
+NGG1	Hannes General TFs
+RDS2	Hannes Site-specific TFs
+RPB4	Hannes General TFs
+ACE2	Hannes Site-specific TFs
+MET32	Hannes Site-specific TFs
+PUT3	Hannes Site-specific TFs
+HFI1	Hannes General TFs
+SKO1	Hannes Site-specific TFs
+ZNF1	Hannes Site-specific TFs
+CIN5	Hannes Site-specific TFs
+GAL3	Hannes Site-specific TFs
+AHC2	Hannes General TFs
+SFP1	Hannes Site-specific TFs
+CAD1	Hannes Site-specific TFs
+MFT1	Hannes General TFs
+FKH1	Hannes Site-specific TFs
+MOT3	Hannes Site-specific TFs
+PHD1	Hannes Site-specific TFs
+MBF1	Hannes Site-specific TFs
+TEC1	Hannes Site-specific TFs
+TDA9	Hannes Site-specific TFs
+AHC1	Hannes General TFs
+CST6	Hannes Site-specific TFs
+UBP8	Hannes General TFs
+CSE2	Hannes General TFs
+YHP1	Hannes Site-specific TFs
+IWR1	Hannes General TFs
+RIM101	Hannes Site-specific TFs
+SUT2	Hannes Site-specific TFs
+YAP5	Hannes Site-specific TFs
+PLM2	Hannes Site-specific TFs
+HAA1	Hannes Site-specific TFs
+NRG2	Hannes Site-specific TFs
+GAL80	Hannes Site-specific TFs
+MET18	Hannes Site-specific TFs
+HAP5	Hannes Site-specific TFs
+RSF2	Hannes Site-specific TFs
+ROX1	Hannes Site-specific TFs
+HOT1	Hannes Site-specific TFs
+YRR1	Hannes Site-specific TFs
+STB1	Hannes Site-specific TFs
+SUM1	Hannes Site-specific TFs
+ADA2	Hannes General TFs
+ERT1	Hannes Site-specific TFs
+LYS14	Hannes Site-specific TFs
+NUT1	Hannes General TFs
+GAT3	Hannes Site-specific TFs
+AFT2	Hannes Site-specific TFs
+MET31	Hannes Site-specific TFs
+WHI5	Hannes Site-specific TFs
+MED1	Hannes General TFs
+SIN4	Hannes General TFs
+MED2	Hannes General TFs
+RFX1	Hannes Site-specific TFs

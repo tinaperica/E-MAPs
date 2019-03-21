@@ -1,0 +1,757 @@
+HTL1	Chromatin remodeling
+HST4	Chromatin remodeling
+FUN30	Chromatin remodeling
+ESC2	Chromatin remodeling
+HST3	Chromatin remodeling
+YBR090C-A	Chromatin remodeling
+HHF1	Chromatin remodeling
+NKP2	Chromatin remodeling
+HTA2	Chromatin remodeling
+ARP8	Chromatin remodeling
+CHZ1	Chromatin remodeling
+BDF2	Chromatin remodeling
+YNG1	Chromatin remodeling
+RSC2	Chromatin remodeling
+RFM1	Chromatin remodeling
+ISW1	Chromatin remodeling
+RXT3	Chromatin remodeling
+NAT4	Chromatin remodeling
+YAF9	Chromatin remodeling
+HDA1	Chromatin remodeling
+SWC3	Chromatin remodeling
+BRE2	Chromatin remodeling
+ESC1	Chromatin remodeling
+BRE1	Chromatin remodeling
+IES3	Chromatin remodeling
+SWI3	Chromatin remodeling
+SWC5	Chromatin remodeling
+DEP1	Chromatin remodeling
+PHO23	Chromatin remodeling
+RSC1	Chromatin remodeling
+HDA3	Chromatin remodeling
+SWR1	Chromatin remodeling
+EAF6	Chromatin remodeling
+HTZ1	Chromatin remodeling
+DOT1	Chromatin remodeling
+HAT1	Chromatin remodeling
+DLS1	Chromatin remodeling
+IOC3	Chromatin remodeling
+ARD1	Chromatin remodeling
+PDP3	Chromatin remodeling
+LGE1	Chromatin remodeling
+EAF7	Chromatin remodeling
+VPS75	Chromatin remodeling
+SIR1	Chromatin remodeling
+HST1	Chromatin remodeling
+UME6	Chromatin remodeling
+JHD2	Chromatin remodeling
+TOD6	Chromatin remodeling
+IES4	Chromatin remodeling
+SWC7	Chromatin remodeling
+EAF1	Chromatin remodeling
+JHD1	Chromatin remodeling
+DOT6	Chromatin remodeling
+HTA1	Chromatin remodeling
+SAS2	Chromatin remodeling
+VPS72	Chromatin remodeling
+ISW2	Chromatin remodeling
+SAS3	Chromatin remodeling
+SDC1	Chromatin remodeling
+SHG1	Chromatin remodeling
+RXT2	Chromatin remodeling
+GIS1	Chromatin remodeling
+SWD3	Chromatin remodeling
+IOC2	Chromatin remodeling
+VPS71	Chromatin remodeling
+ASF2	Chromatin remodeling
+SIF2	Chromatin remodeling
+SET3	Chromatin remodeling
+SAS5	Chromatin remodeling
+SET5	Chromatin remodeling
+SNT1	Chromatin remodeling
+IES2	Chromatin remodeling
+PSY2	Chromatin remodeling
+SNF5	Chromatin remodeling
+ARP6	Chromatin remodeling
+HHF2	Chromatin remodeling
+SNF6	Chromatin remodeling
+CTI6	Chromatin remodeling
+HTB2	Chromatin remodeling
+HHT2	Chromatin remodeling
+HPA2	Chromatin remodeling
+NHP6B	Chromatin remodeling
+SDS3	Chromatin remodeling
+HST2	Chromatin remodeling
+ASH1	Chromatin remodeling
+SAS4	Chromatin remodeling
+NHP10	Chromatin remodeling
+HHT1	Chromatin remodeling
+HHO1	Chromatin remodeling
+HOS3	Chromatin remodeling
+HOS4	Chromatin remodeling
+ITC1	Chromatin remodeling
+FPR4	Chromatin remodeling
+NHP6A	Chromatin remodeling
+HAT2	Chromatin remodeling
+IOC4	Chromatin remodeling
+SNF11	Chromatin remodeling
+SWD1	Chromatin remodeling
+SAP30	Chromatin remodeling
+HOS1	Chromatin remodeling
+EAF5	Chromatin remodeling
+RTT102	Chromatin remodeling
+HOS2	Chromatin remodeling
+IES1	Chromatin remodeling
+SPP1	Chromatin remodeling
+ESC8	Chromatin remodeling
+CSM4	Chromosome segregation
+YML033W	Chromosome segregation
+REC8	Chromosome segregation
+CHL1	Chromosome segregation
+CTF4	Chromosome segregation
+CTF8	Chromosome segregation
+CTF18	Chromosome segregation
+CBF1	Chromosome segregation
+TRF5	Chromosome segregation
+SRC1	Chromosome segregation
+DCC1	Chromosome segregation
+KIP1	Chromosome segregation
+KAR3	Chromosome segregation
+CNN1	Chromosome segregation
+NDL1	Chromosome segregation
+MAM1	Chromosome segregation
+YBP2	Chromosome segregation
+KIP3	Chromosome segregation
+KIP2	Chromosome segregation
+DYN2	Chromosome segregation
+LDB18	Chromosome segregation
+MCM21	Chromosome segregation
+MCM22	Chromosome segregation
+GIP4	Chromosome segregation
+GLC8	Chromosome segregation
+DYN1	Chromosome segregation
+CIN4	Chromosome segregation
+SGO1	Chromosome segregation
+CIN8	Chromosome segregation
+MCM16	Chromosome segregation
+LRS4	Chromosome segregation
+BIK1	Chromosome segregation
+VIK1	Chromosome segregation
+CSM1	Chromosome segregation
+NKP1	Chromosome segregation
+CTF19	Chromosome segregation
+CTF3	Chromosome segregation
+CHL4	Chromosome segregation
+CIK1	Chromosome segregation
+DYN3	Chromosome segregation
+PAC1	Chromosome segregation
+CIN2	Chromosome segregation
+IML3	Chromosome segregation
+PAC11	Chromosome segregation
+JNM1	Chromosome segregation
+IRC15	Chromosome segregation
+ARP1	Chromosome segregation
+ASE1	Chromosome segregation
+CIN1	Chromosome segregation
+RTS1	Chromosome segregation
+SLK19	Chromosome segregation
+HCM1	Chromosome segregation
+SHE1	Chromosome segregation
+TUB3	Chromosome segregation
+HIR1	Cryptic transcription
+HPC2	Cryptic transcription
+HIR3	Cryptic transcription
+RTF1	Cryptic transcription
+ASF1	Cryptic transcription
+RCO1	Cryptic transcription
+SET2	Cryptic transcription
+LEO1	Cryptic transcription
+CDC73	Cryptic transcription
+PAF1	Cryptic transcription
+CTR9	Cryptic transcription
+RPD3	Cryptic transcription
+MSI1	Cryptic transcription
+HIR2	Cryptic transcription
+CTK1	Cryptic transcription
+CTK3	Cryptic transcription
+SWI4	Cryptic transcription
+SPT21	Cryptic transcription
+RTT106	Cryptic transcription
+CHD1	Cryptic transcription
+SIN3	Cryptic transcription
+EAF3	Cryptic transcription
+SPT2	Cryptic transcription
+CTK2	Cryptic transcription
+CAC2	Cryptic transcription
+YTA7	Cryptic transcription
+ELF1	Cryptic transcription
+UME1	Cryptic transcription
+RLF2	Cryptic transcription
+SKI8	DNA recombination & repair
+MEI4	DNA recombination & repair
+SPO22	DNA recombination & repair
+HOP1	DNA recombination & repair
+REC102	DNA recombination & repair
+MSH4	DNA recombination & repair
+MND1	DNA recombination & repair
+REC107	DNA recombination & repair
+REC104	DNA recombination & repair
+HO	DNA recombination & repair
+RIM4	DNA recombination & repair
+PIN4	DNA recombination & repair
+SPO11	DNA recombination & repair
+RMI1	DNA recombination & repair
+EXO1	DNA recombination & repair
+DIA2	DNA recombination & repair
+REV3	DNA recombination & repair
+SAW1	DNA recombination & repair
+RAD2	DNA recombination & repair
+MMS22	DNA recombination & repair
+PMS1	DNA recombination & repair
+MRE11	DNA recombination & repair
+MMS4	DNA recombination & repair
+REC114	DNA recombination & repair
+HIM1	DNA recombination & repair
+PSY3	DNA recombination & repair
+RAD5	DNA recombination & repair
+RRD1	DNA recombination & repair
+PHR1	DNA recombination & repair
+RAD9	DNA recombination & repair
+SML1	DNA recombination & repair
+MSH3	DNA recombination & repair
+APN1	DNA recombination & repair
+RAD1	DNA recombination & repair
+PSO2	DNA recombination & repair
+HAM1	DNA recombination & repair
+TOP3	DNA recombination & repair
+RAD7	DNA recombination & repair
+RAD57	DNA recombination & repair
+MEI5	DNA recombination & repair
+FOB1	DNA recombination & repair
+RAD30	DNA recombination & repair
+MMS1	DNA recombination & repair
+MPH1	DNA recombination & repair
+RAD26	DNA recombination & repair
+NTG1	DNA recombination & repair
+MSH6	DNA recombination & repair
+RAD27	DNA recombination & repair
+SLX8	DNA recombination & repair
+RTT101	DNA recombination & repair
+MSC1	DNA recombination & repair
+MLH1	DNA recombination & repair
+RAD54	DNA recombination & repair
+RAD23	DNA recombination & repair
+MUS81	DNA recombination & repair
+SLX1	DNA recombination & repair
+UNG1	DNA recombination & repair
+NEJ1	DNA recombination & repair
+SRS2	DNA recombination & repair
+IRC20	DNA recombination & repair
+RDH54	DNA recombination & repair
+RAD24	DNA recombination & repair
+REV7	DNA recombination & repair
+NTG2	DNA recombination & repair
+RAD59	DNA recombination & repair
+SGS1	DNA recombination & repair
+MSH2	DNA recombination & repair
+TDP1	DNA recombination & repair
+MSH1	DNA recombination & repair
+MSH5	DNA recombination & repair
+RAD17	DNA recombination & repair
+APN2	DNA recombination & repair
+MGT1	DNA recombination & repair
+CSM2	DNA recombination & repair
+RAD28	DNA recombination & repair
+DMC1	DNA recombination & repair
+SHU1	DNA recombination & repair
+OGG1	DNA recombination & repair
+CMR1	DNA recombination & repair
+YBR100W	DNA recombination & repair
+RAD4	DNA recombination & repair
+RAD33	DNA recombination & repair
+TPP1	DNA recombination & repair
+POL4	DNA recombination & repair
+XRS2	DNA recombination & repair
+RAD18	DNA recombination & repair
+HOP2	DNA recombination & repair
+RAD52	DNA recombination & repair
+RAD50	DNA recombination & repair
+CSM3	DNA recombination & repair
+DNL4	DNA recombination & repair
+MAG1	DNA recombination & repair
+SLX5	DNA recombination & repair
+DIN7	DNA recombination & repair
+RAD51	DNA recombination & repair
+RTT107	DNA recombination & repair
+MEK1	DNA recombination & repair
+YCL060C	DNA recombination & repair
+LIF1	DNA recombination & repair
+MRC1	DNA recombination & repair
+IRC5	DNA recombination & repair
+MGM101	DNA recombination & repair
+SAE2	DNA recombination & repair
+TOF1	DNA recombination & repair
+WSS1	DNA recombination & repair
+RAD14	DNA recombination & repair
+MEC3	DNA recombination & repair
+YHR079C-B	DNA recombination & repair
+SAE3	DNA recombination & repair
+MLH3	DNA recombination & repair
+DDR48	DNA recombination & repair
+MLH2	DNA recombination & repair
+RAD16	DNA recombination & repair
+HSM3	DNA recombination & repair
+RAD10	DNA recombination & repair
+RAD55	DNA recombination & repair
+RTT109	DNA recombination & repair
+MND2	DNA recombination & repair
+HRQ1	DNA replication
+HFM1	DNA replication
+RNH202	DNA replication
+MIP1	DNA replication
+RNH203	DNA replication
+REV1	DNA replication
+DPB3	DNA replication
+MGS1	DNA replication
+SLX4	DNA replication
+RRM3	DNA replication
+RNH201	DNA replication
+POL32	DNA replication
+HCS1	DNA replication
+MUM2	DNA replication
+TOP1	DNA replication
+HUR1	DNA replication
+RNR3	DNA replication
+ELG1	DNA replication
+RNH1	DNA replication
+SPO13	Meiosis
+IME1	Meiosis
+DON1	Meiosis
+ISC10	Meiosis
+SPO73	Meiosis
+MPC54	Meiosis
+ZIP1	Meiosis
+SPO1	Meiosis
+YSW1	Meiosis
+SPO71	Meiosis
+SPO20	Meiosis
+SPO19	Meiosis
+SPO77	Meiosis
+SPO75	Meiosis
+SMA2	Meiosis
+SSP1	Meiosis
+ECM11	Meiosis
+PFS1	Meiosis
+IDS2	Meiosis
+SPO16	Meiosis
+GIP1	Meiosis
+RED1	Meiosis
+NDT80	Meiosis
+FPR3	Meiosis
+PML1	mRNA export
+HMT1	mRNA export
+AIR1	mRNA export
+NPL3	mRNA export
+THP1	mRNA export
+SAC3	mRNA export
+MLP1	mRNA export
+SWT1	mRNA export
+GLE2	mRNA export
+HRB1	mRNA export
+SHE2	mRNA export
+MSN5	mRNA export
+TEX1	mRNA export
+MIP6	mRNA export
+AIR2	mRNA export
+YRA2	mRNA export
+TOM1	mRNA export
+THP2	mRNA export
+GBP2	mRNA export
+THO1	mRNA export
+REF2	mRNA processing
+FIR1	mRNA processing
+EDC2	mRNA processing
+LSM6	mRNA processing
+EDC3	mRNA processing
+TGS1	mRNA processing
+RAI1	mRNA processing
+CTL1	mRNA processing
+PBP1	mRNA processing
+PAN3	mRNA processing
+CBC2	mRNA processing
+SYC1	mRNA processing
+EDC1	mRNA processing
+DBR1	mRNA processing
+PAN2	mRNA processing
+RTT103	mRNA processing
+MUD2	mRNA splicing
+BRR1	mRNA splicing
+SWT21	mRNA splicing
+LEA1	mRNA splicing
+BUD31	mRNA splicing
+DRN1	mRNA splicing
+NTC20	mRNA splicing
+ISY1	mRNA splicing
+SNT309	mRNA splicing
+IST3	mRNA splicing
+PRP18	mRNA splicing
+ECM2	mRNA splicing
+CUS2	mRNA splicing
+CWC21	mRNA splicing
+SYF2	mRNA splicing
+CWC27	mRNA splicing
+SNU66	mRNA splicing
+LIN1	mRNA splicing
+MUD1	mRNA splicing
+BUD13	mRNA splicing
+CWC15	mRNA splicing
+HUB1	mRNA splicing
+PRP8	mRNA splicing
+NAM8	mRNA splicing
+MLP2	Nucleocytoplasmic transport
+NMD5	Nucleocytoplasmic transport
+SYH1	Nucleocytoplasmic transport
+NUP84	Nucleocytoplasmic transport
+NUP120	Nucleocytoplasmic transport
+KAP114	Nucleocytoplasmic transport
+NUP42	Nucleocytoplasmic transport
+MOG1	Nucleocytoplasmic transport
+NUP100	Nucleocytoplasmic transport
+NUP170	Nucleocytoplasmic transport
+KAP122	Nucleocytoplasmic transport
+KAP123	Nucleocytoplasmic transport
+ASM4	Nucleocytoplasmic transport
+NUP53	Nucleocytoplasmic transport
+NUP2	Nucleocytoplasmic transport
+POM34	Nucleocytoplasmic transport
+POM152	Nucleocytoplasmic transport
+NUP133	Nucleocytoplasmic transport
+SXM1	Nucleocytoplasmic transport
+NUP188	Nucleocytoplasmic transport
+CEX1	Nucleocytoplasmic transport
+GSP2	Nucleocytoplasmic transport
+NUP60	Nucleocytoplasmic transport
+PML39	Nucleocytoplasmic transport
+NUP157	Nucleocytoplasmic transport
+GIM5	General TFs
+YKE2	General TFs
+GIM4	General TFs
+GIM3	General TFs
+PFD1	General TFs
+UBC13	DNA recombination & repair
+MMS2	DNA recombination & repair
+HEK2	rDNA/telomere silence & maintenance
+NDJ1	rDNA/telomere silence & maintenance
+SBA1	rDNA/telomere silence & maintenance
+RIF2	rDNA/telomere silence & maintenance
+DPB4	rDNA/telomere silence & maintenance
+PBP2	rDNA/telomere silence & maintenance
+TEL1	rDNA/telomere silence & maintenance
+EST1	rDNA/telomere silence & maintenance
+YKU80	rDNA/telomere silence & maintenance
+EST3	rDNA/telomere silence & maintenance
+RIF1	rDNA/telomere silence & maintenance
+YKU70	rDNA/telomere silence & maintenance
+TOF2	rDNA/telomere silence & maintenance
+NPT1	rDNA/telomere silence & maintenance
+NNT1	rDNA/telomere silence & maintenance
+BUD32	rDNA/telomere silence & maintenance
+GON7	rDNA/telomere silence & maintenance
+PNC1	rDNA/telomere silence & maintenance
+NSI1	rDNA/telomere silence & maintenance
+WHI3	Cell cycle
+SPS4	Cell cycle
+SMA1	Cell cycle
+RRT8	Cell cycle
+DMA1	Cell cycle
+HSL1	Cell cycle
+DTR1	Cell cycle
+SHE10	Cell cycle
+SMK1	Cell cycle
+YCL012W	Cell cycle
+RRT12	Cell cycle
+PCH2	Cell cycle
+CLB3	Cell cycle
+CLB6	Cell cycle
+ZDS1	Cell cycle
+SAP185	Cell cycle
+KCC4	Cell cycle
+CLN2	Cell cycle
+CLB1	Cell cycle
+LDS2	Cell cycle
+EGT2	Cell cycle
+LOH1	Cell cycle
+YNL319W	Cell cycle
+VHS3	Cell cycle
+YHR127W	Cell cycle
+CLB5	Cell cycle
+SDS23	Cell cycle
+CLN1	Cell cycle
+FAR1	Cell cycle
+GMC2	Cell cycle
+CLN3	Cell cycle
+BUD17	Cell cycle
+SPR6	Cell cycle
+RME1	Cell cycle
+SPO21	Cell cycle
+SPR28	Cell cycle
+MSC2	Cell cycle
+BCK2	Cell cycle
+SDH5	Cell cycle
+ADY2	Cell cycle
+CNM67	Cell cycle
+IRC18	Cell cycle
+YGL046W	Cell cycle
+SAP190	Cell cycle
+AIM44	Cell cycle
+ATC1	Cell cycle
+HOF1	Cell cycle
+FAR11	Cell cycle
+CLB2	Cell cycle
+PMD1	Cell cycle
+SKN7	Cell cycle
+GAS2	Cell cycle
+SLM2	Cell cycle
+NIS1	Cell cycle
+IME2	Cell cycle
+SGA1	Cell cycle
+SPR3	Cell cycle
+CLB4	Cell cycle
+PCL9	Cell cycle
+MSC7	Cell cycle
+BUD9	Cell cycle
+WHI4	Cell cycle
+FAR10	Cell cycle
+RMD1	Cell cycle
+NEM1	Cell cycle
+VHS2	Cell cycle
+ALK1	Cell cycle
+MSC6	Cell cycle
+FUS3	Cell cycle
+MUM3	Cell cycle
+SFG1	Cell cycle
+PCL7	Cell cycle
+NPR3	Cell cycle
+SDS24	Cell cycle
+SPO74	Cell cycle
+ALK2	Cell cycle
+CDC55	Cell cycle
+SIC1	Cell cycle
+DDC1	Cell cycle
+DUN1	Cell cycle
+CHK1	Cell cycle
+KEL2	Cell cycle
+ZDS2	Cell cycle
+BUB1	Cell cycle
+BFA1	Cell cycle
+BIM1	Cell cycle
+BUB2	Cell cycle
+MAD3	Cell cycle
+DBF2	Cell cycle
+BUB3	Cell cycle
+AMN1	Cell cycle
+NUR1	Cell cycle
+MAD1	Cell cycle
+FIN1	Cell cycle
+MAD2	Cell cycle
+KIN4	Cell cycle
+KRE28	Cell cycle
+KEL1	Cell cycle
+DBF20	Cell cycle
+LTE1	Cell cycle
+MBP1	Cell cycle
+NRM1	Cell cycle
+PCL5	Cell cycle
+MSA1	Cell cycle
+CAF40	RNA degradation
+REX2	RNA degradation
+NMD4	RNA degradation
+UPF3	RNA degradation
+RNH70	RNA degradation
+PAP2	RNA degradation
+MOT2	RNA degradation
+SKI2	RNA degradation
+CAF120	RNA degradation
+REX3	RNA degradation
+PAT1	RNA degradation
+NMD2	RNA degradation
+MPT5	RNA degradation
+MPP6	RNA degradation
+EBS1	RNA degradation
+SKI7	RNA degradation
+VTS1	RNA degradation
+XRN1	RNA degradation
+TIS11	RNA degradation
+LSM7	RNA degradation
+RNY1	RNA degradation
+MRT4	RNA degradation
+RRP6	RNA degradation
+LSM1	RNA degradation
+SKI3	RNA degradation
+NGL3	RNA degradation
+SLH1	RNA degradation
+LRP1	RNA degradation
+NAM7	RNA degradation
+NOT3	RNA degradation
+CAF130	RNA degradation
+CAF16	RNA degradation
+CCR4	RNA degradation
+CAF4	RNA degradation
+RRP8	rRNA processing
+RCM1	rRNA processing
+NOP6	rRNA processing
+DBP1	rRNA processing
+GIR2	rRNA processing
+NOP12	rRNA processing
+NGL2	rRNA processing
+UTP30	rRNA processing
+SRP40	rRNA processing
+ARX1	rRNA processing
+SLX9	rRNA processing
+NOP13	rRNA processing
+LHP1	tRNA metabolism
+POA1	tRNA metabolism
+TAD1	tRNA metabolism
+DTD1	tRNA metabolism
+GRS2	tRNA metabolism
+DUS1	tRNA metabolism
+PUS7	tRNA metabolism
+SSN2	General TFs
+RPA49	General TFs
+SSN3	General TFs
+GLN3	Site-specific TFs
+SRB8	General TFs
+SUS1	General TFs
+RPH1	General TFs
+HAP1	Site-specific TFs
+TOS4	Site-specific TFs
+BDF1	General TFs
+WTM2	Site-specific TFs
+GAT4	Site-specific TFs
+SPT4	General TFs
+HAP2	Site-specific TFs
+MSN1	Site-specific TFs
+SMP1	Site-specific TFs
+GAL4	Site-specific TFs
+SPT3	General TFs
+SRB2	General TFs
+STP2	Site-specific TFs
+RPI1	Site-specific TFs
+CRT10	Site-specific TFs
+FLO8	Site-specific TFs
+RTR1	General TFs
+ARR1	Site-specific TFs
+PPR1	Site-specific TFs
+AZF1	Site-specific TFs
+SGF29	General TFs
+MAC1	Site-specific TFs
+ADR1	Site-specific TFs
+IXR1	Site-specific TFs
+SPT8	General TFs
+SGF73	General TFs
+WAR1	Site-specific TFs
+OAF1	Site-specific TFs
+FKH2	Site-specific TFs
+SWI5	Site-specific TFs
+CYC8	General TFs
+XBP1	Site-specific TFs
+PIP2	Site-specific TFs
+RTG3	Site-specific TFs
+USV1	Site-specific TFs
+CAT8	Site-specific TFs
+GAT2	Site-specific TFs
+RPA34	General TFs
+BYE1	General TFs
+CUP2	Site-specific TFs
+RTG1	Site-specific TFs
+YAP3	Site-specific TFs
+HAP4	Site-specific TFs
+SOH1	General TFs
+SUB1	General TFs
+VHR1	Site-specific TFs
+YAP6	Site-specific TFs
+GCN5	General TFs
+DST1	General TFs
+PDR1	Site-specific TFs
+SSN8	General TFs
+PHO4	Site-specific TFs
+YRM1	Site-specific TFs
+YOX1	Site-specific TFs
+SFL1	Site-specific TFs
+HAP3	Site-specific TFs
+NTO1	General TFs
+MKS1	Site-specific TFs
+SWI6	Site-specific TFs
+CTH1	Site-specific TFs
+TEA1	General TFs
+YAP1	Site-specific TFs
+ACA1	Site-specific TFs
+RDR1	Site-specific TFs
+RGT1	Site-specific TFs
+THO2	General TFs
+KAR4	Site-specific TFs
+ZAP1	Site-specific TFs
+MIG2	Site-specific TFs
+FZF1	Site-specific TFs
+GZF3	Site-specific TFs
+PGD1	General TFs
+RPA14	General TFs
+UGA3	Site-specific TFs
+GAT1	Site-specific TFs
+SGF11	General TFs
+TOG1	Site-specific TFs
+WTM1	Site-specific TFs
+NGG1	General TFs
+RDS2	Site-specific TFs
+RPB4	General TFs
+ACE2	Site-specific TFs
+MET32	Site-specific TFs
+PUT3	Site-specific TFs
+HFI1	General TFs
+SKO1	Site-specific TFs
+ZNF1	Site-specific TFs
+CIN5	Site-specific TFs
+GAL3	Site-specific TFs
+AHC2	General TFs
+SFP1	Site-specific TFs
+CAD1	Site-specific TFs
+MFT1	General TFs
+FKH1	Site-specific TFs
+MOT3	Site-specific TFs
+PHD1	Site-specific TFs
+MBF1	Site-specific TFs
+TEC1	Site-specific TFs
+TDA9	Site-specific TFs
+AHC1	General TFs
+CST6	Site-specific TFs
+UBP8	General TFs
+CSE2	General TFs
+YHP1	Site-specific TFs
+IWR1	General TFs
+RIM101	Site-specific TFs
+SUT2	Site-specific TFs
+YAP5	Site-specific TFs
+PLM2	Site-specific TFs
+HAA1	Site-specific TFs
+NRG2	Site-specific TFs
+GAL80	Site-specific TFs
+MET18	Site-specific TFs
+HAP5	Site-specific TFs
+RSF2	Site-specific TFs
+ROX1	Site-specific TFs
+HOT1	Site-specific TFs
+YRR1	Site-specific TFs
+STB1	Site-specific TFs
+SUM1	Site-specific TFs
+ADA2	General TFs
+ERT1	Site-specific TFs
+LYS14	Site-specific TFs
+NUT1	General TFs
+GAT3	Site-specific TFs
+AFT2	Site-specific TFs
+MET31	Site-specific TFs
+WHI5	Site-specific TFs
+MED1	General TFs
+SIN4	General TFs
+MED2	General TFs
+RFX1	Site-specific TFs
