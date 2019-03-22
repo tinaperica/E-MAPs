@@ -121,7 +121,7 @@ print(nrow(spitzemapko))
 ```
 
 The following full spreading (long => wide) works for the full matrix,
-so the unique id's work. Note that this takes a while to run (5min)
+so the unique strain id's work. Note that this takes a while to run (5min)
 ```{r}
 cormat <-
   spitzemapko %>% 
@@ -131,63 +131,5 @@ cormat <-
   cor(., use = "pairwise.complete.obs", method = 'pearson')
 ```
 
-
-As an example case, the following code runs correlations for all of the Gsp1
-partners that are included in the SGA as queries as well as all of the Gsp1
-point mutants from our EMAP. We only use library/array genes that overlap
-between the two datasets.
-```{r}
-library(factoextra)
-library(reshape2)
-
-load('spitzemapko.rda')
-partners <- read_delim('partners.txt', delim = ',')
-
-# find intersecting arrays between the Gsp1 EMAP and the SGA
-gsp1_arrays <- filter(spitzemapko, interaction_network == 'gsp1_pEMAP') %>% 
-  select(array_ORF) %>% distinct() %>% unlist()
-sga_arrays <- filter(spitzemapko, interaction_network != 'gsp1_pEMAP') %>% 
-  select(array_ORF) %>% distinct() %>% unlist()
-shared_arrays <- intersect(gsp1_arrays, sga_arrays)
-
-cormat <-
-  spitzemapko %>% 
-  filter(query_ORF %in% partners$ORF) %>%
-  filter(array_ORF %in% shared_arrays) %>% 
-  select(query_strain_id, array_ORF, score) %>% 
-  spread(query_strain_id, score) %>% 
-  select(-array_ORF) %>% 
-  cor(., use = "pairwise.complete.obs", method = 'pearson')
-
-new_names <-
-  spitzemapko %>% 
-  filter(query_ORF %in% partners$ORF) %>%
-  select(query_strain_id, query_allele_name) %>%
-  distinct() %>% 
-  slice(match(colnames(cormat), query_strain_id)) %>% 
-  select(query_allele_name) %>% 
-  unlist()
-
-colnames(cormat) <- new_names
-rownames(cormat) <- new_names
-
-dd <- as.dist((1-cormat)/2) # create a distance matrix, corr of "1" has dist 0 and "-1" has dist 1
-hc <- hclust(dd) 
-fviz_dend(hc, k = 6)
-ggsave('dend.png', height = 10, width = 20)
-
-cormat2 <- cormat[hc$order, hc$order]
-melted_cormat2 <- melt(cormat2)
-ggplot(data = melted_cormat2, aes(x=Var1, y=Var2, fill=value)) +
-  geom_tile() + 
-  scale_fill_gradient2(limits = c(-1, 1),
-                       low = "blue",
-                       mid = "white",
-                       high = "red") + 
-  theme(text = element_text(size=20),
-        axis.text.x = element_text(angle = 90, hjust = 1))
-ggsave('heatmap.png', height = 20, width = 20)
-
-```
 
 
