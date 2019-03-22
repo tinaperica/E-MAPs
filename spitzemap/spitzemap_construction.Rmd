@@ -54,3 +54,99 @@ Combine pEMAP with SGA to make spitzemap, then save
 spitzemap <- bind_rows(gsp1_pEMAP, SGA_to_combine)
 save(spitzemap, file = 'spitzemap.rda')
 ```
+
+Load spitzemap (in case you are starting
+```{r}
+load('spitzemap.rda')
+```
+
+```{r}
+old_names <- c('query_allele_name','query_name','query_strain_id',
+              'query_mutant','query_ORF','query_descriptor',
+              'array_allele_name','array_name','array_strain_id',
+              'array_mutant','array_ORF','array_descriptor')
+new_names <- c('array_allele_name','array_name','array_strain_id',
+              'array_mutant','array_ORF','array_descriptor',
+              'query_allele_name','query_name','query_strain_id',
+              'query_mutant','query_ORF','query_descriptor')
+
+spitzemapko <-
+  spitzemap %>% 
+  bind_rows(rename_at(spitzemap, vars(old_names), ~ new_names)) %>% 
+  filter(interaction_network %in% c('gsp1_pEMAP','ExN_SGA','NxN_SGA'),
+         array_name != 'GSP1',
+         !grepl('_tsa', array_strain_id),
+         !grepl('_tsq', array_strain_id))
+spitzemapko <- spitzemap_for_corr
+save(spitzemapko, file = 'spitzemapko.rda')
+
+```
+
+We must use unique id's whenever spreading, otherwise there
+will be multiple values for the same row-column pair in the
+wide format matrix. The following code shows that when using
+the strain_id's as unique id's, the number of distinct rows
+is equal to the number of rows of spitzemap_for_corr.
+```{r}
+spitzemapko %>% 
+  select(query_strain_id, array_strain_id, score) %>%
+  distinct() %>% 
+  nrow()
+  
+# [1] 26556566
+
+# nrow(spitzemap_for_corr)
+# [1] 26556566
+
+```
+
+The following full spreading (long => wide) works for the full matrix, so the unique id's work
+NOTE this takes super long to run
+```{r}
+cormat <-
+  spitzemapko %>% 
+  select(query_strain_id, array_strain_id, score) %>% 
+  spread(query_strain_id, score) %>% 
+  select(-array_strain_id) %>% 
+  cor(., use = "pairwise.complete.obs", method = 'pearson')
+```
+
+
+The following code runs correlations for all of the partners with all of the gsp1 mutants
+Note that the output plot has strain id's
+
+TO DO:
+the columns of the cormat can be changed to be the names by selecting the query_strain_id
+and query_name from spitzemapko and using that dictionary to convert the names. 
+```{r}
+library(factoextra)
+library(reshape2)
+
+partners <- read_delim('partners.txt', delim = ',')
+
+cormat <-
+  spitzemapko %>% 
+  filter(query_ORF %in% partners$ORF) %>%
+  select(query_strain_id, array_ORF, score) %>% 
+  spread(query_strain_id, score) %>% 
+  select(-array_ORF) %>% 
+  cor(., use = "pairwise.complete.obs", method = 'pearson')
+
+dd <- as.dist((1-cormat)/2) # create a distance matrix, corr of "1" has dist 0 and "-1" has dist 1
+hc <- hclust(dd) 
+fviz_dend(hc, k = 7)
+ggsave('dend.png', height = 10, width = 20)
+
+cormat2 <- cormat[hc$order, hc$order]
+melted_cormat2 <- melt(cormat2)
+ggplot(data = melted_cormat2, aes(x=Var1, y=Var2, fill=value)) +
+  geom_tile() + 
+  scale_fill_gradient2(limits = c(-1, 1)) + 
+  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+ggsave('heatmap.png', height = 20, width = 20)
+
+```
+
+
+
+
