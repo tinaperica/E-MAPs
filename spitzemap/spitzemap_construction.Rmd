@@ -1,7 +1,8 @@
 ---
 title: "spitzemap_construction"
 author: "Chris Mathy"
-date: "3/7/2019"
+email: "chris.mathy@ucsf.edu"
+date: "3/22/2019"
 output: html_document
 ---
 
@@ -55,31 +56,52 @@ spitzemap <- bind_rows(gsp1_pEMAP, SGA_to_combine)
 save(spitzemap, file = 'spitzemap.rda')
 ```
 
-Load spitzemap (in case you are starting
+Prepare the "spitzemapko", which only includes KOs as arrays, for use in
+computing correlatons to Gsp1 mutant profiles.
 ```{r}
-load('spitzemap.rda')
-```
-
-```{r}
-old_names <- c('query_allele_name','query_name','query_strain_id',
-              'query_mutant','query_ORF','query_descriptor',
-              'array_allele_name','array_name','array_strain_id',
-              'array_mutant','array_ORF','array_descriptor')
-new_names <- c('array_allele_name','array_name','array_strain_id',
-              'array_mutant','array_ORF','array_descriptor',
-              'query_allele_name','query_name','query_strain_id',
-              'query_mutant','query_ORF','query_descriptor')
-
 spitzemapko <-
   spitzemap %>% 
-  bind_rows(rename_at(spitzemap, vars(old_names), ~ new_names)) %>% 
   filter(interaction_network %in% c('gsp1_pEMAP','ExN_SGA','NxN_SGA'),
-         array_name != 'GSP1',
-         !grepl('_tsa', array_strain_id),
-         !grepl('_tsq', array_strain_id))
-spitzemapko <- spitzemap_for_corr
-save(spitzemapko, file = 'spitzemapko.rda')
+         !grepl('supp', query_allele_name), # exclude strains with suppressive mutations
+         !grepl('supp', array_allele_name),
+         !grepl('_tsa', array_strain_id)) # exclude ts array genes (not in gsp1 emap library anyway)
 
+save(spitzemapko, file = 'spitzemapko.rda')
+```
+
+Show that all arrays are deletions (SGA from dma, or from gsp1 emap, which has only deletions)
+```{r}
+spitzemapko %>%
+  filter(!grepl('dma', array_strain_id),
+         !grepl('emap', array_strain_id))
+```
+
+Find the intersecting array ORFs between the SGA and Gsp1 EMAP
+```{r}
+# find intersecting arrays between the Gsp1 EMAP and the SGA
+gsp1_arrays <- 
+  spitzemapko %>% 
+  filter(interaction_network == 'gsp1_pEMAP') %>% 
+  select(array_ORF) %>% 
+  distinct() %>% 
+  unlist()
+
+sga_arrays <-
+  spitzemapko %>% 
+  filter(interaction_network != 'gsp1_pEMAP') %>% 
+  select(array_ORF) %>% 
+  distinct() %>% 
+  unlist()
+
+shared_arrays <- intersect(gsp1_arrays, sga_arrays)
+
+print(length(gsp1_arrays))
+print(length(sga_arrays))
+print(length(shared_arrays))
+
+# [1] 1444
+# [1] 3827
+# [1] 1137
 ```
 
 We must use unique id's whenever spreading, otherwise there
@@ -89,64 +111,83 @@ the strain_id's as unique id's, the number of distinct rows
 is equal to the number of rows of spitzemap_for_corr.
 ```{r}
 spitzemapko %>% 
-  select(query_strain_id, array_strain_id, score) %>%
+  select(query_strain_id, array_ORF, score) %>%
   distinct() %>% 
-  nrow()
-  
-# [1] 26556566
-
-# nrow(spitzemap_for_corr)
-# [1] 26556566
-
+  nrow() %>% 
+  print()
+print(nrow(spitzemapko))
+# [1] 14375673
+# [1] 14375673
 ```
 
-The following full spreading (long => wide) works for the full matrix, so the unique id's work
-NOTE this takes super long to run
+The following full spreading (long => wide) works for the full matrix,
+so the unique id's work. Note that this takes a while to run (5min)
 ```{r}
 cormat <-
   spitzemapko %>% 
-  select(query_strain_id, array_strain_id, score) %>% 
+  select(query_strain_id, array_ORF, score) %>%
   spread(query_strain_id, score) %>% 
-  select(-array_strain_id) %>% 
+  select(-array_ORF) %>% 
   cor(., use = "pairwise.complete.obs", method = 'pearson')
 ```
 
 
-The following code runs correlations for all of the partners with all of the gsp1 mutants
-Note that the output plot has strain id's
-
-TO DO:
-the columns of the cormat can be changed to be the names by selecting the query_strain_id
-and query_name from spitzemapko and using that dictionary to convert the names. 
+As an example case, the following code runs correlations for all of the Gsp1
+partners that are included in the SGA as queries as well as all of the Gsp1
+point mutants from our EMAP. We only use library/array genes that overlap
+between the two datasets.
 ```{r}
 library(factoextra)
 library(reshape2)
 
+load('spitzemapko.rda')
 partners <- read_delim('partners.txt', delim = ',')
+
+# find intersecting arrays between the Gsp1 EMAP and the SGA
+gsp1_arrays <- filter(spitzemapko, interaction_network == 'gsp1_pEMAP') %>% 
+  select(array_ORF) %>% distinct() %>% unlist()
+sga_arrays <- filter(spitzemapko, interaction_network != 'gsp1_pEMAP') %>% 
+  select(array_ORF) %>% distinct() %>% unlist()
+shared_arrays <- intersect(gsp1_arrays, sga_arrays)
 
 cormat <-
   spitzemapko %>% 
   filter(query_ORF %in% partners$ORF) %>%
+  filter(array_ORF %in% shared_arrays) %>% 
   select(query_strain_id, array_ORF, score) %>% 
   spread(query_strain_id, score) %>% 
   select(-array_ORF) %>% 
   cor(., use = "pairwise.complete.obs", method = 'pearson')
 
+new_names <-
+  spitzemapko %>% 
+  filter(query_ORF %in% partners$ORF) %>%
+  select(query_strain_id, query_allele_name) %>%
+  distinct() %>% 
+  slice(match(colnames(cormat), query_strain_id)) %>% 
+  select(query_allele_name) %>% 
+  unlist()
+
+colnames(cormat) <- new_names
+rownames(cormat) <- new_names
+
 dd <- as.dist((1-cormat)/2) # create a distance matrix, corr of "1" has dist 0 and "-1" has dist 1
 hc <- hclust(dd) 
-fviz_dend(hc, k = 7)
+fviz_dend(hc, k = 6)
 ggsave('dend.png', height = 10, width = 20)
 
 cormat2 <- cormat[hc$order, hc$order]
 melted_cormat2 <- melt(cormat2)
 ggplot(data = melted_cormat2, aes(x=Var1, y=Var2, fill=value)) +
   geom_tile() + 
-  scale_fill_gradient2(limits = c(-1, 1)) + 
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
+  scale_fill_gradient2(limits = c(-1, 1),
+                       low = "blue",
+                       mid = "white",
+                       high = "red") + 
+  theme(text = element_text(size=20),
+        axis.text.x = element_text(angle = 90, hjust = 1))
 ggsave('heatmap.png', height = 20, width = 20)
 
 ```
-
-
 
 

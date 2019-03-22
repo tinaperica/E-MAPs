@@ -1,6 +1,7 @@
 ---
 title: "gi_confidence_thresholds.Rmd"
 author: "Chris Mathy"
+email: "chris.mathy@ucsf.edu"
 date: "3/22/2019"
 output: html_document
 ---

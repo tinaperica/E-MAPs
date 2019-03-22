@@ -1,6 +1,7 @@
 ---
 title: "Scaling SGA2016 to EMAP Format"
 author: "Chris Mathy"
+email: "chris.mathy@ucsf.edu"
 date: "2/28/2019"
 output: html_document
 last update: "3/5/2019"
