@@ -1,5 +1,5 @@
 ---
-title: "bin_then_corr.Rmd"
+title: "gi_confidence_thresholds.Rmd"
 author: "Chris Mathy"
 date: "3/8/2019"
 output: html_document
@@ -8,13 +8,9 @@ output: html_document
 import packages and data
 ```{r echo=T, results='hide'}
 library(tidyverse)
-library(plotly)
 library(reshape2)
 library(mclust)
 library(factoextra)
-library(heatmaply)
-# need to run the following one time to save heatmaply files:
-#   webshot::install_phantomjs()
 
 load('../spitzemap/spitzemap.rda')
 partners <- read_delim('partners.txt', delim = ',')
@@ -96,91 +92,31 @@ pass the intermediate p-value confidence threshold for SGA data, and the 2
 dataset will pass the lenient threshold
 
 ```{r}
-# score filtering
-spitzemap_sig2 <- filter(spitzemap_thin, abs(score) > 2)
-spitzemap_sig3 <- filter(spitzemap_thin, abs(score) > 3)
-spitzemap_sig5 <- filter(spitzemap_thin, abs(score) > 5)
+
+
+# score filtering based on a threhold
+score_threshold = 3
+spitzemap_sig <- filter(spitzemap_thin, abs(score) > score_threshold)
 
 # SGA p-value filtering
 spline_input <- read_delim('../scaling_Costanzo_SGA_data/scaler_output/spline.txt', delim = '\t')
 scaling_spline <- smooth.spline(x = spline_input$score,
                                 y = spline_input$scale,
                                 spar = 0.02)
-# need to add adjustment to score first (adjustment = .0051)
 
+# need to add adjustment to score first (adjustment = .0051)
 adj = .0051
 print(predict(scaling_spline, 0.08 + adj)$y * (0.08 + adj)) # upper threshold
 print(predict(scaling_spline, -0.08 + adj)$y * (-0.08 + adj)) # lower threshold
 
-spitzemap_sig2_pfilter <- filter(spitzemap_sig2, (pvalue < 0.05 | is.na(pvalue)))
-spitzemap_sig3_pfilter <- filter(spitzemap_sig3, (pvalue < 0.05 | is.na(pvalue)))
-spitzemap_sig5_pfilter <- filter(spitzemap_sig5, (pvalue < 0.05 | is.na(pvalue)))
-```
-
-For each of these datasets, we want to perform the following computation:
-
-  - select only the partners as queries
-  - spread the partner subsets into wide format, i.e. rows are queries and
-    columns are library/array genes.
-  - remove columns with >10% NA
-  - cluster in both directions
-  - show heatmap
-
-######
-```{r}
-spitzemap_to_corr <-
-  spitzemap %>% 
-  filter(interaction_network %in% c('gsp1_pEMAP','NxN_SGA', 'ExN_SGA'),
-         !grepl('tsa', array_strain_id)) %>%
-  filter(query_ORF %in% partners$ORF) %>%
-  select(query_allele_name, array_ORF, score)
-
-cormat <-
-  spitzemap_to_corr %>% 
-  spread(query_allele_name, score) %>% 
-  select(-array_ORF) %>% 
-  cor(., use = "pairwise.complete.obs", method = 'pearson')
-
-dd <- as.dist((1-cormat)/2) # create a distance matrix, corr of "1" has dist 0 and "-1" has dist 2
-hc <- hclust(dd)
-
-fviz_dend(hc, k = 7)
-ggsave('dend.png', height = 10, width = 20)
-cormat2 <- cormat[hc$order, hc$order]
-melted_cormat2 <- melt(cormat2)
-
-heatmap.2(
+spitzemap_sig <- filter(spitzemap_thin, abs(score) > score_threshold)
 
 
- ggplot(data = melted_cormat2, aes(x=Var1, y=Var2, fill=value)) +
-  geom_tile() + 
-  scale_fill_gradient2() + 
-  theme(axis.text.x = element_text(angle = 90, hjust = 1))
-
-ggsave('corr.pdf', height = 20, width = 20)
-```
-
-
-```{r}
-mat <- 
-  spitzemap %>% 
-  filter(interaction_network %in% c('gsp1_pEMAP','NxN_SGA', 'ExN_SGA'),
-         !grepl('tsa', array_strain_id)) %>%
-  filter(query_ORF %in% partners$ORF) %>%
-  select(query_allele_name, array_ORF, score) %>%
-  spread(query_allele_name, score) %>% 
-  select(-array_ORF) %>% 
-  data.matrix()
-
-heatmap(mat, na.rm = FALSE, keep.demdrp)
-
+spitzemap_sig_pfilter <-
+  spitzemap_sig %>% 
+  filter(pvalue < 0.05 | is.na(pvalue) | ))
 
 ```
 
 
-```{r}
-
-library(plotly)
-
-```
 
