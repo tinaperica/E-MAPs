@@ -1,0 +1,30 @@
+CTDK_nups
+
+CTK1: alpha subunit of CTDK1 kinase, translation initiation, mRNA processing, translation fidelity
+CTK3: gamma subunit of CTDK1 kinase, translation initiation, mRNA processing, translation fidelity
+ASM4: FG nup, paralog of NUP53
+NUP53: FG nup, paralog of ASM4
+RPS21B: protein component of small 40S ribosomal subunit
+VPS21: Ensdosomal Rab family GTPase, endocytic transport, sorting of vacuolar hydrolases
+
+
+0325_2
+
+NBP2: Protein involved in the HOG (high osmolarity glycerol) pathway; negatively regulates Hog1p by recruitment of phosphatase Ptc1p to the Pbs2p-Hog1p complex
+PTC1: Type 2C protein phosphatase (PP2C); dephosphorylates Hog1p, inactivating osmosensing MAPK cascade; 
+
+
+
+
+
+
+membrane integrity
+
+LAS21: 
+Integral plasma membrane protein; involved in the synthesis of the glycosylphosphatidylinositol (GPI) core structure; mutations affect cell wall integrity
+
+RER1:
+Protein involved in retention of membrane proteins; including Sec12p, in the ER; localized to Golgi; functions as a retrieval receptor in returning membrane proteins to the ER
+
+ANY1:
+Protein involved in phospholipid flippase function; null allele suppresses growth and membrane trafficking defects associated with all flippase null alleles; proposed function as a phospholipid scramblase that reduces membrane asymmetry; PQ loop family member; localizes to the endosome and trans-Golgi network; non-essential gene

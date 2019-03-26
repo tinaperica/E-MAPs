@@ -1,0 +1,2 @@
+cd to dir w the prog
+java -Xms512m -Xmx768m colonyMeasure/ColMeasureProgram
