@@ -9,4 +9,30 @@ emap <- read_tsv("gia_analysis/avg_merged_June2016_screen_for_Gia.txt")
 emap <- emap %>% select(-one_of(bad_strains))
 
 emap[emap > -2 & emap < 2] <- 0
-write_tsv(emap, "gia_analysis/emap_screen_filtered.txt", na = "")
+columns_to_drop <- emap %>% 
+  gather(library_gene, score, -Gene) %>% 
+  group_by(library_gene) %>% 
+  summarise("sum_score" = sum(score)) %>% 
+  filter(sum_score == 0) %>% 
+  pull(library_gene) %>% unique()
+emap <- emap %>% select(-one_of(columns_to_drop))
+write_tsv(emap, "gia_analysis/emap_screen_filtered_at_50perc_conf.txt", na = "")
+
+emap[emap > -4 & emap < 4] <- 0
+
+columns_to_drop <- emap %>% 
+  gather(library_gene, score, -Gene) %>% 
+  group_by(library_gene) %>% 
+  summarise("sum_score" = sum(score)) %>% 
+  filter(sum_score == 0) %>% 
+  pull(library_gene) %>% unique()
+emap <- emap %>% select(-one_of(columns_to_drop))
+write_tsv(emap, "gia_analysis/emap_screen_filtered_at_85perc_conf.txt", na = "")
+
+### GI from SGD
+Gsp1_sgd_gi_and_ppi <- read_tsv("~/Desktop/GSP1_interactions.txt") %>% 
+  select(`Interactor Systematic Name_1`, Type) %>% 
+  pull(`Interactor Systematic Name_1`) %>% unique()
+### our GI
+our_gi <- emap %>% gather(library_gene, score, -Gene) %>% pull(library_gene) %>% unique()
+length(intersect(our_gi, Gsp1_sgd_gi_and_ppi))

@@ -15,6 +15,7 @@
 basic_E-MAP_data/ORF_names_ubermap_not_merged.txt
 soft_cos_corr_of_corr_for_gia.txt
 basic_E-MAP_data/spitzemap.rda
+basic_E-MAP_data/spitzemapko.rda
 ### scaling data
 scaling_Costanzo_SGA_data/data/ubermap_gene_names_not_merged.txt
 

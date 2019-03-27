@@ -41,5 +41,5 @@ enrichment_data <- enrichment_data %>%
   mutate("quadrant" = ifelse( (diagonal == "shared" & sign == "neg"), "III", quadrant ))
 
 to_save <- enrichment_data %>% filter(FDR < 0.1) %>% 
-  arrange(quadrant)
+  arrange(quadrant, FDR)
 write_tsv(to_save, "GSEA_like_analysis/enrichments_by_quadrant_of_GAP_GEF_rank_correlation_of_library_genes.txt")

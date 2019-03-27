@@ -1,0 +1,335 @@
+Group	Size
+mitotic cell cycle	210
+cell wall organization or biogenesis	124
+rRNA processing	131
+U6 snRNP complex	2
+Cytoplasmic exosome complex	5
+Golgi apparatus	122
+mitochondrial pyruvate dehydrogenase complex	3
+response to osmotic stress	55
+K129T	1
+carbohydrate metabolic process	107
+oligosaccharide metabolic process	12
+ribosomal large subunit biogenesis	61
+nucleus organization	38
+membrane fusion	42
+Mcm2-7 complex	4
+invasive growth in response to glucose limitation	31
+GSP1-NAT	1
+nuclease activity	43
+R108Y	1
+translational initiation	31
+budding	382
+pseudohyphal growth	41
+cytoplasmic ribosomal small subunit	26
+organelle assembly	77
+RNA splicing	71
+T137G	1
+cofactor metabolic process	90
+protein transporter activity	25
+site of polarized growth	163
+organelle inheritance	43
+SAGA complex	9
+protein modification by small protein conjugation or removal	102
+K129I	1
+conjugation	59
+K143W	1
+K143H	1
+SPB components	1
+Elongator complex	3
+transcription factor TFIIH complex	6
+lipids	240
+proteolysis involved in cellular protein catabolic process	119
+DNA repair	151
+SAC and APC	16
+cytokinesis	71
+tRNA processing	62
+R78K	1
+transferase activity, transferring glycosyl groups	49
+chromatin	340
+organelle fission	183
+COPII	6
+translational elongation	18
+chromatin organization	185
+RNA modification	61
+R112S	1
+oxidoreductase activity	155
+ribosomes and translation	396
+endomembrane system	528
+CCR4-NOT core complex	3
+endosomal transport	50
+sporulation	96
+generation of precursor metabolites and energy	78
+telomere organization	40
+ribonuclease MRP complex	7
+NTER3XFLAG WT	1
+Golgi	178
+mitochondrion organization	184
+R112A	1
+commitment complex	11
+Cytochrome c oxidase (complex IV)	4
+enzyme binding	32
+chaperonin-containing T-complex	5
+cellular amino acid metabolic process	80
+Nup84p complex	4
+lipid binding	57
+transcription from RNA polymerase II promoter	252
+ubiquitin-like protein binding	29
+methyltransferase activity	50
+unfolded protein binding	43
+glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex	5
+isomerase activity	35
+signalosome complex	3
+carbohydrate transport	17
+lipid metabolic process	159
+mitochondrial ribosomal small subunit	3
+peroxisomes	45
+K154M	1
+cytoskeleton organization	173
+ribosomal small subunit biogenesis	58
+transposition	7
+Golgi vesicle transport	110
+OCA complex	3
+transcription factor activity, protein binding	57
+mitochondrial envelope	165
+metabolic	550
+RNA binding	192
+ribosomal subunit export from nucleus	27
+T139A	1
+tRNA aminoacylation for protein translation	10
+K169I	1
+protein lipidation	26
+nucleolar ribonuclease P complex	4
+N105V	1
+protein maturation	30
+T139R	1
+mitochondrial outer membrane translocase complex	3
+response to oxidative stress	72
+helicase activity	42
+monocarboxylic acid metabolic process	75
+Nuclear exosome complex	6
+transmembrane transporter activity	151
+N84Y	1
+extended SNARE complex	17
+lyase activity	43
+cellular response to DNA damage stimulus	168
+eIF3	7
+Kornberg's mediator (SRB) complex	14
+protein folding	49
+cytoplasmic translation	75
+cytoplasmic vesicle	138
+kinase activity	116
+response to heat	39
+signal transducer activity	21
+N102K	1
+H141R	1
+Hannes Cell cycle	61
+TORC 2 complex	11
+U5 snRNP complex	7
+regulation of DNA metabolic process	52
+K129F	1
+cell morphogenesis	17
+R108L	1
+T34D	1
+GTPase activity	30
+cell budding	43
+K143Y	1
+DNA-templated transcription, termination	16
+nuclear pore complex	17
+UTP C complex	3
+TRAPP complex	6
+T34E	1
+protein targeting	162
+Golgi and ER	580
+ligase activity	39
+D79S	1
+Hannes mRNA splicing	15
+ER	317
+UTP A complex	3
+transcription factor binding	39
+Q147E	1
+vacuole organization	57
+RNA catabolic process	76
+transferase activity	441
+Q147L	1
+H+-transporting ATPase, Golgi	8
+Far3p/Far7p/Far8p/Far9p/Far10p/Far11p complex	5
+CORVET complex	2
+E115A	1
+Hannes mRNA export	13
+mitochondrial translation	30
+Dsl1p complex	4
+peroxisome organization	29
+N102M	1
+K132H	1
+transmembrane transport	106
+R108I	1
+histone modification	73
+DNA replication factor C complex (Ctf18p/Ctf8p/dcc1p)	3
+protein glycosylation	32
+oligosaccharyl transferase complex	3
+Origin recognition complex	3
+H141V	1
+phenotype: delayed exit from mitosis	27
+Hannes Cryptic transcription	16
+cell cortex	100
+snoRNA processing	26
+Hannes Site-specific TFs	58
+response to starvation	33
+H141E	1
+SWI/SNF complex	7
+H141I	1
+Ino80p complex	16
+cellular bud	148
+plasma membrane	220
+phosphatase activity	49
+hydrolase activity, acting on glycosyl bonds	23
+organelle fusion	46
+amino acid transport	15
+regulation of organelle organization	141
+peptidase activity	48
+nucleobase-containing small molecule metabolic process	97
+DNA binding	200
+RNA polymerase I upstream activating factor complex	6
+cellular ion homeostasis	71
+endoplasmic reticulum	317
+ion transport	135
+chromosome segregation	114
+Golgi transport complex	8
+DNA-templated transcription, elongation	48
+T34Q	1
+regulation of transport	50
+H+-transporting ATPase, vacuolar	7
+FBP degradation complex	3
+DNA replication	79
+cytoskeleton and microtubules	305
+R108A	1
+Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)	4
+COMPASS complex	5
+R108D	1
+nucleic acid binding transcription factor activity	89
+vesicle organization	46
+Nucleosomal protein complex	5
+DNA-directed RNA polymerase I complex	1
+Hannes DNA recombination & repair	69
+transcription factor TFIID complex	6
+nucleotidyltransferase activity	35
+R108Q	1
+R108S	1
+F58L	1
+regulation of translation	58
+mRNA binding	93
+Hannes rDNA/telomere silence & maintenance	12
+DNA-templated transcription, initiation	32
+Hannes rRNA processing	8
+A180T	1
+multi-eIF complex	7
+protein alkylation	26
+Set3p complex	6
+mitochondrial inner membrane presequence translocase complex	1
+Hannes General TFs	26
+protein phosphorylation	130
+mitotic start control	42
+nucleotide-excision repair factor 3 complex	6
+COMA complex	3
+peptidyl-amino acid modification	98
+Hannes tRNA metabolism	2
+Signal recognition particle (SRP)	2
+mitochondrial ribosomal large subunit	7
+Y157A	1
+lipid transport	36
+DASH complex	4
+DNA recombination	86
+mRNA cleavage and polyadenylation specificity factor complex	6
+N105L	1
+Prp19-associated complex	3
+mitochondria	574
+K101R	1
+smc5p-Smc6p complex	9
+structural constituent of ribosome	74
+hydrolase activity	424
+protein binding, bridging	24
+nucleobase-containing compound transport	85
+F0/F1 ATP synthase (complex V)	8
+19/22S regulator	9
+protein acylation	46
+mitochondrion	522
+Hannes mRNA processing	10
+U4/U6 x U5 tri-snRNP complex	15
+Swr1p complex	20
+U2 snRNP complex	6
+cell wall	59
+cytoskeleton	143
+Hannes RNA degradation	16
+endocytosis	63
+enzyme regulator activity	133
+chromosome	221
+transcription and mRNA processing	595
+Exocyst complex	7
+chromatin binding	62
+ribosome assembly	31
+extracellular region	17
+secretory stress	12
+ribosome	141
+R108G	1
+mRNA processing	88
+transcription from RNA polymerase III promoter	11
+U1 snRNP complex	8
+vacuole	246
+regulation of cell cycle	133
+cytoskeletal protein binding	41
+vacuoles	278
+peroxisome	38
+DNA-directed RNA polymerase II complex	1
+DNA-directed RNA polymerase III complex	4
+protein dephosphorylation	23
+RSC complex	10
+traversing start control point of mitotic cell cycle	8
+vitamin metabolic process	17
+SLIK (SAGA-like) complex	7
+T34N	1
+T34L	1
+cellular respiration	40
+meiotic cell cycle	181
+T34G	1
+F58A	1
+Hannes DNA replication	11
+COPI	4
+NuA4 histone acetyltransferase complex	18
+T34A	1
+Chs5p/Arf-1binding proteins (ChAPs)	4
+Y148I	1
+anaphase-promoting complex	12
+transcription from RNA polymerase I promoter	26
+Arp2/3 protein complex	4
+Cdc73p/Paf1p complex	4
+E115I	1
+T34S	1
+D79A	1
+exocytosis	36
+G80A	1
+20S proteasome	7
+Rpd3L complex	8
+nucleolus	131
+histone binding	18
+CTER3XFLAG WT	1
+T34Y	1
+RNA processing	273
+prefoldin complex	3
+G1 to S transition of mitotic cell cycle	18
+rRNA binding	16
+Hannes Chromatin remodeling	59
+guanyl-nucleotide exchange factor activity	34
+microtubule organizing center	47
+SF3b complex	2
+K129E	1
+regulation of protein modification process	68
+Hannes Chromosome segregation	39
+UTP B complex	5
+transcription	292
+nuclear transport	107
+cytoplasmic ribosomal large subunit	36
+N102I	1
+Hannes Nucleocytoplasmic transport	19
+Hannes Meiosis	8
+translation factor activity, RNA binding	20

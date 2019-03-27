@@ -40,9 +40,10 @@ weighted_pearson_wrapper <- function( score_x, score_y, weight_x, weight_y) {
 
 task_n <- as.numeric( Sys.getenv( "SGE_TASK_ID" ) ) #
 taskfilename <- paste0("all_correlations_task_info/", task_n, "_task_info.RData")
-outputfilename <- paste0("20190320_", task_n, "_correlations.RData")
+outputfilename <- paste0("20190325_", task_n, "_correlations.RData")
 load(taskfilename)
-load("20180320_spitzemap_for_correlations.RData")
+load("spitzemapko_for_corr.rda")
+
 output_file_path <- file.path("Output/correlations", outputfilename)
 
 correlations_df <- data.frame("query_uniq1" = task.info[["pairs"]][1, ],
@@ -55,15 +56,15 @@ correlations_df <- data.frame("query_uniq1" = task.info[["pairs"]][1, ],
 for ( p in seq_along(task.info[["pairs"]][1,]) ) {
   query1 <- task.info[["pairs"]][1, p]
   query2 <- task.info[["pairs"]][2, p]
-  spitzemap.query1 <- spitzemap[spitzemap[["query_uniq"]] == query1, ]
-  spitzemap.query2 <- spitzemap[spitzemap[["query_uniq"]] == query2, ]
-  merged.data <- merge(spitzemap.query1, spitzemap.query2, by = "library_ORF")
+  spitzemap.query1 <- spitzemapko_for_corr[spitzemapko_for_corr[["query_allele_name"]] == query1, ]
+  spitzemap.query2 <- spitzemapko_for_corr[spitzemapko_for_corr[["query_allele_name"]] == query2, ]
+  merged.data <- merge(spitzemap.query1, spitzemap.query2, by = "array_ORF")
   merged.data <- merged.data[complete.cases(merged.data),]
   values <- round(weighted_pearson_wrapper
                   (score_x = merged.data$score.x, score_y = merged.data$score.y,
-                    weight_x = merged.data$weight_x, weight_y = merged.data$weight.y), 4)
-  correlations_df$pearson[p, 3:6] <- values
+                    weight_x = merged.data$weight.x, weight_y = merged.data$weight.y), 4)
+  correlations_df[p, 3:6] <- values
 }
 
-save(correlations_df, file = output_file_path)
+write(correlations_df, file = output_file_path, sep = "\t", quote = F, row.names = F)
 
