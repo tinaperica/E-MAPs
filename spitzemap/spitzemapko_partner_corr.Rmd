@@ -29,6 +29,21 @@ sga_arrays <- filter(spitzemapko, interaction_network != 'gsp1_pEMAP') %>%
 shared_arrays <- intersect(gsp1_arrays, sga_arrays)
 ```
 
+```{r}
+spread <- 
+  spitzemapko %>% 
+  filter(array_ORF %in% shared_arrays) %>% 
+  select(query_allele_name, array_ORF, score, interaction_network) %>%
+  spread(array_ORF, score)
+
+write_delim(spread, '~/Desktop/test.txt', delim = '\t')
+
+```
+
+
+
+
+
 Using the corr.test function from the 'psych' package, compute pearson
 correlations and 
 ```{r}
@@ -72,7 +87,7 @@ rownames(cormat) <- new_names
 dd <- as.dist((1-cormat)/2) # create a distance matrix, corr of "1" has dist 0 and "-1" has dist 1
 hc <- hclust(dd) 
 fviz_dend(hc, k = 6)
-ggsave('dend_p_filtered.png', height = 10, width = 20)
+# ggsave('dend_p_filtered.png', height = 10, width = 20)
 
 cormat2 <- cormat[hc$order, hc$order]
 melted_cormat2 <- melt(cormat2)
@@ -84,6 +99,6 @@ ggplot(data = melted_cormat2, aes(x=Var1, y=Var2, fill=value)) +
                        high = "red") + 
   theme(text = element_text(size=20),
         axis.text.x = element_text(angle = 90, hjust = 1))
-ggsave('heatmap_p_filtered.png', height = 20, width = 20)
+# ggsave('heatmap_p_filtered.png', height = 20, width = 20)
 
 ```
