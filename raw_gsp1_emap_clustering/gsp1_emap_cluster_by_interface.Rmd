@@ -1,0 +1,68 @@
+---
+title: "gsp1_emap_cluster_by_interface"
+author: "Chris Mathy"
+date: "3/26/2019"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(gimmR) # includes methods for reading in .atr and .gtr files to hclust objects
+
+emap <-
+  read_delim('../spitzemap/gsp1_pEMAP_avg_merged_gene_names.txt', delim = '\t') %>% 
+  separate(col = Gene, sep = ' - ', into = c('Gsp1','mutant')) %>% 
+  select(-Gsp1)
+
+clusters <- 
+  read_delim('clusters.csv', delim = ',')
+```
+
+
+```{r}
+
+select_cluster <- function(df, clusters_file, cluster_name) {
+  cluster <-
+    clusters_file %>% 
+    filter(cluster == cluster_name) %>% 
+    pull(array_gene_name)
+  emap %>% select(mutant, cluster)
+}
+
+
+
+for (cluster in unique(pull(clusters, cluster))) {
+  select_cluster(emap, clusters, cluster)
+}
+
+```
+
+
+
+
+
+
+```{r}
+
+cluster <- function(data, 
+                    corr_fn='pairwise.complete.obs', method='pearson') {
+  cormat <-
+    spitzemapko %>% 
+    select(query_strain_id, array_ORF, score) %>%
+    spread(query_strain_id, score) %>% 
+    select(-array_ORF) %>% 
+    cor(., use = corr_fn, method = method)
+}
+
+
+```
+
+```{r}
+cormat <-
+  emap %>% 
+  select(-
+
+
+
+```
+

@@ -1,0 +1,67 @@
+---
+title: "spitzemapko_partner_corr"
+author: "Chris Mathy"
+date: "3/22/2019"
+output: html_document
+---
+
+load packages, data
+```{r}
+library(tidyverse)
+library(factoextra)
+library(reshape2)
+library(psych)
+
+load('~/box/kortemmelab/home/tina/Gsp1/shared_datafiles/correlations/spitzemapko_correlations_all.RData')
+load('spitzemapko.rda')
+partners <- read_delim('partners.txt', delim = ',')
+```
+
+```{r}
+partners_index <- spitzemapko %>% 
+  filter(query_ORF %in% partners$ORF) %>% 
+  select(query_allele_name, query_ORF) %>% 
+  distinct()
+setdiff(partners_index$query_ORF, partners$ORF)
+```
+
+
+
+```{r}
+cormat <- correlations %>% 
+  filter(query_uniq1 %in% partners_index$query_allele_name, 
+         query_uniq2 %in% partners_index$query_allele_name) %>% 
+  select(query_uniq1, query_uniq2, max_weighted_pearson) %>% 
+  spread(query_uniq2, max_weighted_pearson)
+
+cormat2 <- select(cormat, -query_uniq1)
+
+dd <- as.dist((1-cormat2)/2) # create a distance matrix, corr of "1" has dist 0 and "-1" has dist 1
+hc <- hclust(dd) 
+fviz_dend(hc, k = 6)
+
+
+cormat %>% 
+  gather(-query_uniq1, key = 'gene2', value = 'corr') %>% 
+  mutate('gene1' = factor(query_uniq1, levels = pull(cormat, query_uniq1)[hc$order]),
+         'gene2' = factor(gene2, levels = pull(cormat, query_uniq1)[hc$order]),
+         'corr' = as.numeric(corr)) %>%
+  select(gene1, gene2, corr) %>% 
+  ggplot(aes(x=gene1, y=gene2, fill=corr)) +
+  geom_tile() + 
+  scale_fill_gradient2(limits = c(-1, 1),
+                       low = "blue",
+                       mid = "white",
+                       high = "red") + 
+  theme(text = element_text(size=20),
+        axis.text.x = element_text(angle = 90, hjust = 1))
+ggsave('max_weighted.png', height = 20, width = 20)
+
+```
+
+
+
+
+
+
+
