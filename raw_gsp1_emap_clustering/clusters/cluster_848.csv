@@ -1,0 +1,5 @@
+,name,ORF,description,name_meaning,cluster
+83,MRPL36,YBR122C,Mitochondrial ribosomal protein of the large subunit; overproduction suppresses mutations in the COX2 leader peptide-encoding region,"Mitochondrial Ribosomal Protein, Large subunit",848
+247,UBC5,YDR059C,"Ubiquitin-conjugating enzyme; mediates selective degradation of short-lived, abnormal, or excess proteins, including histone H3; central component of the cellular stress response; expression is heat inducible; protein abundance increases in response to DNA replication stress; UBC5 has a paralog, UBC4, that arose from the whole genome duplication",UBiquitin-Conjugating,848
+804,CBT1,YKL208W,"Protein involved in 5' RNA end processing; substrates include mitochondrial COB, 15S_rRNA, and RPM1 transcripts; may also have a role in 3' end processing of the COB pre-mRNA; displays genetic interaction with cell cycle-regulated kinase Dbf2p",Cytochrome B Termination,848
+914,AMD1,YML035C,"AMP deaminase; tetrameric enzyme that catalyzes the deamination of AMP to form IMP and ammonia; thought to be involved in regulation of intracellular purine (adenine, guanine, and inosine) nucleotide pools",AMP Deaminase,848

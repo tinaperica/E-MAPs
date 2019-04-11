@@ -1,0 +1,22 @@
+cluster,cluster_name
+631,Elongator
+974,Rpd3L
+972,SIT4
+918,mRNA processing
+914,ERMES
+915,mitochondrial
+842,Peroxins
+1057,ADA
+278,mRNA export
+276,Inner NPC
+344,Urmylation
+487,SWR1
+540,SAGA
+511,RIM101
+508,Dynactin
+96,SET3
+30,DNA Replication
+31,Cell Cycle Checkpoint
+44,Arl GTPases
+78,APC
+76,HOG1
