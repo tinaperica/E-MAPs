@@ -1,0 +1,6 @@
+name,ORF,description,name_meaning
+ERG5,YMR015C,C-22 sterol desaturase; a cytochrome P450 enzyme that catalyzes the formation of the C-22(23) double bond in the sterol side chain in ergosterol biosynthesis; may be a target of azole antifungal drugs,ERGosterol biosynthesis
+MSH6,YDR097C,Protein required for mismatch repair in mitosis and meiosis; forms a complex with Msh2p to repair both single-base & insertion-deletion mispairs; also involved in interstrand cross-link repair; potentially phosphorylated by Cdc28p,MutS Homolog
+PKH1,YDR490C,"Serine/threonine protein kinase; involved in sphingolipid-mediated signaling pathway that controls endocytosis; activates Ypk1p and Ykr2p, components of signaling cascade required for maintenance of cell wall integrity; contains a PH-like domain; redundant with Pkh2p; PKH1 has a paralog, PKH2, that arose from the whole genome duplication",Pkb-activating Kinase Homolog
+STP4,YDL048C,"Protein containing a Kruppel-type zinc-finger domain; similar to Stp1p, Stp2p; predicted transcription factor; relative distribution to the nucleus increases upon DNA replication stress; STP4 has a paralog, STP3, that arose from the whole genome duplication",protein with similarity to Stp1p
+TAT2,YOL020W,High affinity tryptophan and tyrosine permease; overexpression confers FK506 and FTY720 resistance,Tryptophan Amino acid Transporter

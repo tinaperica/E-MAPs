@@ -1,4 +1,0 @@
-,name,ORF,description,name_meaning,cluster
-507,NCS6,YGL211W,"Protein required for uridine thiolation of Gln, Lys, and Glu tRNAs; required for the thiolation of uridine at the wobble position of Gln, Lys, and Glu tRNAs; has a role in urmylation and in invasive and pseudohyphal growth; inhibits replication of Brome mosaic virus in S. cerevisiae",Needs Cla4 to Survive,344
-609,UBA4,YHR111W,E1-like protein that activates Urm1p before urmylation; also acts in thiolation of the wobble base of cytoplasmic tRNAs by adenylating and then thiolating Urm1p; receives sulfur from Tum1p,UBiquitin-Activating,344
-1067,NCS2,YNL119W,Protein required for uridine thiolation of Lys(UUU) and Glu(UUC) tRNAs; required for the thiolation of uridine at the wobble position of Lys(UUU) and Glu(UUC) tRNAs; has a role in urmylation and in invasive and pseudohyphal growth; inhibits replication of Brome mosaic virus in S. cerevisiae,Needs Cla4 to Survive,344
