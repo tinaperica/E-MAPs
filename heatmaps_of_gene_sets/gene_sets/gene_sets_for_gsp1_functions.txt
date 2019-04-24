@@ -1,0 +1,865 @@
+ORF	Gene	term
+YAR002W	NUP60	nuclear pore central transport channel
+YDL088C	ASM4	nuclear pore central transport channel
+YDR192C	NUP42	nuclear pore central transport channel
+YGL092W	NUP145	nuclear pore central transport channel
+YGL172W	NUP49	nuclear pore central transport channel
+YGL172W	NUP49	nuclear pore central transport channel
+YGL172W	NUP49	nuclear pore central transport channel
+YGR119C	NUP57	nuclear pore central transport channel
+YGR119C	NUP57	nuclear pore central transport channel
+YGR119C	NUP57	nuclear pore central transport channel
+YIL115C	NUP159	nuclear pore central transport channel
+YJL041W	NSP1	nuclear pore central transport channel
+YJL041W	NSP1	nuclear pore central transport channel
+YJL041W	NSP1	nuclear pore central transport channel
+YKL068W	NUP100	nuclear pore central transport channel
+YMR047C	NUP116	nuclear pore central transport channel
+YMR153W	NUP53	nuclear pore central transport channel
+YOR098C	NUP1	nuclear pore central transport channel
+YLR131C	ACE2	mitotic exit
+YBR158W	AMN1	mitotic exit
+YJR053W	BFA1	mitotic exit
+YER016W	BIM1	mitotic exit
+YMR055C	BUB2	mitotic exit
+YFR028C	CDC14	mitotic exit
+YAR019C	CDC15	mitotic exit
+YGL190C	CDC55	mitotic exit
+YMR001C	CDC5	mitotic exit
+YGL003C	CDH1	mitotic exit
+YGR092W	DBF2	mitotic exit
+YPR111W	DBF20	mitotic exit
+YGR098C	ESP1	mitotic exit
+YPL209C	IPL1	mitotic exit
+YHR158C	KEL1	mitotic exit
+YGR238C	KEL2	mitotic exit
+YOR233W	KIN4	mitotic exit
+YAL024C	LTE1	mitotic exit
+YIL106W	MOB1	mitotic exit
+YDL028C	MPS1	mitotic exit
+YHR124W	NDT80	mitotic exit
+YJL076W	NET1	mitotic exit
+YDL042C	SIR2	mitotic exit
+YNR009W	NRM1	mitotic exit
+YOR373W	NUD1	mitotic exit
+YDL089W	NUR1	mitotic exit
+YDR113C	PDS1	mitotic exit
+YHR152W	SPO12	mitotic exit
+YDR260C	SWM1	mitotic exit
+YDR260C	TEM1	mitotic exit
+YMR273C	ZDS1	mitotic exit
+YML109W	ZDS2	mitotic exit
+YDR101C	ARX1	general nuclear export
+YDR361C	BCP1	general nuclear export
+YLR074C	BUD20	general nuclear export
+YCR047C	BUD23	general nuclear export
+YOR112W	CEX1	general nuclear export
+YGL238W	CSE1	general nuclear export
+YGR218W	CRM1	general nuclear export
+YDL207W	GLE1	general nuclear export
+YER107C	GLE2	general nuclear export
+YKL205W	LOS1	general nuclear export
+YDR060W	MAK21	general nuclear export
+YLR368W	MDM30	general nuclear export
+YGR264C	MES1	general nuclear export
+YPL169C	MEX67	general nuclear export
+YHR015W	MIP6	general nuclear export
+YDR335W	MSN5	general nuclear export
+YOR160W	MTR10	general nuclear export
+YKL186C	MTR2	general nuclear export
+YGL122C	NAB2	general nuclear export
+YHR170W	NMD3	general nuclear export
+YPR144C	NOC4	general nuclear export
+YNR053C	NOG2	general nuclear export
+YDL148C	NOP14	general nuclear export
+YER006W	NUG1	general nuclear export
+YKR002W	PAP1	general nuclear export
+YPL212C	PUS1	general nuclear export
+YLR106C	REA1	general nuclear export
+YLL034C	RIX7	general nuclear export
+YPL012W	RRP12	general nuclear export
+YOR294W	RRS1	general nuclear export
+YDR159W	SAC3	general nuclear export
+YDL084W	SUB2	general nuclear export
+YBR111W-A	SUS1	general nuclear export
+YOL072W	THP1	general nuclear export
+YHR167W	THP2	general nuclear export
+YGR090W	UTP22	general nuclear export
+YDR381W	YRA1	general nuclear export
+YDR002W	YRB1	general nuclear export
+YIL063C	YRB2	general nuclear export
+YER087W	AIM10	tRNA synthesase
+YOR335C	ALA1	tRNA synthesase
+YGL105W	ARC1	tRNA synthesase
+YPL160W	CDC60	tRNA synthesase
+YHR019C	DED81	tRNA synthesase
+YHR011W	DIA4	tRNA synthesase
+YLL018C	DPS1	tRNA synthesase
+YLR060W	FRS1	tRNA synthesase
+YFL022C	FRS2	tRNA synthesase
+YOR168W	GLN4	tRNA synthesase
+YPR081C	GRS2	tRNA synthesase
+YGL245W	GUS1	tRNA synthesase
+YPR033C	HTS1	tRNA synthesase
+YBL076C	ILS1	tRNA synthesase
+YPL040C	ISM1	tRNA synthesase
+YDR037W	KRS1	tRNA synthesase
+YGR264C	MES1	tRNA synthesase
+YDR023W	SES1	tRNA synthesase
+YIL078W	THS1	tRNA synthesase
+YGR185C	TYS1	tRNA synthesase
+YGR094W	VAS1	tRNA synthesase
+YOL097C	WRS1	tRNA synthesase
+YDR341C	YDR341C	tRNA synthesase
+YHR020W	YHR020W	tRNA synthesase
+YNL247W	YNL247W	tRNA synthesase
+YOR239W	ABP140	tRNA methyltransferase
+YNL062C	GCD10	tRNA methyltransferase
+YJL125C	GCD14	tRNA methyltransferase
+YIL090W	ICE2	tRNA methyltransferase
+YBL024W	NCL1	tRNA methyltransferase
+YOL141W	PPM2	tRNA methyltransferase
+YDR120C	TRM1	tRNA methyltransferase
+YOL093W	TRM10	tRNA methyltransferase
+YOL124C	TRM11	tRNA methyltransferase
+YNR046W	TRM112	tRNA methyltransferase
+YML005W	TRM12	tRNA methyltransferase
+YOL125W	TRM13	tRNA methyltransferase
+YKR056W	TRM2	tRNA methyltransferase
+YDL112W	TRM3	tRNA methyltransferase
+YPL030W	TRM44	tRNA methyltransferase
+YHR070W	TRM5	tRNA methyltransferase
+YBR061C	TRM7	tRNA methyltransferase
+YMR259C	TRM732	tRNA methyltransferase
+YDL201W	TRM8	tRNA methyltransferase
+YDR165W	TRM82	tRNA methyltransferase
+YML014W	TRM9	tRNA methyltransferase
+YGL050W	TYW3	tRNA methyltransferase
+YAL020C	ATS1	tRNA base modification
+YGR262C	BUD32	tRNA base modification
+YML036W	CGI121	tRNA base modification
+YFL001W	DEG1	tRNA base modification
+YGR200C	ELP2	tRNA base modification
+YPL086C	ELP3	tRNA base modification
+YPL101W	ELP4	tRNA base modification
+YMR312W	ELP6	tRNA base modification
+YJL184W	GON7	tRNA base modification
+YHR187W	IKI1	tRNA base modification
+YLR384C	IKI3	tRNA base modification
+YKR038C	KAE1	tRNA base modification
+YBL071W-A	KTI11	tRNA base modification
+YKL110C	KTI12	tRNA base modification
+YKR095W-A	PCC1	tRNA base modification
+YGL169W	SUA5	tRNA base modification
+YGL232W	TAN1	tRNA base modification
+YHR003C	TCD1	tRNA base modification
+YKL027W	TCD2	tRNA base modification
+YBL026W	LSM2	tRNA splicing
+YLR438C-A	LSM3	tRNA splicing
+YER112W	LSM4	tRNA splicing
+YER146W	LSM5	tRNA splicing
+YDR378C	LSM6	tRNA splicing
+YNL147W	LSM7	tRNA splicing
+YJR022W	LSM8	tRNA splicing
+YMR087W	PDL32	tRNA splicing
+YBR022W	POA1	tRNA splicing
+YMR059W	SEN15	tRNA splicing
+YLR105C	SEN2	tRNA splicing
+YAR008W	SEN34	tRNA splicing
+YPL083C	SEN54	tRNA splicing
+YLR375W	STP3	tRNA splicing
+YOL102C	TPT1	tRNA splicing
+YJL087C	TRL1	tRNA splicing
+YOR112W	CEX1	nuclear trasnport of tRNA
+YKL205W	LOS1	nuclear trasnport of tRNA
+YGR264C	MES1	nuclear trasnport of tRNA
+YDR335W	MSN5	nuclear trasnport of tRNA
+YOR160W	MTR10	nuclear trasnport of tRNA
+YPL212C	PUS1	nuclear trasnport of tRNA
+YNR034W	SOL1	nuclear trasnport of tRNA
+YCR073W-A	SOL2	nuclear trasnport of tRNA
+YLL024C	SSA2	nuclear trasnport of tRNA
+YPR080W	TEF1	nuclear trasnport of tRNA
+YBR118W	TEF2	nuclear trasnport of tRNA
+YGR090W	UTP22	nuclear trasnport of tRNA
+YGR128C	UTP8	nuclear trasnport of tRNA
+YOL139C	CDC33	CRM1 mediated mRNA export
+YGR218W	CRM1	CRM1 mediated mRNA export
+YCL011C	GBP2	CRM1 mediated mRNA export
+YNL004W	HRB1	CRM1 mediated mRNA export
+YBR017C	KAP104	CRM1 mediated mRNA export
+YGL122C	NAB2	CRM1 mediated mRNA export
+YOL123W	HRP1	CRM1 mediated mRNA export
+YPL178W	CBC2	mRNA export
+YOL139C	CDC33	mRNA export
+YGR218W	CRM1	mRNA export
+YOR046C	DBP5	mRNA export
+YCL011C	GBP2	mRNA export
+YDL207W	GLE1	mRNA export
+YER107C	GLE2	mRNA export
+YDR138W	HPR1	mRNA export
+YNL004W	HRB1	mRNA export
+YBR017C	KAP104	mRNA export
+YHR081W	LRP1	mRNA export
+YPL169C	MEX67	mRNA export
+YHR015W	MIP6	mRNA export
+YOR160W	MTR10	mRNA export
+YKL186C	MTR2	mRNA export
+YGL122C	NAB2	mRNA export
+YDR432W	NPL3	mRNA export
+YMR047C	NUP116	mRNA export
+YKR002W	PAP1	mRNA export
+YLR016C	PML1	mRNA export
+YML107C	PML39	mRNA export
+YDR159W	SAC3	mRNA export
+YDR363W-A	SEM1	mRNA export
+YCL037C	SRO9	mRNA export
+YDL084W	SUB2	mRNA export
+YBR111W-A	SUS1	mRNA export
+YNL253W	TEX1	mRNA export
+YOL072W	THP1	mRNA export
+YHR167W	THP2	mRNA export
+YDR457W	TOM1	mRNA export
+YDR381W	YRA1	mRNA export
+YKL214C	YRA2	mRNA export
+YMR273C	ZDS1	mRNA export
+YBL074C	AAR2	mRNA splicing
+YDL074C	BRE1	mRNA splicing
+YPR057W	BRR1	mRNA splicing
+YGL174W	BUD13	mRNA splicing
+YCR063W	BUD31	mRNA splicing
+YHL038C	CBP2	mRNA splicing
+YDR364C	CDC40	mRNA splicing
+YDR163W	CWC15	mRNA splicing
+YDR482C	CWC21	mRNA splicing
+YGR278W	CWC22	mRNA splicing
+YGL128C	CWC23	mRNA splicing
+YNL245C	CWC25	mRNA splicing
+YPL064C	CWC27	mRNA splicing
+YKL149C	DBR1	mRNA splicing
+YPR082C	DIB1	mRNA splicing
+YGR093W	DRN1	mRNA splicing
+YBR065C	ECM2	mRNA splicing
+YBR102C	EXO84	mRNA splicing
+YOR319W	HSH49	mRNA splicing
+YIR005W	IST3	mRNA splicing
+YJR050W	ISY1	mRNA splicing
+YHR156C	LIN1	mRNA splicing
+LSR1	LSR1	mRNA splicing
+YDL087C	LUC7	mRNA splicing
+YNL210W	MER1	mRNA splicing
+YPL184C	MRN1	mRNA splicing
+YIR021W	MRS1	mRNA splicing
+YIR009W	MSL1	mRNA splicing
+YLR116W	MSL5	mRNA splicing
+YBR119W	MUD1	mRNA splicing
+YKL074C	MUD2	mRNA splicing
+YPL190C	NAB3	mRNA splicing
+YHR086W	NAM8	mRNA splicing
+YDR432W	NPL3	mRNA splicing
+YML107C	PML39	mRNA splicing
+YKR086W	PRP16	mRNA splicing
+YLL036C	PRP19	mRNA splicing
+YNR011C	PRP2	mRNA splicing
+YER013W	PRP22	mRNA splicing
+YGL120C	PRP43	mRNA splicing
+YAL032C	PRP45	mRNA splicing
+YHR165C	PRP8	mRNA splicing
+YDL030W	PRP9	mRNA splicing
+YPR094W	RDS3	mRNA splicing
+YML049C	RSE1	mRNA splicing
+YFR005C	SAD1	mRNA splicing
+YDR088C	SLU7	mRNA splicing
+YIL061C	SNP1	mRNA splicing
+snR6	SNR6	mRNA splicing
+YKL173W	SNU114	mRNA splicing
+YEL026W	SNU13	mRNA splicing
+YDL098C	SNU23	mRNA splicing
+YDR240C	SNU56	mRNA splicing
+YOR308C	SNU66	mRNA splicing
+YGR013W	SNU71	mRNA splicing
+YBR152W	SPP381	mRNA splicing
+YNL187W	SWT21	mRNA splicing
+YDR416W	SYF1	mRNA splicing
+YPL157W	TGS1	mRNA splicing
+YPR045C	THP3	mRNA splicing
+YLR298C	YHC1	mRNA splicing
+YJR084W	YJR084W	mRNA splicing
+YKL095W	YJU2	mRNA splicing
+YLR277C	YSH1	mRNA splicing
+YGL130W	CEG1	mRNA 5' capping
+YPL228W	CET1	mRNA 5' capping
+YDR370C	DXO1	mRNA 5' capping
+YKL139W	CTK1	3' end mRNA processing
+YJL006C	CTK2	3' end mRNA processing
+YML112W	CTK3	3' end mRNA processing
+YER032W	FIR1	3' end mRNA processing
+YOL123W	HRP1	3' end mRNA processing
+YKL059C	MPE1	3' end mRNA processing
+YPL190C	NAB3	3' end mRNA processing
+YNL251C	NRD1	3' end mRNA processing
+YER165W	PAB1	3' end mRNA processing
+YKR002W	PAP1	3' end mRNA processing
+YDR228C	PCF11	3' end mRNA processing
+YNL317W	PFS2	3' end mRNA processing
+YAL043C	PTA1	3' end mRNA processing
+YGR156W	PTI1	3' end mRNA processing
+YDR195W	REF2	3' end mRNA processing
+YMR061W	RNA14	3' end mRNA processing
+YGL044C	RNA15	3' end mRNA processing
+YGR276C	RNH70	3' end mRNA processing
+YJL140W	RPB4	3' end mRNA processing
+YDR404C	RPB7	3' end mRNA processing
+YOR179C	SYC1	3' end mRNA processing
+YDR381W	YRA1	3' end mRNA processing
+YLR277C	YSH1	3' end mRNA processing
+YPR107C	YTH1	3' end mRNA processing
+YBL074C	AAR2	mRNA maturation
+YDL074C	BRE1	mRNA maturation
+YPR057W	BRR1	mRNA maturation
+YGL174W	BUD13	mRNA maturation
+YCR063W	BUD31	mRNA maturation
+YHL038C	CBP2	mRNA maturation
+YDR364C	CDC40	mRNA maturation
+YGL130W	CEG1	mRNA maturation
+YPL228W	CET1	mRNA maturation
+YKL139W	CTK1	mRNA maturation
+YJL006C	CTK2	mRNA maturation
+YML112W	CTK3	mRNA maturation
+YDR163W	CWC15	mRNA maturation
+YDR482C	CWC21	mRNA maturation
+YGR278W	CWC22	mRNA maturation
+YGL128C	CWC23	mRNA maturation
+YNL245C	CWC25	mRNA maturation
+YPL064C	CWC27	mRNA maturation
+YKL149C	DBR1	mRNA maturation
+YPR082C	DIB1	mRNA maturation
+YGR093W	DRN1	mRNA maturation
+YDR370C	DXO1	mRNA maturation
+YBR065C	ECM2	mRNA maturation
+YBR102C	EXO84	mRNA maturation
+YER032W	FIR1	mRNA maturation
+YOL123W	HRP1	mRNA maturation
+YOR319W	HSH49	mRNA maturation
+YIR005W	IST3	mRNA maturation
+YJR050W	ISY1	mRNA maturation
+YHR156C	LIN1	mRNA maturation
+LSR1	LSR1	mRNA maturation
+YDL087C	LUC7	mRNA maturation
+YNL210W	MER1	mRNA maturation
+YKL059C	MPE1	mRNA maturation
+YPL184C	MRN1	mRNA maturation
+YIR021W	MRS1	mRNA maturation
+YIR009W	MSL1	mRNA maturation
+YLR116W	MSL5	mRNA maturation
+YBR119W	MUD1	mRNA maturation
+YKL074C	MUD2	mRNA maturation
+YPL190C	NAB3	mRNA maturation
+YHR086W	NAM8	mRNA maturation
+YDR432W	NPL3	mRNA maturation
+YNL251C	NRD1	mRNA maturation
+YER165W	PAB1	mRNA maturation
+YKR002W	PAP1	mRNA maturation
+YDR228C	PCF11	mRNA maturation
+YNL317W	PFS2	mRNA maturation
+YKR086W	PRP16	mRNA maturation
+YLL036C	PRP19	mRNA maturation
+YNR011C	PRP2	mRNA maturation
+YER013W	PRP22	mRNA maturation
+YGL120C	PRP43	mRNA maturation
+YAL032C	PRP45	mRNA maturation
+YHR165C	PRP8	mRNA maturation
+YDL030W	PRP9	mRNA maturation
+YAL043C	PTA1	mRNA maturation
+YGR156W	PTI1	mRNA maturation
+YPR094W	RDS3	mRNA maturation
+YDR195W	REF2	mRNA maturation
+YMR061W	RNA14	mRNA maturation
+YGL044C	RNA15	mRNA maturation
+YGR276C	RNH70	mRNA maturation
+YJL140W	RPB4	mRNA maturation
+YDR404C	RPB7	mRNA maturation
+YML049C	RSE1	mRNA maturation
+YFR005C	SAD1	mRNA maturation
+YDR088C	SLU7	mRNA maturation
+YIL061C	SNP1	mRNA maturation
+snR6	SNR6	mRNA maturation
+YKL173W	SNU114	mRNA maturation
+YEL026W	SNU13	mRNA maturation
+YDL098C	SNU23	mRNA maturation
+YDR240C	SNU56	mRNA maturation
+YOR308C	SNU66	mRNA maturation
+YGR013W	SNU71	mRNA maturation
+YBR152W	SPP381	mRNA maturation
+YNL187W	SWT21	mRNA maturation
+YOR179C	SYC1	mRNA maturation
+YDR416W	SYF1	mRNA maturation
+YPL157W	TGS1	mRNA maturation
+YPR045C	THP3	mRNA maturation
+YLR298C	YHC1	mRNA maturation
+YJR084W	YJR084W	mRNA maturation
+YKL095W	YJU2	mRNA maturation
+YDR381W	YRA1	mRNA maturation
+YLR277C	YSH1	mRNA maturation
+YPR107C	YTH1	mRNA maturation
+YER036C	ARB1	ribosome biogenesis
+YIL096C	BMT5	ribosome biogenesis
+YDL031W	DBP10	ribosome biogenesis
+YNR038W	DBP6	ribosome biogenesis
+YER088C	DOT6	ribosome biogenesis
+YHL039W	EFM1	ribosome biogenesis
+YBR271W	EFM2	ribosome biogenesis
+YPL141C	FRK1	ribosome biogenesis
+YLL035W	GRC3	ribosome biogenesis
+YMR290C	HAS1	ribosome biogenesis
+YGR187C	HGH1	ribosome biogenesis
+YPR169W	JIP5	ribosome biogenesis
+YNL227C	JJJ1	ribosome biogenesis
+YER110C	KAP123	ribosome biogenesis
+YPL125W	KAP120	ribosome biogenesis 
+YNL308C	KRI1	ribosome biogenesis
+YNL132W	KRE33	ribosome biogenesis
+YKR063C	LAS1	ribosome biogenesis
+YDR060W	MAK21	ribosome biogenesis
+YPL211W	NIP7	ribosome biogenesis
+YOR206W	NOC2	ribosome biogenesis
+YDL213C	NOP6	ribosome biogenesis
+YGR251W	NOP19	ribosome biogenesis
+YPL146C	NOP53	ribosome biogenesis
+YDL167C	NRP1	ribosome biogenesis
+YGR159C	NSR1	ribosome biogenesis
+YLR196W	PWP1	ribosome biogenesis
+YOL010W	RCL1	ribosome biogenesis
+YNL163C	RIA1	ribosome biogenesis
+YDR091C	RLI1	ribosome biogenesis
+YJL189W	RPL39	ribosome biogenesis
+YMR229C	RRP5	ribosome biogenesis
+YCL031C	RRP7	ribosome biogenesis
+YOR294W	RRS1	ribosome biogenesis
+YDL025C	RTK1	ribosome biogenesis
+YHR205W	SCH9	ribosome biogenesis
+YMR269W	TMA23	ribosome biogenesis
+YBL054W	TOD6	ribosome biogenesis
+YJR066W	TOR1	ribosome biogenesis
+YNR046W	TRM112	ribosome biogenesis
+YNL186W	UBP10	ribosome biogenesis
+YJR041C	URB2	ribosome biogenesis
+YBL028C	YBL028C	ribosome biogenesis
+YCR016W	YCR016W	ribosome biogenesis
+YGR283C	YGR283C	ribosome biogenesis
+YMR310C	YMR310C	ribosome biogenesis
+YGR285C	ZUO1	ribosome biogenesis
+YDR299W	BFR2	rRNA processing
+YPL217C	BMS1	rRNA processing
+YOL077C	BRX1	rRNA processing
+YCR047C	BUD21	rRNA processing
+YCR047C	BUD23	rRNA processing
+YGL029W	CGR1	rRNA processing
+YLR003C	CMS1	rRNA processing
+YNL112W	DBP2	rRNA processing
+YGL078C	DBP3	rRNA processing
+YLR276C	DBP9	rRNA processing
+YPL266W	DIM1	rRNA processing
+YLR129W	DIP2	rRNA processing
+YLR186W	EMG1	rRNA processing
+YBR247C	ENP1	rRNA processing
+YGR145W	ENP2	rRNA processing
+YDR365C	ESF1	rRNA processing
+YNR054C	ESF2	rRNA processing
+YIL019W	FAF1	rRNA processing
+YDL166C	FAP7	rRNA processing
+YDR339C	FCF1	rRNA processing
+YLR051C	FCF2	rRNA processing
+YHR089C	GAR1	rRNA processing
+YJL033W	HCA4	rRNA processing
+YLR192C	HCR1	rRNA processing
+HRA1	HRA1	rRNA processing
+YLR223C	IFH1	rRNA processing
+YHR148W	IMP3	rRNA processing
+YNL075W	IMP4	rRNA processing
+YHR085W	IPI1	rRNA processing
+YNL182C	IPI3	rRNA processing
+YKR063C	LAS1	rRNA processing
+YER127W	LCP5	rRNA processing
+YFR001W	LOC1	rRNA processing
+YJR002W	MPP10	rRNA processing
+YNL124W	NAF1	rRNA processing
+YPL126W	NAN1	rRNA processing
+YMR285C	NGL2	rRNA processing
+YDL208W	NHP2	rRNA processing
+YHR072W-A	NOP10	rRNA processing
+YOL041C	NOP12	rRNA processing
+YDL148C	NOP14	rRNA processing
+YNL061W	NOP2	rRNA processing
+YPL043W	NOP4	rRNA processing
+YPL146C	NOP53	rRNA processing
+YOR310C	NOP58	rRNA processing
+YER126C	NSA2	rRNA processing
+YGR159C	NSR1	rRNA processing
+YOR145C	PNO1	rRNA processing
+YGL120C	PRP43	rRNA processing
+YLR196W	PWP1	rRNA processing
+YOR048C	RAT1	rRNA processing
+YOL010W	RCL1	rRNA processing
+YNL207W	RIO2	rRNA processing
+YHR197W	RIX1	rRNA processing
+YNL002C	RLP7	rRNA processing
+YLR145W	RMP1	rRNA processing
+YMR239C	RNT1	rRNA processing
+YGL171W	ROK1	rRNA processing
+YKR081C	RPF2	rRNA processing
+YKL180W	RPL17A	rRNA processing
+YJL177W	RPL17B	rRNA processing
+YGL030W	RPL30	rRNA processing
+YLR185W	RPL37A	rRNA processing
+YDR500C	RPL37B	rRNA processing
+YGL076C	RPL7A	rRNA processing
+YPL198W	RPL7B	rRNA processing
+YHL033C	RPL8A	rRNA processing
+YLL045C	RPL8B	rRNA processing
+YCR031C	RPS14A	rRNA processing
+YJL191W	RPS14B	rRNA processing
+YDR087C	RRP1	rRNA processing
+YPR143W	RRP15	rRNA processing
+YHR065C	RRP3	rRNA processing
+YMR229C	RRP5	rRNA processing
+YCL031C	RRP7	rRNA processing
+YPR137W	RRP9	rRNA processing
+YDL153C	SAS10	rRNA processing
+YIL104C	SHQ1	rRNA processing
+YGR081C	SLX9	rRNA processing
+snR10	SNR10	rRNA processing
+YEL026W	SNU13	rRNA processing
+YOR308C	SNU66	rRNA processing
+YCL054W	SPB1	rRNA processing
+YCR018C	SRD1	rRNA processing
+YDL060W	TSR1	rRNA processing
+YLR435W	TSR2	rRNA processing
+YOR006C	TSR3	rRNA processing
+YOL022C	TSR4	rRNA processing
+YJL109C	UTP10	rRNA processing
+YKL099C	UTP11	rRNA processing
+YLR222C	UTP13	rRNA processing
+YML093W	UTP14	rRNA processing
+YMR093W	UTP15	rRNA processing
+YJL069C	UTP18	rRNA processing
+YBL004W	UTP20	rRNA processing
+YLR409C	UTP21	rRNA processing
+YDR324C	UTP4	rRNA processing
+YDR398W	UTP5	rRNA processing
+YDR449C	UTP6	rRNA processing
+YER082C	UTP7	rRNA processing
+YGR128C	UTP8	rRNA processing
+YHR196W	UTP9	rRNA processing
+YOR272W	YTM1	rRNA processing
+YDR299W	BFR2	Small Subunit (SSU) processome complex
+YCR047C	BUD21	Small Subunit (SSU) processome complex
+YLR129W	DIP2	Small Subunit (SSU) processome complex
+YGR145W	ENP2	Small Subunit (SSU) processome complex
+YNR054C	ESF2	Small Subunit (SSU) processome complex
+YDR339C	FCF1	Small Subunit (SSU) processome complex
+YJL033W	HCA4	Small Subunit (SSU) processome complex
+YHR148W	IMP3	Small Subunit (SSU) processome complex
+YNL075W	IMP4	Small Subunit (SSU) processome complex
+YJR002W	MPP10	Small Subunit (SSU) processome complex
+YPL126W	NAN1	Small Subunit (SSU) processome complex
+YMR229C	RRP5	Small Subunit (SSU) processome complex
+YPR137W	RRP9	Small Subunit (SSU) processome complex
+YDL153C	SAS10	Small Subunit (SSU) processome complex
+YJL109C	UTP10	Small Subunit (SSU) processome complex
+YKL099C	UTP11	Small Subunit (SSU) processome complex
+YLR222C	UTP13	Small Subunit (SSU) processome complex
+YML093W	UTP14	Small Subunit (SSU) processome complex
+YMR093W	UTP15	Small Subunit (SSU) processome complex
+YBL004W	UTP20	Small Subunit (SSU) processome complex
+YLR409C	UTP21	Small Subunit (SSU) processome complex
+YDR324C	UTP4	Small Subunit (SSU) processome complex
+YDR398W	UTP5	Small Subunit (SSU) processome complex
+YDR449C	UTP6	Small Subunit (SSU) processome complex
+YER082C	UTP7	Small Subunit (SSU) processome complex
+YGR128C	UTP8	Small Subunit (SSU) processome complex
+YHR196W	UTP9	Small Subunit (SSU) processome complex
+YDR101C	ARX1	ribosome export
+YLR074C	BUD20	ribosome export
+YCR047C	BUD23	ribosome export
+YGR218W	CRM1	ribosome export
+YAL059W	ECM1	ribosome export
+YHR170W	NMD3	ribosome export
+YPR144C	NOC4	ribosome export
+YNR053C	NOG2	ribosome export
+YDL148C	NOP14	ribosome export
+YJL010C	NOP9	ribosome export
+YER006W	NUG1	ribosome export
+YLL034C	RIX7	ribosome export
+YHR088W	RPF1	ribosome export
+YPL012W	RRP12	ribosome export
+YOR294W	RRS1	ribosome export
+YPL239W	YAR1	ribosome export
+YFL039C	ACT1	spindle assembly
+YGL021W	ALK1	spindle assembly
+YBL009W	ALK2	spindle assembly
+YJR089W	BIR1	spindle assembly
+YEL061C	CIN8	spindle assembly
+YDL155W	CLB3	spindle assembly
+YLR210W	CLB4	spindle assembly
+YPL018W	CTF19	spindle assembly
+YLR381W	CTF3	spindle assembly
+YKR054C	DYN1	spindle assembly
+YER133W	GLC7	spindle assembly
+YCR065W	HCM1	spindle assembly
+YBL063W	KIP1	spindle assembly
+YGL216W	KIP3	spindle assembly
+YGL086W	MAD1	spindle assembly
+YJL030W	MAD2	spindle assembly
+YJL013C	MAD3	spindle assembly
+YKL089W	MIF2	spindle assembly
+YIL144W	NDC80	spindle assembly
+YBR156C	SLI15	spindle assembly
+YDR356W	SPC110	spindle assembly
+YHR172W	SPC97	spindle assembly
+YNL126W	SPC98	spindle assembly
+YNL012W	SPO1	spindle assembly
+YLR045C	STU2	spindle assembly
+YLR212C	TUB4	spindle assembly
+YDL239C	ADY3	spindle pole body
+YLR227C	ADY4	spindle pole body
+YPL255W	BBP1	spindle pole body
+YOR257W	CDC31	spindle pole body
+YNL225C	CNM67	spindle pole body
+YDR273W	DON1	spindle pole body
+YMR276W	DSK2	spindle pole body
+YDR130C	FIN1	spindle pole body
+YNL188W	KAR1	spindle pole body
+YPR141C	KAR3	spindle pole body
+YHR102W	KIC1	spindle pole body
+YOR177C	MPC54	spindle pole body
+YDL028C	MPS1	spindle pole body
+YGL075C	MPS2	spindle pole body
+YLR457C	NBP1	spindle pole body
+YPL192C	PRM3	spindle pole body
+YOR259C	RPT4	spindle pole body
+YLL003W	SFI1	spindle pole body
+YDR356W	SPC110	spindle pole body
+YDR201W	SPC19	spindle pole body
+YPL124W	SPC29	spindle pole body
+YKR037C	SPC34	spindle pole body
+YKL042W	SPC42	spindle pole body
+YHR172W	SPC97	spindle pole body
+YNL126W	SPC98	spindle pole body
+YNL012W	SPO1	spindle pole body
+YOL091W	SPO21	spindle pole body
+YGL170C	SPO74	spindle pole body
+YLR045C	STU2	spindle pole body
+YLR212C	TUB4	spindle pole body
+YBR211C	AME1	kinetochore
+YKL052C	ASK1	kinetochore
+YCL029C	BIK1	kinetochore
+YJR089W	BIR1	kinetochore
+YGR188C	BUB1	kinetochore
+YMR055C	BUB2	kinetochore
+YOR026W	BUB3	kinetochore
+YML102W	CAC2	kinetochore
+YJR060W	CBF1	kinetochore
+YGR140W	CBF2	kinetochore
+YDL017W	CDC7	kinetochore
+YMR168C	CEP3	kinetochore
+YDR254W	CHL4	kinetochore
+YFR046C	CNN1	kinetochore
+YKL049C	CSE4	kinetochore
+YCR086W	CSM1	kinetochore
+YPL018W	CTF19	kinetochore
+YLR381W	CTF3	kinetochore
+YDR016C	DAD1	kinetochore
+YKR083C	DAD2	kinetochore
+YBR233W-A	DAD3	kinetochore
+YDR320C-A	DAD4	kinetochore
+YGR113W	DAM1	kinetochore
+YIR010W	DSN1	kinetochore
+YGL061C	DUO1	kinetochore
+YBL008W	HIR1	kinetochore
+YPL204W	HRR25	kinetochore
+YKL138C-A	HSK3	kinetochore
+YBR107C	IML3	kinetochore
+YPL209C	IPL1	kinetochore
+YPL269W	KAR9	kinetochore
+YDR532C	KRE28	kinetochore
+YDR439W	LRS4	kinetochore
+YER106W	MAM1	kinetochore
+YPR046W	MCM16	kinetochore
+YDR318W	MCM21	kinetochore
+YJR135C	MCM22	kinetochore
+YKL089W	MIF2	kinetochore
+YDL028C	MPS1	kinetochore
+YBR195C	MSI1	kinetochore
+YAL034W-A	MTW1	kinetochore
+YIL144W	NDC80	kinetochore
+YDR383C	NKP1	kinetochore
+YLR315W	NKP2	kinetochore
+YJR112W	NNF1	kinetochore
+YPL233W	NSL1	kinetochore
+YOL069W	NUF2	kinetochore
+YGR179C	OKP1	kinetochore
+YPR018W	RLF2	kinetochore
+YDL139C	SCM3	kinetochore
+YOR073W	SGO1	kinetochore
+YOR057W	SGT1	kinetochore
+YDR328C	SKP1	kinetochore
+YBR156C	SLI15	kinetochore
+YOR195W	SLK19	kinetochore
+YGL093W	SPC105	kinetochore
+YDR201W	SPC19	kinetochore
+YMR117C	SPC24	kinetochore
+YER018C	SPC25	kinetochore
+YKR037C	SPC34	kinetochore
+YHR014W	SPO13	kinetochore
+YGR063C	SPT4	kinetochore
+YBL034C	STU1	kinetochore
+YDR374W-A	WIP1	kinetochore
+YGL060W	YBP2	kinetochore
+YAL011W	SWC3	chromatin remodeling
+YAL013W	DEP1	chromatin remodeling
+YAL019W	FUN30	chromatin remodeling
+YAR003W	SWD1	chromatin remodeling
+YBL002W	HTB2	chromatin remodeling
+YBL003C	HTA2	chromatin remodeling
+YBL052C	SAS3	chromatin remodeling
+YBL054W	TOD6	chromatin remodeling
+YBR009C	HHF1	chromatin remodeling
+YBR010W	HHT1	chromatin remodeling
+YBR089C-A	NHP6B	chromatin remodeling
+YBR095C	RXT2	chromatin remodeling
+YBR103W	SIF2	chromatin remodeling
+YBR175W	SWD3	chromatin remodeling
+YBR231C	SWC5	chromatin remodeling
+YBR245C	ISW1	chromatin remodeling
+YBR258C	SHG1	chromatin remodeling
+YBR289W	SNF5	chromatin remodeling
+YCR020W-B	HTL1	chromatin remodeling
+YCR033W	SNT1	chromatin remodeling
+YDL002C	NHP10	chromatin remodeling
+YDL070W	BDF2	chromatin remodeling
+YDL074C	BRE1	chromatin remodeling
+YDL076C	RXT3	chromatin remodeling
+YDL197C	ASF2	chromatin remodeling
+YDR073W	SNF11	chromatin remodeling
+YDR096W	GIS1	chromatin remodeling
+YDR181C	SAS4	chromatin remodeling
+YDR191W	HST4	chromatin remodeling
+YDR207C	UME6	chromatin remodeling
+YDR225W	HTA1	chromatin remodeling
+YDR334W	SWR1	chromatin remodeling
+YDR359C	EAF1	chromatin remodeling
+YDR363W	ESC2	chromatin remodeling
+YDR440W	DOT1	chromatin remodeling
+YDR469W	SDC1	chromatin remodeling
+YDR485C	VPS72	chromatin remodeling
+YEL018W	EAF5	chromatin remodeling
+YEL056W	HAT2	chromatin remodeling
+YER030W	CHZ1	chromatin remodeling
+YER051W	JHD1	chromatin remodeling
+YER088C	DOT6	chromatin remodeling
+YFL013C	IES1	chromatin remodeling
+YFR013W	IOC3	chromatin remodeling
+YGL133W	ITC1	chromatin remodeling
+YGL194C	HOS2	chromatin remodeling
+YGR056W	RSC1	chromatin remodeling
+YGR275W	RTT102	chromatin remodeling
+YHL025W	SNF6	chromatin remodeling
+YHR013C	ARD1	chromatin remodeling
+YHR207C	SET5	chromatin remodeling
+YIL084C	SDS3	chromatin remodeling
+YIL112W	HOS4	chromatin remodeling
+YJL065C	DLS1	chromatin remodeling
+YJL176C	SWI3	chromatin remodeling
+YJR082C	EAF6	chromatin remodeling
+YJR119C	JHD2	chromatin remodeling
+YKL185W	ASH1	chromatin remodeling
+YKR029C	SET3	chromatin remodeling
+YKR101W	SIR1	chromatin remodeling
+YLR015W	BRE2	chromatin remodeling
+YLR052W	IES3	chromatin remodeling
+YLR085C	ARP6	chromatin remodeling
+YLR095C	IOC2	chromatin remodeling
+YLR315W	NKP2	chromatin remodeling
+YLR357W	RSC2	chromatin remodeling
+YLR385C	SWC7	chromatin remodeling
+YLR449W	FPR4	chromatin remodeling
+YLR455W	PDP3	chromatin remodeling
+YML041C	VPS71	chromatin remodeling
+YMR044W	IOC4	chromatin remodeling
+YMR069W	NAT4	chromatin remodeling
+YMR127C	SAS2	chromatin remodeling
+YMR219W	ESC1	chromatin remodeling
+YMR263W	SAP30	chromatin remodeling
+YNL021W	HDA1	chromatin remodeling
+YNL030W	HHF2	chromatin remodeling
+YNL031C	HHT2	chromatin remodeling
+YNL097C	PHO23	chromatin remodeling
+YNL107W	YAF9	chromatin remodeling
+YNL136W	EAF7	chromatin remodeling
+YNL201C	PSY2	chromatin remodeling
+YNL215W	IES2	chromatin remodeling
+YNL246W	VPS75	chromatin remodeling
+YOL012C	HTZ1	chromatin remodeling
+YOL017W	ESC8	chromatin remodeling
+YOL068C	HST1	chromatin remodeling
+YOR025W	HST3	chromatin remodeling
+YOR064C	YNG1	chromatin remodeling
+YOR141C	ARP8	chromatin remodeling
+YOR189W	IES4	chromatin remodeling
+YOR213C	SAS5	chromatin remodeling
+YOR279C	RFM1	chromatin remodeling
+YOR304W	ISW2	chromatin remodeling
+YPL001W	HAT1	chromatin remodeling
+YPL015C	HST2	chromatin remodeling
+YPL055C	LGE1	chromatin remodeling
+YPL116W	HOS3	chromatin remodeling
+YPL127C	HHO1	chromatin remodeling
+YPL138C	SPP1	chromatin remodeling
+YPL181W	CTI6	chromatin remodeling
+YPR052C	NHP6A	chromatin remodeling
+YPR068C	HOS1	chromatin remodeling
+YPR179C	HDA3	chromatin remodeling
+YPR193C	HPA2	chromatin remodeling
+YDL088C	ASM4	nucleocytoplasmic transport
+YDL115C	IWR1	nucleocytoplasmic transport
+YIL149C	MLP2	nucleocytoplasmic transport
+YJR074W	MOG1	nucleocytoplasmic transport
+YML031W	NDC1	nucleocytoplasmic transport
+YFR002W	NIC96	nucleocytoplasmic transport
+YJR132W	NMD5	nucleocytoplasmic transport
+YJL041W	NSP1	nucleocytoplasmic transport
+YER009W	NTF2	nucleocytoplasmic transport
+YOR098C	NUP1	nucleocytoplasmic transport
+YKL068W	NUP100	nucleocytoplasmic transport
+YMR047C	NUP116	nucleocytoplasmic transport
+YKL057C	NUP120	nucleocytoplasmic transport
+YKR082W	NUP133	nucleocytoplasmic transport
+YGL092W	NUP145	nucleocytoplasmic transport
+YER105C	NUP157	nucleocytoplasmic transport
+YIL115C	NUP159	nucleocytoplasmic transport
+YBL079W	NUP170	nucleocytoplasmic transport
+YML103C	NUP188	nucleocytoplasmic transport
+YLR335W	NUP2	nucleocytoplasmic transport
+YDR192C	NUP42	nucleocytoplasmic transport
+YGL172W	NUP49	nucleocytoplasmic transport
+YMR153W	NUP53	nucleocytoplasmic transport
+YGR119C	NUP57	nucleocytoplasmic transport
+YAR002W	NUP60	nucleocytoplasmic transport
+YJL061W	NUP82	nucleocytoplasmic transport
+YDL116W	NUP84	nucleocytoplasmic transport
+YJR042W	NUP85	nucleocytoplasmic transport
+YMR129W	POM152	nucleocytoplasmic transport
+YLR018C	POM34	nucleocytoplasmic transport
+YLR208W	SEC13	nucleocytoplasmic transport
+YGL100W	SEH1	nucleocytoplasmic transport
+YDR395W	SXM1	nucleocytoplasmic transport
+YBR165W	UBS1	nucleocytoplasmic transport
+YJL049W	CHM7	ESCRT-LEM protein nuclear envelope surveillance system
+YML034W	SRC1	ESCRT-LEM protein nuclear envelope surveillance system
+YDR458C	HEH2	ESCRT-LEM protein nuclear envelope surveillance system
+YKL041W	VPS24	ESCRT-LEM protein nuclear envelope surveillance system
+YLR025W	SNF7	ESCRT-LEM protein nuclear envelope surveillance system
+YKL002W	DID4	ESCRT-LEM protein nuclear envelope surveillance system
+YMR077C	VPS20	ESCRT-LEM protein nuclear envelope surveillance system
+YPR173C	VPS4	ESCRT-LEM protein nuclear envelope surveillance system

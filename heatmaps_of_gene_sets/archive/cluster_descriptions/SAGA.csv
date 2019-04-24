@@ -1,0 +1,4 @@
+,name,ORF,description,name_meaning,strain,cluster
+776,NUP100,YKL068W,"FG-nucleoporin component of central core of the nuclear pore complex; contributes directly to nucleocytoplasmic transport and maintenance of the nuclear pore complex (NPC) permeability barrier and is involved in gene tethering at the nuclear periphery; NUP100 has a paralog, NUP116, that arose from the whole genome duplication",NUclear Pore,NUP100,932
+1006,UBP8,YMR223W,Ubiquitin-specific protease component of the SAGA acetylation complex; required for SAGA (Spt-Ada-Gcn5-Acetyltransferase)-mediated deubiquitination of histone H2B,UBiquitin-specific processing Protease,UBP8,932
+1279,SGF11,YPL047W,"Integral subunit of SAGA histone acetyltransferase complex; regulates transcription of a subset of SAGA-regulated genes, required for the Ubp8p association with SAGA and for H2B deubiquitylation",SaGa associated Factor 11kDa,SGF11,932
