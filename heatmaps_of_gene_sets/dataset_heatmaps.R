@@ -24,6 +24,7 @@ mat <- read_delim('datasets/gsp1_emap_for_clustering.txt', delim = '\t', col_typ
   as.matrix()
 row.hc <- clustfn(t(mat))
 col.hc <- clustfn(mat)
+full_emap_arrays.hc <- col.hc # save for later printing
 
 # make a heatmap of the full emap, with mutants and arrays clustered
 pdf('images/full_emap.pdf', height = 10, width = 60)
@@ -94,6 +95,28 @@ Heatmap(mat, name = 'Delta rASA upon binding',
         row_dend_reorder = FALSE, column_dend_reorder = FALSE,
         row_dend_width = unit(20, "mm"), column_dend_height = unit(20, "mm"))
 dev.off()
+
+# make a heatmap of the full emap, but mutants ordered by interface
+
+mat <- read_delim('datasets/gsp1_emap_for_clustering.txt', delim = '\t', col_types = cols()) %>%
+  filter(! mutant %in% c('GSP1-NAT', 'NTER3XFLAG WT', 'CTER3XFLAG WT')) %>%
+  column_to_rownames(var="mutant") %>%
+  as.matrix()
+col.hc <- clustfn(mat)
+
+pdf('images/full_emap_by_interface.pdf', height = 10, width = 60)
+Heatmap(mat, name = 'S-score',
+        col = colorRamp2(c(-3, 0, 3), c("blue", "black", "yellow")),
+        heatmap_legend_param = 'bottom',
+        row_title = 'gsp1 mutant',
+        column_title = 'Full EMAP, mutants clustered by interface',
+        column_title_gp = gpar(fontsize = 28),
+        cluster_rows = row.hc, cluster_columns = full_emap_arrays.hc,
+        row_dend_reorder = FALSE, column_dend_reorder = FALSE,
+        row_dend_width = unit(50, "mm"), column_dend_height = unit(50, "mm"),
+        column_names_gp = gpar(fontsize = 3))
+dev.off()
+
 
 # order GAP/GEF dataset
 mat <- read_delim('datasets/GAP_GEF_kinetics_for_clustering.txt', delim = '\t', col_types = cols()) %>%
