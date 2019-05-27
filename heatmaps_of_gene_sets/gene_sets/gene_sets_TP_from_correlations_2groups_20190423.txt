@@ -1,0 +1,154 @@
+#gene sets based on correlations with the two clusters of mutants (T34 and D79 vs R108 and R112)
+ORF	gene_name	query_uniq	gene_set
+YMR198W	CIK1	cik1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGL093W	SPC105	spc105-15	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGR113W	DAM1	dam1-19	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YPR141C	KAR3	kar3	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YBR211C	AME1	ame1-4	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YFL009W	CDC4	cdc4-2	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YFL009W	CDC4	cdc4-3	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YAL040C	CLN3	cln3	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGR179C	OKP1	okp1-5	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YPL233W	NSL1	nsl1-5	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YJR112W	NNF1	nnf1-77	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDR201W	SPC19	spc19-5001	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YMR117C	SPC24	spc24-10	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDR180W	SCC2	scc2-4	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YFL008W	SMC1	smc1-2	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YFL008W	SMC1	smc1-259	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YIR010W	DSN1	dsn1-7	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YIR010W	DSN1	dsn1-8	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDL003W	MCD1	mcd1-73	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDR014W	RAD61	rad61	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YJL074C	SMC3	smc3-1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YJL074C	SMC3	smc3-42	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YPR135W	CTF4	ctf4	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDL028C	MPS1	mps1-417	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YIL144W	NDC80	tid3-1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGL086W	MAD1	mad1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YJL030W	MAD2	mad2	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGL093W	SPC105	spc105-4	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YOR026W	BUB3	bub3	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGR140W	CBF2	cbf2-1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGR140W	CBF2	cbf2-2	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YAL021C	CCR4	ccr4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YPL008W	CHL1	chl1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDR254W	CHL4	chl4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YMR198W	CIK1	cik1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YMR078C	CTF18	ctf18	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YPL018W	CTF19	ctf19	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YLR381W	CTF3	ctf3	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YPR135W	CTF4	ctf4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YHR191C	CTF8	ctf8	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGR113W	DAM1	dam1-1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGR113W	DAM1	dam1-9	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGR113W	DAM1	dam1-11	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YIR010W	DSN1	dsn1-7	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YIR010W	DSN1	dsn1-8	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGL061C	DUO1	duo1-2	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YBR107C	IML3	iml3	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YPL209C	IPL1	ipl1-2	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YPL017C	IRC15	irc15	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YPR141C	KAR3	kar3	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDR439W	LRS4	lrs4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGL086W	MAD1	mad1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YJL030W	MAD2	mad2	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDL003W	MCD1	mcd1-73	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDR318W	MCM21	mcm21	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YKL089W	MIF2	mif2-3	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDL028C	MPS1	mps1-3796	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDL028C	MPS1	mps1-417	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YML128C	MSC1	msc1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YBR195C	MSI1	msi1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YIL144W	NDC80	tid3-1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YJR112W	NNF1	nnf1-77	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YPL233W	NSL1	nsl1-5	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YPL233W	NSL1	nsl1-6	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGR179C	OKP1	okp1-5	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YER173W	RAD24	rad24	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDR014W	RAD61	rad61	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDR180W	SCC2	scc2-4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YER147C	SCC4	scc4-4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YBR156C	SLI15	sli15-3	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YFL008W	SMC1	smc1-2	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YFL008W	SMC1	smc1-259	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YJL074C	SMC3	smc3-1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YJL074C	SMC3	smc3-42	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGL093W	SPC105	spc105-4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YGL093W	SPC105	spc105-15	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YDR201W	SPC19	spc19-5001	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YMR117C	SPC24	spc24-9	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YER018C	SPC25	spc25-1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YLR272C	YCS4	ycs4-1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint
+YJR083C	ACF4	acf4	pos corr with R108: actin
+YFL039C	ACT1	act1-101	pos corr with R108: actin
+YFL039C	ACT1	act1-112	pos corr with R108: actin
+YFL039C	ACT1	act1-119	pos corr with R108: actin
+YFL039C	ACT1	act1-121	pos corr with R108: actin
+YFL039C	ACT1	act1-124	pos corr with R108: actin
+YFL039C	ACT1	act1-125	pos corr with R108: actin
+YFL039C	ACT1	act1-136	pos corr with R108: actin
+YFL039C	ACT1	act1-155	pos corr with R108: actin
+YFL039C	ACT1	act1-3	pos corr with R108: actin
+YFL039C	ACT1	act1-4	pos corr with R108: actin
+YMR092C	AIP1	aip1	pos corr with R108: actin
+YLR370C	ARC18	arc18	pos corr with R108: actin
+YKL007W	CAP1	cap1	pos corr with R108: actin
+YIL034C	CAP2	cap2	pos corr with R108: actin
+YBR109C	CMD1	cmd1-8	pos corr with R108: actin
+YLL050C	COF1	cof1-8	pos corr with R108: actin
+YJR083C	ACF4	acf4	pos corr with R108: actin and polarity
+YFL039C	ACT1	act1-101	pos corr with R108: actin and polarity
+YFL039C	ACT1	act1-112	pos corr with R108: actin and polarity
+YFL039C	ACT1	act1-119	pos corr with R108: actin and polarity
+YFL039C	ACT1	act1-121	pos corr with R108: actin and polarity
+YFL039C	ACT1	act1-124	pos corr with R108: actin and polarity
+YFL039C	ACT1	act1-125	pos corr with R108: actin and polarity
+YFL039C	ACT1	act1-136	pos corr with R108: actin and polarity
+YFL039C	ACT1	act1-155	pos corr with R108: actin and polarity
+YFL039C	ACT1	act1-3	pos corr with R108: actin and polarity
+YFL039C	ACT1	act1-4	pos corr with R108: actin and polarity
+YMR092C	AIP1	aip1	pos corr with R108: actin and polarity
+YLR370C	ARC18	arc18	pos corr with R108: actin and polarity
+YER114C	BOI2	boi2	pos corr with R108: actin and polarity
+YKL007W	CAP1	cap1	pos corr with R108: actin and polarity
+YIL034C	CAP2	cap2	pos corr with R108: actin and polarity
+YAL041W	CDC24	cdc24-1	pos corr with R108: actin and polarity
+YAL041W	CDC24	cdc24-11	pos corr with R108: actin and polarity
+YAL041W	CDC24	cdc24-h	pos corr with R108: actin and polarity
+YBR109C	CMD1	cmd1-8	pos corr with R108: actin and polarity
+YLL050C	COF1	cof1-8	pos corr with R108: actin and polarity
+YBL105C	PKC1	pkc1-2	pos corr with R108: actin and polarity
+YNL138W	SRV2	srv2-ts	pos corr with R108: actin and polarity
+YFL001W	DEG1	deg1	pos_with_R108: wobble base tRNA modification
+YGR200C	ELP2	elp2	pos_with_R108: wobble base tRNA modification
+YPL101W	ELP4	elp4	pos_with_R108: wobble base tRNA modification
+YHR187W	IKI1	iki1	pos_with_R108: wobble base tRNA modification
+YGR185C	TYS1	tys1-1	pos_with_R108: wobble base tRNA modification
+YHR111W	UBA4	uba4	pos_with_R108: wobble base tRNA modification
+YDL088C	ASM4	asm4	general nuclear transport
+YER107C	GLE2	gle2	general nuclear transport
+YER110C	KAP123	kap123	general nuclear transport
+YLR347C	KAP95	kap95-e126k	general nuclear transport
+YPL169C	MEX67	mex67-ts5	general nuclear transport
+YIL149C	MLP2	mlp2	general nuclear transport
+YJR074W	MOG1	mog1	general nuclear transport
+YER009W	NTF2	ntf2-5001	general nuclear transport
+YER009W	NTF2	ntf2-h104y	general nuclear transport
+YKR082W	NUP133	nup133	general nuclear transport
+YGL092W	NUP145	nup145-r4	general nuclear transport
+YER105C	NUP157	nup157	general nuclear transport
+YML103C	NUP188	nup188	general nuclear transport
+YLR335W	NUP2	nup2	general nuclear transport
+YDR192C	NUP42	nup42	general nuclear transport
+YMR153W	NUP53	nup53	general nuclear transport
+YGR119C	NUP57	nup57-e17	general nuclear transport
+YGR119C	NUP57	nup57-5001	general nuclear transport
+YAR002W	NUP60	nup60	general nuclear transport
+YJL061W	NUP82	nup82-5004	general nuclear transport
+YDL116W	NUP84	nup84	general nuclear transport
+YMR129W	POM152	pom152	general nuclear transport
+YLR018C	POM34	pom34	general nuclear transport
+YML034W	SRC1	src1	general nuclear transport
+YGL097W	SRM1	srm1-g282s	general nuclear transport
+YGL097W	SRM1	srm1-ts	general nuclear transport

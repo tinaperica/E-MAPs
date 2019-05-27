@@ -199,6 +199,41 @@ rel_GAP_GEF_efficiency %>%
   theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
 ggsave("integrating_biophysical_parameters/GAP_enzyme_eff_vs_GEF_enzyme_eff_color_by_APMS_GAP_GEF.pdf", width = 10, height = 7)
 
+# same plot, but just GAP APMS log2FC, then just GEF APMS log2FC
+apms_GAP_GEF <- read_tsv("integrating_biophysical_parameters/tag_averaged_apms_GAP_GEF_log2FC.txt")
+
+rel_GAP_GEF_efficiency %>% 
+  spread(measure, rel_value) %>% 
+  inner_join(., apms_GAP_GEF) %>% 
+  select(-SRM1) %>% 
+  ggplot(aes(x = log(GEF_kcat_Km), y = log(GAP_kcat_Km), label = mutant)) +
+  geom_abline(slope = 1, intercept = 0, alpha = 0.1) +
+  geom_point(aes(color = RNA1), size = 5) +
+  geom_text_repel() +
+  scale_color_gradient2() +
+  labs(color = "GAP ln(fold change MUT/WT)") +
+  xlab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GEF mediated nucleotide exchange") +
+  ylab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GAP mediated GTP hydrolysis") +
+  xlim(c(-6, 1)) + ylim(c(-6, 1)) +
+  theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
+ggsave("integrating_biophysical_parameters/GAP_enzyme_eff_vs_GEF_enzyme_eff_color_by_APMS_GAP_only.pdf", width = 10, height = 7)
+
+rel_GAP_GEF_efficiency %>% 
+  spread(measure, rel_value) %>% 
+  inner_join(., apms_GAP_GEF) %>% 
+  select(-RNA1) %>% 
+  ggplot(aes(x = log(GEF_kcat_Km), y = log(GAP_kcat_Km), label = mutant)) +
+  geom_abline(slope = 1, intercept = 0, alpha = 0.1) +
+  geom_point(aes(color = SRM1), size = 5) +
+  geom_text_repel() +
+  scale_color_gradient2() +
+  labs(color = "GEF ln(fold change MUT/WT)") +
+  xlab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GEF mediated nucleotide exchange") +
+  ylab("ln(kcat/Km(MUT) / kcat/Km(WT)) of GAP mediated GTP hydrolysis") +
+  xlim(c(-6, 1)) + ylim(c(-6, 1)) +
+  theme(axis.title.x = element_text(size = 15), axis.title.y = element_text(size = 15))
+ggsave("integrating_biophysical_parameters/GAP_enzyme_eff_vs_GEF_enzyme_eff_color_by_APMS_GEF_only.pdf", width = 10, height = 7)
+
 
 GAP_GEF_ratio <- rel_GAP_GEF_efficiency %>% 
   spread(measure, rel_value) %>% 

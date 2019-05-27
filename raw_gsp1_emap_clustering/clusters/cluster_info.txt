@@ -1,3 +1,0 @@
-date and time of clustering: 2019-04-10 19:51:32.852532
-number of clusters cut: 1200
-min members per cluster for printing: 3

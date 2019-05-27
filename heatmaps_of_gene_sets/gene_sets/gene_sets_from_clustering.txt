@@ -1,0 +1,111 @@
+ORF	Gene	gene_set	set_label
+YDR448W	ADA2	ADA	from_clustering
+YGR252W	GCN5	ADA	from_clustering
+YDR176W	NGG1	ADA	from_clustering
+YBR164C	ARL1	Arl GTPases	from_clustering
+YPL051W	ARL3	Arl GTPases	from_clustering
+YOR308C	SNU66	Arl GTPases	from_clustering
+YJL004C	SYS1	Arl GTPases	from_clustering
+YHR129C	ARP1	Dynactin	from_clustering
+YMR299C	DYN3	Dynactin	from_clustering
+YMR294W	JNM1	Dynactin	from_clustering
+YLL049W	LDB18	Dynactin	from_clustering
+YPL174C	NIP100	Dynactin	from_clustering
+YDR150W	NUM1	Dynactin	from_clustering
+YDR488C	PAC11	Dynactin	from_clustering
+YLR085C	ARP6	SWR1	from_clustering
+YOL012C	HTZ1	SWR1	from_clustering
+YAL011W	SWC3	SWR1	from_clustering
+YDR334W	SWR1	SWR1	from_clustering
+YML041C	VPS71	SWR1	from_clustering
+YDR485C	VPS72	SWR1	from_clustering
+YKL005C	BYE1	Peroxins	from_clustering
+YJR125C	ENT3	Peroxins	from_clustering
+YMR307W	GAS1	Peroxins	from_clustering
+YLR095C	IOC2	Peroxins	from_clustering
+YKL197C	PEX1	Peroxins	from_clustering
+YMR026C	PEX12	Peroxins	from_clustering
+YGL153W	PEX14	Peroxins	from_clustering
+YDL065C	PEX19	Peroxins	from_clustering
+YDR329C	PEX3	Peroxins	from_clustering
+YNL329C	PEX6	Peroxins	from_clustering
+YDL052C	SLC1	Peroxins	from_clustering
+YFR036W	CDC26	APC	from_clustering
+YPL008W	CHL1	APC	from_clustering
+YDR260C	SWM1	APC	from_clustering
+YDR254W	CHL4	Cell Cycle Checkpoint	from_clustering
+YPL018W	CTF19	Cell Cycle Checkpoint	from_clustering
+YBR107C	IML3	Cell Cycle Checkpoint	from_clustering
+YPL017C	IRC15	Cell Cycle Checkpoint	from_clustering
+YGL086W	MAD1	Cell Cycle Checkpoint	from_clustering
+YJL030W	MAD2	Cell Cycle Checkpoint	from_clustering
+YJL013C	MAD3	Cell Cycle Checkpoint	from_clustering
+YPR046W	MCM16	Cell Cycle Checkpoint	from_clustering
+YDR318W	MCM21	Cell Cycle Checkpoint	from_clustering
+YJR135C	MCM22	Cell Cycle Checkpoint	from_clustering
+YDR383C	NKP1	Cell Cycle Checkpoint	from_clustering
+YPL024W	RMI1	Cell Cycle Checkpoint	from_clustering
+YOR303W	CPA1	RIM101	from_clustering
+YDL115C	IWR1	RIM101	from_clustering
+YHL027W	RIM101	RIM101	from_clustering
+YOR275C	RIM20	RIM101	from_clustering
+YNL294C	RIM21	RIM101	from_clustering
+YDL142C	CRD1	mitochondrial	from_clustering
+YOR311C	DGK1	mitochondrial	from_clustering
+YOL049W	GSH2	mitochondrial	from_clustering
+YCR071C	IMG2	mitochondrial	from_clustering
+YKL205W	LOS1	mitochondrial	from_clustering
+YOL027C	MDM38	mitochondrial	from_clustering
+YOR330C	MIP1	mitochondrial	from_clustering
+YOR158W	PET123	mitochondrial	from_clustering
+YCR028C-A	RIM1	mitochondrial	from_clustering
+YFL036W	RPO41	mitochondrial	from_clustering
+YDR310C	SUM1	mitochondrial	from_clustering
+YAL013W	DEP1	Rpd3L	from_clustering
+YNL097C	PHO23	Rpd3L	from_clustering
+YBR095C	RXT2	Rpd3L	from_clustering
+YMR263W	SAP30	Rpd3L	from_clustering
+YBR278W	DPB3	DNA Replication	from_clustering
+YDR121W	DPB4	DNA Replication	from_clustering
+YOL133W	HRT1	DNA Replication	from_clustering
+YGR200C	ELP2	Elongator	from_clustering
+YPL086C	ELP3	Elongator	from_clustering
+YPL101W	ELP4	Elongator	from_clustering
+YMR312W	ELP6	Elongator	from_clustering
+YHR187W	IKI1	Elongator	from_clustering
+YCL010C	SGF29	Elongator	from_clustering
+YGL054C	ERV14	SIT4	from_clustering
+YMR073C	IRC21	SIT4	from_clustering
+YJL098W	SAP185	SIT4	from_clustering
+YKR072C	SIS2	SIT4	from_clustering
+YCL011C	GBP2	mRNA processing	from_clustering
+YBR119W	MUD1	mRNA processing	from_clustering
+YPR072W	NOT5	mRNA processing	from_clustering
+YCR066W	RAD18	mRNA processing	from_clustering
+YKL020C	SPT23	mRNA processing	from_clustering
+YER077C	YER077C	mRNA processing	from_clustering
+YAL048C	GEM1	ERMES	from_clustering
+YOL009C	MDM12	ERMES	from_clustering
+YGL219C	MDM34	ERMES	from_clustering
+YMR205C	PFK2	ERMES	from_clustering
+YLR113W	HOG1	HOG1	from_clustering
+YJL128C	PBS2	HOG1	from_clustering
+YML034W	SRC1	HOG1	from_clustering
+YLR006C	SSK1	HOG1	from_clustering
+YNR031C	SSK2	HOG1	from_clustering
+YGL194C	HOS2	SET3	from_clustering
+YKR029C	SET3	SET3	from_clustering
+YBR103W	SIF2	SET3	from_clustering
+YNL119W	NCS2	Urmylation	from_clustering
+YGL211W	NCS6	Urmylation	from_clustering
+YHR111W	UBA4	Urmylation	from_clustering
+YKL068W	NUP100	SAGA	from_clustering
+YPL047W	SGF11	SAGA	from_clustering
+YMR223W	UBP8	SAGA	from_clustering
+YKR082W	NUP133	mRNA export	from_clustering
+YDR159W	SAC3	mRNA export	from_clustering
+YDR363W-A	SEM1	mRNA export	from_clustering
+YHR167W	THP2	mRNA export	from_clustering
+YBL079W	NUP170	Inner NPC	from_clustering
+YML103C	NUP188	Inner NPC	from_clustering
+YLR018C	POM34	Inner NPC	from_clustering

@@ -1,0 +1,3050 @@
+ORF	Gene	gene_set	set_label
+YDR448W	ADA2	ADA	gene set picked by clustering raw S-scores
+YGR252W	GCN5	ADA	gene set picked by clustering raw S-scores
+YDR176W	NGG1	ADA	gene set picked by clustering raw S-scores
+YBR164C	ARL1	Arl GTPases	gene set picked by clustering raw S-scores
+YPL051W	ARL3	Arl GTPases	gene set picked by clustering raw S-scores
+YOR308C	SNU66	Arl GTPases	gene set picked by clustering raw S-scores
+YJL004C	SYS1	Arl GTPases	gene set picked by clustering raw S-scores
+YHR129C	ARP1	Dynactin	gene set picked by clustering raw S-scores
+YMR299C	DYN3	Dynactin	gene set picked by clustering raw S-scores
+YMR294W	JNM1	Dynactin	gene set picked by clustering raw S-scores
+YLL049W	LDB18	Dynactin	gene set picked by clustering raw S-scores
+YPL174C	NIP100	Dynactin	gene set picked by clustering raw S-scores
+YDR150W	NUM1	Dynactin	gene set picked by clustering raw S-scores
+YDR488C	PAC11	Dynactin	gene set picked by clustering raw S-scores
+YLR085C	ARP6	SWR1	gene set picked by clustering raw S-scores
+YOL012C	HTZ1	SWR1	gene set picked by clustering raw S-scores
+YAL011W	SWC3	SWR1	gene set picked by clustering raw S-scores
+YDR334W	SWR1	SWR1	gene set picked by clustering raw S-scores
+YML041C	VPS71	SWR1	gene set picked by clustering raw S-scores
+YDR485C	VPS72	SWR1	gene set picked by clustering raw S-scores
+YKL005C	BYE1	Peroxins	gene set picked by clustering raw S-scores
+YJR125C	ENT3	Peroxins	gene set picked by clustering raw S-scores
+YMR307W	GAS1	Peroxins	gene set picked by clustering raw S-scores
+YLR095C	IOC2	Peroxins	gene set picked by clustering raw S-scores
+YKL197C	PEX1	Peroxins	gene set picked by clustering raw S-scores
+YMR026C	PEX12	Peroxins	gene set picked by clustering raw S-scores
+YGL153W	PEX14	Peroxins	gene set picked by clustering raw S-scores
+YDL065C	PEX19	Peroxins	gene set picked by clustering raw S-scores
+YDR329C	PEX3	Peroxins	gene set picked by clustering raw S-scores
+YNL329C	PEX6	Peroxins	gene set picked by clustering raw S-scores
+YDL052C	SLC1	Peroxins	gene set picked by clustering raw S-scores
+YFR036W	CDC26	APC	gene set picked by clustering raw S-scores
+YPL008W	CHL1	APC	gene set picked by clustering raw S-scores
+YDR260C	SWM1	APC	gene set picked by clustering raw S-scores
+YDR254W	CHL4	Cell Cycle Checkpoint	gene set picked by clustering raw S-scores
+YPL018W	CTF19	Cell Cycle Checkpoint	gene set picked by clustering raw S-scores
+YBR107C	IML3	Cell Cycle Checkpoint	gene set picked by clustering raw S-scores
+YPL017C	IRC15	Cell Cycle Checkpoint	gene set picked by clustering raw S-scores
+YGL086W	MAD1	Cell Cycle Checkpoint	gene set picked by clustering raw S-scores
+YJL030W	MAD2	Cell Cycle Checkpoint	gene set picked by clustering raw S-scores
+YJL013C	MAD3	Cell Cycle Checkpoint	gene set picked by clustering raw S-scores
+YPR046W	MCM16	Cell Cycle Checkpoint	gene set picked by clustering raw S-scores
+YDR318W	MCM21	Cell Cycle Checkpoint	gene set picked by clustering raw S-scores
+YJR135C	MCM22	Cell Cycle Checkpoint	gene set picked by clustering raw S-scores
+YDR383C	NKP1	Cell Cycle Checkpoint	gene set picked by clustering raw S-scores
+YPL024W	RMI1	Cell Cycle Checkpoint	gene set picked by clustering raw S-scores
+YOR303W	CPA1	RIM101	gene set picked by clustering raw S-scores
+YDL115C	IWR1	RIM101	gene set picked by clustering raw S-scores
+YHL027W	RIM101	RIM101	gene set picked by clustering raw S-scores
+YOR275C	RIM20	RIM101	gene set picked by clustering raw S-scores
+YNL294C	RIM21	RIM101	gene set picked by clustering raw S-scores
+YDL142C	CRD1	mitochondrial	gene set picked by clustering raw S-scores
+YOR311C	DGK1	mitochondrial	gene set picked by clustering raw S-scores
+YOL049W	GSH2	mitochondrial	gene set picked by clustering raw S-scores
+YCR071C	IMG2	mitochondrial	gene set picked by clustering raw S-scores
+YKL205W	LOS1	mitochondrial	gene set picked by clustering raw S-scores
+YOL027C	MDM38	mitochondrial	gene set picked by clustering raw S-scores
+YOR330C	MIP1	mitochondrial	gene set picked by clustering raw S-scores
+YOR158W	PET123	mitochondrial	gene set picked by clustering raw S-scores
+YCR028C-A	RIM1	mitochondrial	gene set picked by clustering raw S-scores
+YFL036W	RPO41	mitochondrial	gene set picked by clustering raw S-scores
+YDR310C	SUM1	mitochondrial	gene set picked by clustering raw S-scores
+YAL013W	DEP1	Rpd3L	gene set picked by clustering raw S-scores
+YNL097C	PHO23	Rpd3L	gene set picked by clustering raw S-scores
+YBR095C	RXT2	Rpd3L	gene set picked by clustering raw S-scores
+YMR263W	SAP30	Rpd3L	gene set picked by clustering raw S-scores
+YBR278W	DPB3	DNA Replication	gene set picked by clustering raw S-scores
+YDR121W	DPB4	DNA Replication	gene set picked by clustering raw S-scores
+YOL133W	HRT1	DNA Replication	gene set picked by clustering raw S-scores
+YGR200C	ELP2	Elongator	gene set picked by clustering raw S-scores
+YPL086C	ELP3	Elongator	gene set picked by clustering raw S-scores
+YPL101W	ELP4	Elongator	gene set picked by clustering raw S-scores
+YMR312W	ELP6	Elongator	gene set picked by clustering raw S-scores
+YHR187W	IKI1	Elongator	gene set picked by clustering raw S-scores
+YCL010C	SGF29	Elongator	gene set picked by clustering raw S-scores
+YGL054C	ERV14	SIT4	gene set picked by clustering raw S-scores
+YMR073C	IRC21	SIT4	gene set picked by clustering raw S-scores
+YJL098W	SAP185	SIT4	gene set picked by clustering raw S-scores
+YKR072C	SIS2	SIT4	gene set picked by clustering raw S-scores
+YCL011C	GBP2	mRNA processing	gene set picked by clustering raw S-scores
+YBR119W	MUD1	mRNA processing	gene set picked by clustering raw S-scores
+YPR072W	NOT5	mRNA processing	gene set picked by clustering raw S-scores
+YCR066W	RAD18	mRNA processing	gene set picked by clustering raw S-scores
+YKL020C	SPT23	mRNA processing	gene set picked by clustering raw S-scores
+YER077C	YER077C	mRNA processing	gene set picked by clustering raw S-scores
+YAL048C	GEM1	ERMES	gene set picked by clustering raw S-scores
+YOL009C	MDM12	ERMES	gene set picked by clustering raw S-scores
+YGL219C	MDM34	ERMES	gene set picked by clustering raw S-scores
+YMR205C	PFK2	ERMES	gene set picked by clustering raw S-scores
+YLR113W	HOG1	HOG1	gene set picked by clustering raw S-scores
+YJL128C	PBS2	HOG1	gene set picked by clustering raw S-scores
+YML034W	SRC1	HOG1	gene set picked by clustering raw S-scores
+YLR006C	SSK1	HOG1	gene set picked by clustering raw S-scores
+YNR031C	SSK2	HOG1	gene set picked by clustering raw S-scores
+YGL194C	HOS2	SET3	gene set picked by clustering raw S-scores
+YKR029C	SET3	SET3	gene set picked by clustering raw S-scores
+YBR103W	SIF2	SET3	gene set picked by clustering raw S-scores
+YNL119W	NCS2	Urmylation	gene set picked by clustering raw S-scores
+YGL211W	NCS6	Urmylation	gene set picked by clustering raw S-scores
+YHR111W	UBA4	Urmylation	gene set picked by clustering raw S-scores
+YKL068W	NUP100	SAGA	gene set picked by clustering raw S-scores
+YPL047W	SGF11	SAGA	gene set picked by clustering raw S-scores
+YMR223W	UBP8	SAGA	gene set picked by clustering raw S-scores
+YKR082W	NUP133	mRNA export	gene set picked by clustering raw S-scores
+YDR159W	SAC3	mRNA export	gene set picked by clustering raw S-scores
+YDR363W-A	SEM1	mRNA export	gene set picked by clustering raw S-scores
+YHR167W	THP2	mRNA export	gene set picked by clustering raw S-scores
+YBL079W	NUP170	Inner NPC	gene set picked by clustering raw S-scores
+YML103C	NUP188	Inner NPC	gene set picked by clustering raw S-scores
+YLR018C	POM34	Inner NPC	gene set picked by clustering raw S-scores
+YMR198W	CIK1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGL093W	SPC105	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGR113W	DAM1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YPR141C	KAR3	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YBR211C	AME1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YFL009W	CDC4	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YFL009W	CDC4	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YAL040C	CLN3	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGR179C	OKP1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YPL233W	NSL1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YJR112W	NNF1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDR201W	SPC19	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YMR117C	SPC24	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDR180W	SCC2	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YFL008W	SMC1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YFL008W	SMC1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YIR010W	DSN1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YIR010W	DSN1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDL003W	MCD1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDR014W	RAD61	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YJL074C	SMC3	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YJL074C	SMC3	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YPR135W	CTF4	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDL028C	MPS1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YIL144W	NDC80	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGL086W	MAD1	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YJL030W	MAD2	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGL093W	SPC105	strong pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YOR026W	BUB3	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGR140W	CBF2	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGR140W	CBF2	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YAL021C	CCR4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YPL008W	CHL1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDR254W	CHL4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YMR198W	CIK1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YMR078C	CTF18	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YPL018W	CTF19	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YLR381W	CTF3	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YPR135W	CTF4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YHR191C	CTF8	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGR113W	DAM1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGR113W	DAM1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGR113W	DAM1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YIR010W	DSN1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YIR010W	DSN1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGL061C	DUO1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YBR107C	IML3	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YPL209C	IPL1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YPL017C	IRC15	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YPR141C	KAR3	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDR439W	LRS4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGL086W	MAD1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YJL030W	MAD2	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDL003W	MCD1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDR318W	MCM21	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YKL089W	MIF2	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDL028C	MPS1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDL028C	MPS1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YML128C	MSC1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YBR195C	MSI1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YIL144W	NDC80	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YJR112W	NNF1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YPL233W	NSL1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YPL233W	NSL1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGR179C	OKP1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YER173W	RAD24	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDR014W	RAD61	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDR180W	SCC2	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YER147C	SCC4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YBR156C	SLI15	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YFL008W	SMC1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YFL008W	SMC1	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YJL074C	SMC3	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YJL074C	SMC3	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGL093W	SPC105	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YGL093W	SPC105	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YDR201W	SPC19	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YMR117C	SPC24	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YER018C	SPC25	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YLR272C	YCS4	pos with T34 and D79: kinetochore, cohesin, spindle assembly checkpoint	gene sets from clustering correlations of select mutants
+YJR083C	ACF4	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YMR092C	AIP1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YLR370C	ARC18	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YKL007W	CAP1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YIL034C	CAP2	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YBR109C	CMD1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YLL050C	COF1	pos corr with R108: actin	gene sets from clustering correlations of select mutants
+YJR083C	ACF4	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YFL039C	ACT1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YMR092C	AIP1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YLR370C	ARC18	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YER114C	BOI2	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YKL007W	CAP1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YIL034C	CAP2	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YAL041W	CDC24	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YAL041W	CDC24	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YAL041W	CDC24	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YBR109C	CMD1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YLL050C	COF1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YBL105C	PKC1	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YNL138W	SRV2	pos corr with R108: actin and polarity	gene sets from clustering correlations of select mutants
+YFL001W	DEG1	pos_with_R108: wobble base tRNA modification	gene sets from clustering correlations of select mutants
+YGR200C	ELP2	pos_with_R108: wobble base tRNA modification	gene sets from clustering correlations of select mutants
+YPL101W	ELP4	pos_with_R108: wobble base tRNA modification	gene sets from clustering correlations of select mutants
+YHR187W	IKI1	pos_with_R108: wobble base tRNA modification	gene sets from clustering correlations of select mutants
+YGR185C	TYS1	pos_with_R108: wobble base tRNA modification	gene sets from clustering correlations of select mutants
+YHR111W	UBA4	pos_with_R108: wobble base tRNA modification	gene sets from clustering correlations of select mutants
+YDL088C	ASM4	general nuclear transport	gene sets from clustering correlations of select mutants
+YER107C	GLE2	general nuclear transport	gene sets from clustering correlations of select mutants
+YER110C	KAP123	general nuclear transport	gene sets from clustering correlations of select mutants
+YLR347C	KAP95	general nuclear transport	gene sets from clustering correlations of select mutants
+YPL169C	MEX67	general nuclear transport	gene sets from clustering correlations of select mutants
+YIL149C	MLP2	general nuclear transport	gene sets from clustering correlations of select mutants
+YJR074W	MOG1	general nuclear transport	gene sets from clustering correlations of select mutants
+YER009W	NTF2	general nuclear transport	gene sets from clustering correlations of select mutants
+YER009W	NTF2	general nuclear transport	gene sets from clustering correlations of select mutants
+YKR082W	NUP133	general nuclear transport	gene sets from clustering correlations of select mutants
+YGL092W	NUP145	general nuclear transport	gene sets from clustering correlations of select mutants
+YER105C	NUP157	general nuclear transport	gene sets from clustering correlations of select mutants
+YML103C	NUP188	general nuclear transport	gene sets from clustering correlations of select mutants
+YLR335W	NUP2	general nuclear transport	gene sets from clustering correlations of select mutants
+YDR192C	NUP42	general nuclear transport	gene sets from clustering correlations of select mutants
+YMR153W	NUP53	general nuclear transport	gene sets from clustering correlations of select mutants
+YGR119C	NUP57	general nuclear transport	gene sets from clustering correlations of select mutants
+YGR119C	NUP57	general nuclear transport	gene sets from clustering correlations of select mutants
+YAR002W	NUP60	general nuclear transport	gene sets from clustering correlations of select mutants
+YJL061W	NUP82	general nuclear transport	gene sets from clustering correlations of select mutants
+YDL116W	NUP84	general nuclear transport	gene sets from clustering correlations of select mutants
+YMR129W	POM152	general nuclear transport	gene sets from clustering correlations of select mutants
+YLR018C	POM34	general nuclear transport	gene sets from clustering correlations of select mutants
+YML034W	SRC1	general nuclear transport	gene sets from clustering correlations of select mutants
+YGL097W	SRM1	general nuclear transport	gene sets from clustering correlations of select mutants
+YGL097W	SRM1	general nuclear transport	gene sets from clustering correlations of select mutants
+YAR002W	NUP60	nuclear pore central transport channel	tina hand-curated processes
+YDL088C	ASM4	nuclear pore central transport channel	tina hand-curated processes
+YDR192C	NUP42	nuclear pore central transport channel	tina hand-curated processes
+YGL092W	NUP145	nuclear pore central transport channel	tina hand-curated processes
+YGL172W	NUP49	nuclear pore central transport channel	tina hand-curated processes
+YGL172W	NUP49	nuclear pore central transport channel	tina hand-curated processes
+YGL172W	NUP49	nuclear pore central transport channel	tina hand-curated processes
+YGR119C	NUP57	nuclear pore central transport channel	tina hand-curated processes
+YGR119C	NUP57	nuclear pore central transport channel	tina hand-curated processes
+YGR119C	NUP57	nuclear pore central transport channel	tina hand-curated processes
+YIL115C	NUP159	nuclear pore central transport channel	tina hand-curated processes
+YJL041W	NSP1	nuclear pore central transport channel	tina hand-curated processes
+YJL041W	NSP1	nuclear pore central transport channel	tina hand-curated processes
+YJL041W	NSP1	nuclear pore central transport channel	tina hand-curated processes
+YKL068W	NUP100	nuclear pore central transport channel	tina hand-curated processes
+YMR047C	NUP116	nuclear pore central transport channel	tina hand-curated processes
+YMR153W	NUP53	nuclear pore central transport channel	tina hand-curated processes
+YOR098C	NUP1	nuclear pore central transport channel	tina hand-curated processes
+YLR131C	ACE2	mitotic exit	tina hand-curated processes
+YBR158W	AMN1	mitotic exit	tina hand-curated processes
+YJR053W	BFA1	mitotic exit	tina hand-curated processes
+YER016W	BIM1	mitotic exit	tina hand-curated processes
+YMR055C	BUB2	mitotic exit	tina hand-curated processes
+YFR028C	CDC14	mitotic exit	tina hand-curated processes
+YAR019C	CDC15	mitotic exit	tina hand-curated processes
+YGL190C	CDC55	mitotic exit	tina hand-curated processes
+YMR001C	CDC5	mitotic exit	tina hand-curated processes
+YGL003C	CDH1	mitotic exit	tina hand-curated processes
+YGR092W	DBF2	mitotic exit	tina hand-curated processes
+YPR111W	DBF20	mitotic exit	tina hand-curated processes
+YGR098C	ESP1	mitotic exit	tina hand-curated processes
+YPL209C	IPL1	mitotic exit	tina hand-curated processes
+YHR158C	KEL1	mitotic exit	tina hand-curated processes
+YGR238C	KEL2	mitotic exit	tina hand-curated processes
+YOR233W	KIN4	mitotic exit	tina hand-curated processes
+YAL024C	LTE1	mitotic exit	tina hand-curated processes
+YIL106W	MOB1	mitotic exit	tina hand-curated processes
+YDL028C	MPS1	mitotic exit	tina hand-curated processes
+YHR124W	NDT80	mitotic exit	tina hand-curated processes
+YJL076W	NET1	mitotic exit	tina hand-curated processes
+YDL042C	SIR2	mitotic exit	tina hand-curated processes
+YNR009W	NRM1	mitotic exit	tina hand-curated processes
+YOR373W	NUD1	mitotic exit	tina hand-curated processes
+YDL089W	NUR1	mitotic exit	tina hand-curated processes
+YDR113C	PDS1	mitotic exit	tina hand-curated processes
+YHR152W	SPO12	mitotic exit	tina hand-curated processes
+YDR260C	SWM1	mitotic exit	tina hand-curated processes
+YDR260C	TEM1	mitotic exit	tina hand-curated processes
+YMR273C	ZDS1	mitotic exit	tina hand-curated processes
+YML109W	ZDS2	mitotic exit	tina hand-curated processes
+YDR101C	ARX1	general nuclear export	tina hand-curated processes
+YDR361C	BCP1	general nuclear export	tina hand-curated processes
+YLR074C	BUD20	general nuclear export	tina hand-curated processes
+YCR047C	BUD23	general nuclear export	tina hand-curated processes
+YOR112W	CEX1	general nuclear export	tina hand-curated processes
+YGL238W	CSE1	general nuclear export	tina hand-curated processes
+YGR218W	CRM1	general nuclear export	tina hand-curated processes
+YDL207W	GLE1	general nuclear export	tina hand-curated processes
+YER107C	GLE2	general nuclear export	tina hand-curated processes
+YKL205W	LOS1	general nuclear export	tina hand-curated processes
+YDR060W	MAK21	general nuclear export	tina hand-curated processes
+YLR368W	MDM30	general nuclear export	tina hand-curated processes
+YGR264C	MES1	general nuclear export	tina hand-curated processes
+YPL169C	MEX67	general nuclear export	tina hand-curated processes
+YHR015W	MIP6	general nuclear export	tina hand-curated processes
+YDR335W	MSN5	general nuclear export	tina hand-curated processes
+YOR160W	MTR10	general nuclear export	tina hand-curated processes
+YKL186C	MTR2	general nuclear export	tina hand-curated processes
+YGL122C	NAB2	general nuclear export	tina hand-curated processes
+YHR170W	NMD3	general nuclear export	tina hand-curated processes
+YPR144C	NOC4	general nuclear export	tina hand-curated processes
+YNR053C	NOG2	general nuclear export	tina hand-curated processes
+YDL148C	NOP14	general nuclear export	tina hand-curated processes
+YER006W	NUG1	general nuclear export	tina hand-curated processes
+YKR002W	PAP1	general nuclear export	tina hand-curated processes
+YPL212C	PUS1	general nuclear export	tina hand-curated processes
+YLR106C	REA1	general nuclear export	tina hand-curated processes
+YLL034C	RIX7	general nuclear export	tina hand-curated processes
+YPL012W	RRP12	general nuclear export	tina hand-curated processes
+YOR294W	RRS1	general nuclear export	tina hand-curated processes
+YDR159W	SAC3	general nuclear export	tina hand-curated processes
+YDL084W	SUB2	general nuclear export	tina hand-curated processes
+YBR111W-A	SUS1	general nuclear export	tina hand-curated processes
+YOL072W	THP1	general nuclear export	tina hand-curated processes
+YHR167W	THP2	general nuclear export	tina hand-curated processes
+YGR090W	UTP22	general nuclear export	tina hand-curated processes
+YDR381W	YRA1	general nuclear export	tina hand-curated processes
+YDR002W	YRB1	general nuclear export	tina hand-curated processes
+YIL063C	YRB2	general nuclear export	tina hand-curated processes
+YER087W	AIM10	tRNA synthesase	tina hand-curated processes
+YOR335C	ALA1	tRNA synthesase	tina hand-curated processes
+YGL105W	ARC1	tRNA synthesase	tina hand-curated processes
+YPL160W	CDC60	tRNA synthesase	tina hand-curated processes
+YHR019C	DED81	tRNA synthesase	tina hand-curated processes
+YHR011W	DIA4	tRNA synthesase	tina hand-curated processes
+YLL018C	DPS1	tRNA synthesase	tina hand-curated processes
+YLR060W	FRS1	tRNA synthesase	tina hand-curated processes
+YFL022C	FRS2	tRNA synthesase	tina hand-curated processes
+YOR168W	GLN4	tRNA synthesase	tina hand-curated processes
+YPR081C	GRS2	tRNA synthesase	tina hand-curated processes
+YGL245W	GUS1	tRNA synthesase	tina hand-curated processes
+YPR033C	HTS1	tRNA synthesase	tina hand-curated processes
+YBL076C	ILS1	tRNA synthesase	tina hand-curated processes
+YPL040C	ISM1	tRNA synthesase	tina hand-curated processes
+YDR037W	KRS1	tRNA synthesase	tina hand-curated processes
+YGR264C	MES1	tRNA synthesase	tina hand-curated processes
+YDR023W	SES1	tRNA synthesase	tina hand-curated processes
+YIL078W	THS1	tRNA synthesase	tina hand-curated processes
+YGR185C	TYS1	tRNA synthesase	tina hand-curated processes
+YGR094W	VAS1	tRNA synthesase	tina hand-curated processes
+YOL097C	WRS1	tRNA synthesase	tina hand-curated processes
+YDR341C	YDR341C	tRNA synthesase	tina hand-curated processes
+YHR020W	YHR020W	tRNA synthesase	tina hand-curated processes
+YNL247W	YNL247W	tRNA synthesase	tina hand-curated processes
+YOR239W	ABP140	tRNA methyltransferase	tina hand-curated processes
+YNL062C	GCD10	tRNA methyltransferase	tina hand-curated processes
+YJL125C	GCD14	tRNA methyltransferase	tina hand-curated processes
+YIL090W	ICE2	tRNA methyltransferase	tina hand-curated processes
+YBL024W	NCL1	tRNA methyltransferase	tina hand-curated processes
+YOL141W	PPM2	tRNA methyltransferase	tina hand-curated processes
+YDR120C	TRM1	tRNA methyltransferase	tina hand-curated processes
+YOL093W	TRM10	tRNA methyltransferase	tina hand-curated processes
+YOL124C	TRM11	tRNA methyltransferase	tina hand-curated processes
+YNR046W	TRM112	tRNA methyltransferase	tina hand-curated processes
+YML005W	TRM12	tRNA methyltransferase	tina hand-curated processes
+YOL125W	TRM13	tRNA methyltransferase	tina hand-curated processes
+YKR056W	TRM2	tRNA methyltransferase	tina hand-curated processes
+YDL112W	TRM3	tRNA methyltransferase	tina hand-curated processes
+YPL030W	TRM44	tRNA methyltransferase	tina hand-curated processes
+YHR070W	TRM5	tRNA methyltransferase	tina hand-curated processes
+YBR061C	TRM7	tRNA methyltransferase	tina hand-curated processes
+YMR259C	TRM732	tRNA methyltransferase	tina hand-curated processes
+YDL201W	TRM8	tRNA methyltransferase	tina hand-curated processes
+YDR165W	TRM82	tRNA methyltransferase	tina hand-curated processes
+YML014W	TRM9	tRNA methyltransferase	tina hand-curated processes
+YGL050W	TYW3	tRNA methyltransferase	tina hand-curated processes
+YAL020C	ATS1	tRNA base modification	tina hand-curated processes
+YGR262C	BUD32	tRNA base modification	tina hand-curated processes
+YML036W	CGI121	tRNA base modification	tina hand-curated processes
+YFL001W	DEG1	tRNA base modification	tina hand-curated processes
+YGR200C	ELP2	tRNA base modification	tina hand-curated processes
+YPL086C	ELP3	tRNA base modification	tina hand-curated processes
+YPL101W	ELP4	tRNA base modification	tina hand-curated processes
+YMR312W	ELP6	tRNA base modification	tina hand-curated processes
+YJL184W	GON7	tRNA base modification	tina hand-curated processes
+YHR187W	IKI1	tRNA base modification	tina hand-curated processes
+YLR384C	IKI3	tRNA base modification	tina hand-curated processes
+YKR038C	KAE1	tRNA base modification	tina hand-curated processes
+YBL071W-A	KTI11	tRNA base modification	tina hand-curated processes
+YKL110C	KTI12	tRNA base modification	tina hand-curated processes
+YKR095W-A	PCC1	tRNA base modification	tina hand-curated processes
+YGL169W	SUA5	tRNA base modification	tina hand-curated processes
+YGL232W	TAN1	tRNA base modification	tina hand-curated processes
+YHR003C	TCD1	tRNA base modification	tina hand-curated processes
+YKL027W	TCD2	tRNA base modification	tina hand-curated processes
+YBL026W	LSM2	tRNA splicing	tina hand-curated processes
+YLR438C-A	LSM3	tRNA splicing	tina hand-curated processes
+YER112W	LSM4	tRNA splicing	tina hand-curated processes
+YER146W	LSM5	tRNA splicing	tina hand-curated processes
+YDR378C	LSM6	tRNA splicing	tina hand-curated processes
+YNL147W	LSM7	tRNA splicing	tina hand-curated processes
+YJR022W	LSM8	tRNA splicing	tina hand-curated processes
+YMR087W	PDL32	tRNA splicing	tina hand-curated processes
+YBR022W	POA1	tRNA splicing	tina hand-curated processes
+YMR059W	SEN15	tRNA splicing	tina hand-curated processes
+YLR105C	SEN2	tRNA splicing	tina hand-curated processes
+YAR008W	SEN34	tRNA splicing	tina hand-curated processes
+YPL083C	SEN54	tRNA splicing	tina hand-curated processes
+YLR375W	STP3	tRNA splicing	tina hand-curated processes
+YOL102C	TPT1	tRNA splicing	tina hand-curated processes
+YJL087C	TRL1	tRNA splicing	tina hand-curated processes
+YOR112W	CEX1	nuclear trasnport of tRNA	tina hand-curated processes
+YKL205W	LOS1	nuclear trasnport of tRNA	tina hand-curated processes
+YGR264C	MES1	nuclear trasnport of tRNA	tina hand-curated processes
+YDR335W	MSN5	nuclear trasnport of tRNA	tina hand-curated processes
+YOR160W	MTR10	nuclear trasnport of tRNA	tina hand-curated processes
+YPL212C	PUS1	nuclear trasnport of tRNA	tina hand-curated processes
+YNR034W	SOL1	nuclear trasnport of tRNA	tina hand-curated processes
+YCR073W-A	SOL2	nuclear trasnport of tRNA	tina hand-curated processes
+YLL024C	SSA2	nuclear trasnport of tRNA	tina hand-curated processes
+YPR080W	TEF1	nuclear trasnport of tRNA	tina hand-curated processes
+YBR118W	TEF2	nuclear trasnport of tRNA	tina hand-curated processes
+YGR090W	UTP22	nuclear trasnport of tRNA	tina hand-curated processes
+YGR128C	UTP8	nuclear trasnport of tRNA	tina hand-curated processes
+YOL139C	CDC33	CRM1 mediated mRNA export	tina hand-curated processes
+YGR218W	CRM1	CRM1 mediated mRNA export	tina hand-curated processes
+YCL011C	GBP2	CRM1 mediated mRNA export	tina hand-curated processes
+YNL004W	HRB1	CRM1 mediated mRNA export	tina hand-curated processes
+YBR017C	KAP104	CRM1 mediated mRNA export	tina hand-curated processes
+YGL122C	NAB2	CRM1 mediated mRNA export	tina hand-curated processes
+YOL123W	HRP1	CRM1 mediated mRNA export	tina hand-curated processes
+YPL178W	CBC2	mRNA export	tina hand-curated processes
+YOL139C	CDC33	mRNA export	tina hand-curated processes
+YGR218W	CRM1	mRNA export	tina hand-curated processes
+YOR046C	DBP5	mRNA export	tina hand-curated processes
+YCL011C	GBP2	mRNA export	tina hand-curated processes
+YDL207W	GLE1	mRNA export	tina hand-curated processes
+YER107C	GLE2	mRNA export	tina hand-curated processes
+YDR138W	HPR1	mRNA export	tina hand-curated processes
+YNL004W	HRB1	mRNA export	tina hand-curated processes
+YBR017C	KAP104	mRNA export	tina hand-curated processes
+YHR081W	LRP1	mRNA export	tina hand-curated processes
+YPL169C	MEX67	mRNA export	tina hand-curated processes
+YHR015W	MIP6	mRNA export	tina hand-curated processes
+YOR160W	MTR10	mRNA export	tina hand-curated processes
+YKL186C	MTR2	mRNA export	tina hand-curated processes
+YGL122C	NAB2	mRNA export	tina hand-curated processes
+YDR432W	NPL3	mRNA export	tina hand-curated processes
+YMR047C	NUP116	mRNA export	tina hand-curated processes
+YKR002W	PAP1	mRNA export	tina hand-curated processes
+YLR016C	PML1	mRNA export	tina hand-curated processes
+YML107C	PML39	mRNA export	tina hand-curated processes
+YDR159W	SAC3	mRNA export	tina hand-curated processes
+YDR363W-A	SEM1	mRNA export	tina hand-curated processes
+YCL037C	SRO9	mRNA export	tina hand-curated processes
+YDL084W	SUB2	mRNA export	tina hand-curated processes
+YBR111W-A	SUS1	mRNA export	tina hand-curated processes
+YNL253W	TEX1	mRNA export	tina hand-curated processes
+YOL072W	THP1	mRNA export	tina hand-curated processes
+YHR167W	THP2	mRNA export	tina hand-curated processes
+YDR457W	TOM1	mRNA export	tina hand-curated processes
+YDR381W	YRA1	mRNA export	tina hand-curated processes
+YKL214C	YRA2	mRNA export	tina hand-curated processes
+YMR273C	ZDS1	mRNA export	tina hand-curated processes
+YBL074C	AAR2	mRNA splicing	tina hand-curated processes
+YDL074C	BRE1	mRNA splicing	tina hand-curated processes
+YPR057W	BRR1	mRNA splicing	tina hand-curated processes
+YGL174W	BUD13	mRNA splicing	tina hand-curated processes
+YCR063W	BUD31	mRNA splicing	tina hand-curated processes
+YHL038C	CBP2	mRNA splicing	tina hand-curated processes
+YDR364C	CDC40	mRNA splicing	tina hand-curated processes
+YDR163W	CWC15	mRNA splicing	tina hand-curated processes
+YDR482C	CWC21	mRNA splicing	tina hand-curated processes
+YGR278W	CWC22	mRNA splicing	tina hand-curated processes
+YGL128C	CWC23	mRNA splicing	tina hand-curated processes
+YNL245C	CWC25	mRNA splicing	tina hand-curated processes
+YPL064C	CWC27	mRNA splicing	tina hand-curated processes
+YKL149C	DBR1	mRNA splicing	tina hand-curated processes
+YPR082C	DIB1	mRNA splicing	tina hand-curated processes
+YGR093W	DRN1	mRNA splicing	tina hand-curated processes
+YBR065C	ECM2	mRNA splicing	tina hand-curated processes
+YBR102C	EXO84	mRNA splicing	tina hand-curated processes
+YOR319W	HSH49	mRNA splicing	tina hand-curated processes
+YIR005W	IST3	mRNA splicing	tina hand-curated processes
+YJR050W	ISY1	mRNA splicing	tina hand-curated processes
+YHR156C	LIN1	mRNA splicing	tina hand-curated processes
+LSR1	LSR1	mRNA splicing	tina hand-curated processes
+YDL087C	LUC7	mRNA splicing	tina hand-curated processes
+YNL210W	MER1	mRNA splicing	tina hand-curated processes
+YPL184C	MRN1	mRNA splicing	tina hand-curated processes
+YIR021W	MRS1	mRNA splicing	tina hand-curated processes
+YIR009W	MSL1	mRNA splicing	tina hand-curated processes
+YLR116W	MSL5	mRNA splicing	tina hand-curated processes
+YBR119W	MUD1	mRNA splicing	tina hand-curated processes
+YKL074C	MUD2	mRNA splicing	tina hand-curated processes
+YPL190C	NAB3	mRNA splicing	tina hand-curated processes
+YHR086W	NAM8	mRNA splicing	tina hand-curated processes
+YDR432W	NPL3	mRNA splicing	tina hand-curated processes
+YML107C	PML39	mRNA splicing	tina hand-curated processes
+YKR086W	PRP16	mRNA splicing	tina hand-curated processes
+YLL036C	PRP19	mRNA splicing	tina hand-curated processes
+YNR011C	PRP2	mRNA splicing	tina hand-curated processes
+YER013W	PRP22	mRNA splicing	tina hand-curated processes
+YGL120C	PRP43	mRNA splicing	tina hand-curated processes
+YAL032C	PRP45	mRNA splicing	tina hand-curated processes
+YHR165C	PRP8	mRNA splicing	tina hand-curated processes
+YDL030W	PRP9	mRNA splicing	tina hand-curated processes
+YPR094W	RDS3	mRNA splicing	tina hand-curated processes
+YML049C	RSE1	mRNA splicing	tina hand-curated processes
+YFR005C	SAD1	mRNA splicing	tina hand-curated processes
+YDR088C	SLU7	mRNA splicing	tina hand-curated processes
+YIL061C	SNP1	mRNA splicing	tina hand-curated processes
+snR6	SNR6	mRNA splicing	tina hand-curated processes
+YKL173W	SNU114	mRNA splicing	tina hand-curated processes
+YEL026W	SNU13	mRNA splicing	tina hand-curated processes
+YDL098C	SNU23	mRNA splicing	tina hand-curated processes
+YDR240C	SNU56	mRNA splicing	tina hand-curated processes
+YOR308C	SNU66	mRNA splicing	tina hand-curated processes
+YGR013W	SNU71	mRNA splicing	tina hand-curated processes
+YBR152W	SPP381	mRNA splicing	tina hand-curated processes
+YNL187W	SWT21	mRNA splicing	tina hand-curated processes
+YDR416W	SYF1	mRNA splicing	tina hand-curated processes
+YPL157W	TGS1	mRNA splicing	tina hand-curated processes
+YPR045C	THP3	mRNA splicing	tina hand-curated processes
+YLR298C	YHC1	mRNA splicing	tina hand-curated processes
+YJR084W	YJR084W	mRNA splicing	tina hand-curated processes
+YKL095W	YJU2	mRNA splicing	tina hand-curated processes
+YLR277C	YSH1	mRNA splicing	tina hand-curated processes
+YGL130W	CEG1	mRNA 5' capping	tina hand-curated processes
+YPL228W	CET1	mRNA 5' capping	tina hand-curated processes
+YDR370C	DXO1	mRNA 5' capping	tina hand-curated processes
+YKL139W	CTK1	3' end mRNA processing	tina hand-curated processes
+YJL006C	CTK2	3' end mRNA processing	tina hand-curated processes
+YML112W	CTK3	3' end mRNA processing	tina hand-curated processes
+YER032W	FIR1	3' end mRNA processing	tina hand-curated processes
+YOL123W	HRP1	3' end mRNA processing	tina hand-curated processes
+YKL059C	MPE1	3' end mRNA processing	tina hand-curated processes
+YPL190C	NAB3	3' end mRNA processing	tina hand-curated processes
+YNL251C	NRD1	3' end mRNA processing	tina hand-curated processes
+YER165W	PAB1	3' end mRNA processing	tina hand-curated processes
+YKR002W	PAP1	3' end mRNA processing	tina hand-curated processes
+YDR228C	PCF11	3' end mRNA processing	tina hand-curated processes
+YNL317W	PFS2	3' end mRNA processing	tina hand-curated processes
+YAL043C	PTA1	3' end mRNA processing	tina hand-curated processes
+YGR156W	PTI1	3' end mRNA processing	tina hand-curated processes
+YDR195W	REF2	3' end mRNA processing	tina hand-curated processes
+YMR061W	RNA14	3' end mRNA processing	tina hand-curated processes
+YGL044C	RNA15	3' end mRNA processing	tina hand-curated processes
+YGR276C	RNH70	3' end mRNA processing	tina hand-curated processes
+YJL140W	RPB4	3' end mRNA processing	tina hand-curated processes
+YDR404C	RPB7	3' end mRNA processing	tina hand-curated processes
+YOR179C	SYC1	3' end mRNA processing	tina hand-curated processes
+YDR381W	YRA1	3' end mRNA processing	tina hand-curated processes
+YLR277C	YSH1	3' end mRNA processing	tina hand-curated processes
+YPR107C	YTH1	3' end mRNA processing	tina hand-curated processes
+YBL074C	AAR2	mRNA maturation	tina hand-curated processes
+YDL074C	BRE1	mRNA maturation	tina hand-curated processes
+YPR057W	BRR1	mRNA maturation	tina hand-curated processes
+YGL174W	BUD13	mRNA maturation	tina hand-curated processes
+YCR063W	BUD31	mRNA maturation	tina hand-curated processes
+YHL038C	CBP2	mRNA maturation	tina hand-curated processes
+YDR364C	CDC40	mRNA maturation	tina hand-curated processes
+YGL130W	CEG1	mRNA maturation	tina hand-curated processes
+YPL228W	CET1	mRNA maturation	tina hand-curated processes
+YKL139W	CTK1	mRNA maturation	tina hand-curated processes
+YJL006C	CTK2	mRNA maturation	tina hand-curated processes
+YML112W	CTK3	mRNA maturation	tina hand-curated processes
+YDR163W	CWC15	mRNA maturation	tina hand-curated processes
+YDR482C	CWC21	mRNA maturation	tina hand-curated processes
+YGR278W	CWC22	mRNA maturation	tina hand-curated processes
+YGL128C	CWC23	mRNA maturation	tina hand-curated processes
+YNL245C	CWC25	mRNA maturation	tina hand-curated processes
+YPL064C	CWC27	mRNA maturation	tina hand-curated processes
+YKL149C	DBR1	mRNA maturation	tina hand-curated processes
+YPR082C	DIB1	mRNA maturation	tina hand-curated processes
+YGR093W	DRN1	mRNA maturation	tina hand-curated processes
+YDR370C	DXO1	mRNA maturation	tina hand-curated processes
+YBR065C	ECM2	mRNA maturation	tina hand-curated processes
+YBR102C	EXO84	mRNA maturation	tina hand-curated processes
+YER032W	FIR1	mRNA maturation	tina hand-curated processes
+YOL123W	HRP1	mRNA maturation	tina hand-curated processes
+YOR319W	HSH49	mRNA maturation	tina hand-curated processes
+YIR005W	IST3	mRNA maturation	tina hand-curated processes
+YJR050W	ISY1	mRNA maturation	tina hand-curated processes
+YHR156C	LIN1	mRNA maturation	tina hand-curated processes
+LSR1	LSR1	mRNA maturation	tina hand-curated processes
+YDL087C	LUC7	mRNA maturation	tina hand-curated processes
+YNL210W	MER1	mRNA maturation	tina hand-curated processes
+YKL059C	MPE1	mRNA maturation	tina hand-curated processes
+YPL184C	MRN1	mRNA maturation	tina hand-curated processes
+YIR021W	MRS1	mRNA maturation	tina hand-curated processes
+YIR009W	MSL1	mRNA maturation	tina hand-curated processes
+YLR116W	MSL5	mRNA maturation	tina hand-curated processes
+YBR119W	MUD1	mRNA maturation	tina hand-curated processes
+YKL074C	MUD2	mRNA maturation	tina hand-curated processes
+YPL190C	NAB3	mRNA maturation	tina hand-curated processes
+YHR086W	NAM8	mRNA maturation	tina hand-curated processes
+YDR432W	NPL3	mRNA maturation	tina hand-curated processes
+YNL251C	NRD1	mRNA maturation	tina hand-curated processes
+YER165W	PAB1	mRNA maturation	tina hand-curated processes
+YKR002W	PAP1	mRNA maturation	tina hand-curated processes
+YDR228C	PCF11	mRNA maturation	tina hand-curated processes
+YNL317W	PFS2	mRNA maturation	tina hand-curated processes
+YKR086W	PRP16	mRNA maturation	tina hand-curated processes
+YLL036C	PRP19	mRNA maturation	tina hand-curated processes
+YNR011C	PRP2	mRNA maturation	tina hand-curated processes
+YER013W	PRP22	mRNA maturation	tina hand-curated processes
+YGL120C	PRP43	mRNA maturation	tina hand-curated processes
+YAL032C	PRP45	mRNA maturation	tina hand-curated processes
+YHR165C	PRP8	mRNA maturation	tina hand-curated processes
+YDL030W	PRP9	mRNA maturation	tina hand-curated processes
+YAL043C	PTA1	mRNA maturation	tina hand-curated processes
+YGR156W	PTI1	mRNA maturation	tina hand-curated processes
+YPR094W	RDS3	mRNA maturation	tina hand-curated processes
+YDR195W	REF2	mRNA maturation	tina hand-curated processes
+YMR061W	RNA14	mRNA maturation	tina hand-curated processes
+YGL044C	RNA15	mRNA maturation	tina hand-curated processes
+YGR276C	RNH70	mRNA maturation	tina hand-curated processes
+YJL140W	RPB4	mRNA maturation	tina hand-curated processes
+YDR404C	RPB7	mRNA maturation	tina hand-curated processes
+YML049C	RSE1	mRNA maturation	tina hand-curated processes
+YFR005C	SAD1	mRNA maturation	tina hand-curated processes
+YDR088C	SLU7	mRNA maturation	tina hand-curated processes
+YIL061C	SNP1	mRNA maturation	tina hand-curated processes
+snR6	SNR6	mRNA maturation	tina hand-curated processes
+YKL173W	SNU114	mRNA maturation	tina hand-curated processes
+YEL026W	SNU13	mRNA maturation	tina hand-curated processes
+YDL098C	SNU23	mRNA maturation	tina hand-curated processes
+YDR240C	SNU56	mRNA maturation	tina hand-curated processes
+YOR308C	SNU66	mRNA maturation	tina hand-curated processes
+YGR013W	SNU71	mRNA maturation	tina hand-curated processes
+YBR152W	SPP381	mRNA maturation	tina hand-curated processes
+YNL187W	SWT21	mRNA maturation	tina hand-curated processes
+YOR179C	SYC1	mRNA maturation	tina hand-curated processes
+YDR416W	SYF1	mRNA maturation	tina hand-curated processes
+YPL157W	TGS1	mRNA maturation	tina hand-curated processes
+YPR045C	THP3	mRNA maturation	tina hand-curated processes
+YLR298C	YHC1	mRNA maturation	tina hand-curated processes
+YJR084W	YJR084W	mRNA maturation	tina hand-curated processes
+YKL095W	YJU2	mRNA maturation	tina hand-curated processes
+YDR381W	YRA1	mRNA maturation	tina hand-curated processes
+YLR277C	YSH1	mRNA maturation	tina hand-curated processes
+YPR107C	YTH1	mRNA maturation	tina hand-curated processes
+YER036C	ARB1	ribosome biogenesis	tina hand-curated processes
+YIL096C	BMT5	ribosome biogenesis	tina hand-curated processes
+YDL031W	DBP10	ribosome biogenesis	tina hand-curated processes
+YNR038W	DBP6	ribosome biogenesis	tina hand-curated processes
+YER088C	DOT6	ribosome biogenesis	tina hand-curated processes
+YHL039W	EFM1	ribosome biogenesis	tina hand-curated processes
+YBR271W	EFM2	ribosome biogenesis	tina hand-curated processes
+YPL141C	FRK1	ribosome biogenesis	tina hand-curated processes
+YLL035W	GRC3	ribosome biogenesis	tina hand-curated processes
+YMR290C	HAS1	ribosome biogenesis	tina hand-curated processes
+YGR187C	HGH1	ribosome biogenesis	tina hand-curated processes
+YPR169W	JIP5	ribosome biogenesis	tina hand-curated processes
+YNL227C	JJJ1	ribosome biogenesis	tina hand-curated processes
+YER110C	KAP123	ribosome biogenesis	tina hand-curated processes
+YPL125W	KAP120	ribosome biogenesis 	tina hand-curated processes
+YNL308C	KRI1	ribosome biogenesis	tina hand-curated processes
+YNL132W	KRE33	ribosome biogenesis	tina hand-curated processes
+YKR063C	LAS1	ribosome biogenesis	tina hand-curated processes
+YDR060W	MAK21	ribosome biogenesis	tina hand-curated processes
+YPL211W	NIP7	ribosome biogenesis	tina hand-curated processes
+YOR206W	NOC2	ribosome biogenesis	tina hand-curated processes
+YDL213C	NOP6	ribosome biogenesis	tina hand-curated processes
+YGR251W	NOP19	ribosome biogenesis	tina hand-curated processes
+YPL146C	NOP53	ribosome biogenesis	tina hand-curated processes
+YDL167C	NRP1	ribosome biogenesis	tina hand-curated processes
+YGR159C	NSR1	ribosome biogenesis	tina hand-curated processes
+YLR196W	PWP1	ribosome biogenesis	tina hand-curated processes
+YOL010W	RCL1	ribosome biogenesis	tina hand-curated processes
+YNL163C	RIA1	ribosome biogenesis	tina hand-curated processes
+YDR091C	RLI1	ribosome biogenesis	tina hand-curated processes
+YJL189W	RPL39	ribosome biogenesis	tina hand-curated processes
+YMR229C	RRP5	ribosome biogenesis	tina hand-curated processes
+YCL031C	RRP7	ribosome biogenesis	tina hand-curated processes
+YOR294W	RRS1	ribosome biogenesis	tina hand-curated processes
+YDL025C	RTK1	ribosome biogenesis	tina hand-curated processes
+YHR205W	SCH9	ribosome biogenesis	tina hand-curated processes
+YMR269W	TMA23	ribosome biogenesis	tina hand-curated processes
+YBL054W	TOD6	ribosome biogenesis	tina hand-curated processes
+YJR066W	TOR1	ribosome biogenesis	tina hand-curated processes
+YNR046W	TRM112	ribosome biogenesis	tina hand-curated processes
+YNL186W	UBP10	ribosome biogenesis	tina hand-curated processes
+YJR041C	URB2	ribosome biogenesis	tina hand-curated processes
+YBL028C	YBL028C	ribosome biogenesis	tina hand-curated processes
+YCR016W	YCR016W	ribosome biogenesis	tina hand-curated processes
+YGR283C	YGR283C	ribosome biogenesis	tina hand-curated processes
+YMR310C	YMR310C	ribosome biogenesis	tina hand-curated processes
+YGR285C	ZUO1	ribosome biogenesis	tina hand-curated processes
+YDR299W	BFR2	rRNA processing	tina hand-curated processes
+YPL217C	BMS1	rRNA processing	tina hand-curated processes
+YOL077C	BRX1	rRNA processing	tina hand-curated processes
+YCR047C	BUD21	rRNA processing	tina hand-curated processes
+YCR047C	BUD23	rRNA processing	tina hand-curated processes
+YGL029W	CGR1	rRNA processing	tina hand-curated processes
+YLR003C	CMS1	rRNA processing	tina hand-curated processes
+YNL112W	DBP2	rRNA processing	tina hand-curated processes
+YGL078C	DBP3	rRNA processing	tina hand-curated processes
+YLR276C	DBP9	rRNA processing	tina hand-curated processes
+YPL266W	DIM1	rRNA processing	tina hand-curated processes
+YLR129W	DIP2	rRNA processing	tina hand-curated processes
+YLR186W	EMG1	rRNA processing	tina hand-curated processes
+YBR247C	ENP1	rRNA processing	tina hand-curated processes
+YGR145W	ENP2	rRNA processing	tina hand-curated processes
+YDR365C	ESF1	rRNA processing	tina hand-curated processes
+YNR054C	ESF2	rRNA processing	tina hand-curated processes
+YIL019W	FAF1	rRNA processing	tina hand-curated processes
+YDL166C	FAP7	rRNA processing	tina hand-curated processes
+YDR339C	FCF1	rRNA processing	tina hand-curated processes
+YLR051C	FCF2	rRNA processing	tina hand-curated processes
+YHR089C	GAR1	rRNA processing	tina hand-curated processes
+YJL033W	HCA4	rRNA processing	tina hand-curated processes
+YLR192C	HCR1	rRNA processing	tina hand-curated processes
+HRA1	HRA1	rRNA processing	tina hand-curated processes
+YLR223C	IFH1	rRNA processing	tina hand-curated processes
+YHR148W	IMP3	rRNA processing	tina hand-curated processes
+YNL075W	IMP4	rRNA processing	tina hand-curated processes
+YHR085W	IPI1	rRNA processing	tina hand-curated processes
+YNL182C	IPI3	rRNA processing	tina hand-curated processes
+YKR063C	LAS1	rRNA processing	tina hand-curated processes
+YER127W	LCP5	rRNA processing	tina hand-curated processes
+YFR001W	LOC1	rRNA processing	tina hand-curated processes
+YJR002W	MPP10	rRNA processing	tina hand-curated processes
+YNL124W	NAF1	rRNA processing	tina hand-curated processes
+YPL126W	NAN1	rRNA processing	tina hand-curated processes
+YMR285C	NGL2	rRNA processing	tina hand-curated processes
+YDL208W	NHP2	rRNA processing	tina hand-curated processes
+YHR072W-A	NOP10	rRNA processing	tina hand-curated processes
+YOL041C	NOP12	rRNA processing	tina hand-curated processes
+YDL148C	NOP14	rRNA processing	tina hand-curated processes
+YNL061W	NOP2	rRNA processing	tina hand-curated processes
+YPL043W	NOP4	rRNA processing	tina hand-curated processes
+YPL146C	NOP53	rRNA processing	tina hand-curated processes
+YOR310C	NOP58	rRNA processing	tina hand-curated processes
+YER126C	NSA2	rRNA processing	tina hand-curated processes
+YGR159C	NSR1	rRNA processing	tina hand-curated processes
+YOR145C	PNO1	rRNA processing	tina hand-curated processes
+YGL120C	PRP43	rRNA processing	tina hand-curated processes
+YLR196W	PWP1	rRNA processing	tina hand-curated processes
+YOR048C	RAT1	rRNA processing	tina hand-curated processes
+YOL010W	RCL1	rRNA processing	tina hand-curated processes
+YNL207W	RIO2	rRNA processing	tina hand-curated processes
+YHR197W	RIX1	rRNA processing	tina hand-curated processes
+YNL002C	RLP7	rRNA processing	tina hand-curated processes
+YLR145W	RMP1	rRNA processing	tina hand-curated processes
+YMR239C	RNT1	rRNA processing	tina hand-curated processes
+YGL171W	ROK1	rRNA processing	tina hand-curated processes
+YKR081C	RPF2	rRNA processing	tina hand-curated processes
+YKL180W	RPL17A	rRNA processing	tina hand-curated processes
+YJL177W	RPL17B	rRNA processing	tina hand-curated processes
+YGL030W	RPL30	rRNA processing	tina hand-curated processes
+YLR185W	RPL37A	rRNA processing	tina hand-curated processes
+YDR500C	RPL37B	rRNA processing	tina hand-curated processes
+YGL076C	RPL7A	rRNA processing	tina hand-curated processes
+YPL198W	RPL7B	rRNA processing	tina hand-curated processes
+YHL033C	RPL8A	rRNA processing	tina hand-curated processes
+YLL045C	RPL8B	rRNA processing	tina hand-curated processes
+YCR031C	RPS14A	rRNA processing	tina hand-curated processes
+YJL191W	RPS14B	rRNA processing	tina hand-curated processes
+YDR087C	RRP1	rRNA processing	tina hand-curated processes
+YPR143W	RRP15	rRNA processing	tina hand-curated processes
+YHR065C	RRP3	rRNA processing	tina hand-curated processes
+YMR229C	RRP5	rRNA processing	tina hand-curated processes
+YCL031C	RRP7	rRNA processing	tina hand-curated processes
+YPR137W	RRP9	rRNA processing	tina hand-curated processes
+YDL153C	SAS10	rRNA processing	tina hand-curated processes
+YIL104C	SHQ1	rRNA processing	tina hand-curated processes
+YGR081C	SLX9	rRNA processing	tina hand-curated processes
+snR10	SNR10	rRNA processing	tina hand-curated processes
+YEL026W	SNU13	rRNA processing	tina hand-curated processes
+YOR308C	SNU66	rRNA processing	tina hand-curated processes
+YCL054W	SPB1	rRNA processing	tina hand-curated processes
+YCR018C	SRD1	rRNA processing	tina hand-curated processes
+YDL060W	TSR1	rRNA processing	tina hand-curated processes
+YLR435W	TSR2	rRNA processing	tina hand-curated processes
+YOR006C	TSR3	rRNA processing	tina hand-curated processes
+YOL022C	TSR4	rRNA processing	tina hand-curated processes
+YJL109C	UTP10	rRNA processing	tina hand-curated processes
+YKL099C	UTP11	rRNA processing	tina hand-curated processes
+YLR222C	UTP13	rRNA processing	tina hand-curated processes
+YML093W	UTP14	rRNA processing	tina hand-curated processes
+YMR093W	UTP15	rRNA processing	tina hand-curated processes
+YJL069C	UTP18	rRNA processing	tina hand-curated processes
+YBL004W	UTP20	rRNA processing	tina hand-curated processes
+YLR409C	UTP21	rRNA processing	tina hand-curated processes
+YDR324C	UTP4	rRNA processing	tina hand-curated processes
+YDR398W	UTP5	rRNA processing	tina hand-curated processes
+YDR449C	UTP6	rRNA processing	tina hand-curated processes
+YER082C	UTP7	rRNA processing	tina hand-curated processes
+YGR128C	UTP8	rRNA processing	tina hand-curated processes
+YHR196W	UTP9	rRNA processing	tina hand-curated processes
+YOR272W	YTM1	rRNA processing	tina hand-curated processes
+YDR299W	BFR2	Small Subunit (SSU) processome complex	tina hand-curated processes
+YCR047C	BUD21	Small Subunit (SSU) processome complex	tina hand-curated processes
+YLR129W	DIP2	Small Subunit (SSU) processome complex	tina hand-curated processes
+YGR145W	ENP2	Small Subunit (SSU) processome complex	tina hand-curated processes
+YNR054C	ESF2	Small Subunit (SSU) processome complex	tina hand-curated processes
+YDR339C	FCF1	Small Subunit (SSU) processome complex	tina hand-curated processes
+YJL033W	HCA4	Small Subunit (SSU) processome complex	tina hand-curated processes
+YHR148W	IMP3	Small Subunit (SSU) processome complex	tina hand-curated processes
+YNL075W	IMP4	Small Subunit (SSU) processome complex	tina hand-curated processes
+YJR002W	MPP10	Small Subunit (SSU) processome complex	tina hand-curated processes
+YPL126W	NAN1	Small Subunit (SSU) processome complex	tina hand-curated processes
+YMR229C	RRP5	Small Subunit (SSU) processome complex	tina hand-curated processes
+YPR137W	RRP9	Small Subunit (SSU) processome complex	tina hand-curated processes
+YDL153C	SAS10	Small Subunit (SSU) processome complex	tina hand-curated processes
+YJL109C	UTP10	Small Subunit (SSU) processome complex	tina hand-curated processes
+YKL099C	UTP11	Small Subunit (SSU) processome complex	tina hand-curated processes
+YLR222C	UTP13	Small Subunit (SSU) processome complex	tina hand-curated processes
+YML093W	UTP14	Small Subunit (SSU) processome complex	tina hand-curated processes
+YMR093W	UTP15	Small Subunit (SSU) processome complex	tina hand-curated processes
+YBL004W	UTP20	Small Subunit (SSU) processome complex	tina hand-curated processes
+YLR409C	UTP21	Small Subunit (SSU) processome complex	tina hand-curated processes
+YDR324C	UTP4	Small Subunit (SSU) processome complex	tina hand-curated processes
+YDR398W	UTP5	Small Subunit (SSU) processome complex	tina hand-curated processes
+YDR449C	UTP6	Small Subunit (SSU) processome complex	tina hand-curated processes
+YER082C	UTP7	Small Subunit (SSU) processome complex	tina hand-curated processes
+YGR128C	UTP8	Small Subunit (SSU) processome complex	tina hand-curated processes
+YHR196W	UTP9	Small Subunit (SSU) processome complex	tina hand-curated processes
+YDR101C	ARX1	ribosome export	tina hand-curated processes
+YLR074C	BUD20	ribosome export	tina hand-curated processes
+YCR047C	BUD23	ribosome export	tina hand-curated processes
+YGR218W	CRM1	ribosome export	tina hand-curated processes
+YAL059W	ECM1	ribosome export	tina hand-curated processes
+YHR170W	NMD3	ribosome export	tina hand-curated processes
+YPR144C	NOC4	ribosome export	tina hand-curated processes
+YNR053C	NOG2	ribosome export	tina hand-curated processes
+YDL148C	NOP14	ribosome export	tina hand-curated processes
+YJL010C	NOP9	ribosome export	tina hand-curated processes
+YER006W	NUG1	ribosome export	tina hand-curated processes
+YLL034C	RIX7	ribosome export	tina hand-curated processes
+YHR088W	RPF1	ribosome export	tina hand-curated processes
+YPL012W	RRP12	ribosome export	tina hand-curated processes
+YOR294W	RRS1	ribosome export	tina hand-curated processes
+YPL239W	YAR1	ribosome export	tina hand-curated processes
+YFL039C	ACT1	spindle assembly	tina hand-curated processes
+YGL021W	ALK1	spindle assembly	tina hand-curated processes
+YBL009W	ALK2	spindle assembly	tina hand-curated processes
+YJR089W	BIR1	spindle assembly	tina hand-curated processes
+YEL061C	CIN8	spindle assembly	tina hand-curated processes
+YDL155W	CLB3	spindle assembly	tina hand-curated processes
+YLR210W	CLB4	spindle assembly	tina hand-curated processes
+YPL018W	CTF19	spindle assembly	tina hand-curated processes
+YLR381W	CTF3	spindle assembly	tina hand-curated processes
+YKR054C	DYN1	spindle assembly	tina hand-curated processes
+YER133W	GLC7	spindle assembly	tina hand-curated processes
+YCR065W	HCM1	spindle assembly	tina hand-curated processes
+YBL063W	KIP1	spindle assembly	tina hand-curated processes
+YGL216W	KIP3	spindle assembly	tina hand-curated processes
+YGL086W	MAD1	spindle assembly	tina hand-curated processes
+YJL030W	MAD2	spindle assembly	tina hand-curated processes
+YJL013C	MAD3	spindle assembly	tina hand-curated processes
+YKL089W	MIF2	spindle assembly	tina hand-curated processes
+YIL144W	NDC80	spindle assembly	tina hand-curated processes
+YBR156C	SLI15	spindle assembly	tina hand-curated processes
+YDR356W	SPC110	spindle assembly	tina hand-curated processes
+YHR172W	SPC97	spindle assembly	tina hand-curated processes
+YNL126W	SPC98	spindle assembly	tina hand-curated processes
+YNL012W	SPO1	spindle assembly	tina hand-curated processes
+YLR045C	STU2	spindle assembly	tina hand-curated processes
+YLR212C	TUB4	spindle assembly	tina hand-curated processes
+YDL239C	ADY3	spindle pole body	tina hand-curated processes
+YLR227C	ADY4	spindle pole body	tina hand-curated processes
+YPL255W	BBP1	spindle pole body	tina hand-curated processes
+YOR257W	CDC31	spindle pole body	tina hand-curated processes
+YNL225C	CNM67	spindle pole body	tina hand-curated processes
+YDR273W	DON1	spindle pole body	tina hand-curated processes
+YMR276W	DSK2	spindle pole body	tina hand-curated processes
+YDR130C	FIN1	spindle pole body	tina hand-curated processes
+YNL188W	KAR1	spindle pole body	tina hand-curated processes
+YPR141C	KAR3	spindle pole body	tina hand-curated processes
+YHR102W	KIC1	spindle pole body	tina hand-curated processes
+YOR177C	MPC54	spindle pole body	tina hand-curated processes
+YDL028C	MPS1	spindle pole body	tina hand-curated processes
+YGL075C	MPS2	spindle pole body	tina hand-curated processes
+YLR457C	NBP1	spindle pole body	tina hand-curated processes
+YPL192C	PRM3	spindle pole body	tina hand-curated processes
+YOR259C	RPT4	spindle pole body	tina hand-curated processes
+YLL003W	SFI1	spindle pole body	tina hand-curated processes
+YDR356W	SPC110	spindle pole body	tina hand-curated processes
+YDR201W	SPC19	spindle pole body	tina hand-curated processes
+YPL124W	SPC29	spindle pole body	tina hand-curated processes
+YKR037C	SPC34	spindle pole body	tina hand-curated processes
+YKL042W	SPC42	spindle pole body	tina hand-curated processes
+YHR172W	SPC97	spindle pole body	tina hand-curated processes
+YNL126W	SPC98	spindle pole body	tina hand-curated processes
+YNL012W	SPO1	spindle pole body	tina hand-curated processes
+YOL091W	SPO21	spindle pole body	tina hand-curated processes
+YGL170C	SPO74	spindle pole body	tina hand-curated processes
+YLR045C	STU2	spindle pole body	tina hand-curated processes
+YLR212C	TUB4	spindle pole body	tina hand-curated processes
+YBR211C	AME1	kinetochore	tina hand-curated processes
+YKL052C	ASK1	kinetochore	tina hand-curated processes
+YCL029C	BIK1	kinetochore	tina hand-curated processes
+YJR089W	BIR1	kinetochore	tina hand-curated processes
+YGR188C	BUB1	kinetochore	tina hand-curated processes
+YMR055C	BUB2	kinetochore	tina hand-curated processes
+YOR026W	BUB3	kinetochore	tina hand-curated processes
+YML102W	CAC2	kinetochore	tina hand-curated processes
+YJR060W	CBF1	kinetochore	tina hand-curated processes
+YGR140W	CBF2	kinetochore	tina hand-curated processes
+YDL017W	CDC7	kinetochore	tina hand-curated processes
+YMR168C	CEP3	kinetochore	tina hand-curated processes
+YDR254W	CHL4	kinetochore	tina hand-curated processes
+YFR046C	CNN1	kinetochore	tina hand-curated processes
+YKL049C	CSE4	kinetochore	tina hand-curated processes
+YCR086W	CSM1	kinetochore	tina hand-curated processes
+YPL018W	CTF19	kinetochore	tina hand-curated processes
+YLR381W	CTF3	kinetochore	tina hand-curated processes
+YDR016C	DAD1	kinetochore	tina hand-curated processes
+YKR083C	DAD2	kinetochore	tina hand-curated processes
+YBR233W-A	DAD3	kinetochore	tina hand-curated processes
+YDR320C-A	DAD4	kinetochore	tina hand-curated processes
+YGR113W	DAM1	kinetochore	tina hand-curated processes
+YIR010W	DSN1	kinetochore	tina hand-curated processes
+YGL061C	DUO1	kinetochore	tina hand-curated processes
+YBL008W	HIR1	kinetochore	tina hand-curated processes
+YPL204W	HRR25	kinetochore	tina hand-curated processes
+YKL138C-A	HSK3	kinetochore	tina hand-curated processes
+YBR107C	IML3	kinetochore	tina hand-curated processes
+YPL209C	IPL1	kinetochore	tina hand-curated processes
+YPL269W	KAR9	kinetochore	tina hand-curated processes
+YDR532C	KRE28	kinetochore	tina hand-curated processes
+YDR439W	LRS4	kinetochore	tina hand-curated processes
+YER106W	MAM1	kinetochore	tina hand-curated processes
+YPR046W	MCM16	kinetochore	tina hand-curated processes
+YDR318W	MCM21	kinetochore	tina hand-curated processes
+YJR135C	MCM22	kinetochore	tina hand-curated processes
+YKL089W	MIF2	kinetochore	tina hand-curated processes
+YDL028C	MPS1	kinetochore	tina hand-curated processes
+YBR195C	MSI1	kinetochore	tina hand-curated processes
+YAL034W-A	MTW1	kinetochore	tina hand-curated processes
+YIL144W	NDC80	kinetochore	tina hand-curated processes
+YDR383C	NKP1	kinetochore	tina hand-curated processes
+YLR315W	NKP2	kinetochore	tina hand-curated processes
+YJR112W	NNF1	kinetochore	tina hand-curated processes
+YPL233W	NSL1	kinetochore	tina hand-curated processes
+YOL069W	NUF2	kinetochore	tina hand-curated processes
+YGR179C	OKP1	kinetochore	tina hand-curated processes
+YPR018W	RLF2	kinetochore	tina hand-curated processes
+YDL139C	SCM3	kinetochore	tina hand-curated processes
+YOR073W	SGO1	kinetochore	tina hand-curated processes
+YOR057W	SGT1	kinetochore	tina hand-curated processes
+YDR328C	SKP1	kinetochore	tina hand-curated processes
+YBR156C	SLI15	kinetochore	tina hand-curated processes
+YOR195W	SLK19	kinetochore	tina hand-curated processes
+YGL093W	SPC105	kinetochore	tina hand-curated processes
+YDR201W	SPC19	kinetochore	tina hand-curated processes
+YMR117C	SPC24	kinetochore	tina hand-curated processes
+YER018C	SPC25	kinetochore	tina hand-curated processes
+YKR037C	SPC34	kinetochore	tina hand-curated processes
+YHR014W	SPO13	kinetochore	tina hand-curated processes
+YGR063C	SPT4	kinetochore	tina hand-curated processes
+YBL034C	STU1	kinetochore	tina hand-curated processes
+YDR374W-A	WIP1	kinetochore	tina hand-curated processes
+YGL060W	YBP2	kinetochore	tina hand-curated processes
+YAL011W	SWC3	chromatin remodeling	tina hand-curated processes
+YAL013W	DEP1	chromatin remodeling	tina hand-curated processes
+YAL019W	FUN30	chromatin remodeling	tina hand-curated processes
+YAR003W	SWD1	chromatin remodeling	tina hand-curated processes
+YBL002W	HTB2	chromatin remodeling	tina hand-curated processes
+YBL003C	HTA2	chromatin remodeling	tina hand-curated processes
+YBL052C	SAS3	chromatin remodeling	tina hand-curated processes
+YBL054W	TOD6	chromatin remodeling	tina hand-curated processes
+YBR009C	HHF1	chromatin remodeling	tina hand-curated processes
+YBR010W	HHT1	chromatin remodeling	tina hand-curated processes
+YBR089C-A	NHP6B	chromatin remodeling	tina hand-curated processes
+YBR095C	RXT2	chromatin remodeling	tina hand-curated processes
+YBR103W	SIF2	chromatin remodeling	tina hand-curated processes
+YBR175W	SWD3	chromatin remodeling	tina hand-curated processes
+YBR231C	SWC5	chromatin remodeling	tina hand-curated processes
+YBR245C	ISW1	chromatin remodeling	tina hand-curated processes
+YBR258C	SHG1	chromatin remodeling	tina hand-curated processes
+YBR289W	SNF5	chromatin remodeling	tina hand-curated processes
+YCR020W-B	HTL1	chromatin remodeling	tina hand-curated processes
+YCR033W	SNT1	chromatin remodeling	tina hand-curated processes
+YDL002C	NHP10	chromatin remodeling	tina hand-curated processes
+YDL070W	BDF2	chromatin remodeling	tina hand-curated processes
+YDL074C	BRE1	chromatin remodeling	tina hand-curated processes
+YDL076C	RXT3	chromatin remodeling	tina hand-curated processes
+YDL197C	ASF2	chromatin remodeling	tina hand-curated processes
+YDR073W	SNF11	chromatin remodeling	tina hand-curated processes
+YDR096W	GIS1	chromatin remodeling	tina hand-curated processes
+YDR181C	SAS4	chromatin remodeling	tina hand-curated processes
+YDR191W	HST4	chromatin remodeling	tina hand-curated processes
+YDR207C	UME6	chromatin remodeling	tina hand-curated processes
+YDR225W	HTA1	chromatin remodeling	tina hand-curated processes
+YDR334W	SWR1	chromatin remodeling	tina hand-curated processes
+YDR359C	EAF1	chromatin remodeling	tina hand-curated processes
+YDR363W	ESC2	chromatin remodeling	tina hand-curated processes
+YDR440W	DOT1	chromatin remodeling	tina hand-curated processes
+YDR469W	SDC1	chromatin remodeling	tina hand-curated processes
+YDR485C	VPS72	chromatin remodeling	tina hand-curated processes
+YEL018W	EAF5	chromatin remodeling	tina hand-curated processes
+YEL056W	HAT2	chromatin remodeling	tina hand-curated processes
+YER030W	CHZ1	chromatin remodeling	tina hand-curated processes
+YER051W	JHD1	chromatin remodeling	tina hand-curated processes
+YER088C	DOT6	chromatin remodeling	tina hand-curated processes
+YFL013C	IES1	chromatin remodeling	tina hand-curated processes
+YFR013W	IOC3	chromatin remodeling	tina hand-curated processes
+YGL133W	ITC1	chromatin remodeling	tina hand-curated processes
+YGL194C	HOS2	chromatin remodeling	tina hand-curated processes
+YGR056W	RSC1	chromatin remodeling	tina hand-curated processes
+YGR275W	RTT102	chromatin remodeling	tina hand-curated processes
+YHL025W	SNF6	chromatin remodeling	tina hand-curated processes
+YHR013C	ARD1	chromatin remodeling	tina hand-curated processes
+YHR207C	SET5	chromatin remodeling	tina hand-curated processes
+YIL084C	SDS3	chromatin remodeling	tina hand-curated processes
+YIL112W	HOS4	chromatin remodeling	tina hand-curated processes
+YJL065C	DLS1	chromatin remodeling	tina hand-curated processes
+YJL176C	SWI3	chromatin remodeling	tina hand-curated processes
+YJR082C	EAF6	chromatin remodeling	tina hand-curated processes
+YJR119C	JHD2	chromatin remodeling	tina hand-curated processes
+YKL185W	ASH1	chromatin remodeling	tina hand-curated processes
+YKR029C	SET3	chromatin remodeling	tina hand-curated processes
+YKR101W	SIR1	chromatin remodeling	tina hand-curated processes
+YLR015W	BRE2	chromatin remodeling	tina hand-curated processes
+YLR052W	IES3	chromatin remodeling	tina hand-curated processes
+YLR085C	ARP6	chromatin remodeling	tina hand-curated processes
+YLR095C	IOC2	chromatin remodeling	tina hand-curated processes
+YLR315W	NKP2	chromatin remodeling	tina hand-curated processes
+YLR357W	RSC2	chromatin remodeling	tina hand-curated processes
+YLR385C	SWC7	chromatin remodeling	tina hand-curated processes
+YLR449W	FPR4	chromatin remodeling	tina hand-curated processes
+YLR455W	PDP3	chromatin remodeling	tina hand-curated processes
+YML041C	VPS71	chromatin remodeling	tina hand-curated processes
+YMR044W	IOC4	chromatin remodeling	tina hand-curated processes
+YMR069W	NAT4	chromatin remodeling	tina hand-curated processes
+YMR127C	SAS2	chromatin remodeling	tina hand-curated processes
+YMR219W	ESC1	chromatin remodeling	tina hand-curated processes
+YMR263W	SAP30	chromatin remodeling	tina hand-curated processes
+YNL021W	HDA1	chromatin remodeling	tina hand-curated processes
+YNL030W	HHF2	chromatin remodeling	tina hand-curated processes
+YNL031C	HHT2	chromatin remodeling	tina hand-curated processes
+YNL097C	PHO23	chromatin remodeling	tina hand-curated processes
+YNL107W	YAF9	chromatin remodeling	tina hand-curated processes
+YNL136W	EAF7	chromatin remodeling	tina hand-curated processes
+YNL201C	PSY2	chromatin remodeling	tina hand-curated processes
+YNL215W	IES2	chromatin remodeling	tina hand-curated processes
+YNL246W	VPS75	chromatin remodeling	tina hand-curated processes
+YOL012C	HTZ1	chromatin remodeling	tina hand-curated processes
+YOL017W	ESC8	chromatin remodeling	tina hand-curated processes
+YOL068C	HST1	chromatin remodeling	tina hand-curated processes
+YOR025W	HST3	chromatin remodeling	tina hand-curated processes
+YOR064C	YNG1	chromatin remodeling	tina hand-curated processes
+YOR141C	ARP8	chromatin remodeling	tina hand-curated processes
+YOR189W	IES4	chromatin remodeling	tina hand-curated processes
+YOR213C	SAS5	chromatin remodeling	tina hand-curated processes
+YOR279C	RFM1	chromatin remodeling	tina hand-curated processes
+YOR304W	ISW2	chromatin remodeling	tina hand-curated processes
+YPL001W	HAT1	chromatin remodeling	tina hand-curated processes
+YPL015C	HST2	chromatin remodeling	tina hand-curated processes
+YPL055C	LGE1	chromatin remodeling	tina hand-curated processes
+YPL116W	HOS3	chromatin remodeling	tina hand-curated processes
+YPL127C	HHO1	chromatin remodeling	tina hand-curated processes
+YPL138C	SPP1	chromatin remodeling	tina hand-curated processes
+YPL181W	CTI6	chromatin remodeling	tina hand-curated processes
+YPR052C	NHP6A	chromatin remodeling	tina hand-curated processes
+YPR068C	HOS1	chromatin remodeling	tina hand-curated processes
+YPR179C	HDA3	chromatin remodeling	tina hand-curated processes
+YPR193C	HPA2	chromatin remodeling	tina hand-curated processes
+YDL088C	ASM4	nucleocytoplasmic transport	tina hand-curated processes
+YDL115C	IWR1	nucleocytoplasmic transport	tina hand-curated processes
+YIL149C	MLP2	nucleocytoplasmic transport	tina hand-curated processes
+YJR074W	MOG1	nucleocytoplasmic transport	tina hand-curated processes
+YML031W	NDC1	nucleocytoplasmic transport	tina hand-curated processes
+YFR002W	NIC96	nucleocytoplasmic transport	tina hand-curated processes
+YJR132W	NMD5	nucleocytoplasmic transport	tina hand-curated processes
+YJL041W	NSP1	nucleocytoplasmic transport	tina hand-curated processes
+YER009W	NTF2	nucleocytoplasmic transport	tina hand-curated processes
+YOR098C	NUP1	nucleocytoplasmic transport	tina hand-curated processes
+YKL068W	NUP100	nucleocytoplasmic transport	tina hand-curated processes
+YMR047C	NUP116	nucleocytoplasmic transport	tina hand-curated processes
+YKL057C	NUP120	nucleocytoplasmic transport	tina hand-curated processes
+YKR082W	NUP133	nucleocytoplasmic transport	tina hand-curated processes
+YGL092W	NUP145	nucleocytoplasmic transport	tina hand-curated processes
+YER105C	NUP157	nucleocytoplasmic transport	tina hand-curated processes
+YIL115C	NUP159	nucleocytoplasmic transport	tina hand-curated processes
+YBL079W	NUP170	nucleocytoplasmic transport	tina hand-curated processes
+YML103C	NUP188	nucleocytoplasmic transport	tina hand-curated processes
+YLR335W	NUP2	nucleocytoplasmic transport	tina hand-curated processes
+YDR192C	NUP42	nucleocytoplasmic transport	tina hand-curated processes
+YGL172W	NUP49	nucleocytoplasmic transport	tina hand-curated processes
+YMR153W	NUP53	nucleocytoplasmic transport	tina hand-curated processes
+YGR119C	NUP57	nucleocytoplasmic transport	tina hand-curated processes
+YAR002W	NUP60	nucleocytoplasmic transport	tina hand-curated processes
+YJL061W	NUP82	nucleocytoplasmic transport	tina hand-curated processes
+YDL116W	NUP84	nucleocytoplasmic transport	tina hand-curated processes
+YJR042W	NUP85	nucleocytoplasmic transport	tina hand-curated processes
+YMR129W	POM152	nucleocytoplasmic transport	tina hand-curated processes
+YLR018C	POM34	nucleocytoplasmic transport	tina hand-curated processes
+YLR208W	SEC13	nucleocytoplasmic transport	tina hand-curated processes
+YGL100W	SEH1	nucleocytoplasmic transport	tina hand-curated processes
+YDR395W	SXM1	nucleocytoplasmic transport	tina hand-curated processes
+YBR165W	UBS1	nucleocytoplasmic transport	tina hand-curated processes
+YJL049W	CHM7	ESCRT-LEM protein nuclear envelope surveillance system	tina hand-curated processes
+YML034W	SRC1	ESCRT-LEM protein nuclear envelope surveillance system	tina hand-curated processes
+YDR458C	HEH2	ESCRT-LEM protein nuclear envelope surveillance system	tina hand-curated processes
+YKL041W	VPS24	ESCRT-LEM protein nuclear envelope surveillance system	tina hand-curated processes
+YLR025W	SNF7	ESCRT-LEM protein nuclear envelope surveillance system	tina hand-curated processes
+YKL002W	DID4	ESCRT-LEM protein nuclear envelope surveillance system	tina hand-curated processes
+YMR077C	VPS20	ESCRT-LEM protein nuclear envelope surveillance system	tina hand-curated processes
+YPR173C	VPS4	ESCRT-LEM protein nuclear envelope surveillance system	tina hand-curated processes
+YKR068C	BET3	TRAPP complex	wodak complexes
+YML077W	BET5	TRAPP complex	wodak complexes
+YDR108W	GSG1	TRAPP complex	wodak complexes
+YGR166W	KRE11	TRAPP complex	wodak complexes
+YDR407C	TRS120	TRAPP complex	wodak complexes
+YMR218C	TRS130	TRAPP complex	wodak complexes
+YBR254C	TRS20	TRAPP complex	wodak complexes
+YDR246W	TRS23	TRAPP complex	wodak complexes
+YDR472W	TRS31	TRAPP complex	wodak complexes
+YOR115C	TRS33	TRAPP complex	wodak complexes
+YNL021W	HDA1	histone deacetylase complex	wodak complexes
+YDR295C	HDA2	histone deacetylase complex	wodak complexes
+YPR179C	HDA3	histone deacetylase complex	wodak complexes
+YDR448W	ADA2	Ada2p/Gcn5p/Ada3 transcription activator complex	wodak complexes
+YOR023C	AHC1	Ada2p/Gcn5p/Ada3 transcription activator complex	wodak complexes
+YGR252W	GCN5	Ada2p/Gcn5p/Ada3 transcription activator complex	wodak complexes
+YPL254W	HFI1	Ada2p/Gcn5p/Ada3 transcription activator complex	wodak complexes
+YDR176W	NGG1	Ada2p/Gcn5p/Ada3 transcription activator complex	wodak complexes
+YJL065C	DLS1	chromatin accessibility complex	wodak complexes
+YDR121W	DPB4	chromatin accessibility complex	wodak complexes
+YOR304W	ISW2	chromatin accessibility complex	wodak complexes
+YGL133W	ITC1	chromatin accessibility complex	wodak complexes
+YGL051W	MST27	Mst27p/Mst28p complex	wodak complexes
+YAR033W	MST28	Mst27p/Mst28p complex	wodak complexes
+YPL048W	CAM1	eEF1	wodak complexes
+YAL003W	EFB1	eEF1	wodak complexes
+YPR080W	TEF1	eEF1	wodak complexes
+YBR118W	TEF2	eEF1	wodak complexes
+YKL081W	TEF4	eEF1	wodak complexes
+YJR060W	CBF1	Cbf1p/Met4p/Met28p complex	wodak complexes
+YIR017C	MET28	Cbf1p/Met4p/Met28p complex	wodak complexes
+YNL103W	MET4	Cbf1p/Met4p/Met28p complex	wodak complexes
+YDL043C	PRP11	Prp9p/Prp11p/Prp21p complex(SF3a complex)	wodak complexes
+YJL203W	PRP21	Prp9p/Prp11p/Prp21p complex(SF3a complex)	wodak complexes
+YDL030W	PRP9	Prp9p/Prp11p/Prp21p complex(SF3a complex)	wodak complexes
+YIR017C	MET28	Met4p/Met28p/Met31p complex	wodak complexes
+YPL038W	MET31	Met4p/Met28p/Met31p complex	wodak complexes
+YNL103W	MET4	Met4p/Met28p/Met31p complex	wodak complexes
+YJL085W	EXO70	Exocyst complex	wodak complexes
+YBR102C	EXO84	Exocyst complex	wodak complexes
+YLR166C	SEC10	Exocyst complex	wodak complexes
+YGL233W	SEC15	Exocyst complex	wodak complexes
+YER008C	SEC3	Exocyst complex	wodak complexes
+YDR166C	SEC5	Exocyst complex	wodak complexes
+YIL068C	SEC6	Exocyst complex	wodak complexes
+YPR055W	SEC8	Exocyst complex	wodak complexes
+YER019C-A	SBH2	Ssh1p translocon complex	wodak complexes
+YBR283C	SSH1	Ssh1p translocon complex	wodak complexes
+YDR086C	SSS1	Ssh1p translocon complex	wodak complexes
+YHR158C	KEL1	Kel1p/Kel2p complex	wodak complexes
+YGR238C	KEL2	Kel1p/Kel2p complex	wodak complexes
+YDL175C	AIR2	TRAMP complex (Air2p)	wodak complexes
+YJL050W	MTR4	TRAMP complex (Air2p)	wodak complexes
+YOL115W	PAP2	TRAMP complex (Air2p)	wodak complexes
+YIL033C	BCY1	cAMP-dependent protein kinase	wodak complexes
+YJL164C	TPK1	cAMP-dependent protein kinase	wodak complexes
+YPL203W	TPK2	cAMP-dependent protein kinase	wodak complexes
+YKL166C	TPK3	cAMP-dependent protein kinase	wodak complexes
+YMR023C	MSS1	Mto1p/Mss1p complex	wodak complexes
+YGL236C	MTO1	Mto1p/Mss1p complex	wodak complexes
+YGR188C	BUB1	Bub1p/Bub3p complex	wodak complexes
+YOR026W	BUB3	Bub1p/Bub3p complex	wodak complexes
+YNL076W	MKS1	Mks1p/Rtg2p complex	wodak complexes
+YGL252C	RTG2	Mks1p/Rtg2p complex	wodak complexes
+YBR131W	CCZ1	Mon1p/Ccz1p complex	wodak complexes
+YGL124C	MON1	Mon1p/Ccz1p complex	wodak complexes
+YIL062C	ARC15	Arp2/3 protein complex	wodak complexes
+YLR370C	ARC18	Arp2/3 protein complex	wodak complexes
+YKL013C	ARC19	Arp2/3 protein complex	wodak complexes
+YNR035C	ARC35	Arp2/3 protein complex	wodak complexes
+YBR234C	ARC40	Arp2/3 protein complex	wodak complexes
+YDL029W	ARP2	Arp2/3 protein complex	wodak complexes
+YJR065C	ARP3	Arp2/3 protein complex	wodak complexes
+YDR013W	PSF1	GINS complex	wodak complexes
+YJL072C	PSF2	GINS complex	wodak complexes
+YOL146W	PSF3	GINS complex	wodak complexes
+YDR489W	SLD5	GINS complex	wodak complexes
+YOL090W	MSH2	MSH2p/MSH6p complex	wodak complexes
+YDR097C	MSH6	MSH2p/MSH6p complex	wodak complexes
+YNL072W	RNH201	ribonuclease H2 complex	wodak complexes
+YDR279W	RNH202	ribonuclease H2 complex	wodak complexes
+YLR154C	RNH203	ribonuclease H2 complex	wodak complexes
+YBR045C	GIP1	Gip1p/Glc7p complex	wodak complexes
+YER133W	GLC7	Gip1p/Glc7p complex	wodak complexes
+YBR036C	CSG2	Sur1p/Csg2p complex	wodak complexes
+YPL057C	SUR1	Sur1p/Csg2p complex	wodak complexes
+YER012W	PRE1	20S proteasome	wodak complexes
+YOR362C	PRE10	20S proteasome	wodak complexes
+YPR103W	PRE2	20S proteasome	wodak complexes
+YJL001W	PRE3	20S proteasome	wodak complexes
+YFR050C	PRE4	20S proteasome	wodak complexes
+YMR314W	PRE5	20S proteasome	wodak complexes
+YOL038W	PRE6	20S proteasome	wodak complexes
+YBL041W	PRE7	20S proteasome	wodak complexes
+YML092C	PRE8	20S proteasome	wodak complexes
+YGR135W	PRE9	20S proteasome	wodak complexes
+YOR157C	PUP1	20S proteasome	wodak complexes
+YGR253C	PUP2	20S proteasome	wodak complexes
+YER094C	PUP3	20S proteasome	wodak complexes
+YGL011C	SCL1	20S proteasome	wodak complexes
+YLR270W	DCS1	Dcs1p/Dcs2 heterodimer	wodak complexes
+YOR173W	DCS2	Dcs1p/Dcs2 heterodimer	wodak complexes
+YOR210W	RPB10	DNA-directed RNA polymerase II complex	wodak complexes
+YOL005C	RPB11	DNA-directed RNA polymerase II complex	wodak complexes
+YOR151C	RPB2	DNA-directed RNA polymerase II complex	wodak complexes
+YIL021W	RPB3	DNA-directed RNA polymerase II complex	wodak complexes
+YJL140W	RPB4	DNA-directed RNA polymerase II complex	wodak complexes
+YBR154C	RPB5	DNA-directed RNA polymerase II complex	wodak complexes
+YDR404C	RPB7	DNA-directed RNA polymerase II complex	wodak complexes
+YOR224C	RPB8	DNA-directed RNA polymerase II complex	wodak complexes
+YGL070C	RPB9	DNA-directed RNA polymerase II complex	wodak complexes
+YHR143W-A	RPC10	DNA-directed RNA polymerase II complex	wodak complexes
+YDL140C	RPO21	DNA-directed RNA polymerase II complex	wodak complexes
+YPR187W	RPO26	DNA-directed RNA polymerase II complex	wodak complexes
+YPL194W	DDC1	Rad17p/Ddc1p/Mec3p complex	wodak complexes
+YLR288C	MEC3	Rad17p/Ddc1p/Mec3p complex	wodak complexes
+YOR368W	RAD17	Rad17p/Ddc1p/Mec3p complex	wodak complexes
+YBR123C	TFC1	transcription factor TFIIIC complex	wodak complexes
+YAL001C	TFC3	transcription factor TFIIIC complex	wodak complexes
+YGR047C	TFC4	transcription factor TFIIIC complex	wodak complexes
+YDR362C	TFC6	transcription factor TFIIIC complex	wodak complexes
+YOR110W	TFC7	transcription factor TFIIIC complex	wodak complexes
+YPL007C	TFC8	transcription factor TFIIIC complex	wodak complexes
+YBL008W	HIR1	HIR complex	wodak complexes
+YOR038C	HIR2	HIR complex	wodak complexes
+YJR140C	HIR3	HIR complex	wodak complexes
+YBR215W	HPC2	HIR complex	wodak complexes
+YKL112W	ABF1	nucleotide-excision repair factor 4 complex	wodak complexes
+YPL046C	ELC1	nucleotide-excision repair factor 4 complex	wodak complexes
+YBR114W	RAD16	nucleotide-excision repair factor 4 complex	wodak complexes
+YJR052W	RAD7	nucleotide-excision repair factor 4 complex	wodak complexes
+YLR233C	EST1	Telomerase	wodak complexes
+YLR318W	EST2	Telomerase	wodak complexes
+YIL009C-A	EST3	Telomerase	wodak complexes
+YOL124C	TRM11	adoMet-dependent tRNA methyltransferase (Mtase) Complex	wodak complexes
+YNR046W	TRM112	adoMet-dependent tRNA methyltransferase (Mtase) Complex	wodak complexes
+YBR112C	CYC8	Sko1p/Cyc8p/Tup1 repressor complex	wodak complexes
+YNL167C	SKO1	Sko1p/Cyc8p/Tup1 repressor complex	wodak complexes
+YCR084C	TUP1	Sko1p/Cyc8p/Tup1 repressor complex	wodak complexes
+YDL116W	NUP84	Nup84p complex	wodak complexes
+YJR042W	NUP85	Nup84p complex	wodak complexes
+YKL057C	NUP120	Nup84p complex	wodak complexes
+YGL092W	NUP145	Nup84p complex	wodak complexes
+YLR208W	SEC13	Nup84p complex	wodak complexes
+YGL100W	SEH1	Nup84p complex	wodak complexes
+YML065W	ORC1	Origin recognition complex	wodak complexes
+YBR060C	ORC2	Origin recognition complex	wodak complexes
+YLL004W	ORC3	Origin recognition complex	wodak complexes
+YPR162C	ORC4	Origin recognition complex	wodak complexes
+YNL261W	ORC5	Origin recognition complex	wodak complexes
+YHR118C	ORC6	Origin recognition complex	wodak complexes
+YAL010C	MDM10	mitochondrial sorting and assembly machinery complex	wodak complexes
+YHR083W	SAM35	mitochondrial sorting and assembly machinery complex	wodak complexes
+YMR060C	SAM37	mitochondrial sorting and assembly machinery complex	wodak complexes
+YNL026W	SAM50	mitochondrial sorting and assembly machinery complex	wodak complexes
+YMR167W	MLH1	Mlh1p/Mlh3p complex	wodak complexes
+YPL164C	MLH3	Mlh1p/Mlh3p complex	wodak complexes
+YEL027W	CUP5	H+-transporting ATPase, vacuolar	wodak complexes
+YHR026W	PPA1	H+-transporting ATPase, vacuolar	wodak complexes
+YDL185W	TFP1	H+-transporting ATPase, vacuolar	wodak complexes
+YPL234C	TFP3	H+-transporting ATPase, vacuolar	wodak complexes
+YHR039C-A	VMA10	H+-transporting ATPase, vacuolar	wodak complexes
+YPR036W	VMA13	H+-transporting ATPase, vacuolar	wodak complexes
+YBR127C	VMA2	H+-transporting ATPase, vacuolar	wodak complexes
+YOR332W	VMA4	H+-transporting ATPase, vacuolar	wodak complexes
+YKL080W	VMA5	H+-transporting ATPase, vacuolar	wodak complexes
+YLR447C	VMA6	H+-transporting ATPase, vacuolar	wodak complexes
+YGR020C	VMA7	H+-transporting ATPase, vacuolar	wodak complexes
+YEL051W	VMA8	H+-transporting ATPase, vacuolar	wodak complexes
+YOR270C	VPH1	H+-transporting ATPase, vacuolar	wodak complexes
+YBR160W	CDC28	Cdc28p/Clb5p complex	wodak complexes
+YPR120C	CLB5	Cdc28p/Clb5p complex	wodak complexes
+YNL221C	POP1	nucleolar ribonuclease P complex	wodak complexes
+YNL282W	POP3	nucleolar ribonuclease P complex	wodak complexes
+YBR257W	POP4	nucleolar ribonuclease P complex	wodak complexes
+YAL033W	POP5	nucleolar ribonuclease P complex	wodak complexes
+YGR030C	POP6	nucleolar ribonuclease P complex	wodak complexes
+YBR167C	POP7	nucleolar ribonuclease P complex	wodak complexes
+YBL018C	POP8	nucleolar ribonuclease P complex	wodak complexes
+YIR015W	RPR2	nucleolar ribonuclease P complex	wodak complexes
+YHR062C	RPP1	nucleolar ribonuclease P complex	wodak complexes
+YLR163C	MAS1	mitochondrial processing peptidase complex	wodak complexes
+YHR024C	MAS2	mitochondrial processing peptidase complex	wodak complexes
+YKR020W	VPS51	GARP complex	wodak complexes
+YDR484W	VPS52	GARP complex	wodak complexes
+YJL029C	VPS53	GARP complex	wodak complexes
+YDR027C	VPS54	GARP complex	wodak complexes
+YGR092W	DBF2	Mob1p/Dbf2p complex	wodak complexes
+YIL106W	MOB1	Mob1p/Dbf2p complex	wodak complexes
+YER173W	RAD24	DNA replication factor C complex (Rad24p)	wodak complexes
+YJR068W	RFC2	DNA replication factor C complex (Rad24p)	wodak complexes
+YNL290W	RFC3	DNA replication factor C complex (Rad24p)	wodak complexes
+YOL094C	RFC4	DNA replication factor C complex (Rad24p)	wodak complexes
+YBR087W	RFC5	DNA replication factor C complex (Rad24p)	wodak complexes
+YNL230C	ELA1	Ela1p/Elc1p complex	wodak complexes
+YPL046C	ELC1	Ela1p/Elc1p complex	wodak complexes
+YPL002C	SNF8	ESCRT II complex	wodak complexes
+YJR102C	VPS25	ESCRT II complex	wodak complexes
+YLR417W	VPS36	ESCRT II complex	wodak complexes
+YGL237C	HAP2	CCAAT-binding factor complex	wodak complexes
+YBL021C	HAP3	CCAAT-binding factor complex	wodak complexes
+YKL109W	HAP4	CCAAT-binding factor complex	wodak complexes
+YOR358W	HAP5	CCAAT-binding factor complex	wodak complexes
+YKR028W	SAP190	Sap190p/Sit4p complex	wodak complexes
+YDL047W	SIT4	Sap190p/Sit4p complex	wodak complexes
+YER159C	BUR6	NC2 complex	wodak complexes
+YDR397C	NCB2	NC2 complex	wodak complexes
+YJL115W	ASF1	Rad53p/Asf1p complex	wodak complexes
+YPL153C	RAD53	Rad53p/Asf1p complex	wodak complexes
+YLR060W	FRS1	Phenylalaninine-tRNA-ligase	wodak complexes
+YFL022C	FRS2	Phenylalaninine-tRNA-ligase	wodak complexes
+YLR246W	ERF2	palmitoyltransferase complex	wodak complexes
+YOL110W	SHR5	palmitoyltransferase complex	wodak complexes
+YGL174W	BUD13	RES complex	wodak complexes
+YLR016C	PML1	RES complex	wodak complexes
+YIR005W	IST3	RES complex	wodak complexes
+YNL221C	POP1	ribonuclease MRP complex	wodak complexes
+YNL282W	POP3	ribonuclease MRP complex	wodak complexes
+YBR257W	POP4	ribonuclease MRP complex	wodak complexes
+YAL033W	POP5	ribonuclease MRP complex	wodak complexes
+YGR030C	POP6	ribonuclease MRP complex	wodak complexes
+YBR167C	POP7	ribonuclease MRP complex	wodak complexes
+YBL018C	POP8	ribonuclease MRP complex	wodak complexes
+YLR145W	RMP1	ribonuclease MRP complex	wodak complexes
+YHR062C	RPP1	ribonuclease MRP complex	wodak complexes
+YDR478W	SNM1	ribonuclease MRP complex	wodak complexes
+YPL121C	MEI5	Mei5p/Sae3p complex	wodak complexes
+YHR079C-A	SAE3	Mei5p/Sae3p complex	wodak complexes
+YDL181W	INH1	mitochondrial ATPase inhibitor complex	wodak complexes
+YDL130W-A	STF1	mitochondrial ATPase inhibitor complex	wodak complexes
+YGR008C	STF2	mitochondrial ATPase inhibitor complex	wodak complexes
+YMR059W	SEN15	tRNA-intron endonuclease complex	wodak complexes
+YLR105C	SEN2	tRNA-intron endonuclease complex	wodak complexes
+YAR008W	SEN34	tRNA-intron endonuclease complex	wodak complexes
+YPL083C	SEN54	tRNA-intron endonuclease complex	wodak complexes
+YDR137W	RGP1	guanyl-nucleotide exchange factor complex	wodak complexes
+YLR039C	RIC1	guanyl-nucleotide exchange factor complex	wodak complexes
+YOR310C	NOP58	box C/D snoRNP complex	wodak complexes
+YDL014W	NOP1	box C/D snoRNP complex	wodak complexes
+YEL026W	SNU13	box C/D snoRNP complex	wodak complexes
+YLR197W	SIK1	box C/D snoRNP complex	wodak complexes
+YPL178W	CBC2	commitment complex	wodak complexes
+YLR116W	MSL5	commitment complex	wodak complexes
+YKL074C	MUD2	commitment complex	wodak complexes
+YMR125W	STO1	commitment complex	wodak complexes
+YER029C	SMB1	commitment complex	wodak complexes
+YGR074W	SMD1	commitment complex	wodak complexes
+YLR275W	SMD2	commitment complex	wodak complexes
+YLR147C	SMD3	commitment complex	wodak complexes
+YOR159C	SME1	commitment complex	wodak complexes
+YFL017W-A	SMX2	commitment complex	wodak complexes
+YPR182W	SMX3	commitment complex	wodak complexes
+YDL087C	LUC7	commitment complex	wodak complexes
+YBR119W	MUD1	commitment complex	wodak complexes
+YHR086W	NAM8	commitment complex	wodak complexes
+YML046W	PRP39	commitment complex	wodak complexes
+YKL012W	PRP40	commitment complex	wodak complexes
+YDR235W	PRP42	commitment complex	wodak complexes
+YIL061C	SNP1	commitment complex	wodak complexes
+YDR240C	SNU56	commitment complex	wodak complexes
+YGR013W	SNU71	commitment complex	wodak complexes
+YLR298C	YHC1	commitment complex	wodak complexes
+YPR144C	NOC4	Noc4p/Nop14p complex	wodak complexes
+YDL148C	NOP14	Noc4p/Nop14p complex	wodak complexes
+YPL049C	DIG1	Dig1p/Ste12p/Dig2p complex	wodak complexes
+YDR480W	DIG2	Dig1p/Ste12p/Dig2p complex	wodak complexes
+YHR084W	STE12	Dig1p/Ste12p/Dig2p complex	wodak complexes
+YBR228W	SLX1	Slx1p/Slx4p complex	wodak complexes
+YLR135W	SLX4	Slx1p/Slx4p complex	wodak complexes
+YBL026W	LSM2	U6 snRNP complex	wodak complexes
+YLR438C-A	LSM3	U6 snRNP complex	wodak complexes
+YER112W	LSM4	U6 snRNP complex	wodak complexes
+YER146W	LSM5	U6 snRNP complex	wodak complexes
+YDR378C	LSM6	U6 snRNP complex	wodak complexes
+YNL147W	LSM7	U6 snRNP complex	wodak complexes
+YJR022W	LSM8	U6 snRNP complex	wodak complexes
+YMR268C	PRP24	U6 snRNP complex	wodak complexes
+YDR075W	PPH3	histone H2A phosphatase complex	wodak complexes
+YNL201C	PSY2	histone H2A phosphatase complex	wodak complexes
+YBL046W	PSY4	histone H2A phosphatase complex	wodak complexes
+YAL010C	MDM10	Mdm12p/Mmm1p/Mdm10p complex	wodak complexes
+YOL009C	MDM12	Mdm12p/Mmm1p/Mdm10p complex	wodak complexes
+YLL006W	MMM1	Mdm12p/Mmm1p/Mdm10p complex	wodak complexes
+YML085C	TUB1	Tubulins	wodak complexes
+YFL037W	TUB2	Tubulins	wodak complexes
+YMR055C	BUB2	Bub2p/Bfa1p complex	wodak complexes
+YJR053W	BFA1	Bub2p/Bfa1p complex	wodak complexes
+YNL102W	POL1	alpha DNA polymerase:primase complex	wodak complexes
+YBL035C	POL12	alpha DNA polymerase:primase complex	wodak complexes
+YIR008C	PRI1	alpha DNA polymerase:primase complex	wodak complexes
+YKL045W	PRI2	alpha DNA polymerase:primase complex	wodak complexes
+YDR301W	CFT1	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YLR115W	CFT2	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YJR093C	FIP1	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YER133W	GLC7	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YKL059C	MPE1	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YKR002W	PAP1	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YNL317W	PFS2	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YAL043C	PTA1	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YGR156W	PTI1	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YDR195W	REF2	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YNL222W	SSU72	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YKL018W	SWD2	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YOR179C	SYC1	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YLR277C	YSH1	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YPR107C	YTH1	mRNA cleavage and polyadenylation specificity factor complex	wodak complexes
+YJR094C	IME1	Ume6p/Ime1p complex	wodak complexes
+YDR207C	UME6	Ume6p/Ime1p complex	wodak complexes
+YDL042C	SIR2	chromatin silencing complex	wodak complexes
+YLR442C	SIR3	chromatin silencing complex	wodak complexes
+YDR227W	SIR4	chromatin silencing complex	wodak complexes
+YHR005C-A	MRS11	mitochondrial intermembrane space protein transporter complex	wodak complexes
+YEL020W-A	TIM9	mitochondrial intermembrane space protein transporter complex	wodak complexes
+YOR026W	BUB3	mitotic checkpoint complex	wodak complexes
+YGL116W	CDC20	mitotic checkpoint complex	wodak complexes
+YJL030W	MAD2	mitotic checkpoint complex	wodak complexes
+YJL013C	MAD3	mitotic checkpoint complex	wodak complexes
+YPL147W	PXA1	Pxa1p/Pxa2p complex	wodak complexes
+YKL188C	PXA2	Pxa1p/Pxa2p complex	wodak complexes
+YDR422C	SIP1	Snf1p/Snf4p/Sip1p complex	wodak complexes
+YDR477W	SNF1	Snf1p/Snf4p/Sip1p complex	wodak complexes
+YGL115W	SNF4	Snf1p/Snf4p/Sip1p complex	wodak complexes
+YOR005C	DNL4	DNA ligase IV	wodak complexes
+YGL090W	LIF1	DNA ligase IV	wodak complexes
+YOR321W	PMT3	Protein O-mannosyltransferase(Pmt3p/Pmt5p)	wodak complexes
+YDL093W	PMT5	Protein O-mannosyltransferase(Pmt3p/Pmt5p)	wodak complexes
+YGR009C	SEC9	SNARE complex	wodak complexes
+YPL232W	SSO1	SNARE complex	wodak complexes
+YAL030W	SNC1	SNARE complex	wodak complexes
+YBR126C	TPS1	alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)	wodak complexes
+YDR074W	TPS2	alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)	wodak complexes
+YMR261C	TPS3	alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)	wodak complexes
+YML100W	TSL1	alpha,alpha-trehalose-phosphate synthase complex (UDP-forming)	wodak complexes
+YFL039C	ACT1	Ino80p complex	wodak complexes
+YJL081C	ARP4	Ino80p complex	wodak complexes
+YNL059C	ARP5	Ino80p complex	wodak complexes
+YOR141C	ARP8	Ino80p complex	wodak complexes
+YFL013C	IES1	Ino80p complex	wodak complexes
+YLR052W	IES3	Ino80p complex	wodak complexes
+YOR189W	IES4	Ino80p complex	wodak complexes
+YGL150C	INO80	Ino80p complex	wodak complexes
+YDL002C	NHP10	Ino80p complex	wodak complexes
+YDR190C	RVB1	Ino80p complex	wodak complexes
+YPL235W	RVB2	Ino80p complex	wodak complexes
+YPL129W	TAF14	Ino80p complex	wodak complexes
+YLL010C	PSR1	Psr1p/Whi2p complex	wodak complexes
+YOR043W	WHI2	Psr1p/Whi2p complex	wodak complexes
+YPL042C	SSN3	Kornberg's mediator (SRB) complex	wodak complexes
+YNL025C	SSN8	Kornberg's mediator (SRB) complex	wodak complexes
+YCR081W	SRB8	Kornberg's mediator (SRB) complex	wodak complexes
+YDR443C	SSN2	Kornberg's mediator (SRB) complex	wodak complexes
+YNR010W	CSE2	Kornberg's mediator (SRB) complex	wodak complexes
+YOL051W	GAL11	Kornberg's mediator (SRB) complex	wodak complexes
+YPR070W	MED1	Kornberg's mediator (SRB) complex	wodak complexes
+YMR112C	MED11	Kornberg's mediator (SRB) complex	wodak complexes
+YDL005C	MED2	Kornberg's mediator (SRB) complex	wodak complexes
+YOR174W	MED4	Kornberg's mediator (SRB) complex	wodak complexes
+YHR058C	MED6	Kornberg's mediator (SRB) complex	wodak complexes
+YOL135C	MED7	Kornberg's mediator (SRB) complex	wodak complexes
+YBR193C	MED8	Kornberg's mediator (SRB) complex	wodak complexes
+YGL151W	NUT1	Kornberg's mediator (SRB) complex	wodak complexes
+YPR168W	NUT2	Kornberg's mediator (SRB) complex	wodak complexes
+YGL025C	PGD1	Kornberg's mediator (SRB) complex	wodak complexes
+YLR071C	RGR1	Kornberg's mediator (SRB) complex	wodak complexes
+YBL093C	ROX3	Kornberg's mediator (SRB) complex	wodak complexes
+YNL236W	SIN4	Kornberg's mediator (SRB) complex	wodak complexes
+YHR041C	SRB2	Kornberg's mediator (SRB) complex	wodak complexes
+YER022W	SRB4	Kornberg's mediator (SRB) complex	wodak complexes
+YGR104C	SRB5	Kornberg's mediator (SRB) complex	wodak complexes
+YBR253W	SRB6	Kornberg's mediator (SRB) complex	wodak complexes
+YDR308C	SRB7	Kornberg's mediator (SRB) complex	wodak complexes
+YGL127C	SOH1	Kornberg's mediator (SRB) complex	wodak complexes
+YER072W	VTC1	VTC heterotetrameric complex	wodak complexes
+YFL004W	VTC2	VTC heterotetrameric complex	wodak complexes
+YPL019C	VTC3	VTC heterotetrameric complex	wodak complexes
+YJL012C	VTC4	VTC heterotetrameric complex	wodak complexes
+YJL002C	OST1	oligosaccharyl transferase complex	wodak complexes
+YOR103C	OST2	oligosaccharyl transferase complex	wodak complexes
+YOR085W	OST3	oligosaccharyl transferase complex	wodak complexes
+YDL232W	OST4	oligosaccharyl transferase complex	wodak complexes
+YGL226C-A	OST5	oligosaccharyl transferase complex	wodak complexes
+YML019W	OST6	oligosaccharyl transferase complex	wodak complexes
+YGL022W	STT3	oligosaccharyl transferase complex	wodak complexes
+YMR149W	SWP1	oligosaccharyl transferase complex	wodak complexes
+YEL002C	WBP1	oligosaccharyl transferase complex	wodak complexes
+YLR226W	BUR2	Sgv1p/Bur2p complex	wodak complexes
+YPR161C	SGV1	Sgv1p/Bur2p complex	wodak complexes
+YHR186C	KOG1	TORC 1 complex	wodak complexes
+YNL006W	LST8	TORC 1 complex	wodak complexes
+YPL180W	TCO89	TORC 1 complex	wodak complexes
+YJR066W	TOR1	TORC 1 complex	wodak complexes
+YPR034W	ARP7	SWI/SNF complex	wodak complexes
+YMR033W	ARP9	SWI/SNF complex	wodak complexes
+YGR275W	RTT102	SWI/SNF complex	wodak complexes
+YDR073W	SNF11	SWI/SNF complex	wodak complexes
+YNR023W	SNF12	SWI/SNF complex	wodak complexes
+YOR290C	SNF2	SWI/SNF complex	wodak complexes
+YBR289W	SNF5	SWI/SNF complex	wodak complexes
+YHL025W	SNF6	SWI/SNF complex	wodak complexes
+YPL016W	SWI1	SWI/SNF complex	wodak complexes
+YJL176C	SWI3	SWI/SNF complex	wodak complexes
+YPL129W	TAF14	SWI/SNF complex	wodak complexes
+YFL049W	SWP82	SWI/SNF complex	wodak complexes
+YDR054C	CDC34	SCF-CDC4 complex	wodak complexes
+YFL009W	CDC4	SCF-CDC4 complex	wodak complexes
+YDL132W	CDC53	SCF-CDC4 complex	wodak complexes
+YOR057W	SGT1	SCF-CDC4 complex	wodak complexes
+YDR328C	SKP1	SCF-CDC4 complex	wodak complexes
+YDL088C	ASM4	karyopherin docking subcomplex of the Nuclear Pore Complex (NPC)	wodak complexes
+YBL079W	NUP170	karyopherin docking subcomplex of the Nuclear Pore Complex (NPC)	wodak complexes
+YMR153W	NUP53	karyopherin docking subcomplex of the Nuclear Pore Complex (NPC)	wodak complexes
+YDL102W	POL3	DNA polymerase delta complex	wodak complexes
+YJR006W	POL31	DNA polymerase delta complex	wodak complexes
+YJR043C	POL32	DNA polymerase delta complex	wodak complexes
+YOL139C	CDC33	eIF4F	wodak complexes
+YKR059W	TIF1	eIF4F	wodak complexes
+YGR162W	TIF4631	eIF4F	wodak complexes
+YDL013W	SLX5	Slx5p/Slx8p complex	wodak complexes
+YER116C	SLX8	Slx5p/Slx8p complex	wodak complexes
+YPR175W	DPB2	DNA polymerase epsilon complex	wodak complexes
+YBR278W	DPB3	DNA polymerase epsilon complex	wodak complexes
+YDR121W	DPB4	DNA polymerase epsilon complex	wodak complexes
+YNL262W	POL2	DNA polymerase epsilon complex	wodak complexes
+YMR012W	CLU1	eIF3	wodak complexes
+YLR192C	HCR1	eIF3	wodak complexes
+YMR309C	NIP1	eIF3	wodak complexes
+YOR361C	PRT1	eIF3	wodak complexes
+YBR079C	RPG1	eIF3	wodak complexes
+YMR146C	TIF34	eIF3	wodak complexes
+YDR429C	TIF35	eIF3	wodak complexes
+YDR252W	BTT1	nascent polypeptide-associated complex	wodak complexes
+YPL037C	EGD1	nascent polypeptide-associated complex	wodak complexes
+YHR193C	EGD2	nascent polypeptide-associated complex	wodak complexes
+YGL094C	PAN2	PAN complex	wodak complexes
+YKL025C	PAN3	PAN complex	wodak complexes
+YKL135C	APL2	AP-1 adaptor complex	wodak complexes
+YPR029C	APL4	AP-1 adaptor complex	wodak complexes
+YPL259C	APM1	AP-1 adaptor complex	wodak complexes
+YHL019C	APM2	AP-1 adaptor complex	wodak complexes
+YLR170C	APS1	AP-1 adaptor complex	wodak complexes
+YMR284W	YKU70	Ku complex	wodak complexes
+YMR106C	YKU80	Ku complex	wodak complexes
+YDR159W	SAC3	Sac3p/Thp1p complex	wodak complexes
+YOL072W	THP1	Sac3p/Thp1p complex	wodak complexes
+YPL248C	GAL4	GAL4p/GAL80p complex	wodak complexes
+YML051W	GAL80	GAL4p/GAL80p complex	wodak complexes
+YIL072W	HOP1	Synaptonemal complex (SC)	wodak complexes
+YLR263W	RED1	Synaptonemal complex (SC)	wodak complexes
+YDR285W	ZIP1	Synaptonemal complex (SC)	wodak complexes
+YGL249W	ZIP2	Synaptonemal complex (SC)	wodak complexes
+YEL053C	MAK10	NatC complex	wodak complexes
+YPR051W	MAK3	NatC complex	wodak complexes
+YCR020C-A	MAK31	NatC complex	wodak complexes
+YMR275C	BUL1	Rsp5p/Bul1 ubiquitin ligase complex	wodak complexes
+YER125W	RSP5	Rsp5p/Bul1 ubiquitin ligase complex	wodak complexes
+YOL149W	DCP1	Decapping Enzyme Complex	wodak complexes
+YNL118C	DCP2	Decapping Enzyme Complex	wodak complexes
+YHR013C	ARD1	NatA complex	wodak complexes
+YDL040C	NAT1	NatA complex	wodak complexes
+YOR253W	NAT5	NatA complex	wodak complexes
+YOR144C	ELG1	DNA replication factor C complex (Elg1p)	wodak complexes
+YJR068W	RFC2	DNA replication factor C complex (Elg1p)	wodak complexes
+YNL290W	RFC3	DNA replication factor C complex (Elg1p)	wodak complexes
+YOL094C	RFC4	DNA replication factor C complex (Elg1p)	wodak complexes
+YBR087W	RFC5	DNA replication factor C complex (Elg1p)	wodak complexes
+YML102W	CAC2	chromatin assembly complex	wodak complexes
+YBR195C	MSI1	chromatin assembly complex	wodak complexes
+YPR018W	RLF2	chromatin assembly complex	wodak complexes
+YGL200C	EMP24	COPII	wodak complexes
+YAR002C-A	ERP1	COPII	wodak complexes
+YAL007C	ERP2	COPII	wodak complexes
+YML012W	ERV25	COPII	wodak complexes
+YAL042W	ERV46	COPII	wodak complexes
+YPL218W	SAR1	COPII	wodak complexes
+YLR208W	SEC13	COPII	wodak complexes
+YPL085W	SEC16	COPII	wodak complexes
+YPR181C	SEC23	COPII	wodak complexes
+YIL109C	SEC24	COPII	wodak complexes
+YDL195W	SEC31	COPII	wodak complexes
+YFL005W	SEC4	Sro1p/Sec4p/Sec9p complex	wodak complexes
+YGR009C	SEC9	Sro1p/Sec4p/Sec9p complex	wodak complexes
+YPR032W	SRO7	Sro1p/Sec4p/Sec9p complex	wodak complexes
+YDL056W	MBP1	MBF complex	wodak complexes
+YLR182W	SWI6	MBF complex	wodak complexes
+YDL132W	CDC53	nuclear ubiquitin ligase complex	wodak complexes
+YJR090C	GRR1	nuclear ubiquitin ligase complex	wodak complexes
+YOL133W	HRT1	nuclear ubiquitin ligase complex	wodak complexes
+YDR328C	SKP1	nuclear ubiquitin ligase complex	wodak complexes
+YBR091C	MRS5	mitochondrial inner membrane protein insertion complex	wodak complexes
+YOR297C	TIM18	mitochondrial inner membrane protein insertion complex	wodak complexes
+YDL217C	TIM22	mitochondrial inner membrane protein insertion complex	wodak complexes
+YJL054W	TIM54	mitochondrial inner membrane protein insertion complex	wodak complexes
+YGL195W	GCN1	Gcn1p/Gcn20p complex	wodak complexes
+YFR009W	GCN20	Gcn1p/Gcn20p complex	wodak complexes
+YJL053W	PEP8	retromer complex	wodak complexes
+YOR132W	VPS17	retromer complex	wodak complexes
+YHR012W	VPS29	retromer complex	wodak complexes
+YJL154C	VPS35	retromer complex	wodak complexes
+YOR069W	VPS5	retromer complex	wodak complexes
+YGL223C	COG1	Golgi transport complex	wodak complexes
+YGR120C	COG2	Golgi transport complex	wodak complexes
+YER157W	COG3	Golgi transport complex	wodak complexes
+YPR105C	COG4	Golgi transport complex	wodak complexes
+YNL051W	COG5	Golgi transport complex	wodak complexes
+YNL041C	COG6	Golgi transport complex	wodak complexes
+YGL005C	COG7	Golgi transport complex	wodak complexes
+YML071C	COG8	Golgi transport complex	wodak complexes
+YGR098C	ESP1	Esp1p/Pds1p complex	wodak complexes
+YDR113C	PDS1	Esp1p/Pds1p complex	wodak complexes
+YGR238C	KEL2	Kel1p/Kel2p/Lte1p complex	wodak complexes
+YHR158C	KEL1	Kel1p/Kel2p/Lte1p complex	wodak complexes
+YAL024C	LTE1	Kel1p/Kel2p/Lte1p complex	wodak complexes
+YBR009C	HHF1	Nucleosomal protein complex	wodak complexes
+YNL030W	HHF2	Nucleosomal protein complex	wodak complexes
+YBR010W	HHT1	Nucleosomal protein complex	wodak complexes
+YNL031C	HHT2	Nucleosomal protein complex	wodak complexes
+YDR225W	HTA1	Nucleosomal protein complex	wodak complexes
+YBL003C	HTA2	Nucleosomal protein complex	wodak complexes
+YDR224C	HTB1	Nucleosomal protein complex	wodak complexes
+YBL002W	HTB2	Nucleosomal protein complex	wodak complexes
+YGL020C	GET1	GET complex	wodak complexes
+YER083C	GET2	GET complex	wodak complexes
+YDL100C	GET3	GET complex	wodak complexes
+YBR160W	CDC28	Cdc28p/Cln2p complex	wodak complexes
+YPL256C	CLN2	Cdc28p/Cln2p complex	wodak complexes
+YJR063W	RPA12	DNA-directed RNA polymerase I complex	wodak complexes
+YPR010C	RPA135	DNA-directed RNA polymerase I complex	wodak complexes
+YDR156W	RPA14	DNA-directed RNA polymerase I complex	wodak complexes
+YOR341W	RPA190	DNA-directed RNA polymerase I complex	wodak complexes
+YJL148W	RPA34	DNA-directed RNA polymerase I complex	wodak complexes
+YOR340C	RPA43	DNA-directed RNA polymerase I complex	wodak complexes
+YNL248C	RPA49	DNA-directed RNA polymerase I complex	wodak complexes
+YOR210W	RPB10	DNA-directed RNA polymerase I complex	wodak complexes
+YBR154C	RPB5	DNA-directed RNA polymerase I complex	wodak complexes
+YOR224C	RPB8	DNA-directed RNA polymerase I complex	wodak complexes
+YHR143W-A	RPC10	DNA-directed RNA polymerase I complex	wodak complexes
+YNL113W	RPC19	DNA-directed RNA polymerase I complex	wodak complexes
+YPR110C	RPC40	DNA-directed RNA polymerase I complex	wodak complexes
+YPR187W	RPO26	DNA-directed RNA polymerase I complex	wodak complexes
+YAL051W	OAF1	OAF complex	wodak complexes
+YOR363C	PIP2	OAF complex	wodak complexes
+YBL099W	ATP1	F0/F1 ATP synthase (complex V)	wodak complexes
+YLR295C	ATP14	F0/F1 ATP synthase (complex V)	wodak complexes
+YPL271W	ATP15	F0/F1 ATP synthase (complex V)	wodak complexes
+YDL004W	ATP16	F0/F1 ATP synthase (complex V)	wodak complexes
+YDR377W	ATP17	F0/F1 ATP synthase (complex V)	wodak complexes
+YML081C-A	ATP18	F0/F1 ATP synthase (complex V)	wodak complexes
+YOL077W-A	ATP19	F0/F1 ATP synthase (complex V)	wodak complexes
+YJR121W	ATP2	F0/F1 ATP synthase (complex V)	wodak complexes
+YPR020W	ATP20	F0/F1 ATP synthase (complex V)	wodak complexes
+YBR039W	ATP3	F0/F1 ATP synthase (complex V)	wodak complexes
+YPL078C	ATP4	F0/F1 ATP synthase (complex V)	wodak complexes
+YDR298C	ATP5	F0/F1 ATP synthase (complex V)	wodak complexes
+Q0085	ATP6	F0/F1 ATP synthase (complex V)	wodak complexes
+YKL016C	ATP7	F0/F1 ATP synthase (complex V)	wodak complexes
+Q0080	ATP8	F0/F1 ATP synthase (complex V)	wodak complexes
+YDL181W	INH1	F0/F1 ATP synthase (complex V)	wodak complexes
+Q0130	OLI1	F0/F1 ATP synthase (complex V)	wodak complexes
+YDR322C-A	TIM11	F0/F1 ATP synthase (complex V)	wodak complexes
+YCR046C	IMG1	mitochondrial ribosomal large subunit	wodak complexes
+YCR071C	IMG2	mitochondrial ribosomal large subunit	wodak complexes
+YGL068W	MNP1	mitochondrial ribosomal large subunit	wodak complexes
+YDR405W	MRP20	mitochondrial ribosomal large subunit	wodak complexes
+YKL167C	MRP49	mitochondrial ribosomal large subunit	wodak complexes
+YNL005C	MRP7	mitochondrial ribosomal large subunit	wodak complexes
+YDR116C	MRPL1	mitochondrial ribosomal large subunit	wodak complexes
+YNL284C	MRPL10	mitochondrial ribosomal large subunit	wodak complexes
+YDL202W	MRPL11	mitochondrial ribosomal large subunit	wodak complexes
+YKR006C	MRPL13	mitochondrial ribosomal large subunit	wodak complexes
+YLR312W-A	MRPL15	mitochondrial ribosomal large subunit	wodak complexes
+YBL038W	MRPL16	mitochondrial ribosomal large subunit	wodak complexes
+YNL252C	MRPL17	mitochondrial ribosomal large subunit	wodak complexes
+YNL185C	MRPL19	mitochondrial ribosomal large subunit	wodak complexes
+YKR085C	MRPL20	mitochondrial ribosomal large subunit	wodak complexes
+YNL177C	MRPL22	mitochondrial ribosomal large subunit	wodak complexes
+YOR150W	MRPL23	mitochondrial ribosomal large subunit	wodak complexes
+YMR193W	MRPL24	mitochondrial ribosomal large subunit	wodak complexes
+YGR076C	MRPL25	mitochondrial ribosomal large subunit	wodak complexes
+YBR282W	MRPL27	mitochondrial ribosomal large subunit	wodak complexes
+YDR462W	MRPL28	mitochondrial ribosomal large subunit	wodak complexes
+YMR024W	MRPL3	mitochondrial ribosomal large subunit	wodak complexes
+YKL138C	MRPL31	mitochondrial ribosomal large subunit	wodak complexes
+YCR003W	MRPL32	mitochondrial ribosomal large subunit	wodak complexes
+YMR286W	MRPL33	mitochondrial ribosomal large subunit	wodak complexes
+YDR322W	MRPL35	mitochondrial ribosomal large subunit	wodak complexes
+YBR122C	MRPL36	mitochondrial ribosomal large subunit	wodak complexes
+YBR268W	MRPL37	mitochondrial ribosomal large subunit	wodak complexes
+YKL170W	MRPL38	mitochondrial ribosomal large subunit	wodak complexes
+YML009C	MRPL39	mitochondrial ribosomal large subunit	wodak complexes
+YLR439W	MRPL4	mitochondrial ribosomal large subunit	wodak complexes
+YPL173W	MRPL40	mitochondrial ribosomal large subunit	wodak complexes
+YMR225C	MRPL44	mitochondrial ribosomal large subunit	wodak complexes
+YJL096W	MRPL49	mitochondrial ribosomal large subunit	wodak complexes
+YNR022C	MRPL50	mitochondrial ribosomal large subunit	wodak complexes
+YPR100W	MRPL51	mitochondrial ribosomal large subunit	wodak complexes
+YHR147C	MRPL6	mitochondrial ribosomal large subunit	wodak complexes
+YDR237W	MRPL7	mitochondrial ribosomal large subunit	wodak complexes
+YJL063C	MRPL8	mitochondrial ribosomal large subunit	wodak complexes
+YGR220C	MRPL9	mitochondrial ribosomal large subunit	wodak complexes
+YEL050C	RML2	mitochondrial ribosomal large subunit	wodak complexes
+YDR115W	YDR115W	mitochondrial ribosomal large subunit	wodak complexes
+YML025C	YML6	mitochondrial ribosomal large subunit	wodak complexes
+YPL183W-A	YPL183W-A	mitochondrial ribosomal large subunit	wodak complexes
+YHR060W	VMA22	ER V-ATPase assembly complex	wodak complexes
+YKL119C	VPH2	ER V-ATPase assembly complex	wodak complexes
+YBR050C	REG2	Reg2p/Glc7p complex	wodak complexes
+YER133W	GLC7	Reg2p/Glc7p complex	wodak complexes
+YER029C	SMB1	U5 snRNP complex	wodak complexes
+YGR074W	SMD1	U5 snRNP complex	wodak complexes
+YLR275W	SMD2	U5 snRNP complex	wodak complexes
+YLR147C	SMD3	U5 snRNP complex	wodak complexes
+YOR159C	SME1	U5 snRNP complex	wodak complexes
+YFL017W-A	SMX2	U5 snRNP complex	wodak complexes
+YPR182W	SMX3	U5 snRNP complex	wodak complexes
+YKL173W	SNU114	U5 snRNP complex	wodak complexes
+YBL074C	AAR2	U5 snRNP complex	wodak complexes
+YER172C	BRR2	U5 snRNP complex	wodak complexes
+YHR165C	PRP8	U5 snRNP complex	wodak complexes
+YDR243C	PRP28	U5 snRNP complex	wodak complexes
+YHR156C	LIN1	U5 snRNP complex	wodak complexes
+YPR082C	DIB1	U5 snRNP complex	wodak complexes
+YCR066W	RAD18	Rad6p/Rad18p complex	wodak complexes
+YGL058W	RAD6	Rad6p/Rad18p complex	wodak complexes
+YGL087C	MMS2	ubiquitin conjugating enzyme complex	wodak complexes
+YDR092W	UBC13	ubiquitin conjugating enzyme complex	wodak complexes
+YCR009C	RVS161	Rvs161p/Rvs167p complex	wodak complexes
+YDR388W	RVS167	Rvs161p/Rvs167p complex	wodak complexes
+YML105C	SEC65	Signal recognition particle (SRP)	wodak complexes
+YDL092W	SRP14	Signal recognition particle (SRP)	wodak complexes
+YKL122C	SRP21	Signal recognition particle (SRP)	wodak complexes
+YPR088C	SRP54	Signal recognition particle (SRP)	wodak complexes
+YPL243W	SRP68	Signal recognition particle (SRP)	wodak complexes
+YPL210C	SRP72	Signal recognition particle (SRP)	wodak complexes
+YMR042W	ARG80	ARGR complex	wodak complexes
+YML099C	ARG81	ARGR complex	wodak complexes
+YDR173C	ARG82	ARGR complex	wodak complexes
+YMR043W	MCM1	ARGR complex	wodak complexes
+YGL033W	HOP2	Hop2p/Mnd1p complex	wodak complexes
+YGL183C	MND1	Hop2p/Mnd1p complex	wodak complexes
+YPL004C	LSP1	Eisosome	wodak complexes
+YGR086C	PIL1	Eisosome	wodak complexes
+YIL142W	CCT2	chaperonin-containing T-complex	wodak complexes
+YJL014W	CCT3	chaperonin-containing T-complex	wodak complexes
+YDL143W	CCT4	chaperonin-containing T-complex	wodak complexes
+YJR064W	CCT5	chaperonin-containing T-complex	wodak complexes
+YDR188W	CCT6	chaperonin-containing T-complex	wodak complexes
+YJL111W	CCT7	chaperonin-containing T-complex	wodak complexes
+YJL008C	CCT8	chaperonin-containing T-complex	wodak complexes
+YDR212W	TCP1	chaperonin-containing T-complex	wodak complexes
+YDR138W	HPR1	THO complex	wodak complexes
+YML062C	MFT1	THO complex	wodak complexes
+YNL139C	RLR1	THO complex	wodak complexes
+YHR167W	THP2	THO complex	wodak complexes
+YDR180W	SCC2	cohesin loading factor complex	wodak complexes
+YER147C	SCC4	cohesin loading factor complex	wodak complexes
+YPL219W	PCL8	Pho85p/Pcl8p complex	wodak complexes
+YPL031C	PHO85	Pho85p/Pcl8p complex	wodak complexes
+YKR054C	DYN1	cytoplasmic dynein complex	wodak complexes
+YDR424C	DYN2	cytoplasmic dynein complex	wodak complexes
+YMR299C	DYN3	cytoplasmic dynein complex	wodak complexes
+YDR488C	PAC11	cytoplasmic dynein complex	wodak complexes
+YGL047W	ALG13	UDP-N-acetylglucosamine transferase complex	wodak complexes
+YBR070C	ALG14	UDP-N-acetylglucosamine transferase complex	wodak complexes
+YLR398C	SKI2	Ski Complex	wodak complexes
+YPR189W	SKI3	Ski Complex	wodak complexes
+YGL213C	SKI8	Ski Complex	wodak complexes
+YPL129W	TAF14	transcription factor TFIIF complex	wodak complexes
+YGR186W	TFG1	transcription factor TFIIF complex	wodak complexes
+YGR005C	TFG2	transcription factor TFIIF complex	wodak complexes
+YJR033C	RAV1	RAVE complex	wodak complexes
+YDR202C	RAV2	RAVE complex	wodak complexes
+YDR328C	SKP1	RAVE complex	wodak complexes
+YPL094C	SEC62	Sec62p/Sec63p complex	wodak complexes
+YOR254C	SEC63	Sec62p/Sec63p complex	wodak complexes
+YBR171W	SEC66	Sec62p/Sec63p complex	wodak complexes
+YLR292C	SEC72	Sec62p/Sec63p complex	wodak complexes
+YGR200C	ELP2	Elongator complex	wodak complexes
+YPL086C	ELP3	Elongator complex	wodak complexes
+YPL101W	ELP4	Elongator complex	wodak complexes
+YMR312W	ELP6	Elongator complex	wodak complexes
+YHR187W	IKI1	Elongator complex	wodak complexes
+YLR384C	IKI3	Elongator complex	wodak complexes
+YJR082C	EAF6	NuA3 histone acetyltransferase complex	wodak complexes
+YBL052C	SAS3	NuA3 histone acetyltransferase complex	wodak complexes
+YPL129W	TAF14	NuA3 histone acetyltransferase complex	wodak complexes
+YOR064C	YNG1	NuA3 histone acetyltransferase complex	wodak complexes
+YPR031W	NTO1	NuA3 histone acetyltransferase complex	wodak complexes
+YBR128C	ATG14	phosphatidylinositol (PtdIns) 3-kinase complex (functions in autophagy)	wodak complexes
+YBR097W	VPS15	phosphatidylinositol (PtdIns) 3-kinase complex (functions in autophagy)	wodak complexes
+YPL120W	VPS30	phosphatidylinositol (PtdIns) 3-kinase complex (functions in autophagy)	wodak complexes
+YLR240W	VPS34	phosphatidylinositol (PtdIns) 3-kinase complex (functions in autophagy)	wodak complexes
+YER025W	GCD11	eIF2	wodak complexes
+YJR007W	SUI2	eIF2	wodak complexes
+YPL237W	SUI3	eIF2	wodak complexes
+YGR181W	TIM13	Tim8p/Tim13p complex	wodak complexes
+YJR135W-A	TIM8	Tim8p/Tim13p complex	wodak complexes
+YOR217W	RFC1	DNA replication factor C complex (Rcf1p)	wodak complexes
+YJR068W	RFC2	DNA replication factor C complex (Rcf1p)	wodak complexes
+YNL290W	RFC3	DNA replication factor C complex (Rcf1p)	wodak complexes
+YOL094C	RFC4	DNA replication factor C complex (Rcf1p)	wodak complexes
+YBR087W	RFC5	DNA replication factor C complex (Rcf1p)	wodak complexes
+YIL125W	KGD1	mitochondrial oxoglutarate dehydrogenase complex	wodak complexes
+YDR148C	KGD2	mitochondrial oxoglutarate dehydrogenase complex	wodak complexes
+YFL018C	LPD1	mitochondrial oxoglutarate dehydrogenase complex	wodak complexes
+YBR211C	AME1	COMA complex	wodak complexes
+YDR254W	CHL4	COMA complex	wodak complexes
+YPL018W	CTF19	COMA complex	wodak complexes
+YBR107C	IML3	COMA complex	wodak complexes
+YDR318W	MCM21	COMA complex	wodak complexes
+YPR046W	MCM16	COMA complex	wodak complexes
+YGR179C	OKP1	COMA complex	wodak complexes
+YOL076W	MDM20	NatB complex	wodak complexes
+YPR131C	NAT3	NatB complex	wodak complexes
+YBR109C	CMD1	SPB components	wodak complexes
+YNL225C	CNM67	SPB components	wodak complexes
+YOR373W	NUD1	SPB components	wodak complexes
+YDR356W	SPC110	SPB components	wodak complexes
+YPL124W	SPC29	SPB components	wodak complexes
+YKL042W	SPC42	SPB components	wodak complexes
+YAL047C	SPC72	SPB components	wodak complexes
+YML029W	USA1	ubiquitin ligase ERAD-L complex	wodak complexes
+YBR201W	DER1	ubiquitin ligase ERAD-L complex	wodak complexes
+YDR057W	YOS9	ubiquitin ligase ERAD-L complex	wodak complexes
+YOL013C	HRD1	ubiquitin ligase ERAD-L complex	wodak complexes
+YLR207W	HRD3	ubiquitin ligase ERAD-L complex	wodak complexes
+YGR206W	MVB12	ESCRT I complex	wodak complexes
+YLR119W	SRN2	ESCRT I complex	wodak complexes
+YCL008C	STP22	ESCRT I complex	wodak complexes
+YPL065W	VPS28	ESCRT I complex	wodak complexes
+YPL001W	HAT1	HAT-B complex	wodak complexes
+YEL056W	HAT2	HAT-B complex	wodak complexes
+YLL022C	HIF1	HAT-B complex	wodak complexes
+YJL005W	CYR1	adenylyl cyclase complex	wodak complexes
+YNL138W	SRV2	adenylyl cyclase complex	wodak complexes
+YDR265W	PEX10	RING finger peroxin complex	wodak complexes
+YMR026C	PEX12	RING finger peroxin complex	wodak complexes
+YJL210W	PEX2	RING finger peroxin complex	wodak complexes
+YMR108W	ILV2	acetolactate synthase complex	wodak complexes
+YCL009C	ILV6	acetolactate synthase complex	wodak complexes
+YGR132C	PHB1	prohibitin complex	wodak complexes
+YGR231C	PHB2	prohibitin complex	wodak complexes
+YHL002W	HSE1	Hse1p/Vps27p complex	wodak complexes
+YNR006W	VPS27	Hse1p/Vps27p complex	wodak complexes
+YGL190C	CDC55	protein phosphatase type 2A complex (Cdc55p)	wodak complexes
+YDL134C	PPH21	protein phosphatase type 2A complex (Cdc55p)	wodak complexes
+YAL016W	TPD3	protein phosphatase type 2A complex (Cdc55p)	wodak complexes
+YOL096C	COQ3	Q-biosynthetic Coq polypeptide complex	wodak complexes
+YDR204W	COQ4	Q-biosynthetic Coq polypeptide complex	wodak complexes
+YBR160W	CDC28	Cdc28p/Clb1p complex	wodak complexes
+YGR108W	CLB1	Cdc28p/Clb1p complex	wodak complexes
+YER172C	BRR2	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YPR082C	DIB1	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YBL026W	LSM2	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YLR438C-A	LSM3	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YER112W	LSM4	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YER146W	LSM5	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YDR378C	LSM6	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YNL147W	LSM7	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YJR022W	LSM8	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YGR006W	PRP18	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YDR473C	PRP3	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YGR091W	PRP31	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YGR075C	PRP38	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YPR178W	PRP4	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YBR055C	PRP6	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YHR165C	PRP8	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YER029C	SMB1	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YGR074W	SMD1	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YLR275W	SMD2	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YLR147C	SMD3	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YOR159C	SME1	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YFL017W-A	SMX2	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YPR182W	SMX3	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YKL173W	SNU114	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YEL026W	SNU13	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YDL098C	SNU23	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YOR308C	SNU66	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YBR152W	SPP381	U4/U6 x U5 tri-snRNP complex	wodak complexes
+YCL044C	MGR1	i-AAA complex	wodak complexes
+YPR024W	YME1	i-AAA complex	wodak complexes
+YOL090W	MSH2	MSH2p/MSH3p complex	wodak complexes
+YCR092C	MSH3	MSH2p/MSH3p complex	wodak complexes
+YFR028C	CDC14	RENT complex	wodak complexes
+YJL076W	NET1	RENT complex	wodak complexes
+YDL042C	SIR2	RENT complex	wodak complexes
+YJL088W	ARG3	Car1p/Arg3p complex	wodak complexes
+YPL111W	CAR1	Car1p/Arg3p complex	wodak complexes
+YJL041W	NSP1	Nsp1p/Nup82p complex	wodak complexes
+YJL061W	NUP82	Nsp1p/Nup82p complex	wodak complexes
+YJL071W	ARG2	Arg2p/Arg5,6p complex	wodak complexes
+YER069W	ARG5,6	Arg2p/Arg5,6p complex	wodak complexes
+YGR063C	SPT4	DSIF complex	wodak complexes
+YML010W	SPT5	DSIF complex	wodak complexes
+YLR342W	FKS1	1,3-beta-glucan synthase complex (Fks1p/Rho1p)	wodak complexes
+YPR165W	RHO1	1,3-beta-glucan synthase complex (Fks1p/Rho1p)	wodak complexes
+YOR207C	RET1	DNA-directed RNA polymerase III complex	wodak complexes
+YOR210W	RPB10	DNA-directed RNA polymerase III complex	wodak complexes
+YBR154C	RPB5	DNA-directed RNA polymerase III complex	wodak complexes
+YOR224C	RPB8	DNA-directed RNA polymerase III complex	wodak complexes
+YHR143W-A	RPC10	DNA-directed RNA polymerase III complex	wodak complexes
+YDR045C	RPC11	DNA-directed RNA polymerase III complex	wodak complexes
+YJL011C	RPC17	DNA-directed RNA polymerase III complex	wodak complexes
+YNL113W	RPC19	DNA-directed RNA polymerase III complex	wodak complexes
+YKL144C	RPC25	DNA-directed RNA polymerase III complex	wodak complexes
+YNL151C	RPC31	DNA-directed RNA polymerase III complex	wodak complexes
+YNR003C	RPC34	DNA-directed RNA polymerase III complex	wodak complexes
+YKR025W	RPC37	DNA-directed RNA polymerase III complex	wodak complexes
+YPR110C	RPC40	DNA-directed RNA polymerase III complex	wodak complexes
+YDL150W	RPC53	DNA-directed RNA polymerase III complex	wodak complexes
+YPR190C	RPC82	DNA-directed RNA polymerase III complex	wodak complexes
+YPR187W	RPO26	DNA-directed RNA polymerase III complex	wodak complexes
+YOR116C	RPO31	DNA-directed RNA polymerase III complex	wodak complexes
+YML069W	POB3	FACT complex	wodak complexes
+YGL207W	SPT16	FACT complex	wodak complexes
+YNL085W	MKT1	Mtk1p/Pbp1p complex	wodak complexes
+YGR178C	PBP1	Mtk1p/Pbp1p complex	wodak complexes
+YGR240C	PFK1	6-phosphofructokinase complex	wodak complexes
+YMR205C	PFK2	6-phosphofructokinase complex	wodak complexes
+YMR078C	CTF18	DNA replication factor C complex (Ctf18p/Ctf8p/dcc1p)	wodak complexes
+YHR191C	CTF8	DNA replication factor C complex (Ctf18p/Ctf8p/dcc1p)	wodak complexes
+YCL016C	DCC1	DNA replication factor C complex (Ctf18p/Ctf8p/dcc1p)	wodak complexes
+YJR068W	RFC2	DNA replication factor C complex (Ctf18p/Ctf8p/dcc1p)	wodak complexes
+YNL290W	RFC3	DNA replication factor C complex (Ctf18p/Ctf8p/dcc1p)	wodak complexes
+YOL094C	RFC4	DNA replication factor C complex (Ctf18p/Ctf8p/dcc1p)	wodak complexes
+YBR087W	RFC5	DNA replication factor C complex (Ctf18p/Ctf8p/dcc1p)	wodak complexes
+YER038C	KRE29	smc5p-Smc6p complex	wodak complexes
+YEL019C	MMS21	smc5p-Smc6p complex	wodak complexes
+YLR007W	NSE1	smc5p-Smc6p complex	wodak complexes
+YDR288W	NSE3	smc5p-Smc6p complex	wodak complexes
+YDL105W	NSE4	smc5p-Smc6p complex	wodak complexes
+YML023C	NSE5	smc5p-Smc6p complex	wodak complexes
+YOL034W	SMC5	smc5p-Smc6p complex	wodak complexes
+YLR383W	SMC6	smc5p-Smc6p complex	wodak complexes
+YER030W	CHZ1	Chz1p/Htz1p/Htb1p complex	wodak complexes
+YDR224C	HTB1	Chz1p/Htz1p/Htb1p complex	wodak complexes
+YOL012C	HTZ1	Chz1p/Htz1p/Htb1p complex	wodak complexes
+YNL039W	BDP1	transcription factor TFIIIB complex	wodak complexes
+YGR246C	BRF1	transcription factor TFIIIB complex	wodak complexes
+YER148W	SPT15	transcription factor TFIIIB complex	wodak complexes
+YNR038W	DBP6	Npa2p-containing subcomplex	wodak complexes
+YOL144W	NOP8	Npa2p-containing subcomplex	wodak complexes
+YLR221C	RSA3	Npa2p-containing subcomplex	wodak complexes
+YKL014C	URB1	Npa2p-containing subcomplex	wodak complexes
+YJR041C	URB2	Npa2p-containing subcomplex	wodak complexes
+Q0105	COB	Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)	wodak complexes
+YBL045C	COR1	Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)	wodak complexes
+YOR065W	CYT1	Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)	wodak complexes
+YHR001W-A	QCR10	Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)	wodak complexes
+YPR191W	QCR2	Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)	wodak complexes
+YFR033C	QCR6	Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)	wodak complexes
+YDR529C	QCR7	Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)	wodak complexes
+YJL166W	QCR8	Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)	wodak complexes
+YGR183C	QCR9	Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)	wodak complexes
+YEL024W	RIP1	Cytochrome bc1 complex (Ubiquinol-cytochrome c reductase complex, complex III)	wodak complexes
+YFR040W	SAP155	Sap155p/Sit4p complex	wodak complexes
+YDL047W	SIT4	Sap155p/Sit4p complex	wodak complexes
+YNL062C	GCD10	Gcd10p/Gcd14p complex	wodak complexes
+YJL125C	GCD14	Gcd10p/Gcd14p complex	wodak complexes
+YHR098C	SFB3	Sfb3p/Sec23p complex	wodak complexes
+YPR181C	SEC23	Sfb3p/Sec23p complex	wodak complexes
+YFR030W	MET10	sulfite reductase complex (NADPH)	wodak complexes
+YJR137C	ECM17	sulfite reductase complex (NADPH)	wodak complexes
+YBL016W	FUS3	STE5-MAPK complex	wodak complexes
+YLR362W	STE11	STE5-MAPK complex	wodak complexes
+YDR103W	STE5	STE5-MAPK complex	wodak complexes
+YDL159W	STE7	STE5-MAPK complex	wodak complexes
+YMR058W	FET3	Permease-Oxidase Complex	wodak complexes
+YER145C	FTR1	Permease-Oxidase Complex	wodak complexes
+YER017C	AFG3	m-AAA complex	wodak complexes
+YMR089C	YTA12	m-AAA complex	wodak complexes
+YKL139W	CTK1	carboxy-terminal domain protein kinase complex	wodak complexes
+YJL006C	CTK2	carboxy-terminal domain protein kinase complex	wodak complexes
+YML112W	CTK3	carboxy-terminal domain protein kinase complex	wodak complexes
+YBR160W	CDC28	Cdc28p/Clb6p complex	wodak complexes
+YGR109C	CLB6	Cdc28p/Clb6p complex	wodak complexes
+YPL050C	MNN9	alpha-1,6-mannosyltransferase complex(Van1p/Mnn9p)	wodak complexes
+YML115C	VAN1	alpha-1,6-mannosyltransferase complex(Van1p/Mnn9p)	wodak complexes
+YDL017W	CDC7	Cdc7p/Dbf4p complex	wodak complexes
+YDR052C	DBF4	Cdc7p/Dbf4p complex	wodak complexes
+YER070W	RNR1	ribonucleoside-diphosphate reductase complex	wodak complexes
+YJL026W	RNR2	ribonucleoside-diphosphate reductase complex	wodak complexes
+YGR180C	RNR4	ribonucleoside-diphosphate reductase complex	wodak complexes
+YGR163W	GTR2	EGO complex	wodak complexes
+YKR007W	MEH1	EGO complex	wodak complexes
+YBR077C	SLM4	EGO complex	wodak complexes
+YHR172W	SPC97	gamma-tubulin complex	wodak complexes
+YNL126W	SPC98	gamma-tubulin complex	wodak complexes
+YLR212C	TUB4	gamma-tubulin complex	wodak complexes
+YNL084C	END3	actin cytoskeleton-regulatory complex, Pan1p/Sla1p/End3p complex	wodak complexes
+YIR006C	PAN1	actin cytoskeleton-regulatory complex, Pan1p/Sla1p/End3p complex	wodak complexes
+YBL007C	SLA1	actin cytoskeleton-regulatory complex, Pan1p/Sla1p/End3p complex	wodak complexes
+YDR221W	GTB1	Rot2p/Gtb1p complex	wodak complexes
+YBR229C	ROT2	Rot2p/Gtb1p complex	wodak complexes
+YMR095C	SNO1	Sno1p/Snz1p complex	wodak complexes
+YMR096W	SNZ1	Sno1p/Snz1p complex	wodak complexes
+YNL233W	BNI4	Bni4p/Glc7p complex	wodak complexes
+YER133W	GLC7	Bni4p/Glc7p complex	wodak complexes
+YMR192W	GYL1	Gyl1p/Gyp5p complex	wodak complexes
+YPL249C	GYP5	Gyl1p/Gyp5p complex	wodak complexes
+YGR134W	CAF130	CCR4-NOT core complex	wodak complexes
+YNL288W	CAF40	CCR4-NOT core complex	wodak complexes
+YAL021C	CCR4	CCR4-NOT core complex	wodak complexes
+YDL165W	CDC36	CCR4-NOT core complex	wodak complexes
+YCR093W	CDC39	CCR4-NOT core complex	wodak complexes
+YER068W	MOT2	CCR4-NOT core complex	wodak complexes
+YIL038C	NOT3	CCR4-NOT core complex	wodak complexes
+YPR072W	NOT5	CCR4-NOT core complex	wodak complexes
+YNR052C	POP2	CCR4-NOT core complex	wodak complexes
+YOR106W	VAM3	Vam3p/Vam7 vacuolar tSNARE complex	wodak complexes
+YGL212W	VAM7	Vam3p/Vam7 vacuolar tSNARE complex	wodak complexes
+YLR088W	GAA1	GPI-anchor transamidase complex	wodak complexes
+YLR459W	GAB1	GPI-anchor transamidase complex	wodak complexes
+YHR188C	GPI16	GPI-anchor transamidase complex	wodak complexes
+YDR434W	GPI17	GPI-anchor transamidase complex	wodak complexes
+YDR331W	GPI8	GPI-anchor transamidase complex	wodak complexes
+YNL037C	IDH1	Isocitrate dehydrogenase	wodak complexes
+YOR136W	IDH2	Isocitrate dehydrogenase	wodak complexes
+YKL182W	FAS1	fatty acid synthase complex	wodak complexes
+YPL231W	FAS2	fatty acid synthase complex	wodak complexes
+YGL155W	CDC43	CAAX-protein geranylgeranyltransferase complex	wodak complexes
+YKL019W	RAM2	CAAX-protein geranylgeranyltransferase complex	wodak complexes
+YMR224C	MRE11	MRX complex	wodak complexes
+YNL250W	RAD50	MRX complex	wodak complexes
+YDR369C	XRS2	MRX complex	wodak complexes
+YCR086W	CSM1	Csm1p/Lrs4p complex	wodak complexes
+YDR439W	LRS4	Csm1p/Lrs4p complex	wodak complexes
+YLL002W	RTT109	Rtt109p/Vps75p complex	wodak complexes
+YNL246W	VPS75	Rtt109p/Vps75p complex	wodak complexes
+Q0115	BI3	Bi3 ribonucleoprotein complex	wodak complexes
+YIR021W	MRS1	Bi3 ribonucleoprotein complex	wodak complexes
+YJL090C	DPB11	Dpb11p/Sld2p complex	wodak complexes
+YKL108W	SLD2	Dpb11p/Sld2p complex	wodak complexes
+YKL185W	ASH1	Rpd3L complex	wodak complexes
+YPL181W	CTI6	Rpd3L complex	wodak complexes
+YAL013W	DEP1	Rpd3L complex	wodak complexes
+YNL097C	PHO23	Rpd3L complex	wodak complexes
+YNL330C	RPD3	Rpd3L complex	wodak complexes
+YBR095C	RXT2	Rpd3L complex	wodak complexes
+YDL076C	RXT3	Rpd3L complex	wodak complexes
+YMR263W	SAP30	Rpd3L complex	wodak complexes
+YIL084C	SDS3	Rpd3L complex	wodak complexes
+YOL004W	SIN3	Rpd3L complex	wodak complexes
+YPL139C	UME1	Rpd3L complex	wodak complexes
+YDR207C	UME6	Rpd3L complex	wodak complexes
+YPL213W	LEA1	U2 snRNP complex	wodak complexes
+YIR009W	MSL1	U2 snRNP complex	wodak complexes
+YML049C	RSE1	U2 snRNP complex	wodak complexes
+YMR288W	HSH155	U2 snRNP complex	wodak complexes
+YIR005W	IST3	U2 snRNP complex	wodak complexes
+YOR319W	HSH49	U2 snRNP complex	wodak complexes
+YDL030W	PRP9	U2 snRNP complex	wodak complexes
+YDL043C	PRP11	U2 snRNP complex	wodak complexes
+YJL203W	PRP21	U2 snRNP complex	wodak complexes
+YMR240C	CUS1	U2 snRNP complex	wodak complexes
+YNL286W	CUS2	U2 snRNP complex	wodak complexes
+YER029C	SMB1	U2 snRNP complex	wodak complexes
+YGR074W	SMD1	U2 snRNP complex	wodak complexes
+YLR275W	SMD2	U2 snRNP complex	wodak complexes
+YLR147C	SMD3	U2 snRNP complex	wodak complexes
+YOR159C	SME1	U2 snRNP complex	wodak complexes
+YFL017W-A	SMX2	U2 snRNP complex	wodak complexes
+YPR182W	SMX3	U2 snRNP complex	wodak complexes
+Q0045	COX1	Cytochrome c oxidase (complex IV)	wodak complexes
+YLR038C	COX12	Cytochrome c oxidase (complex IV)	wodak complexes
+YGL191W	COX13	Cytochrome c oxidase (complex IV)	wodak complexes
+Q0250	COX2	Cytochrome c oxidase (complex IV)	wodak complexes
+Q0275	COX3	Cytochrome c oxidase (complex IV)	wodak complexes
+YGL187C	COX4	Cytochrome c oxidase (complex IV)	wodak complexes
+YNL052W	COX5A	Cytochrome c oxidase (complex IV)	wodak complexes
+YHR051W	COX6	Cytochrome c oxidase (complex IV)	wodak complexes
+YMR256C	COX7	Cytochrome c oxidase (complex IV)	wodak complexes
+YLR395C	COX8	Cytochrome c oxidase (complex IV)	wodak complexes
+YDL067C	COX9	Cytochrome c oxidase (complex IV)	wodak complexes
+YJR005W	APL1	AP-2 adaptor complex	wodak complexes
+YBL037W	APL3	AP-2 adaptor complex	wodak complexes
+YOL062C	APM4	AP-2 adaptor complex	wodak complexes
+YJR058C	APS2	AP-2 adaptor complex	wodak complexes
+YLR418C	CDC73	Cdc73p/Paf1p complex	wodak complexes
+YOL145C	CTR9	Cdc73p/Paf1p complex	wodak complexes
+YDR138W	HPR1	Cdc73p/Paf1p complex	wodak complexes
+YOR123C	LEO1	Cdc73p/Paf1p complex	wodak complexes
+YBR279W	PAF1	Cdc73p/Paf1p complex	wodak complexes
+YGL244W	RTF1	Cdc73p/Paf1p complex	wodak complexes
+YAL021C	CCR4	Cdc73p/Paf1p complex	wodak complexes
+YOL078W	AVO1	TORC 2 complex	wodak complexes
+YMR068W	AVO2	TORC 2 complex	wodak complexes
+YJL058C	BIT61	TORC 2 complex	wodak complexes
+YNL006W	LST8	TORC 2 complex	wodak complexes
+YIL105C	SLM1	TORC 2 complex	wodak complexes
+YNL047C	SLM2	TORC 2 complex	wodak complexes
+YKL203C	TOR2	TORC 2 complex	wodak complexes
+YER093C	TSC11	TORC 2 complex	wodak complexes
+YDR019C	GCV1	glycine cleavage complex	wodak complexes
+YMR189W	GCV2	glycine cleavage complex	wodak complexes
+YAL044C	GCV3	glycine cleavage complex	wodak complexes
+YFL018C	LPD1	glycine cleavage complex	wodak complexes
+YPL075W	GCR1	GCR complex	wodak complexes
+YNL199C	GCR2	GCR complex	wodak complexes
+YIR010W	DSN1	MIND complex	wodak complexes
+YAL034W-A	MTW1	MIND complex	wodak complexes
+YJR112W	NNF1	MIND complex	wodak complexes
+YPL233W	NSL1	MIND complex	wodak complexes
+YAR007C	RFA1	DNA replication factor A complex	wodak complexes
+YNL312W	RFA2	DNA replication factor A complex	wodak complexes
+YJL173C	RFA3	DNA replication factor A complex	wodak complexes
+YOR232W	MGE1	PAM complex	wodak complexes
+YJL104W	PAM16	PAM complex	wodak complexes
+YKR065C	PAM17	PAM complex	wodak complexes
+YLR008C	PAM18	PAM complex	wodak complexes
+YJR045C	SSC1	PAM complex	wodak complexes
+YIL022W	TIM44	PAM complex	wodak complexes
+YKL052C	ASK1	DASH complex	wodak complexes
+YDR016C	DAD1	DASH complex	wodak complexes
+YKR083C	DAD2	DASH complex	wodak complexes
+YBR233W-A	DAD3	DASH complex	wodak complexes
+YDR320C-A	DAD4	DASH complex	wodak complexes
+YGR113W	DAM1	DASH complex	wodak complexes
+YGL061C	DUO1	DASH complex	wodak complexes
+YKL138C-A	HSK3	DASH complex	wodak complexes
+YDR201W	SPC19	DASH complex	wodak complexes
+YKR037C	SPC34	DASH complex	wodak complexes
+YDR255C	RMD5	FBP degradation complex	wodak complexes
+YCL039W	GID7	FBP degradation complex	wodak complexes
+YMR135C	GID8	FBP degradation complex	wodak complexes
+YBR105C	VID24	FBP degradation complex	wodak complexes
+YIL017C	VID28	FBP degradation complex	wodak complexes
+YGL227W	VID30	FBP degradation complex	wodak complexes
+YIL097W	FYV10	FBP degradation complex	wodak complexes
+YDL176W	YDL176W	FBP degradation complex	wodak complexes
+YDR076W	RAD55	other DNA repair complexes	wodak complexes
+YDR004W	RAD57	other DNA repair complexes	wodak complexes
+YDR028C	REG1	Reg1p/Glc7p complex	wodak complexes
+YER133W	GLC7	Reg1p/Glc7p complex	wodak complexes
+YOR303W	CPA1	carbamoyl-phosphate synthase complex	wodak complexes
+YJR109C	CPA2	carbamoyl-phosphate synthase complex	wodak complexes
+YML111W	BUL2	Rsp5p/Bul2 ubiquitin ligase complex	wodak complexes
+YER125W	RSP5	Rsp5p/Bul2 ubiquitin ligase complex	wodak complexes
+Q0120	BI4	Bi4p/Nam2p complex	wodak complexes
+YLR382C	NAM2	Bi4p/Nam2p complex	wodak complexes
+YMR287C	DSS1	degradosome	wodak complexes
+YPL029W	SUV3	degradosome	wodak complexes
+YGR262C	BUD32	EKC/KEOPS protein complex	wodak complexes
+YML036W	CGI121	EKC/KEOPS protein complex	wodak complexes
+YJL184W	GON7	EKC/KEOPS protein complex	wodak complexes
+YKR038C	KAE1	EKC/KEOPS protein complex	wodak complexes
+YKR095W-A	PCC1	EKC/KEOPS protein complex	wodak complexes
+YLR075W	RPL10	cytoplasmic ribosomal large subunit	wodak complexes
+YPR102C	RPL11A	cytoplasmic ribosomal large subunit	wodak complexes
+YGR085C	RPL11B	cytoplasmic ribosomal large subunit	wodak complexes
+YEL054C	RPL12A	cytoplasmic ribosomal large subunit	wodak complexes
+YDR418W	RPL12B	cytoplasmic ribosomal large subunit	wodak complexes
+YDL082W	RPL13A	cytoplasmic ribosomal large subunit	wodak complexes
+YMR142C	RPL13B	cytoplasmic ribosomal large subunit	wodak complexes
+YKL006W	RPL14A	cytoplasmic ribosomal large subunit	wodak complexes
+YHL001W	RPL14B	cytoplasmic ribosomal large subunit	wodak complexes
+YLR029C	RPL15A	cytoplasmic ribosomal large subunit	wodak complexes
+YMR121C	RPL15B	cytoplasmic ribosomal large subunit	wodak complexes
+YIL133C	RPL16A	cytoplasmic ribosomal large subunit	wodak complexes
+YNL069C	RPL16B	cytoplasmic ribosomal large subunit	wodak complexes
+YKL180W	RPL17A	cytoplasmic ribosomal large subunit	wodak complexes
+YJL177W	RPL17B	cytoplasmic ribosomal large subunit	wodak complexes
+YOL120C	RPL18A	cytoplasmic ribosomal large subunit	wodak complexes
+YNL301C	RPL18B	cytoplasmic ribosomal large subunit	wodak complexes
+YBR084C-A	RPL19A	cytoplasmic ribosomal large subunit	wodak complexes
+YBL027W	RPL19B	cytoplasmic ribosomal large subunit	wodak complexes
+YPL220W	RPL1A	cytoplasmic ribosomal large subunit	wodak complexes
+YGL135W	RPL1B	cytoplasmic ribosomal large subunit	wodak complexes
+YMR242C	RPL20A	cytoplasmic ribosomal large subunit	wodak complexes
+YOR312C	RPL20B	cytoplasmic ribosomal large subunit	wodak complexes
+YBR191W	RPL21A	cytoplasmic ribosomal large subunit	wodak complexes
+YPL079W	RPL21B	cytoplasmic ribosomal large subunit	wodak complexes
+YLR061W	RPL22A	cytoplasmic ribosomal large subunit	wodak complexes
+YFL034C-A	RPL22B	cytoplasmic ribosomal large subunit	wodak complexes
+YBL087C	RPL23A	cytoplasmic ribosomal large subunit	wodak complexes
+YER117W	RPL23B	cytoplasmic ribosomal large subunit	wodak complexes
+YGL031C	RPL24A	cytoplasmic ribosomal large subunit	wodak complexes
+YGR148C	RPL24B	cytoplasmic ribosomal large subunit	wodak complexes
+YOL127W	RPL25	cytoplasmic ribosomal large subunit	wodak complexes
+YLR344W	RPL26A	cytoplasmic ribosomal large subunit	wodak complexes
+YGR034W	RPL26B	cytoplasmic ribosomal large subunit	wodak complexes
+YHR010W	RPL27A	cytoplasmic ribosomal large subunit	wodak complexes
+YDR471W	RPL27B	cytoplasmic ribosomal large subunit	wodak complexes
+YGL103W	RPL28	cytoplasmic ribosomal large subunit	wodak complexes
+YFR032C-A	RPL29	cytoplasmic ribosomal large subunit	wodak complexes
+YFR031C-A	RPL2A	cytoplasmic ribosomal large subunit	wodak complexes
+YIL018W	RPL2B	cytoplasmic ribosomal large subunit	wodak complexes
+YOR063W	RPL3	cytoplasmic ribosomal large subunit	wodak complexes
+YGL030W	RPL30	cytoplasmic ribosomal large subunit	wodak complexes
+YDL075W	RPL31A	cytoplasmic ribosomal large subunit	wodak complexes
+YLR406C	RPL31B	cytoplasmic ribosomal large subunit	wodak complexes
+YBL092W	RPL32	cytoplasmic ribosomal large subunit	wodak complexes
+YPL143W	RPL33A	cytoplasmic ribosomal large subunit	wodak complexes
+YOR234C	RPL33B	cytoplasmic ribosomal large subunit	wodak complexes
+YER056C-A	RPL34A	cytoplasmic ribosomal large subunit	wodak complexes
+YIL052C	RPL34B	cytoplasmic ribosomal large subunit	wodak complexes
+YDL191W	RPL35A	cytoplasmic ribosomal large subunit	wodak complexes
+YDL136W	RPL35B	cytoplasmic ribosomal large subunit	wodak complexes
+YMR194W	RPL36A	cytoplasmic ribosomal large subunit	wodak complexes
+YPL249C-A	RPL36B	cytoplasmic ribosomal large subunit	wodak complexes
+YLR185W	RPL37A	cytoplasmic ribosomal large subunit	wodak complexes
+YDR500C	RPL37B	cytoplasmic ribosomal large subunit	wodak complexes
+YLR325C	RPL38	cytoplasmic ribosomal large subunit	wodak complexes
+YJL189W	RPL39	cytoplasmic ribosomal large subunit	wodak complexes
+YIL148W	RPL40A	cytoplasmic ribosomal large subunit	wodak complexes
+YKR094C	RPL40B	cytoplasmic ribosomal large subunit	wodak complexes
+YDL184C	RPL41A	cytoplasmic ribosomal large subunit	wodak complexes
+YDL133C-A	RPL41B	cytoplasmic ribosomal large subunit	wodak complexes
+YNL162W	RPL42A	cytoplasmic ribosomal large subunit	wodak complexes
+YHR141C	RPL42B	cytoplasmic ribosomal large subunit	wodak complexes
+YPR043W	RPL43A	cytoplasmic ribosomal large subunit	wodak complexes
+YJR094W-A	RPL43B	cytoplasmic ribosomal large subunit	wodak complexes
+YBR031W	RPL4A	cytoplasmic ribosomal large subunit	wodak complexes
+YDR012W	RPL4B	cytoplasmic ribosomal large subunit	wodak complexes
+YPL131W	RPL5	cytoplasmic ribosomal large subunit	wodak complexes
+YML073C	RPL6A	cytoplasmic ribosomal large subunit	wodak complexes
+YLR448W	RPL6B	cytoplasmic ribosomal large subunit	wodak complexes
+YGL076C	RPL7A	cytoplasmic ribosomal large subunit	wodak complexes
+YPL198W	RPL7B	cytoplasmic ribosomal large subunit	wodak complexes
+YHL033C	RPL8A	cytoplasmic ribosomal large subunit	wodak complexes
+YLL045C	RPL8B	cytoplasmic ribosomal large subunit	wodak complexes
+YGL147C	RPL9A	cytoplasmic ribosomal large subunit	wodak complexes
+YNL067W	RPL9B	cytoplasmic ribosomal large subunit	wodak complexes
+YLR340W	RPP0	cytoplasmic ribosomal large subunit	wodak complexes
+YDL081C	RPP1A	cytoplasmic ribosomal large subunit	wodak complexes
+YDL130W	RPP1B	cytoplasmic ribosomal large subunit	wodak complexes
+YOL039W	RPP2A	cytoplasmic ribosomal large subunit	wodak complexes
+YDR382W	RPP2B	cytoplasmic ribosomal large subunit	wodak complexes
+YDL207W	GLE1	Nup82 nuclear pore subcomplex	wodak complexes
+YIL115C	NUP159	Nup82 nuclear pore subcomplex	wodak complexes
+YJL061W	NUP82	Nup82 nuclear pore subcomplex	wodak complexes
+YER027C	GAL83	Snf1p/Snf4p/Gal83p complex	wodak complexes
+YDR477W	SNF1	Snf1p/Snf4p/Gal83p complex	wodak complexes
+YGL115W	SNF4	Snf1p/Snf4p/Gal83p complex	wodak complexes
+YBR112C	CYC8	Tup1p/Ssn6p complex	wodak complexes
+YCR084C	TUP1	Tup1p/Ssn6p complex	wodak complexes
+YGR003W	CUL3	Cul3p-RING ubiquitin ligase complex	wodak complexes
+YNL230C	ELA1	Cul3p-RING ubiquitin ligase complex	wodak complexes
+YPL046C	ELC1	Cul3p-RING ubiquitin ligase complex	wodak complexes
+YBR114W	RAD16	Cul3p-RING ubiquitin ligase complex	wodak complexes
+YJR052W	RAD7	Cul3p-RING ubiquitin ligase complex	wodak complexes
+YPR025C	CCL1	transcription factor TFIIH complex	wodak complexes
+YDL108W	KIN28	transcription factor TFIIH complex	wodak complexes
+YDR460W	TFB3	transcription factor TFIIH complex	wodak complexes
+YER171W	RAD3	transcription factor TFIIH complex	wodak complexes
+YLR005W	SSL1	transcription factor TFIIH complex	wodak complexes
+YIL143C	SSL2	transcription factor TFIIH complex	wodak complexes
+YDR311W	TFB1	transcription factor TFIIH complex	wodak complexes
+YPL122C	TFB2	transcription factor TFIIH complex	wodak complexes
+YPR056W	TFB4	transcription factor TFIIH complex	wodak complexes
+YDR079C-A	TFB5	transcription factor TFIIH complex	wodak complexes
+YDR517W	GRH1	Grh1p/Bug1p complex	wodak complexes
+YDL099W	BUG1	Grh1p/Bug1p complex	wodak complexes
+YOR206W	NOC2	Noc2p/Noc3p complex	wodak complexes
+YLR002C	NOC3	Noc2p/Noc3p complex	wodak complexes
+YBR217W	ATG12	Apg12p/Apg5p/Apg16 multimeric complex	wodak complexes
+YMR159C	ATG16	Apg12p/Apg5p/Apg16 multimeric complex	wodak complexes
+YPL149W	ATG5	Apg12p/Apg5p/Apg16 multimeric complex	wodak complexes
+YMR296C	LCB1	serine C-palmitoyltransferase complex	wodak complexes
+YDR062W	LCB2	serine C-palmitoyltransferase complex	wodak complexes
+YER148W	SPT15	transcription factor TFIID complex	wodak complexes
+YGR274C	TAF1	transcription factor TFIID complex	wodak complexes
+YDR167W	TAF10	transcription factor TFIID complex	wodak complexes
+YML015C	TAF11	transcription factor TFIID complex	wodak complexes
+YDR145W	TAF12	transcription factor TFIID complex	wodak complexes
+YML098W	TAF13	transcription factor TFIID complex	wodak complexes
+YPL129W	TAF14	transcription factor TFIID complex	wodak complexes
+YCR042C	TAF2	transcription factor TFIID complex	wodak complexes
+YPL011C	TAF3	transcription factor TFIID complex	wodak complexes
+YMR005W	TAF4	transcription factor TFIID complex	wodak complexes
+YBR198C	TAF5	transcription factor TFIID complex	wodak complexes
+YGL112C	TAF6	transcription factor TFIID complex	wodak complexes
+YMR227C	TAF7	transcription factor TFIID complex	wodak complexes
+YML114C	TAF8	transcription factor TFIID complex	wodak complexes
+YMR236W	TAF9	transcription factor TFIID complex	wodak complexes
+YOL069W	NUF2	Ndc80p complex	wodak complexes
+YMR117C	SPC24	Ndc80p complex	wodak complexes
+YER018C	SPC25	Ndc80p complex	wodak complexes
+YIL144W	TID3	Ndc80p complex	wodak complexes
+YKL189W	HYM1	Hym1p/Kic1p/Sog2p complex	wodak complexes
+YHR102W	KIC1	Hym1p/Kic1p/Sog2p complex	wodak complexes
+YOR353C	SOG2	Hym1p/Kic1p/Sog2p complex	wodak complexes
+YDR060W	MAK21	Noc1p/Noc2p complex	wodak complexes
+YOR206W	NOC2	Noc1p/Noc2p complex	wodak complexes
+YDL201W	TRM8	tRNA Methyltransferase Complex	wodak complexes
+YDR165W	TRM82	tRNA Methyltransferase Complex	wodak complexes
+YEL055C	POL5	UTP A complex	wodak complexes
+YPL126W	NAN1	UTP A complex	wodak complexes
+YDR324C	UTP4	UTP A complex	wodak complexes
+YGR128C	UTP8	UTP A complex	wodak complexes
+YHR196W	UTP9	UTP A complex	wodak complexes
+YJL109C	UTP10	UTP A complex	wodak complexes
+YMR093W	UTP15	UTP A complex	wodak complexes
+YOR346W	REV1	Polzeta-Rev1p complex	wodak complexes
+YPL167C	REV3	Polzeta-Rev1p complex	wodak complexes
+YIL139C	REV7	Polzeta-Rev1p complex	wodak complexes
+YIL026C	IRR1	nuclear cohesin complex	wodak complexes
+YDL003W	MCD1	nuclear cohesin complex	wodak complexes
+YPR007C	REC8	nuclear cohesin complex	wodak complexes
+YFL008W	SMC1	nuclear cohesin complex	wodak complexes
+YJL074C	SMC3	nuclear cohesin complex	wodak complexes
+YAL041W	CDC24	Cdc24p/Far1p/Gbetagamma protein complex	wodak complexes
+YJL157C	FAR1	Cdc24p/Far1p/Gbetagamma protein complex	wodak complexes
+YJR086W	STE18	Cdc24p/Far1p/Gbetagamma protein complex	wodak complexes
+YOR212W	STE4	Cdc24p/Far1p/Gbetagamma protein complex	wodak complexes
+YFL034C-B	MOB2	Mob2p/Cbk1p complex	wodak complexes
+YNL161W	CBK1	Mob2p/Cbk1p complex	wodak complexes
+YBR036C	CSG2	Csh1p/Csg2p complex	wodak complexes
+YBR161W	CSH1	Csh1p/Csg2p complex	wodak complexes
+YMR167W	MLH1	Mlh1p/Pms1p complex	wodak complexes
+YNL082W	PMS1	Mlh1p/Pms1p complex	wodak complexes
+YNL124W	NAF1	Shq1p/Naf1p complex	wodak complexes
+YIL104C	SHQ1	Shq1p/Naf1p complex	wodak complexes
+YJR086W	STE18	heterodimeric G-protein complex	wodak complexes
+YOR212W	STE4	heterodimeric G-protein complex	wodak complexes
+YGL105W	ARC1	methionyl glutamyl tRNA synthetase complex	wodak complexes
+YGL245W	GUS1	methionyl glutamyl tRNA synthetase complex	wodak complexes
+YGR264C	MES1	methionyl glutamyl tRNA synthetase complex	wodak complexes
+YIR022W	SEC11	signal peptidase complex	wodak complexes
+YJR010C-A	SPC1	signal peptidase complex	wodak complexes
+YML055W	SPC2	signal peptidase complex	wodak complexes
+YLR066W	SPC3	signal peptidase complex	wodak complexes
+YNL244C	SUI1	eIF1/eIF1A/40S complex	wodak complexes
+YMR260C	TIF11	eIF1/eIF1A/40S complex	wodak complexes
+YBR160W	CDC28	Cdc28p/Cln1p complex	wodak complexes
+YMR199W	CLN1	Cdc28p/Cln1p complex	wodak complexes
+YNL232W	CSL4	Nuclear exosome complex	wodak complexes
+YOL021C	DIS3	Nuclear exosome complex	wodak complexes
+YHR081W	LRP1	Nuclear exosome complex	wodak complexes
+YGR158C	MTR3	Nuclear exosome complex	wodak complexes
+YHR069C	RRP4	Nuclear exosome complex	wodak complexes
+YOL142W	RRP40	Nuclear exosome complex	wodak complexes
+YDL111C	RRP42	Nuclear exosome complex	wodak complexes
+YCR035C	RRP43	Nuclear exosome complex	wodak complexes
+YDR280W	RRP45	Nuclear exosome complex	wodak complexes
+YGR095C	RRP46	Nuclear exosome complex	wodak complexes
+YOR001W	RRP6	Nuclear exosome complex	wodak complexes
+YGR195W	SKI6	Nuclear exosome complex	wodak complexes
+YGL086W	MAD1	Mad1p/Mad2p complex	wodak complexes
+YJL030W	MAD2	Mad1p/Mad2p complex	wodak complexes
+YMR080C	NAM7	Nonsense-mediated mRNA decay pathway complex	wodak complexes
+YHR077C	NMD2	Nonsense-mediated mRNA decay pathway complex	wodak complexes
+YGR072W	UPF3	Nonsense-mediated mRNA decay pathway complex	wodak complexes
+YNL138W-A	YSF3	SF3b complex	wodak complexes
+YMR240C	CUS1	SF3b complex	wodak complexes
+YMR288W	HSH155	SF3b complex	wodak complexes
+YOR319W	HSH49	SF3b complex	wodak complexes
+YPR094W	RDS3	SF3b complex	wodak complexes
+YML049C	RSE1	SF3b complex	wodak complexes
+YJL209W	CBP1	Cbp1p/Pet309p complex	wodak complexes
+YLR067C	PET309	Cbp1p/Pet309p complex	wodak complexes
+YFL039C	ACT1	NuA4 histone acetyltransferase complex	wodak complexes
+YJL081C	ARP4	NuA4 histone acetyltransferase complex	wodak complexes
+YPR023C	EAF3	NuA4 histone acetyltransferase complex	wodak complexes
+YEL018W	EAF5	NuA4 histone acetyltransferase complex	wodak complexes
+YJR082C	EAF6	NuA4 histone acetyltransferase complex	wodak complexes
+YNL136W	EAF7	NuA4 histone acetyltransferase complex	wodak complexes
+YFL024C	EPL1	NuA4 histone acetyltransferase complex	wodak complexes
+YOR244W	ESA1	NuA4 histone acetyltransferase complex	wodak complexes
+YGR002C	SWC4	NuA4 histone acetyltransferase complex	wodak complexes
+YHR099W	TRA1	NuA4 histone acetyltransferase complex	wodak complexes
+YDR359C	EAF1	NuA4 histone acetyltransferase complex	wodak complexes
+YNL107W	YAF9	NuA4 histone acetyltransferase complex	wodak complexes
+YHR090C	YNG2	NuA4 histone acetyltransferase complex	wodak complexes
+YIL035C	CKA1	protein kinase CK2 complex	wodak complexes
+YOR061W	CKA2	protein kinase CK2 complex	wodak complexes
+YGL019W	CKB1	protein kinase CK2 complex	wodak complexes
+YOR039W	CKB2	protein kinase CK2 complex	wodak complexes
+YMR127C	SAS2	SAS Complex	wodak complexes
+YDR181C	SAS4	SAS Complex	wodak complexes
+YOR213C	SAS5	SAS Complex	wodak complexes
+YJR089W	BIR1	Sli15p/Bir1p complex	wodak complexes
+YBR156C	SLI15	Sli15p/Bir1p complex	wodak complexes
+YDL145C	COP1	COPI	wodak complexes
+YER122C	GLO3	COPI	wodak complexes
+YFR051C	RET2	COPI	wodak complexes
+YPL010W	RET3	COPI	wodak complexes
+YNL287W	SEC21	COPI	wodak complexes
+YDR238C	SEC26	COPI	wodak complexes
+YGL137W	SEC27	COPI	wodak complexes
+YIL076W	SEC28	COPI	wodak complexes
+YGL194C	HOS2	Set3p complex	wodak complexes
+YIL112W	HOS4	Set3p complex	wodak complexes
+YDR155C	CPR1	Set3p complex	wodak complexes
+YOL068C	HST1	Set3p complex	wodak complexes
+YKR029C	SET3	Set3p complex	wodak complexes
+YBR103W	SIF2	Set3p complex	wodak complexes
+YCR033W	SNT1	Set3p complex	wodak complexes
+YPL022W	RAD1	nucleotide-excision repair factor 1 complex	wodak complexes
+YML095C	RAD10	nucleotide-excision repair factor 1 complex	wodak complexes
+YMR201C	RAD14	nucleotide-excision repair factor 1 complex	wodak complexes
+YMR048W	CSM3	Tof1p/Mrc1p/Csm3p complex	wodak complexes
+YCL061C	MRC1	Tof1p/Mrc1p/Csm3p complex	wodak complexes
+YNL273W	TOF1	Tof1p/Mrc1p/Csm3p complex	wodak complexes
+YFL039C	ACT1	Swr1p complex	wodak complexes
+YJL081C	ARP4	Swr1p complex	wodak complexes
+YLR085C	ARP6	Swr1p complex	wodak complexes
+YDR190C	RVB1	Swr1p complex	wodak complexes
+YPL235W	RVB2	Swr1p complex	wodak complexes
+YAL011W	SWC3	Swr1p complex	wodak complexes
+YGR002C	SWC4	Swr1p complex	wodak complexes
+YBR231C	SWC5	Swr1p complex	wodak complexes
+YLR385C	SWC7	Swr1p complex	wodak complexes
+YDR334W	SWR1	Swr1p complex	wodak complexes
+YML041C	VPS71	Swr1p complex	wodak complexes
+YDR485C	VPS72	Swr1p complex	wodak complexes
+YNL107W	YAF9	Swr1p complex	wodak complexes
+YNL172W	APC1	anaphase-promoting complex	wodak complexes
+YDL008W	APC11	anaphase-promoting complex	wodak complexes
+YLR127C	APC2	anaphase-promoting complex	wodak complexes
+YDR118W	APC4	anaphase-promoting complex	wodak complexes
+YOR249C	APC5	anaphase-promoting complex	wodak complexes
+YLR102C	APC9	anaphase-promoting complex	wodak complexes
+YKL022C	CDC16	anaphase-promoting complex	wodak complexes
+YGL116W	CDC20	anaphase-promoting complex	wodak complexes
+YHR166C	CDC23	anaphase-promoting complex	wodak complexes
+YFR036W	CDC26	anaphase-promoting complex	wodak complexes
+YBL084C	CDC27	anaphase-promoting complex	wodak complexes
+YGL003C	CDH1	anaphase-promoting complex	wodak complexes
+YGL240W	DOC1	anaphase-promoting complex	wodak complexes
+YIR025W	MND2	anaphase-promoting complex	wodak complexes
+YDR260C	SWM1	anaphase-promoting complex	wodak complexes
+YKL148C	SDH1	Succinate dehydrogenase complex (complex II)	wodak complexes
+YLL041C	SDH2	Succinate dehydrogenase complex (complex II)	wodak complexes
+YKL141W	SDH3	Succinate dehydrogenase complex (complex II)	wodak complexes
+YDR178W	SDH4	Succinate dehydrogenase complex (complex II)	wodak complexes
+YOL001W	PHO80	Pho85p/Pho80p complex	wodak complexes
+YPL031C	PHO85	Pho85p/Pho80p complex	wodak complexes
+YHR005C	GPA1	heterotrimeric G-protein complex	wodak complexes
+YJR086W	STE18	heterotrimeric G-protein complex	wodak complexes
+YOR212W	STE4	heterotrimeric G-protein complex	wodak complexes
+YIL153W	RRD1	Tap42p/Sit4p/Rrd1p complex	wodak complexes
+YDL047W	SIT4	Tap42p/Sit4p/Rrd1p complex	wodak complexes
+YMR028W	TAP42	Tap42p/Sit4p/Rrd1p complex	wodak complexes
+YGL206C	CHC1	Clathrin	wodak complexes
+YGR167W	CLC1	Clathrin	wodak complexes
+YLR329W	REC102	meiotic recombination initiation complex	wodak complexes
+YHR157W	REC104	meiotic recombination initiation complex	wodak complexes
+YHL022C	SPO11	meiotic recombination initiation complex	wodak complexes
+YAR014C	BUD14	Bud14p/Glc7p complex	wodak complexes
+YER133W	GLC7	Bud14p/Glc7p complex	wodak complexes
+YGL134W	PCL10	Pho85p/Pcl10p complex	wodak complexes
+YPL031C	PHO85	Pho85p/Pcl10p complex	wodak complexes
+YKL028W	TFA1	transcription factor TFIIE complex	wodak complexes
+YKR062W	TFA2	transcription factor TFIIE complex	wodak complexes
+YEL036C	ANP1	alpha-1,6-mannosyltransferase complex(Anp1p/Mnn9p)	wodak complexes
+YJR075W	HOC1	alpha-1,6-mannosyltransferase complex(Anp1p/Mnn9p)	wodak complexes
+YDR245W	MNN10	alpha-1,6-mannosyltransferase complex(Anp1p/Mnn9p)	wodak complexes
+YJL183W	MNN11	alpha-1,6-mannosyltransferase complex(Anp1p/Mnn9p)	wodak complexes
+YPL050C	MNN9	alpha-1,6-mannosyltransferase complex(Anp1p/Mnn9p)	wodak complexes
+YDL090C	RAM1	protein farnesyltransferase complex	wodak complexes
+YKL019W	RAM2	protein farnesyltransferase complex	wodak complexes
+YJL041W	NSP1	Nsp1p complex	wodak complexes
+YFR002W	NIC96	Nsp1p complex	wodak complexes
+YGL172W	NUP49	Nsp1p complex	wodak complexes
+YGR119C	NUP57	Nsp1p complex	wodak complexes
+YPR023C	EAF3	Rpd3S complex	wodak complexes
+YMR075W	RCO1	Rpd3S complex	wodak complexes
+YNL330C	RPD3	Rpd3S complex	wodak complexes
+YOL004W	SIN3	Rpd3S complex	wodak complexes
+YPL139C	UME1	Rpd3S complex	wodak complexes
+YPL167C	REV3	zeta DNA polymerase complex	wodak complexes
+YIL139C	REV7	zeta DNA polymerase complex	wodak complexes
+YLR274W	MCM5	Mcm2-7 complex	wodak complexes
+YBR202W	MCM7	Mcm2-7 complex	wodak complexes
+YPR019W	MCM4	Mcm2-7 complex	wodak complexes
+YBL023C	MCM2	Mcm2-7 complex	wodak complexes
+YEL032W	MCM3	Mcm2-7 complex	wodak complexes
+YGL201C	MCM6	Mcm2-7 complex	wodak complexes
+YML121W	GTR1	GSE Complex	wodak complexes
+YGR163W	GTR2	GSE Complex	wodak complexes
+YKL143W	LTV1	GSE Complex	wodak complexes
+YKR007W	MEH1	GSE Complex	wodak complexes
+YBR077C	SLM4	GSE Complex	wodak complexes
+YBR160W	CDC28	Cdc28p/Clb3p complex	wodak complexes
+YDL155W	CLB3	Cdc28p/Clb3p complex	wodak complexes
+YNL232W	CSL4	Cytoplasmic exosome complex	wodak complexes
+YOL021C	DIS3	Cytoplasmic exosome complex	wodak complexes
+YGR158C	MTR3	Cytoplasmic exosome complex	wodak complexes
+YHR069C	RRP4	Cytoplasmic exosome complex	wodak complexes
+YOL142W	RRP40	Cytoplasmic exosome complex	wodak complexes
+YDL111C	RRP42	Cytoplasmic exosome complex	wodak complexes
+YCR035C	RRP43	Cytoplasmic exosome complex	wodak complexes
+YDR280W	RRP45	Cytoplasmic exosome complex	wodak complexes
+YGR095C	RRP46	Cytoplasmic exosome complex	wodak complexes
+YGR195W	SKI6	Cytoplasmic exosome complex	wodak complexes
+YPR034W	ARP7	RSC complex	wodak complexes
+YMR033W	ARP9	RSC complex	wodak complexes
+YCR020W-B	HTL1	RSC complex	wodak complexes
+YBL006C	LDB7	RSC complex	wodak complexes
+YMR091C	NPL6	RSC complex	wodak complexes
+YGR056W	RSC1	RSC complex	wodak complexes
+YLR357W	RSC2	RSC complex	wodak complexes
+YDR303C	RSC3	RSC complex	wodak complexes
+YHR056C	RSC30	RSC complex	wodak complexes
+YKR008W	RSC4	RSC complex	wodak complexes
+YLR033W	RSC58	RSC complex	wodak complexes
+YCR052W	RSC6	RSC complex	wodak complexes
+YFR037C	RSC8	RSC complex	wodak complexes
+YML127W	RSC9	RSC complex	wodak complexes
+YGR275W	RTT102	RSC complex	wodak complexes
+YLR321C	SFH1	RSC complex	wodak complexes
+YIL126W	STH1	RSC complex	wodak complexes
+YCL031C	RRP7	UTP C complex	wodak complexes
+YGR090W	UTP22	UTP C complex	wodak complexes
+YIL035C	CKA1	UTP C complex	wodak complexes
+YOR061W	CKA2	UTP C complex	wodak complexes
+YGL019W	CKB1	UTP C complex	wodak complexes
+YOR039W	CKB2	UTP C complex	wodak complexes
+YFR044C	DUG1	GSH degradosomal complex	wodak complexes
+YBR281C	DUG2	GSH degradosomal complex	wodak complexes
+YNL191W	DUG3	GSH degradosomal complex	wodak complexes
+YGL246C	RAI1	RNA Degradation Complex	wodak complexes
+YOR048C	RAT1	RNA Degradation Complex	wodak complexes
+YDR289C	RTT103	RNA Degradation Complex	wodak complexes
+YDL126C	CDC48	Cdc48p complex	wodak complexes
+YGR048W	UFD1	Cdc48p complex	wodak complexes
+YBR170C	NPL4	Cdc48p complex	wodak complexes
+YBR160W	CDC28	Cdc28p/Cln3p complex	wodak complexes
+YAL040C	CLN3	Cdc28p/Cln3p complex	wodak complexes
+YPR180W	AOS1	Uba2p/Aos1p complex	wodak complexes
+YDR390C	UBA2	Uba2p/Aos1p complex	wodak complexes
+YGL130W	CEG1	mRNA guanylyl transferase (capping complex)	wodak complexes
+YPL228W	CET1	mRNA guanylyl transferase (capping complex)	wodak complexes
+YDL134C	PPH21	protein phosphatase type 2A complex (Rts1p)	wodak complexes
+YOR014W	RTS1	protein phosphatase type 2A complex (Rts1p)	wodak complexes
+YAL016W	TPD3	protein phosphatase type 2A complex (Rts1p)	wodak complexes
+YEL037C	RAD23	nucleotide-excision repair factor 2 complex	wodak complexes
+YER162C	RAD4	nucleotide-excision repair factor 2 complex	wodak complexes
+Q0045	COX1	Cox14p/Cox1p/Mss51p complex	wodak complexes
+YML129C	COX14	Cox14p/Cox1p/Mss51p complex	wodak complexes
+YLR203C	MSS51	Cox14p/Cox1p/Mss51p complex	wodak complexes
+YLR148W	PEP3	CORVET complex	wodak complexes
+YMR231W	PEP5	CORVET complex	wodak complexes
+YDR495C	VPS3	CORVET complex	wodak complexes
+YPL045W	VPS16	CORVET complex	wodak complexes
+YLR396C	VPS33	CORVET complex	wodak complexes
+YAL002W	VPS8	CORVET complex	wodak complexes
+YDL113C	ATG20	Atg20p/Snx4p/Snx41p complex	wodak complexes
+YJL036W	SNX4	Atg20p/Snx4p/Snx41p complex	wodak complexes
+YDR425W	SNX41	Atg20p/Snx4p/Snx41p complex	wodak complexes
+YER025W	GCD11	multi-eIF complex	wodak complexes
+YMR309C	NIP1	multi-eIF complex	wodak complexes
+YOR361C	PRT1	multi-eIF complex	wodak complexes
+YNL244C	SUI1	multi-eIF complex	wodak complexes
+YJR007W	SUI2	multi-eIF complex	wodak complexes
+YPL237W	SUI3	multi-eIF complex	wodak complexes
+YMR146C	TIF34	multi-eIF complex	wodak complexes
+YPR041W	TIF5	multi-eIF complex	wodak complexes
+YNL153C	GIM3	prefoldin complex	wodak complexes
+YEL003W	GIM4	prefoldin complex	wodak complexes
+YML094W	GIM5	prefoldin complex	wodak complexes
+YGR078C	PAC10	prefoldin complex	wodak complexes
+YJL179W	PFD1	prefoldin complex	wodak complexes
+YLR200W	YKE2	prefoldin complex	wodak complexes
+YPR066W	UBA3	Ula1p/Uba3p complex	wodak complexes
+YPL003W	ULA1	Ula1p/Uba3p complex	wodak complexes
+YKL054C	DEF1	Def1p/Rad26p complex	wodak complexes
+YJR035W	RAD26	Def1p/Rad26p complex	wodak complexes
+YDR448W	ADA2	SAGA complex	wodak complexes
+YER164W	CHD1	SAGA complex	wodak complexes
+YGR252W	GCN5	SAGA complex	wodak complexes
+YPL254W	HFI1	SAGA complex	wodak complexes
+YDR176W	NGG1	SAGA complex	wodak complexes
+YPL047W	SGF11	SAGA complex	wodak complexes
+YCL010C	SGF29	SAGA complex	wodak complexes
+YGL066W	SGF73	SAGA complex	wodak complexes
+YOL148C	SPT20	SAGA complex	wodak complexes
+YDR392W	SPT3	SAGA complex	wodak complexes
+YBR081C	SPT7	SAGA complex	wodak complexes
+YLR055C	SPT8	SAGA complex	wodak complexes
+YBR111W-A	SUS1	SAGA complex	wodak complexes
+YDR167W	TAF10	SAGA complex	wodak complexes
+YDR145W	TAF12	SAGA complex	wodak complexes
+YBR198C	TAF5	SAGA complex	wodak complexes
+YGL112C	TAF6	SAGA complex	wodak complexes
+YMR236W	TAF9	SAGA complex	wodak complexes
+YHR099W	TRA1	SAGA complex	wodak complexes
+YMR223W	UBP8	SAGA complex	wodak complexes
+YBR098W	MMS4	Holliday junction resolvase complex	wodak complexes
+YDR386W	MUS81	Holliday junction resolvase complex	wodak complexes
+YLL036C	PRP19	Prp19-associated complex	wodak complexes
+YMR213W	CEF1	Prp19-associated complex	wodak complexes
+YJR050W	ISY1	Prp19-associated complex	wodak complexes
+YLR117C	CLF1	Prp19-associated complex	wodak complexes
+YDR416W	SYF1	Prp19-associated complex	wodak complexes
+YGR129W	SYF2	Prp19-associated complex	wodak complexes
+YBR188C	NTC20	Prp19-associated complex	wodak complexes
+YPR101W	SNT309	Prp19-associated complex	wodak complexes
+YDL084W	SUB2	transcription export complex	wodak complexes
+YNL253W	TEX1	transcription export complex	wodak complexes
+YDR381W	YRA1	transcription export complex	wodak complexes
+YDR009W	GAL3	GAL3p/GAL80p complex	wodak complexes
+YML051W	GAL80	GAL3p/GAL80p complex	wodak complexes
+YMR150C	IMP1	mitochondrial inner membrane peptidase complex	wodak complexes
+YMR035W	IMP2	mitochondrial inner membrane peptidase complex	wodak complexes
+YEL059C-A	SOM1	mitochondrial inner membrane peptidase complex	wodak complexes
+YEL027W	CUP5	H+-transporting ATPase, Golgi	wodak complexes
+YHR026W	PPA1	H+-transporting ATPase, Golgi	wodak complexes
+YMR054W	STV1	H+-transporting ATPase, Golgi	wodak complexes
+YDL185W	TFP1	H+-transporting ATPase, Golgi	wodak complexes
+YPL234C	TFP3	H+-transporting ATPase, Golgi	wodak complexes
+YHR039C-A	VMA10	H+-transporting ATPase, Golgi	wodak complexes
+YPR036W	VMA13	H+-transporting ATPase, Golgi	wodak complexes
+YBR127C	VMA2	H+-transporting ATPase, Golgi	wodak complexes
+YOR332W	VMA4	H+-transporting ATPase, Golgi	wodak complexes
+YKL080W	VMA5	H+-transporting ATPase, Golgi	wodak complexes
+YLR447C	VMA6	H+-transporting ATPase, Golgi	wodak complexes
+YGR020C	VMA7	H+-transporting ATPase, Golgi	wodak complexes
+YEL051W	VMA8	H+-transporting ATPase, Golgi	wodak complexes
+YGR258C	RAD2	nucleotide-excision repair factor 3 complex	wodak complexes
+YER171W	RAD3	nucleotide-excision repair factor 3 complex	wodak complexes
+YLR005W	SSL1	nucleotide-excision repair factor 3 complex	wodak complexes
+YIL143C	SSL2	nucleotide-excision repair factor 3 complex	wodak complexes
+YDR311W	TFB1	nucleotide-excision repair factor 3 complex	wodak complexes
+YPL122C	TFB2	nucleotide-excision repair factor 3 complex	wodak complexes
+YPR056W	TFB4	nucleotide-excision repair factor 3 complex	wodak complexes
+YER111C	SWI4	SBF complex	wodak complexes
+YLR182W	SWI6	SBF complex	wodak complexes
+YDL192W	ARF1	Chs5p/Arf-1binding proteins (ChAPs)	wodak complexes
+YMR237W	BCH1	Chs5p/Arf-1binding proteins (ChAPs)	wodak complexes
+YKR027W	BCH2	Chs5p/Arf-1binding proteins (ChAPs)	wodak complexes
+YOR299W	BUD7	Chs5p/Arf-1binding proteins (ChAPs)	wodak complexes
+YLR330W	CHS5	Chs5p/Arf-1binding proteins (ChAPs)	wodak complexes
+YJL099W	CHS6	Chs5p/Arf-1binding proteins (ChAPs)	wodak complexes
+YHR064C	SSZ1	Ribosome-associated complex (RAC)	wodak complexes
+YGR285C	ZUO1	Ribosome-associated complex (RAC)	wodak complexes
+YBR160W	CDC28	Cdc28p/Clb4p complex	wodak complexes
+YLR210W	CLB4	Cdc28p/Clb4p complex	wodak complexes
+YPL055C	LGE1	Lge1p/Bre1p complex	wodak complexes
+YDL074C	BRE1	Lge1p/Bre1p complex	wodak complexes
+YBL097W	BRN1	nuclear condensin complex	wodak complexes
+YFR031C	SMC2	nuclear condensin complex	wodak complexes
+YLR086W	SMC4	nuclear condensin complex	wodak complexes
+YDR325W	YCG1	nuclear condensin complex	wodak complexes
+YLR272C	YCS4	nuclear condensin complex	wodak complexes
+YLR238W	FAR10	Far3p/Far7p/Far8p/Far9p/Far10p/Far11p complex	wodak complexes
+YNL127W	FAR11	Far3p/Far7p/Far8p/Far9p/Far10p/Far11p complex	wodak complexes
+YMR052W	FAR3	Far3p/Far7p/Far8p/Far9p/Far10p/Far11p complex	wodak complexes
+YFR008W	FAR7	Far3p/Far7p/Far8p/Far9p/Far10p/Far11p complex	wodak complexes
+YMR029C	FAR8	Far3p/Far7p/Far8p/Far9p/Far10p/Far11p complex	wodak complexes
+YDR200C	VPS64	Far3p/Far7p/Far8p/Far9p/Far10p/Far11p complex	wodak complexes
+YOR317W	FAA1	Fatty Acid Import Complex	wodak complexes
+YMR246W	FAA4	Fatty Acid Import Complex	wodak complexes
+YBR041W	FAT1	Fatty Acid Import Complex	wodak complexes
+YNL015W	PBI2	LMA1 complex	wodak complexes
+YLR043C	TRX1	LMA1 complex	wodak complexes
+YNL099C	OCA1	OCA complex	wodak complexes
+YNL056W	OCA2	OCA complex	wodak complexes
+YNL032W	SIW14	OCA complex	wodak complexes
+YCR095C	YCR095C	OCA complex	wodak complexes
+YHL029C	YHL029C	OCA complex	wodak complexes
+YDR067C	YDR067C	OCA complex	wodak complexes
+YER048W-A	ISD11	Nfs1p/Isd11p complex	wodak complexes
+YCL017C	NFS1	Nfs1p/Isd11p complex	wodak complexes
+YMR167W	MLH1	Mlh1p/Mlh2p complex	wodak complexes
+YLR035C	MLH2	Mlh1p/Mlh2p complex	wodak complexes
+YDR172W	SUP35	translation release factor complex	wodak complexes
+YBR143C	SUP45	translation release factor complex	wodak complexes
+YNL071W	LAT1	mitochondrial pyruvate dehydrogenase complex	wodak complexes
+YFL018C	LPD1	mitochondrial pyruvate dehydrogenase complex	wodak complexes
+YER178W	PDA1	mitochondrial pyruvate dehydrogenase complex	wodak complexes
+YBR221C	PDB1	mitochondrial pyruvate dehydrogenase complex	wodak complexes
+YGR193C	PDX1	mitochondrial pyruvate dehydrogenase complex	wodak complexes
+YIL042C	PKP1	mitochondrial pyruvate dehydrogenase complex	wodak complexes
+YOR090C	PTC5	mitochondrial pyruvate dehydrogenase complex	wodak complexes
+YPL255W	BBP1	Mps2p/Bbp1p complex	wodak complexes
+YGL075C	MPS2	Mps2p/Bbp1p complex	wodak complexes
+YLR457C	NBP1	Mps2p/Bbp1p complex	wodak complexes
+YJL098W	SAP185	Sap185p/Sit4p complex	wodak complexes
+YDL047W	SIT4	Sap185p/Sit4p complex	wodak complexes
+YDR448W	ADA2	SLIK (SAGA-like) complex	wodak complexes
+YER164W	CHD1	SLIK (SAGA-like) complex	wodak complexes
+YGR252W	GCN5	SLIK (SAGA-like) complex	wodak complexes
+YPL254W	HFI1	SLIK (SAGA-like) complex	wodak complexes
+YDR176W	NGG1	SLIK (SAGA-like) complex	wodak complexes
+YGL252C	RTG2	SLIK (SAGA-like) complex	wodak complexes
+YGL066W	SGF73	SLIK (SAGA-like) complex	wodak complexes
+YOL148C	SPT20	SLIK (SAGA-like) complex	wodak complexes
+YDR392W	SPT3	SLIK (SAGA-like) complex	wodak complexes
+YBR081C	SPT7	SLIK (SAGA-like) complex	wodak complexes
+YDR167W	TAF10	SLIK (SAGA-like) complex	wodak complexes
+YDR145W	TAF12	SLIK (SAGA-like) complex	wodak complexes
+YBR198C	TAF5	SLIK (SAGA-like) complex	wodak complexes
+YGL112C	TAF6	SLIK (SAGA-like) complex	wodak complexes
+YMR236W	TAF9	SLIK (SAGA-like) complex	wodak complexes
+YHR099W	TRA1	SLIK (SAGA-like) complex	wodak complexes
+YMR223W	UBP8	SLIK (SAGA-like) complex	wodak complexes
+YOR250C	CLP1	mRNA cleavage factor complex (CFI)	wodak complexes
+YOL123W	HRP1	mRNA cleavage factor complex (CFI)	wodak complexes
+YDR228C	PCF11	mRNA cleavage factor complex (CFI)	wodak complexes
+YMR061W	RNA14	mRNA cleavage factor complex (CFI)	wodak complexes
+YGL044C	RNA15	mRNA cleavage factor complex (CFI)	wodak complexes
+YBR160W	CDC28	Cdc28p/Clb2p complex	wodak complexes
+YPR119W	CLB2	Cdc28p/Clb2p complex	wodak complexes
+YLR191W	PEX13	peroxin docking complex	wodak complexes
+YGL153W	PEX14	peroxin docking complex	wodak complexes
+YNL214W	PEX17	peroxin docking complex	wodak complexes
+YOR142W	LSC1	Succinyl-CoA ligase	wodak complexes
+YGR244C	LSC2	Succinyl-CoA ligase	wodak complexes
+YFL041W	FET5	Fth1p/Fet5p complex	wodak complexes
+YBR207W	FTH1	Fth1p/Fet5p complex	wodak complexes
+YIR017C	MET28	Met4p/Met28p/Met32p complex	wodak complexes
+YDR253C	MET32	Met4p/Met28p/Met32p complex	wodak complexes
+YNL103W	MET4	Met4p/Met28p/Met32p complex	wodak complexes
+YPL169C	MEX67	Mtr2p/Mex67p complex	wodak complexes
+YKL186C	MTR2	Mtr2p/Mex67p complex	wodak complexes
+YFR013W	IOC3	ISW1a complex	wodak complexes
+YBR245C	ISW1	ISW1a complex	wodak complexes
+YOR194C	TOA1	transcription factor TFIIA complex	wodak complexes
+YKL058W	TOA2	transcription factor TFIIA complex	wodak complexes
+YPL082C	MOT1	Mot1p complex	wodak complexes
+YER148W	SPT15	Mot1p complex	wodak complexes
+YMR116C	ASC1	cytoplasmic ribosomal small subunit	wodak complexes
+YGR214W	RPS0A	cytoplasmic ribosomal small subunit	wodak complexes
+YLR048W	RPS0B	cytoplasmic ribosomal small subunit	wodak complexes
+YOR293W	RPS10A	cytoplasmic ribosomal small subunit	wodak complexes
+YMR230W	RPS10B	cytoplasmic ribosomal small subunit	wodak complexes
+YDR025W	RPS11A	cytoplasmic ribosomal small subunit	wodak complexes
+YBR048W	RPS11B	cytoplasmic ribosomal small subunit	wodak complexes
+YOR369C	RPS12	cytoplasmic ribosomal small subunit	wodak complexes
+YDR064W	RPS13	cytoplasmic ribosomal small subunit	wodak complexes
+YCR031C	RPS14A	cytoplasmic ribosomal small subunit	wodak complexes
+YJL191W	RPS14B	cytoplasmic ribosomal small subunit	wodak complexes
+YOL040C	RPS15	cytoplasmic ribosomal small subunit	wodak complexes
+YMR143W	RPS16A	cytoplasmic ribosomal small subunit	wodak complexes
+YDL083C	RPS16B	cytoplasmic ribosomal small subunit	wodak complexes
+YML024W	RPS17A	cytoplasmic ribosomal small subunit	wodak complexes
+YDR447C	RPS17B	cytoplasmic ribosomal small subunit	wodak complexes
+YDR450W	RPS18A	cytoplasmic ribosomal small subunit	wodak complexes
+YML026C	RPS18B	cytoplasmic ribosomal small subunit	wodak complexes
+YOL121C	RPS19A	cytoplasmic ribosomal small subunit	wodak complexes
+YNL302C	RPS19B	cytoplasmic ribosomal small subunit	wodak complexes
+YLR441C	RPS1A	cytoplasmic ribosomal small subunit	wodak complexes
+YML063W	RPS1B	cytoplasmic ribosomal small subunit	wodak complexes
+YGL123W	RPS2	cytoplasmic ribosomal small subunit	wodak complexes
+YHL015W	RPS20	cytoplasmic ribosomal small subunit	wodak complexes
+YKR057W	RPS21A	cytoplasmic ribosomal small subunit	wodak complexes
+YJL136C	RPS21B	cytoplasmic ribosomal small subunit	wodak complexes
+YJL190C	RPS22A	cytoplasmic ribosomal small subunit	wodak complexes
+YLR367W	RPS22B	cytoplasmic ribosomal small subunit	wodak complexes
+YGR118W	RPS23A	cytoplasmic ribosomal small subunit	wodak complexes
+YPR132W	RPS23B	cytoplasmic ribosomal small subunit	wodak complexes
+YER074W	RPS24A	cytoplasmic ribosomal small subunit	wodak complexes
+YIL069C	RPS24B	cytoplasmic ribosomal small subunit	wodak complexes
+YGR027C	RPS25A	cytoplasmic ribosomal small subunit	wodak complexes
+YLR333C	RPS25B	cytoplasmic ribosomal small subunit	wodak complexes
+YGL189C	RPS26A	cytoplasmic ribosomal small subunit	wodak complexes
+YER131W	RPS26B	cytoplasmic ribosomal small subunit	wodak complexes
+YKL156W	RPS27A	cytoplasmic ribosomal small subunit	wodak complexes
+YHR021C	RPS27B	cytoplasmic ribosomal small subunit	wodak complexes
+YOR167C	RPS28A	cytoplasmic ribosomal small subunit	wodak complexes
+YLR264W	RPS28B	cytoplasmic ribosomal small subunit	wodak complexes
+YLR388W	RPS29A	cytoplasmic ribosomal small subunit	wodak complexes
+YDL061C	RPS29B	cytoplasmic ribosomal small subunit	wodak complexes
+YNL178W	RPS3	cytoplasmic ribosomal small subunit	wodak complexes
+YLR287C-A	RPS30A	cytoplasmic ribosomal small subunit	wodak complexes
+YOR182C	RPS30B	cytoplasmic ribosomal small subunit	wodak complexes
+YLR167W	RPS31	cytoplasmic ribosomal small subunit	wodak complexes
+YJR145C	RPS4A	cytoplasmic ribosomal small subunit	wodak complexes
+YHR203C	RPS4B	cytoplasmic ribosomal small subunit	wodak complexes
+YJR123W	RPS5	cytoplasmic ribosomal small subunit	wodak complexes
+YPL090C	RPS6A	cytoplasmic ribosomal small subunit	wodak complexes
+YBR181C	RPS6B	cytoplasmic ribosomal small subunit	wodak complexes
+YOR096W	RPS7A	cytoplasmic ribosomal small subunit	wodak complexes
+YNL096C	RPS7B	cytoplasmic ribosomal small subunit	wodak complexes
+YBL072C	RPS8A	cytoplasmic ribosomal small subunit	wodak complexes
+YER102W	RPS8B	cytoplasmic ribosomal small subunit	wodak complexes
+YPL081W	RPS9A	cytoplasmic ribosomal small subunit	wodak complexes
+YBR189W	RPS9B	cytoplasmic ribosomal small subunit	wodak complexes
+YOL067C	RTG1	Rtg1p/Rtg3p complex	wodak complexes
+YBL103C	RTG3	Rtg1p/Rtg3p complex	wodak complexes
+YPL096C-A	ERI1	glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex	wodak complexes
+YGR216C	GPI1	glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex	wodak complexes
+YNL038W	GPI15	glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex	wodak complexes
+YDR437W	GPI19	glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex	wodak complexes
+YPL076W	GPI2	glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex	wodak complexes
+YPL175W	SPT14	glycosylphosphatidylinositol-N-acetylglucosaminyltransferase (GPI-GnT) complex	wodak complexes
+YBR097W	VPS15	phosphatidylinositol (PtdIns) 3-kinase complex (functions in CPY sorting)	wodak complexes
+YPL120W	VPS30	phosphatidylinositol (PtdIns) 3-kinase complex (functions in CPY sorting)	wodak complexes
+YLR240W	VPS34	phosphatidylinositol (PtdIns) 3-kinase complex (functions in CPY sorting)	wodak complexes
+YLR360W	VPS38	phosphatidylinositol (PtdIns) 3-kinase complex (functions in CPY sorting)	wodak complexes
+YDR123C	INO2	Ino2p/Ino4p basic helix-loop-helix heteromeric complex	wodak complexes
+YOL108C	INO4	Ino2p/Ino4p basic helix-loop-helix heteromeric complex	wodak complexes
+YER087C-B	SBH1	Sec61p translocon complex	wodak complexes
+YLR378C	SEC61	Sec61p translocon complex	wodak complexes
+YDR086C	SSS1	Sec61p translocon complex	wodak complexes
+YNR051C	BRE5	Ubp3p/Bre5p complex	wodak complexes
+YER151C	UBP3	Ubp3p/Bre5p complex	wodak complexes
+YDL095W	PMT1	Protein O-mannosyltransferase(Pmt1p/Pmt2p)	wodak complexes
+YAL023C	PMT2	Protein O-mannosyltransferase(Pmt1p/Pmt2p)	wodak complexes
+YKL002W	DID4	ESCRT III complex	wodak complexes
+YLR025W	SNF7	ESCRT III complex	wodak complexes
+YMR077C	VPS20	ESCRT III complex	wodak complexes
+YKL041W	VPS24	ESCRT III complex	wodak complexes
+YBR179C	FZO1	Mgm1p/Ugo1p/Fzo1p complex	wodak complexes
+YOR211C	MGM1	Mgm1p/Ugo1p/Fzo1p complex	wodak complexes
+YDR470C	UGO1	Mgm1p/Ugo1p/Fzo1p complex	wodak complexes
+YML067C	ERV41	Erv41p/Erv46p complex	wodak complexes
+YAL042W	ERV46	Erv41p/Erv46p complex	wodak complexes
+YLR095C	IOC2	ISW1b complex	wodak complexes
+YMR044W	IOC4	ISW1b complex	wodak complexes
+YBR245C	ISW1	ISW1b complex	wodak complexes
+YLR148W	PEP3	HOPS complex	wodak complexes
+YMR231W	PEP5	HOPS complex	wodak complexes
+YDL077C	VAM6	HOPS complex	wodak complexes
+YPL045W	VPS16	HOPS complex	wodak complexes
+YLR396C	VPS33	HOPS complex	wodak complexes
+YDR080W	VPS41	HOPS complex	wodak complexes
+YGR032W	GSC2	1,3-beta-glucan synthase complex (Gsc2p/Smk1p)	wodak complexes
+YPR054W	SMK1	1,3-beta-glucan synthase complex (Gsc2p/Smk1p)	wodak complexes
+YNL325C	FIG4	Fig4p/Vac14p complex	wodak complexes
+YLR386W	VAC14	Fig4p/Vac14p complex	wodak complexes
+YDR363W-A	SEM1	19/22S regulator	wodak complexes
+YHL030W	ECM29	19/22S regulator	wodak complexes
+YFR010W	UBP6	19/22S regulator	wodak complexes
+YGR232W	NAS6	19/22S regulator	wodak complexes
+YHR027C	RPN1	19/22S regulator	wodak complexes
+YHR200W	RPN10	19/22S regulator	wodak complexes
+YFR004W	RPN11	19/22S regulator	wodak complexes
+YFR052W	RPN12	19/22S regulator	wodak complexes
+YLR421C	RPN13	19/22S regulator	wodak complexes
+YIL075C	RPN2	19/22S regulator	wodak complexes
+YER021W	RPN3	19/22S regulator	wodak complexes
+YDL147W	RPN5	19/22S regulator	wodak complexes
+YDL097C	RPN6	19/22S regulator	wodak complexes
+YPR108W	RPN7	19/22S regulator	wodak complexes
+YOR261C	RPN8	19/22S regulator	wodak complexes
+YDR427W	RPN9	19/22S regulator	wodak complexes
+YKL145W	RPT1	19/22S regulator	wodak complexes
+YDL007W	RPT2	19/22S regulator	wodak complexes
+YDR394W	RPT3	19/22S regulator	wodak complexes
+YOR259C	RPT4	19/22S regulator	wodak complexes
+YOR117W	RPT5	19/22S regulator	wodak complexes
+YGL048C	RPT6	19/22S regulator	wodak complexes
+YMR038C	CCS1	Sod1p/Ccs1p complex	wodak complexes
+YJR104C	SOD1	Sod1p/Ccs1p complex	wodak complexes
+YKL193C	SDS22	Sds22p/Glc7p complex	wodak complexes
+YER133W	GLC7	Sds22p/Glc7p complex	wodak complexes
+YLR229C	CDC42	Cdc42p/Ste20p complex	wodak complexes
+YHL007C	STE20	Cdc42p/Ste20p complex	wodak complexes
+YPL024W	RMI1	RecQ helicase-Topo III complex	wodak complexes
+YMR190C	SGS1	RecQ helicase-Topo III complex	wodak complexes
+YLR234W	TOP3	RecQ helicase-Topo III complex	wodak complexes
+YNL289W	PCL1	Pho85p/Pcl1p complex	wodak complexes
+YPL031C	PHO85	Pho85p/Pcl1p complex	wodak complexes
+YGL208W	SIP2	Snf1p/Snf4p/Sip2p complex	wodak complexes
+YDR477W	SNF1	Snf1p/Snf4p/Sip2p complex	wodak complexes
+YGL115W	SNF4	Snf1p/Snf4p/Sip2p complex	wodak complexes
+YLR319C	BUD6	polarisome complex	wodak complexes
+YER149C	PEA2	polarisome complex	wodak complexes
+YLL021W	SPA2	polarisome complex	wodak complexes
+YPR176C	BET2	Geranylgeranyltransferase II (GGTase II)	wodak complexes
+YJL031C	BET4	Geranylgeranyltransferase II (GGTase II)	wodak complexes
+YBL025W	RRN10	RNA polymerase I upstream activating factor complex	wodak complexes
+YLR141W	RRN5	RNA polymerase I upstream activating factor complex	wodak complexes
+YMR270C	RRN9	RNA polymerase I upstream activating factor complex	wodak complexes
+YOR295W	UAF30	RNA polymerase I upstream activating factor complex	wodak complexes
+YBR010W	HHT1	RNA polymerase I upstream activating factor complex	wodak complexes
+YBR009C	HHF1	RNA polymerase I upstream activating factor complex	wodak complexes
+YPL195W	APL5	AP-3 adaptor complex	wodak complexes
+YGR261C	APL6	AP-3 adaptor complex	wodak complexes
+YBR288C	APM3	AP-3 adaptor complex	wodak complexes
+YJL024C	APS3	AP-3 adaptor complex	wodak complexes
+YGR082W	TOM20	mitochondrial outer membrane translocase complex	wodak complexes
+YNL131W	TOM22	mitochondrial outer membrane translocase complex	wodak complexes
+YMR203W	TOM40	mitochondrial outer membrane translocase complex	wodak complexes
+YPR133W-A	TOM5	mitochondrial outer membrane translocase complex	wodak complexes
+YOR045W	TOM6	mitochondrial outer membrane translocase complex	wodak complexes
+YNL070W	TOM7	mitochondrial outer membrane translocase complex	wodak complexes
+YNL121C	TOM70	mitochondrial outer membrane translocase complex	wodak complexes
+YLR015W	BRE2	COMPASS complex	wodak complexes
+YDR469W	SDC1	COMPASS complex	wodak complexes
+YHR119W	SET1	COMPASS complex	wodak complexes
+YBR258C	SHG1	COMPASS complex	wodak complexes
+YPL138C	SPP1	COMPASS complex	wodak complexes
+YAR003W	SWD1	COMPASS complex	wodak complexes
+YKL018W	SWD2	COMPASS complex	wodak complexes
+YBR175W	SWD3	COMPASS complex	wodak complexes
+YDR292C	SRP101	signal recognition particle receptor complex	wodak complexes
+YKL154W	SRP102	signal recognition particle receptor complex	wodak complexes
+YLR129W	DIP2	UTP B complex	wodak complexes
+YCR057C	PWP2	UTP B complex	wodak complexes
+YDR449C	UTP6	UTP B complex	wodak complexes
+YLR222C	UTP13	UTP B complex	wodak complexes
+YJL069C	UTP18	UTP B complex	wodak complexes
+YLR409C	UTP21	UTP B complex	wodak complexes
+YER090W	TRP2	anthranilate synthase complex	wodak complexes
+YKL211C	TRP3	anthranilate synthase complex	wodak complexes
+YLR381W	CTF3	Ctf3p protein complex	wodak complexes
+YPR046W	MCM16	Ctf3p protein complex	wodak complexes
+YJR135C	MCM22	Ctf3p protein complex	wodak complexes
+YOL068C	HST1	Sum1p/Rfm1p/Hst1p complex	wodak complexes
+YOR279C	RFM1	Sum1p/Rfm1p/Hst1p complex	wodak complexes
+YDR310C	SUM1	Sum1p/Rfm1p/Hst1p complex	wodak complexes
+YLR424W	SPP382	Ntr1p/Ntr2p/Prp43p complex	wodak complexes
+YKR022C	NTR2	Ntr1p/Ntr2p/Prp43p complex	wodak complexes
+YGL120C	PRP43	Ntr1p/Ntr2p/Prp43p complex	wodak complexes
+YHR085W	IPI1	Rix1p complex	wodak complexes
+YNL182C	IPI3	Rix1p complex	wodak complexes
+YHR197W	RIX1	Rix1p complex	wodak complexes
+YML043C	RRN11	RNA polymerase I transcription factor complex	wodak complexes
+YBL014C	RRN6	RNA polymerase I transcription factor complex	wodak complexes
+YJL025W	RRN7	RNA polymerase I transcription factor complex	wodak complexes
+YNR017W	TIM23	mitochondrial inner membrane presequence translocase complex	wodak complexes
+YJL104W	PAM16	mitochondrial inner membrane presequence translocase complex	wodak complexes
+YLR008C	PAM18	mitochondrial inner membrane presequence translocase complex	wodak complexes
+YJL143W	TIM17	mitochondrial inner membrane presequence translocase complex	wodak complexes
+YGR033C	TIM21	mitochondrial inner membrane presequence translocase complex	wodak complexes
+YPL063W	TIM50	mitochondrial inner membrane presequence translocase complex	wodak complexes
+YER029C	SMB1	U1 snRNP complex	wodak complexes
+YGR074W	SMD1	U1 snRNP complex	wodak complexes
+YLR275W	SMD2	U1 snRNP complex	wodak complexes
+YLR147C	SMD3	U1 snRNP complex	wodak complexes
+YOR159C	SME1	U1 snRNP complex	wodak complexes
+YFL017W-A	SMX2	U1 snRNP complex	wodak complexes
+YPR182W	SMX3	U1 snRNP complex	wodak complexes
+YDL087C	LUC7	U1 snRNP complex	wodak complexes
+YBR119W	MUD1	U1 snRNP complex	wodak complexes
+YHR086W	NAM8	U1 snRNP complex	wodak complexes
+YML046W	PRP39	U1 snRNP complex	wodak complexes
+YKL012W	PRP40	U1 snRNP complex	wodak complexes
+YDR235W	PRP42	U1 snRNP complex	wodak complexes
+YIL061C	SNP1	U1 snRNP complex	wodak complexes
+YDR240C	SNU56	U1 snRNP complex	wodak complexes
+YGR013W	SNU71	U1 snRNP complex	wodak complexes
+YLR298C	YHC1	U1 snRNP complex	wodak complexes
+YHR129C	ARP1	dynactin complex	wodak complexes
+YDR106W	ARP10	dynactin complex	wodak complexes
+YMR294W	JNM1	dynactin complex	wodak complexes
+YPL174C	NIP100	dynactin complex	wodak complexes
+YPL209C	IPL1	Aurora B-INCENP protein kinase complex	wodak complexes
+YBR156C	SLI15	Aurora B-INCENP protein kinase complex	wodak complexes
+YMR025W	CSI1	signalosome complex	wodak complexes
+YJR084W	CSN12	signalosome complex	wodak complexes
+YDR179C	CSN9	signalosome complex	wodak complexes
+YIL071C	PCI8	signalosome complex	wodak complexes
+YDL216C	RRI1	signalosome complex	wodak complexes
+YOL117W	RRI2	signalosome complex	wodak complexes
+YPL096W	PNG1	Png1p/Rad23p complex	wodak complexes
+YEL037C	RAD23	Png1p/Rad23p complex	wodak complexes
+YGR140W	CBF2	CBF3 complex	wodak complexes
+YMR168C	CEP3	CBF3 complex	wodak complexes
+YMR094W	CTF13	CBF3 complex	wodak complexes
+YDR328C	SKP1	CBF3 complex	wodak complexes
+YHR195W	NVJ1	Swh1p/Nvj1p complex	wodak complexes
+YAR042W	SWH1	Swh1p/Nvj1p complex	wodak complexes
+YMR186W	HSC82	HMC Complex	wodak complexes
+YCL037C	SRO9	HMC Complex	wodak complexes
+YBL075C	SSA3	HMC Complex	wodak complexes
+YNL064C	YDJ1	HMC Complex	wodak complexes
+YIL079C	AIR1	TRAMP complex (Air1p)	wodak complexes
+YJL050W	MTR4	TRAMP complex (Air1p)	wodak complexes
+YOL115W	PAP2	TRAMP complex (Air1p)	wodak complexes
+YML057W	CMP2	calcineurin complex	wodak complexes
+YLR433C	CNA1	calcineurin complex	wodak complexes
+YKL190W	CNB1	calcineurin complex	wodak complexes
+YOR178C	GAC1	Gac1p/Glc7p complex	wodak complexes
+YER133W	GLC7	Gac1p/Glc7p complex	wodak complexes
+YDL127W	PCL2	Pho85p/Pcl2p complex	wodak complexes
+YPL031C	PHO85	Pho85p/Pcl2p complex	wodak complexes
+YOR260W	GCD1	eIF2B	wodak complexes
+YGR083C	GCD2	eIF2B	wodak complexes
+YDR211W	GCD6	eIF2B	wodak complexes
+YLR291C	GCD7	eIF2B	wodak complexes
+YKR026C	GCN3	eIF2B	wodak complexes
+YDR141C	DOP1	Dop1p/Mon2p complex	wodak complexes
+YNL297C	MON2	Dop1p/Mon2p complex	wodak complexes
+YDR347W	MRP1	mitochondrial ribosomal small subunit	wodak complexes
+YDL045W-A	MRP10	mitochondrial ribosomal small subunit	wodak complexes
+YGR084C	MRP13	mitochondrial ribosomal small subunit	wodak complexes
+YKL003C	MRP17	mitochondrial ribosomal small subunit	wodak complexes
+YPR166C	MRP2	mitochondrial ribosomal small subunit	wodak complexes
+YBL090W	MRP21	mitochondrial ribosomal small subunit	wodak complexes
+YHL004W	MRP4	mitochondrial ribosomal small subunit	wodak complexes
+YPL118W	MRP51	mitochondrial ribosomal small subunit	wodak complexes
+YPL013C	MRPS16	mitochondrial ribosomal small subunit	wodak complexes
+YMR188C	MRPS17	mitochondrial ribosomal small subunit	wodak complexes
+YNL306W	MRPS18	mitochondrial ribosomal small subunit	wodak complexes
+YDR337W	MRPS28	mitochondrial ribosomal small subunit	wodak complexes
+YGR165W	MRPS35	mitochondrial ribosomal small subunit	wodak complexes
+YBR251W	MRPS5	mitochondrial ribosomal small subunit	wodak complexes
+YMR158W	MRPS8	mitochondrial ribosomal small subunit	wodak complexes
+YBR146W	MRPS9	mitochondrial ribosomal small subunit	wodak complexes
+YNL137C	NAM9	mitochondrial ribosomal small subunit	wodak complexes
+YOR158W	PET123	mitochondrial ribosomal small subunit	wodak complexes
+YHR075C	PPE1	mitochondrial ribosomal small subunit	wodak complexes
+YDR041W	RSM10	mitochondrial ribosomal small subunit	wodak complexes
+YER050C	RSM18	mitochondrial ribosomal small subunit	wodak complexes
+YNR037C	RSM19	mitochondrial ribosomal small subunit	wodak complexes
+YKL155C	RSM22	mitochondrial ribosomal small subunit	wodak complexes
+YGL129C	RSM23	mitochondrial ribosomal small subunit	wodak complexes
+YDR175C	RSM24	mitochondrial ribosomal small subunit	wodak complexes
+YIL093C	RSM25	mitochondrial ribosomal small subunit	wodak complexes
+YJR101W	RSM26	mitochondrial ribosomal small subunit	wodak complexes
+YGR215W	RSM27	mitochondrial ribosomal small subunit	wodak complexes
+YJR113C	RSM7	mitochondrial ribosomal small subunit	wodak complexes
+Q0140	VAR1	mitochondrial ribosomal small subunit	wodak complexes
+YFR049W	YMR31	mitochondrial ribosomal small subunit	wodak complexes
+YNL081C	SWS2	mitochondrial ribosomal small subunit	wodak complexes
+YHR004C	NEM1	Nem1p/Spo7p complex	wodak complexes
+YAL009W	SPO7	Nem1p/Spo7p complex	wodak complexes
+YDR439W	LRS4	monopolin complex	wodak complexes
+YER106W	MAM1	monopolin complex	wodak complexes
+YCR086W	CSM1	monopolin complex	wodak complexes
+YPL204W	HRR25	monopolin complex	wodak complexes
+YOR039W	CKB2	CURI complex	wodak complexes
+YLR223C	IFH1	CURI complex	wodak complexes
+YCL031C	RRP7	CURI complex	wodak complexes
+YGR090W	UTP22	CURI complex	wodak complexes
+YLR207W	HRD3	luminal surveillance complex	wodak complexes
+YJL034W	KAR2	luminal surveillance complex	wodak complexes
+YDR057W	YOS9	luminal surveillance complex	wodak complexes
+YOL013C	HRD1	ubiquitin ligase ERAD-M complex	wodak complexes
+YLR207W	HRD3	ubiquitin ligase ERAD-M complex	wodak complexes
+YMR028W	TAP42	Tap42p/Pph21p/Rrd2p complex	wodak complexes
+YDL134C	PPH21	Tap42p/Pph21p/Rrd2p complex	wodak complexes
+YPL152W	RRD2	Tap42p/Pph21p/Rrd2p complex	wodak complexes
+YNL258C	DSL1	Dsl1p complex	wodak complexes
+YGL145W	TIP20	Dsl1p complex	wodak complexes
+YDR498C	SEC20	Dsl1p complex	wodak complexes
+YLR440C	SEC39	Dsl1p complex	wodak complexes
+YGL098W	USE1	Dsl1p complex	wodak complexes
+YOR075W	UFE1	Dsl1p complex	wodak complexes
