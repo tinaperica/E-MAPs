@@ -8,9 +8,6 @@ library(psych)
 library(ggforce)
 library(RColorBrewer)
 
-library(ggpubr)
-
-
 
 
 # color for correlations
@@ -88,7 +85,6 @@ make_heatmaps <- function(table) {
             Rowv = as.dendrogram(hc.row), Colv = as.dendrogram(hc.col),
             add.expr={makeRects(core_res_mask[rev(row_order),col_order])})
 }
-
 
 ##### load datafiles
 load('~/Box Sync/kortemmelab/home/tina/Gsp1/shared_datafiles/correlations/spitzemapko_correlations_and_pvalues_all.RData')
